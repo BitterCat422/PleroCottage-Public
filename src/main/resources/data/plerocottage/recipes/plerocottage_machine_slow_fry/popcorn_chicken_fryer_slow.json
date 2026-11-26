@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "plerocottage:raw_chicken_breast"
+  },
+  "output": {
+    "item": "plerocottage:popcorn_chicken"
+  }
+}

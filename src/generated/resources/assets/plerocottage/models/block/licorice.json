@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/licorice",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/licorice",
+    "particle": "plerocottage:block/licorice"
+  }
+}

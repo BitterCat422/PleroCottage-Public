@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 100,
+  "input": [
+    {
+      "item": "plerocottage:vanilla_pizza"
+    },
+    {
+      "item": "plerocottage:pineapple_slices"
+    },
+    {
+      "item": "plerocottage:pineapple_slices"
+    },
+    {
+      "item": "plerocottage:cooked_spam_slice"
+    },
+    {
+      "item": "plerocottage:cooked_spam_slice"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:hawaiian_pizza"
+  },
+  "temperature": 150
+}

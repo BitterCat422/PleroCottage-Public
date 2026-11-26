@@ -1,0 +1,33 @@
+{
+    "type":"create:mixing",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "ingredients": [
+    {
+      "item": "plerocottage:starfruit_slice"
+    },
+    {
+      "item": "plerocottage:starfruit_slice"
+    },
+    {
+      "item": "plerocottage:starfruit_slice"
+    },
+    {
+      "item": "plerocottage:starfruit_slice"
+    },
+    {
+      "fluid": "plerocottage:vanilla_ice_cream_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "plerocottage:starfruit_ice_cream_fluid",
+      "amount": 1000
+    }
+  ]
+}

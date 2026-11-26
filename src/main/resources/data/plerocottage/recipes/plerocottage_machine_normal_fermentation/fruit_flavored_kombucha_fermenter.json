@@ -1,0 +1,24 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "cookingTime": 1200,
+  "input": [
+    {
+      "item": "plerocottage:kombucha"
+    },
+    {
+      "item": "plerocottage:lemon_slice"
+    },
+    {
+      "item": "plerocottage:plum_slice"
+    },
+    {
+      "item": "plerocottage:half_of_passion_fruit"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:fruit_flavored_kombucha"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:vanilla_ice_cream_fluid_bucket",
+    "plerocottage:starfruit_ice_cream_fluid_bucket",
+    "plerocottage:chocolate_ice_cream_fluid_bucket",
+    "plerocottage:blueberry_ice_cream_fluid_bucket",
+    "plerocottage:jalapeno_ice_cream_fluid_bucket",
+    "plerocottage:cake_liquid_bucket",
+    "plerocottage:cherries_ice_cream_fluid_bucket",
+    "plerocottage:olive_oil_bucket"
+  ]
+}

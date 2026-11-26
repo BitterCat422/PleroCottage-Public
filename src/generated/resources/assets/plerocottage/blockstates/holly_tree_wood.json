@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "plerocottage:block/holly_tree_wood_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "plerocottage:block/holly_tree_wood"
+    },
+    "axis=z": {
+      "model": "plerocottage:block/holly_tree_wood_horizontal",
+      "x": 90
+    }
+  }
+}

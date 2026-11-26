@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/creme_de_cassis",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/creme_de_cassis",
+    "1": "plerocottage:block/creme_de_cassis",
+    "2": "plerocottage:block/creme_de_cassis",
+    "3": "plerocottage:block/creme_de_cassis",
+    "4": "plerocottage:block/creme_de_cassis",
+    "5": "plerocottage:block/creme_de_cassis",
+    "particle": "plerocottage:block/creme_de_cassis"
+  }
+}

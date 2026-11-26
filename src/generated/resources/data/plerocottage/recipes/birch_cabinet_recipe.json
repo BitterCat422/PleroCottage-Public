@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:birch_planks"
+    },
+    "b": {
+      "item": "minecraft:birch_trapdoor"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "item": "plerocottage:birch_cabinet"
+  },
+  "show_notification": true
+}

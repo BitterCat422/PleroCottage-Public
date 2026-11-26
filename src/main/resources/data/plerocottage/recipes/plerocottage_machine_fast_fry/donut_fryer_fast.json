@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:fast_fry",
+  "input": {
+    "item": "plerocottage:bun"
+  },
+  "output": {
+    "item": "plerocottage:donut"
+  }
+}

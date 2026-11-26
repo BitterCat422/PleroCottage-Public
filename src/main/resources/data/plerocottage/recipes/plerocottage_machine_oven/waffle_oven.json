@@ -1,0 +1,17 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 100,
+  "input": [
+    {
+      "item": "plerocottage:cake_liquid_bucket"
+    },
+    {
+      "item": "plerocottage:butter"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "item": "plerocottage:waffle"
+  },
+  "temperature": 200
+}

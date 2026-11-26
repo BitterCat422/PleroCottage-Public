@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingTime": 2400,
+  "input": [
+    {
+      "item": "plerocottage:champagne"
+    },
+    {
+      "item": "plerocottage:starfruit_slice"
+    },
+    {
+      "item": "minecraft:pitcher_pod"
+    },
+    {
+      "item": "plerocottage:enchanted_golden_apple_slice"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:starfruit_wine"
+  }
+}

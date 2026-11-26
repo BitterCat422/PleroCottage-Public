@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "plerocottage:cooktop",
+      "required": false
+    },
+    {
+      "id": "#farmersdelight:heat_sources",
+      "required": false
+    }
+  ]
+}

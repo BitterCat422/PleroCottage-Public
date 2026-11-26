@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 100,
+  "container": {
+    "item": "minecraft:paper"
+  },
+  "input": [
+    {
+      "item": "plerocottage:cake_liquid_bucket"
+    },
+    {
+      "item": "plerocottage:orange_segment"
+    },
+    {
+      "item": "plerocottage:orange_segment"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "item": "plerocottage:orange_muffin"
+  },
+  "temperature": 250
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:muscat_grapes",
+    "plerocottage:grapes",
+    "plerocottage:olive_fruits",
+    "plerocottage:black_olive_fruits",
+    "plerocottage:fig"
+  ]
+}

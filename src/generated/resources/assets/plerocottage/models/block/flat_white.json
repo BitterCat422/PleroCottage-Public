@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/flat_white",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/flat_white",
+    "1": "plerocottage:block/flat_white",
+    "2": "plerocottage:block/flat_white",
+    "3": "plerocottage:block/flat_white",
+    "4": "plerocottage:block/flat_white",
+    "5": "plerocottage:block/flat_white",
+    "particle": "plerocottage:block/flat_white"
+  }
+}

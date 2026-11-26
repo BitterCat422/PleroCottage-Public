@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:donut"
+    },
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:snow_dye"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:snow_donut",
+    "count": 1
+  }
+}

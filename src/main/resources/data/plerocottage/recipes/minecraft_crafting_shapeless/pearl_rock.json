@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:pearl_rock_block"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:pearl_rock",
+    "count": 9
+  }
+}

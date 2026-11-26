@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "plerocottage:pineapple_slices"
+  },
+  "output": {
+    "item": "plerocottage:pineapple_pies"
+  }
+}

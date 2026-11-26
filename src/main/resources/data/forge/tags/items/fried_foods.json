@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#forge:donut/fried",
+      "required": false
+    },
+    "plerocottage:fried_chicken",
+    "plerocottage:fried_porkchop",
+    "plerocottage:fried_tempura",
+    "plerocottage:fried_drumstick",
+    "plerocottage:fried_abalone",
+    "plerocottage:durian_crisp",
+    "plerocottage:fried_banana",
+    "plerocottage:popcorn_chicken",
+    "plerocottage:fries",
+    "plerocottage:nori",
+    "plerocottage:fried_fish",
+    "plerocottage:tostada_shell",
+    "plerocottage:you_tiao",
+    "plerocottage:pineapple_pies",
+    "plerocottage:fried_steak",
+    "plerocottage:senbei"
+  ]
+}

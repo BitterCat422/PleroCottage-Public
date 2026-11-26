@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/cooktop",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/cooktop",
+    "all": "plerocottage:block/cooktop",
+    "particle": "plerocottage:block/cooktop"
+  }
+}

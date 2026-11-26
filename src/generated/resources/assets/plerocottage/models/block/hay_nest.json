@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/hay_nest",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/hay_nest",
+    "all": "plerocottage:block/hay_nest",
+    "particle": "plerocottage:block/hay_nest"
+  }
+}

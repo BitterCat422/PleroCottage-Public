@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:shaker",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "input": [
+    {
+      "item": "plerocottage:coffee"
+    },
+    {
+      "item": "plerocottage:brown_sugar"
+    },
+    {
+      "item": "plerocottage:glass_of_whiskey"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "plerocottage:cinnamon"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:irish_coffee"
+  }
+}

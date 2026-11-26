@@ -1,0 +1,100 @@
+{
+  "variants": {
+    "age=0,half=lower,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_lower_stage0"
+    },
+    "age=0,half=lower,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_lower_stage0"
+    },
+    "age=0,half=upper,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_upper_stage0"
+    },
+    "age=0,half=upper,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_upper_stage0"
+    },
+    "age=1,half=lower,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_lower_stage1"
+    },
+    "age=1,half=lower,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_lower_stage1"
+    },
+    "age=1,half=upper,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_upper_stage0"
+    },
+    "age=1,half=upper,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_upper_stage0"
+    },
+    "age=2,half=lower,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_lower_stage2"
+    },
+    "age=2,half=lower,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_lower_stage2"
+    },
+    "age=2,half=upper,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_upper_stage0"
+    },
+    "age=2,half=upper,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_upper_stage0"
+    },
+    "age=3,half=lower,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_lower_stage3"
+    },
+    "age=3,half=lower,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_lower_stage3"
+    },
+    "age=3,half=upper,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_upper_stage0"
+    },
+    "age=3,half=upper,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_upper_stage0"
+    },
+    "age=4,half=lower,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_lower_stage4"
+    },
+    "age=4,half=lower,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_lower_stage4"
+    },
+    "age=4,half=upper,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_upper_stage1"
+    },
+    "age=4,half=upper,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_upper_stage1"
+    },
+    "age=5,half=lower,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_lower_stage5"
+    },
+    "age=5,half=lower,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_lower_stage5"
+    },
+    "age=5,half=upper,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_upper_stage2"
+    },
+    "age=5,half=upper,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_upper_stage2"
+    },
+    "age=6,half=lower,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_lower_stage6"
+    },
+    "age=6,half=lower,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_lower_stage6"
+    },
+    "age=6,half=upper,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_upper_stage3"
+    },
+    "age=6,half=upper,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_upper_stage3"
+    },
+    "age=7,half=lower,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_lower_stage7"
+    },
+    "age=7,half=lower,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_lower_stage7"
+    },
+    "age=7,half=upper,waterlogged=false": {
+      "model": "plerocottage:block/rice_crop_upper_stage4"
+    },
+    "age=7,half=upper,waterlogged=true": {
+      "model": "plerocottage:block/rice_crop_upper_stage4"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/eton_mess_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/eton_mess"
+      }
+    },
+    "ground": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/eton_mess"
+      }
+    },
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/eton_mess"
+      }
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/eton_mess"
+  }
+}

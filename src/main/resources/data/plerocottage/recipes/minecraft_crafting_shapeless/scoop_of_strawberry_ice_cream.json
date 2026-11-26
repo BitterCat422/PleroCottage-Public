@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:vanilla_ice_cream_fluid_bucket"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:scoop_of_strawberry_ice_cream",
+    "count": 4
+  }
+}

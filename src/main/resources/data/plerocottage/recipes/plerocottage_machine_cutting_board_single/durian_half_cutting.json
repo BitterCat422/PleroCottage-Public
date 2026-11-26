@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "tag": "forge:fruits/durian"
+  },
+  "output": {
+    "count": 2,
+    "item": "plerocottage:half_of_durian"
+  },
+  "tool": {
+    "tag": "forge:tools/axes"
+  }
+}

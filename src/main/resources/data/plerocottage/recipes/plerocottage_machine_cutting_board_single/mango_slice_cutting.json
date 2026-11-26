@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "tag": "forge:fruits/mango"
+  },
+  "output": {
+    "count": 2,
+    "item": "plerocottage:mango_slice"
+  },
+  "outgrowths": [
+  {
+    "chance": 1.0,
+    "count": 1,
+    "item": "plerocottage:mango_seed"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

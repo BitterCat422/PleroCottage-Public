@@ -1,0 +1,7 @@
+{
+  "parent": "plerocottage:custom/cabinet",
+  "textures": {
+    "2": "plerocottage:block/rosaceae_tree_cabinet",
+    "particle": "plerocottage:block/rosaceae_tree_cabinet"
+  }
+}

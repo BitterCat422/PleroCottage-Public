@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    " b ",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:corn_chips"
+    },
+    "b": {
+      "item": "plerocottage:boxed_milk"
+    },
+    "c": {
+      "item": "plerocottage:bowl"
+    }
+  },
+  "result": {
+    "item": "plerocottage:cornflakes",
+    "count": 1
+  }
+}

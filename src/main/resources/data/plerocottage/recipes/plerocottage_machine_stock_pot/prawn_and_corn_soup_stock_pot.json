@@ -1,0 +1,41 @@
+{
+  "type": "plerocottage:stock_pot",
+  "container": {
+    "item": "plerocottage:bowl"
+  },
+  "cookingTime": 200,
+  "mainInput": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "plerocottage:corn_seeds"
+    },
+    {
+      "item": "plerocottage:corn_seeds"
+    },
+    {
+      "item": "plerocottage:cooked_prawn"
+    },
+    {
+      "item": "plerocottage:cooked_prawn"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "tag": "forge:flour"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:salt_shaker"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:prawn_and_corn_potage"
+  }
+}

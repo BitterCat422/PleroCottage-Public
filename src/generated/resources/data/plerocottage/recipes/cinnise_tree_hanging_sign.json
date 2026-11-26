@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "cinnise_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:stripped_cinnise_tree_log"
+    },
+    "-": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "#-#",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "plerocottage:cinnise_tree_hanging_sign"
+  },
+  "show_notification": true
+}

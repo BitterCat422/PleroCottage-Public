@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/pumpkin_spice_latte",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "0": "plerocottage:block/pumpkin_spice_latte",
+    "1": "plerocottage:block/pumpkin_spice_latte",
+    "2": "plerocottage:block/pumpkin_spice_latte",
+    "3": "plerocottage:block/pumpkin_spice_latte",
+    "4": "plerocottage:block/pumpkin_spice_latte",
+    "5": "plerocottage:block/pumpkin_spice_latte",
+    "particle": "plerocottage:block/pumpkin_spice_latte"
+  }
+}

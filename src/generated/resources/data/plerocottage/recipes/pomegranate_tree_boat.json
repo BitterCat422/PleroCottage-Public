@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "pomegranate_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:pomegranate_tree_planks"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "plerocottage:pomegranate_tree_boat"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "tag": "forge:fruits/pineapple"
+  },
+  "output": {
+    "count": 4,
+    "item": "plerocottage:pineapple_slices"
+  },
+  "outgrowths": [
+  {
+    "chance": 1.0,
+    "count": 1,
+    "item": "plerocottage:pineapple_crop"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

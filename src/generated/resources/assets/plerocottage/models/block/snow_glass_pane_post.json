@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_glass_pane_post",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "edge": "plerocottage:block/snow_glass_pane_top",
+    "pane": "plerocottage:block/snow_glass",
+    "particle": "plerocottage:block/snow_glass"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:chocolate_chips"
+    },
+    {
+      "item": "plerocottage:cooked_peanuts"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:peanut_butter_cup"
+  }
+}

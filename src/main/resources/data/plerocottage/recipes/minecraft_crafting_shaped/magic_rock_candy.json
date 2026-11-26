@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cde",
+    "fg "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:topaz"
+    },
+    "b": {
+      "item": "plerocottage:pink_crystal"
+    },
+    "c": {
+      "item": "plerocottage:garnet"
+    },
+    "d": {
+      "item": "plerocottage:brilliant_diamond"
+    },
+    "e": {
+      "item": "minecraft:diamond"
+    },
+    "f": {
+      "item": "minecraft:stick"
+    },
+    "g": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "result": {
+    "item": "plerocottage:magic_rock_candy",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "elderberry_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:elderberry_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:elderberry_tree_chest_boat"
+  }
+}

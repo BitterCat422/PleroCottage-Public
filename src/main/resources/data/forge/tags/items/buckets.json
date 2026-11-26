@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:water_bucket",
+    "minecraft:bucket",
+    "minecraft:milk_bucket",
+    "minecraft:powder_snow_bucket",
+    "minecraft:axolotl_bucket",
+    "minecraft:tadpole_bucket",
+    "minecraft:tropical_fish_bucket",
+    "minecraft:cod_bucket",
+    "minecraft:salmon_bucket",
+    "minecraft:lava_bucket",
+    {
+      "id": "#plerocottage:buckets",
+      "required": false
+    },
+    "minecraft:pufferfish_bucket"
+  ]
+}

@@ -1,0 +1,1038 @@
+{
+  "fliederbeersuppe": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 0
+  },
+  "borscht": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 0
+  },
+  "mushroom_potage": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 0
+  },
+  "miso_soup": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "pancake": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "durian_mile_crepe_cake": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "SOLID",
+    "renderType": 0
+  },
+  "prawn_and_corn_potage": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 0
+  },
+  "coffee": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "SOLID",
+    "renderType": 2
+  },
+  "melon_soda": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "bubble_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "coconut_milk": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "grimace_shake": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "orange_juice": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "lemonade": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "apple_juice": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "pear_with_rock_sugar": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "bellini_base": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "strawberry_shake": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "blueberry_yogurt": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "mango_juice": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "pineapple_juice": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "watermelon_juice": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "cosmic_dragon_salad": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "rosa_salad": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "mango_pudding": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "martini": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "risalamande": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "eton_mess": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "marmalade": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "chorus_fruit_juice": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "socata": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "sea_pearl_salad": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "melon_salad": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "jewellery_box_salad": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "primary_colors_salad": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "pomegranate_juice": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "kiwifruit_juice": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "avocado_shake": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "banana_shake": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "banana_split": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "cranberry_jelly": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 2
+  },
+  "pudding": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "pudding_a_la_mode": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "figgy_pudding": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 0
+  },
+  "colorful_fruit_parfait": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "canton_bloom_soup": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 0
+  },
+  "grape_juice": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "mediterranean_sundae": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "grapefruit_juice": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "yeung_zhi_gum_lo": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "citrus_bavarois": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "plum_juice": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "ota_ika": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "frutas_con_chamoy": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "mangonada": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "red_wine": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "white_wine": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "champagne": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "gin": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "rum": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "umeshu": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "beer": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "absinthe": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "sake": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "brandy": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "whiskey": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "hot_cocoa": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "SOLID",
+    "renderType": 2
+  },
+  "green_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "black_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "mate": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "apricot_kernel_drink": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "SOLID",
+    "renderType": 2
+  },
+  "yuenyeung": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "SOLID",
+    "renderType": 2
+  },
+  "po_cha": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "SOLID",
+    "renderType": 2
+  },
+  "lavender_latte": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "sweet_hot_cocoa": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "espresso": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "SOLID",
+    "renderType": 2
+  },
+  "americano": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "SOLID",
+    "renderType": 2
+  },
+  "latte": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "glass_of_red_wine": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "glass_of_white_wine": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "glass_of_champagne": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "glass_of_gin": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "glass_of_rum": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "glass_of_umeshu": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "glass_of_beer": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "glass_of_absinthe": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "glass_of_sake": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "glass_of_brandy": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "glass_of_whiskey": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "ochazuke": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "suanmeitang": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "bulletproof_coffee": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "SOLID",
+    "renderType": 2
+  },
+  "cafe_au_lait": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "SOLID",
+    "renderType": 2
+  },
+  "kombucha": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "fruit_flavored_kombucha": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "floral_kombucha": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "espresso_con_panna": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "mocha_coffee": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "matcha": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "suutei_tsai": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "caramel_macchiato": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "egg_coffee": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "eggnog": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "SOLID",
+    "renderType": 2
+  },
+  "cappuccino": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "einspanner": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "irish_coffee": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "hk_milk_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "nata_de_coco_milk_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "thai_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "apricot_kernel_tofu": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "pina_colada": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "hurricane_cocktail": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "tiramisu": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "opera_cake": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "cornflakes": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "starfruit_wine": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "glass_of_starfruit_wine": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "kvass": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "glass_of_kvass": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "coffee_jelly": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "flat_white": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "affogato": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "goofy_goober_sundae": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 0
+  },
+  "earl_grey_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "jasmine_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "chamomile_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "mint_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "castella": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "gooseberry_fool": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "russian_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "saffron_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "bandung": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "pumpkin_spice_latte": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "vodka": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "glass_of_vodka": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "creme_de_cassis": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  },
+  "glass_of_creme_de_cassis": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "hakuto_tea": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "red_velvet_hot_cocoa": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 0
+  },
+  "matcha_latte": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "clover_club": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "kir_royal": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "halloween_parfait": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 2
+  },
+  "punch_bowl": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "watergate_salad": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "masala_chai": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "TRANSLUCENT",
+    "renderType": 2
+  },
+  "daiquiri": {
+    "rotationMode": 1,
+    "enablePitch": false,
+    "waterloggable": true,
+    "transparencyType": "CUTOUT_MIPPED",
+    "renderType": 2
+  },
+  "purple_sugar_canes": {
+    "rotationMode": 0,
+    "enablePitch": false,
+    "waterloggable": false,
+    "transparencyType": "CUTOUT",
+    "renderType": 2
+  }
+}

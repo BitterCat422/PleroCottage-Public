@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:almond_powder"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:meringue"
+    },
+    {
+      "item": "plerocottage:dark_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:ganache"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:chocolate_macaron"
+  },
+  "temperature": 150
+}

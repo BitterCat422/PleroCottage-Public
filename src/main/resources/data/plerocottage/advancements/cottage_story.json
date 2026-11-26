@@ -1,0 +1,23 @@
+{
+  "display": {
+    "background": "plerocottage:textures/screens/plerocottage_advancement_background.png",
+    "icon": {
+      "item": "plerocottage:building_icon_item"
+    },
+    "title": {
+      "translate": "advancements.cottage_story.title"
+    },
+    "description": {
+      "translate": "advancements.cottage_story.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "cottage_story_0": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

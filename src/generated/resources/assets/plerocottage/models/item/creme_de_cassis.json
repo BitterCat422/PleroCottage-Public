@@ -1,0 +1,21 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/creme_de_cassis_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "plerocottage:item/creme_de_cassis_flat"
+    },
+    "ground": {
+      "parent": "plerocottage:item/creme_de_cassis_flat"
+    },
+    "gui": {
+      "parent": "plerocottage:item/creme_de_cassis_flat"
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/creme_de_cassis"
+  }
+}

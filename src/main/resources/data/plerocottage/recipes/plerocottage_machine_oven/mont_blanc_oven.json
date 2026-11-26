@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "item": "plerocottage:meringue"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "plerocottage:cooked_chestnuts"
+    },
+    {
+      "tag": "forge:fruits/currant"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:mont_blanc"
+  },
+  "temperature": 150
+}

@@ -1,0 +1,16 @@
+{
+  "type": "plerocottage:bright_fermentation",
+  "cookingTime": 1200,
+  "input": [
+    {
+      "item": "plerocottage:plum"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:prune"
+  }
+}

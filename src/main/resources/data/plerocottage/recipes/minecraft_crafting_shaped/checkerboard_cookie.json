@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "b b",
+    " c "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:dark_chocolate_chips"
+    },
+    "b": {
+      "item": "minecraft:wheat"
+    },
+    "c": {
+      "item": "plerocottage:butter"
+    }
+  },
+  "result": {
+    "item": "plerocottage:checkerboard_cookie",
+    "count": 2
+  }
+}

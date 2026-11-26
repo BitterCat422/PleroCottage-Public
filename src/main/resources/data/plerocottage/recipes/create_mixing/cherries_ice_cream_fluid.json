@@ -1,0 +1,33 @@
+{
+    "type":"create:mixing",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "ingredients": [
+    {
+  	  "tag": "forge:fruits/cherry"
+    },
+    {
+  	  "tag": "forge:fruits/cherry"
+    },
+    {
+  	  "tag": "forge:fruits/cherry"
+    },
+    {
+  	  "tag": "forge:fruits/cherry"
+    },
+    {
+      "fluid": "plerocottage:vanilla_ice_cream_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "plerocottage:cherries_ice_cream_fluid",
+      "amount": 1000
+    }
+  ]
+}

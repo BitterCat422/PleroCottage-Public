@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:savanna",
+  "features": "plerocottage:wild_green_bell_pepper_bush",
+  "step": "vegetal_decoration"
+}

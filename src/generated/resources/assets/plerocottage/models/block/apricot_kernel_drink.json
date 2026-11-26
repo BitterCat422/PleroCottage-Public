@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/apricot_kernel_drink",
+  "textures": {
+    "0": "plerocottage:block/apricot_kernel_drink",
+    "1": "plerocottage:block/apricot_kernel_drink",
+    "2": "plerocottage:block/apricot_kernel_drink",
+    "3": "plerocottage:block/apricot_kernel_drink",
+    "4": "plerocottage:block/apricot_kernel_drink",
+    "5": "plerocottage:block/apricot_kernel_drink",
+    "particle": "plerocottage:block/apricot_kernel_drink"
+  }
+}

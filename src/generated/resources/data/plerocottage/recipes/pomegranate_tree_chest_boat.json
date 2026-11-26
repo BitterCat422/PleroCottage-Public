@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "pomegranate_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:pomegranate_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:pomegranate_tree_chest_boat"
+  }
+}

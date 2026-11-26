@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "aba",
+    "ca "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:kiwifruit_slice"
+    },
+    "b": {
+      "item": "plerocottage:ice_cubes"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plerocottage:kiwifruit_paleta",
+    "count": 1
+  }
+}

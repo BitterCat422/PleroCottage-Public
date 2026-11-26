@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "plerocottage:condensed_milk"
+    },
+    {
+      "item": "minecraft:snowball"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:vanilla_ice_cream_fluid_bucket"
+  }
+}

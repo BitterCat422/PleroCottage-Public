@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+  	[
+    	{
+      	"item": "plerocottage:olive_fruits"
+    	},
+    	{
+      	"item": "plerocottage:black_olive_fruits"
+    	}
+    ]
+  ],
+  "result": {
+    "item": "plerocottage:olive_fruit_seed",
+    "count": 3
+  }
+}

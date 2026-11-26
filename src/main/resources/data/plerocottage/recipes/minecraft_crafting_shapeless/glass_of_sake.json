@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:sake"
+    },
+    {
+      "item": "plerocottage:cup"
+    },
+    {
+      "item": "plerocottage:cup"
+    },
+    {
+      "item": "plerocottage:cup"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:glass_of_sake",
+    "count": 3
+  }
+}

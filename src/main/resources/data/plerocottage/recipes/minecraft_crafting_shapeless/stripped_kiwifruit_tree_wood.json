@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "plerocottage:stripped_kiwifruit_tree_log"
+    },
+    {
+      "item": "plerocottage:stripped_kiwifruit_tree_log"
+    },
+    {
+      "item": "plerocottage:stripped_kiwifruit_tree_log"
+    },
+    {
+      "item": "plerocottage:stripped_kiwifruit_tree_log"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:stripped_kiwifruit_tree_wood",
+    "count": 3
+  }
+}

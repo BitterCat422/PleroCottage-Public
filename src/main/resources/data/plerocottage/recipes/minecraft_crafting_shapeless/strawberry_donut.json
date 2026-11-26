@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:donut"
+    },
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "item": "plerocottage:ganache"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:strawberry_donut",
+    "count": 1
+  }
+}

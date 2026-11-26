@@ -1,0 +1,40 @@
+{
+  "variants": {
+    "species=cucumber,spread=0": {
+      "model": "plerocottage:block/vine_arbor_cucumber"
+    },
+    "species=cucumber,spread=1": {
+      "model": "plerocottage:block/vine_arbor_cucumber"
+    },
+    "species=cucumber,spread=2": {
+      "model": "plerocottage:block/vine_arbor_cucumber"
+    },
+    "species=empty,spread=0": {
+      "model": "plerocottage:block/vine_arbor"
+    },
+    "species=empty,spread=1": {
+      "model": "plerocottage:block/vine_arbor"
+    },
+    "species=empty,spread=2": {
+      "model": "plerocottage:block/vine_arbor"
+    },
+    "species=grapes,spread=0": {
+      "model": "plerocottage:block/vine_arbor_grapes"
+    },
+    "species=grapes,spread=1": {
+      "model": "plerocottage:block/vine_arbor_grapes"
+    },
+    "species=grapes,spread=2": {
+      "model": "plerocottage:block/vine_arbor_grapes"
+    },
+    "species=passion_fruit,spread=0": {
+      "model": "plerocottage:block/vine_arbor_passion_fruit"
+    },
+    "species=passion_fruit,spread=1": {
+      "model": "plerocottage:block/vine_arbor_passion_fruit"
+    },
+    "species=passion_fruit,spread=2": {
+      "model": "plerocottage:block/vine_arbor_passion_fruit"
+    }
+  }
+}

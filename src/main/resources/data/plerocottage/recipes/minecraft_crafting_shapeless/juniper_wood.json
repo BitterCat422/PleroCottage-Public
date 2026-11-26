@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "plerocottage:juniper_log"
+    },
+    {
+      "item": "plerocottage:juniper_log"
+    },
+    {
+      "item": "plerocottage:juniper_log"
+    },
+    {
+      "item": "plerocottage:juniper_log"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:juniper_wood",
+    "count": 3
+  }
+}

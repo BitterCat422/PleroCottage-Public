@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "minecraft:magma_cream"
+    },
+    "d": {
+      "item": "plerocottage:ice_cubes"
+    },
+    "e": {
+      "item": "minecraft:dragon_breath"
+    }
+  },
+  "result": {
+    "item": "plerocottage:coca_cola",
+    "count": 1
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "variants": {
+    "color=0,facing=east,stage=0": {
+      "model": "plerocottage:block/lavender",
+      "y": 90
+    },
+    "color=0,facing=east,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_0",
+      "y": 90
+    },
+    "color=0,facing=east,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_1",
+      "y": 90
+    },
+    "color=0,facing=north,stage=0": {
+      "model": "plerocottage:block/lavender"
+    },
+    "color=0,facing=north,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_0"
+    },
+    "color=0,facing=north,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_1"
+    },
+    "color=0,facing=south,stage=0": {
+      "model": "plerocottage:block/lavender",
+      "y": 180
+    },
+    "color=0,facing=south,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_0",
+      "y": 180
+    },
+    "color=0,facing=south,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_1",
+      "y": 180
+    },
+    "color=0,facing=west,stage=0": {
+      "model": "plerocottage:block/lavender",
+      "y": 270
+    },
+    "color=0,facing=west,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_0",
+      "y": 270
+    },
+    "color=0,facing=west,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_1",
+      "y": 270
+    },
+    "color=1,facing=east,stage=0": {
+      "model": "plerocottage:block/lavender_state_blockstate_2",
+      "y": 90
+    },
+    "color=1,facing=east,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_3",
+      "y": 90
+    },
+    "color=1,facing=east,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_4",
+      "y": 90
+    },
+    "color=1,facing=north,stage=0": {
+      "model": "plerocottage:block/lavender_state_blockstate_2"
+    },
+    "color=1,facing=north,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_3"
+    },
+    "color=1,facing=north,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_4"
+    },
+    "color=1,facing=south,stage=0": {
+      "model": "plerocottage:block/lavender_state_blockstate_2",
+      "y": 180
+    },
+    "color=1,facing=south,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_3",
+      "y": 180
+    },
+    "color=1,facing=south,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_4",
+      "y": 180
+    },
+    "color=1,facing=west,stage=0": {
+      "model": "plerocottage:block/lavender_state_blockstate_2",
+      "y": 270
+    },
+    "color=1,facing=west,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_3",
+      "y": 270
+    },
+    "color=1,facing=west,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_4",
+      "y": 270
+    },
+    "color=2,facing=east,stage=0": {
+      "model": "plerocottage:block/lavender_state_blockstate_5",
+      "y": 90
+    },
+    "color=2,facing=east,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_6",
+      "y": 90
+    },
+    "color=2,facing=east,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_7",
+      "y": 90
+    },
+    "color=2,facing=north,stage=0": {
+      "model": "plerocottage:block/lavender_state_blockstate_5"
+    },
+    "color=2,facing=north,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_6"
+    },
+    "color=2,facing=north,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_7"
+    },
+    "color=2,facing=south,stage=0": {
+      "model": "plerocottage:block/lavender_state_blockstate_5",
+      "y": 180
+    },
+    "color=2,facing=south,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_6",
+      "y": 180
+    },
+    "color=2,facing=south,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_7",
+      "y": 180
+    },
+    "color=2,facing=west,stage=0": {
+      "model": "plerocottage:block/lavender_state_blockstate_5",
+      "y": 270
+    },
+    "color=2,facing=west,stage=1": {
+      "model": "plerocottage:block/lavender_state_blockstate_6",
+      "y": 270
+    },
+    "color=2,facing=west,stage=2": {
+      "model": "plerocottage:block/lavender_state_blockstate_7",
+      "y": 270
+    }
+  }
+}

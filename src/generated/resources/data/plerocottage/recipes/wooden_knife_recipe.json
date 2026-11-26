@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "pattern": [
+    "  b",
+    " b ",
+    "a  "
+  ],
+  "result": {
+    "item": "plerocottage:wooden_knife"
+  },
+  "show_notification": true
+}

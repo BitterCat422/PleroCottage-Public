@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cross",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "cross": "plerocottage:block/wild_grape_vine_fruit_bottom",
+    "particle": "plerocottage:block/wild_grape_vine_bottom"
+  }
+}

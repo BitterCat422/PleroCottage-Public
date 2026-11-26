@@ -1,0 +1,17 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 200,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "tag": "forge:fruits/blueberries"
+    }
+  ],
+  "output": {
+    "count": 6,
+    "item": "plerocottage:blueberry_cookie"
+  },
+  "temperature": 200
+}

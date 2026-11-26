@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "nut_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:nut_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:nut_tree_button"
+  }
+}

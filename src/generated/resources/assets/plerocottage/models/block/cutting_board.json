@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/cutting_board",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/cutting_board",
+    "all": "plerocottage:block/cutting_board",
+    "particle": "plerocottage:block/cutting_board"
+  }
+}

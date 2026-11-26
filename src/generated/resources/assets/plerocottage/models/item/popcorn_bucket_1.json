@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "plerocottage:item/popcorn_bucket_3"
+  }
+}

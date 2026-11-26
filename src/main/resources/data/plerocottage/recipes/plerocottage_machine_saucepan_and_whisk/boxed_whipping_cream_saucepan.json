@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:paper"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:butter"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:boxed_whipping_cream"
+  }
+}

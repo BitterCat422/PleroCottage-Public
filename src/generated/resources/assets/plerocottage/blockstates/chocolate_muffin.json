@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "blockstate=0,facing=east,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin",
+      "y": 90
+    },
+    "blockstate=0,facing=east,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin",
+      "y": 90
+    },
+    "blockstate=0,facing=north,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin"
+    },
+    "blockstate=0,facing=north,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin"
+    },
+    "blockstate=0,facing=south,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin",
+      "y": 180
+    },
+    "blockstate=0,facing=south,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin",
+      "y": 180
+    },
+    "blockstate=0,facing=west,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin",
+      "y": 270
+    },
+    "blockstate=0,facing=west,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin",
+      "y": 270
+    },
+    "blockstate=1,facing=east,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_0",
+      "y": 90
+    },
+    "blockstate=1,facing=east,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_0",
+      "y": 90
+    },
+    "blockstate=1,facing=north,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_0"
+    },
+    "blockstate=1,facing=north,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_0"
+    },
+    "blockstate=1,facing=south,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_0",
+      "y": 180
+    },
+    "blockstate=1,facing=south,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_0",
+      "y": 180
+    },
+    "blockstate=1,facing=west,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_0",
+      "y": 270
+    },
+    "blockstate=1,facing=west,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_0",
+      "y": 270
+    },
+    "blockstate=2,facing=east,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_1",
+      "y": 90
+    },
+    "blockstate=2,facing=east,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_1",
+      "y": 90
+    },
+    "blockstate=2,facing=north,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_1"
+    },
+    "blockstate=2,facing=north,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_1"
+    },
+    "blockstate=2,facing=south,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_1",
+      "y": 180
+    },
+    "blockstate=2,facing=south,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_1",
+      "y": 180
+    },
+    "blockstate=2,facing=west,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_1",
+      "y": 270
+    },
+    "blockstate=2,facing=west,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_1",
+      "y": 270
+    },
+    "blockstate=3,facing=east,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_2",
+      "y": 90
+    },
+    "blockstate=3,facing=east,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_2",
+      "y": 90
+    },
+    "blockstate=3,facing=north,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_2"
+    },
+    "blockstate=3,facing=north,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_2"
+    },
+    "blockstate=3,facing=south,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_2",
+      "y": 180
+    },
+    "blockstate=3,facing=south,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_2",
+      "y": 180
+    },
+    "blockstate=3,facing=west,waterlogged=false": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_2",
+      "y": 270
+    },
+    "blockstate=3,facing=west,waterlogged=true": {
+      "model": "plerocottage:block/chocolate_muffin_blockstate_2",
+      "y": 270
+    }
+  }
+}

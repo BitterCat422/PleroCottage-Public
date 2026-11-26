@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "juniper",
+  "ingredients": [
+    {
+      "item": "plerocottage:juniper_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:juniper_chest_boat"
+  }
+}

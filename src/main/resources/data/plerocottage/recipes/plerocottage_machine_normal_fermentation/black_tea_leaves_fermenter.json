@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "cookingTime": 600,
+  "input": [
+    {
+      "item": "plerocottage:green_tea_leaves"
+    },
+    {
+      "item": "plerocottage:green_tea_leaves"
+    },
+    {
+      "item": "plerocottage:green_tea_leaves"
+    },
+    {
+      "item": "plerocottage:green_tea_leaves"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "item": "plerocottage:black_tea_leaves"
+  }
+}

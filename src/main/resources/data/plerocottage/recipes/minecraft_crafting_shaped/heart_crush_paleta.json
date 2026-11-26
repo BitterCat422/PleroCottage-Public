@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "acd",
+    "ed "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:fruits/peach"
+    },
+    "b": {
+      "item": "plerocottage:ice_cubes"
+    },
+    "c": {
+      "item": "plerocottage:scoop_of_ice_cream"
+    },
+    "d": {
+      "tag": "forge:fruits/cherry"
+    },
+    "e": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plerocottage:heart_crush_paleta",
+    "count": 1
+  }
+}

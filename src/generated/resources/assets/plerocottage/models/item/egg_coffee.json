@@ -1,0 +1,21 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/egg_coffee_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "plerocottage:item/egg_coffee_flat"
+    },
+    "ground": {
+      "parent": "plerocottage:item/egg_coffee_flat"
+    },
+    "gui": {
+      "parent": "plerocottage:item/egg_coffee_flat"
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/egg_coffee"
+  }
+}

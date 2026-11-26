@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:sumeshi"
+    },
+    {
+      "item": "plerocottage:avocado_slice"
+    },
+    {
+      "item": "plerocottage:nori"
+    }
+  ],
+  "isShaped": true,
+  "output": {
+    "count": 1,
+    "item": "plerocottage:avocado_nigiri"
+  }
+}

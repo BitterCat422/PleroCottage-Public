@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/marmalade_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/marmalade",
+    "particle": "plerocottage:block/marmalade"
+  }
+}

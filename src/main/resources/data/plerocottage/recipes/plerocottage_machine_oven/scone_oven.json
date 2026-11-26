@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "plerocottage:raisins"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:scone"
+  },
+  "temperature": 200
+}

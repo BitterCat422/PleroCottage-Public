@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_swamp",
+  "features": "plerocottage:wild_rice_crop",
+  "step": "vegetal_decoration"
+}

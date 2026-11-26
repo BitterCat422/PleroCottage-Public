@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "durian_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:durian_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:durian_tree_chest_boat"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/gin",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/gin",
+    "1": "plerocottage:block/gin",
+    "2": "plerocottage:block/gin",
+    "3": "plerocottage:block/gin",
+    "4": "plerocottage:block/gin",
+    "5": "plerocottage:block/gin",
+    "particle": "plerocottage:block/gin"
+  }
+}

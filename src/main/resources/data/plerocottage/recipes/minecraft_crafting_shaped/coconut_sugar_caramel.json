@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:coconut_blossoms"
+    }
+  },
+  "result": {
+    "item": "plerocottage:coconut_sugar_caramels",
+    "count": 1
+  }
+}

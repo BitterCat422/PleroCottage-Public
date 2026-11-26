@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "minecraft:kelp"
+  },
+  "output": {
+    "item": "plerocottage:nori"
+  }
+}

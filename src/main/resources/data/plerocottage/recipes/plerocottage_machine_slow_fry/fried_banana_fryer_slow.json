@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "plerocottage:banana"
+  },
+  "output": {
+    "item": "plerocottage:fried_banana"
+  }
+}

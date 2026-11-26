@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "plerocottage:item/wagyu_with_caviar_nigiri"
+  }
+}

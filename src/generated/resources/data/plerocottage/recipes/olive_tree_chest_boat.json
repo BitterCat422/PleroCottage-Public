@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "olive_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:olive_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:olive_tree_chest_boat"
+  }
+}

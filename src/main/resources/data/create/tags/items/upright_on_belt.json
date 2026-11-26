@@ -1,0 +1,35 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:cup",
+    {
+      "id": "#plerocottage:ice_cream_and_cone",
+      "required": false
+    },
+    {
+      "id": "#plerocottage:can_place_bowl",
+      "required": false
+    },
+    {
+      "id": "#plerocottage:can_place_glasses",
+      "required": false
+    },
+    {
+      "id": "#plerocottage:can_place_mugs",
+      "required": false
+    },
+    {
+      "id": "#plerocottage:glass_of_wine",
+      "required": false
+    },
+    {
+      "id": "#plerocottage:buckets",
+      "required": false
+    },
+    "minecraft:glass_bottle",
+    {
+      "id": "#plerocottage:wine",
+      "required": false
+    }
+  ]
+}

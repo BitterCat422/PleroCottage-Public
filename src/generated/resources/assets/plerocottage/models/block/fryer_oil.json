@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/fryer_oil",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "0": "plerocottage:block/fryer",
+    "all": "plerocottage:block/fryer",
+    "particle": "plerocottage:block/fryer"
+  }
+}

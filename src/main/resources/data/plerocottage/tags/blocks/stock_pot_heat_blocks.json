@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#plerocottage:universal_heat_blocks",
+      "required": false
+    }
+  ]
+}

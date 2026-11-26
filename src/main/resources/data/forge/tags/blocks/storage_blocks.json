@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#plerocottage:ore_blocks",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "plerocottage:tomato"
+    },
+    "title": {
+      "translate": "advancements.lycopersicon.title"
+    },
+    "description": {
+      "translate": "advancements.lycopersicon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "lycopersicon_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "plerocottage:healthy_lifestyle"
+}

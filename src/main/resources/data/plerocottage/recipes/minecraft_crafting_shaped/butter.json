@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:boxed_milk"
+    }
+  },
+  "result": {
+    "item": "plerocottage:butter",
+    "count": 1
+  }
+}

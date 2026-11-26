@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/purple_sugar_cane_top",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/purple_sugar_cane_top_block",
+    "all": "plerocottage:block/purple_sugar_canes",
+    "particle": "plerocottage:block/purple_sugar_canes"
+  }
+}

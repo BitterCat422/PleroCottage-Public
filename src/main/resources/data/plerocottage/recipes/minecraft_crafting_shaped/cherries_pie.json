@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bbb",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:sweet_dough"
+    },
+    "b": {
+      "tag": "forge:fruits/cherry"
+    }
+  },
+  "result": {
+    "item": "plerocottage:cherries_pie",
+    "count": 1
+  }
+}

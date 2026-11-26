@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "aca",
+    "da "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:fruits/hawthorns"
+    },
+    "b": {
+      "item": "plerocottage:ice_cubes"
+    },
+    "c": {
+      "item": "plerocottage:scoop_of_ice_cream"
+    },
+    "d": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plerocottage:hawpsicle_paleta",
+    "count": 1
+  }
+}

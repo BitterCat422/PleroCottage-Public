@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    " g "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:jalapeno_slices"
+    },
+    "b": {
+      "item": "plerocottage:coconut_milk"
+    },
+    "c": {
+      "item": "plerocottage:lime_slice"
+    },
+    "d": {
+      "tag": "forge:fruits/cherry_tomato"
+    },
+    "e": {
+      "item": "plerocottage:tropical_fish_slice"
+    },
+    "f": {
+      "item": "plerocottage:cucumber_slices"
+    },
+    "g": {
+      "item": "plerocottage:half_of_coconut"
+    }
+  },
+  "result": {
+    "item": "plerocottage:ota_ika",
+    "count": 1
+  }
+}

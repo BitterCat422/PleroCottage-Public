@@ -1,0 +1,196 @@
+{
+  "variants": {
+    "climbed=false,height=0,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_sown"
+    },
+    "climbed=false,height=0,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=false,height=0,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_sown"
+    },
+    "climbed=false,height=0,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_sown"
+    },
+    "climbed=false,height=1,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_sown"
+    },
+    "climbed=false,height=1,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=false,height=1,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_sown"
+    },
+    "climbed=false,height=1,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_sown"
+    },
+    "climbed=false,height=2,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_sown"
+    },
+    "climbed=false,height=2,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=false,height=2,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_sown"
+    },
+    "climbed=false,height=2,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_sown"
+    },
+    "climbed=false,height=3,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_sown"
+    },
+    "climbed=false,height=3,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=false,height=3,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_sown"
+    },
+    "climbed=false,height=3,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_sown"
+    },
+    "climbed=false,height=4,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_sown"
+    },
+    "climbed=false,height=4,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=false,height=4,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_sown"
+    },
+    "climbed=false,height=4,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_sown"
+    },
+    "climbed=false,height=5,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_sown"
+    },
+    "climbed=false,height=5,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=false,height=5,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_sown"
+    },
+    "climbed=false,height=5,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_sown"
+    },
+    "climbed=false,height=6,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_sown"
+    },
+    "climbed=false,height=6,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=false,height=6,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_sown"
+    },
+    "climbed=false,height=6,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_sown"
+    },
+    "climbed=false,height=7,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_sown"
+    },
+    "climbed=false,height=7,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=false,height=7,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_sown"
+    },
+    "climbed=false,height=7,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_sown"
+    },
+    "climbed=true,height=0,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_climbed"
+    },
+    "climbed=true,height=0,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=true,height=0,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_climbed"
+    },
+    "climbed=true,height=0,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_climbed"
+    },
+    "climbed=true,height=1,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_climbed"
+    },
+    "climbed=true,height=1,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=true,height=1,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_climbed"
+    },
+    "climbed=true,height=1,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_climbed"
+    },
+    "climbed=true,height=2,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_climbed"
+    },
+    "climbed=true,height=2,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=true,height=2,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_climbed"
+    },
+    "climbed=true,height=2,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_climbed"
+    },
+    "climbed=true,height=3,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_climbed"
+    },
+    "climbed=true,height=3,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=true,height=3,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_climbed"
+    },
+    "climbed=true,height=3,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_climbed"
+    },
+    "climbed=true,height=4,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_climbed"
+    },
+    "climbed=true,height=4,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=true,height=4,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_climbed"
+    },
+    "climbed=true,height=4,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_climbed"
+    },
+    "climbed=true,height=5,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_climbed"
+    },
+    "climbed=true,height=5,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=true,height=5,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_climbed"
+    },
+    "climbed=true,height=5,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_climbed"
+    },
+    "climbed=true,height=6,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_climbed"
+    },
+    "climbed=true,height=6,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=true,height=6,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_climbed"
+    },
+    "climbed=true,height=6,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_climbed"
+    },
+    "climbed=true,height=7,species=cucumber": {
+      "model": "plerocottage:block/vine_stake_cucumber_climbed"
+    },
+    "climbed=true,height=7,species=empty": {
+      "model": "plerocottage:block/vine_stake"
+    },
+    "climbed=true,height=7,species=grapes": {
+      "model": "plerocottage:block/vine_stake_grapes_climbed"
+    },
+    "climbed=true,height=7,species=passion_fruit": {
+      "model": "plerocottage:block/vine_stake_passion_fruit_climbed"
+    }
+  }
+}

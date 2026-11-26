@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:pumpkin_slice"
+    },
+    {
+      "item": "plerocottage:pumpkin_slice"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "minecraft:pumpkin_pie"
+  },
+  "temperature": 200
+}

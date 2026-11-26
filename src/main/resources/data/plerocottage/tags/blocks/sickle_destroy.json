@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:small_flowers",
+      "required": false
+    },
+    "minecraft:grass",
+    "minecraft:tall_grass",
+    "minecraft:sugar_cane"
+  ]
+}

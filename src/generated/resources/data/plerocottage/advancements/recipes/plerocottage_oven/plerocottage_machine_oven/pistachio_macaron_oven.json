@@ -1,0 +1,100 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:almond_powder"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:sugar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:meringue"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_4": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:cooked_pistachios"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:caramel_syrup"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:saffron"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "plerocottage:plerocottage_machine_oven/pistachio_macaron_oven"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_material_1",
+      "has_material_2",
+      "has_material_3",
+      "has_material_4",
+      "has_material_5",
+      "has_material_6"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "plerocottage:plerocottage_machine_oven/pistachio_macaron_oven"
+    ]
+  },
+  "sends_telemetry_event": false
+}

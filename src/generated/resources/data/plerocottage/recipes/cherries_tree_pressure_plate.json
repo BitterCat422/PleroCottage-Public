@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "cherries_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:cherries_tree_planks"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "plerocottage:cherries_tree_pressure_plate"
+  },
+  "show_notification": true
+}

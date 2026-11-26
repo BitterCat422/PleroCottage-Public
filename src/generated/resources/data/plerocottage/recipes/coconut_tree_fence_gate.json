@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "coconut_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:coconut_tree_planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "/#/",
+    "/#/"
+  ],
+  "result": {
+    "item": "plerocottage:coconut_tree_fence_gate"
+  },
+  "show_notification": true
+}

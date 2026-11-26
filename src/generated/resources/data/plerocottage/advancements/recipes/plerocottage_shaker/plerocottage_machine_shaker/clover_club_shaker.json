@@ -1,0 +1,109 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:glass_of_gin"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:grenadine"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_3": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:edible_eggs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_4": {
+      "conditions": {
+        "items": [
+          {
+            "tag": "forge:fruits/raspberry"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:lemon_slice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:ice_cubes"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_7": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:glass_bottle"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "plerocottage:plerocottage_machine_shaker/clover_club_shaker"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_material_1",
+      "has_material_2",
+      "has_material_3",
+      "has_material_4",
+      "has_material_5",
+      "has_material_6",
+      "has_material_7"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "plerocottage:plerocottage_machine_shaker/clover_club_shaker"
+    ]
+  },
+  "sends_telemetry_event": false
+}

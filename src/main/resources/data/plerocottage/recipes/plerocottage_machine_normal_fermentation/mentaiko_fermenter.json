@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "cookingTime": 600,
+  "input": [
+    {
+      "item": "plerocottage:tarako"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    },
+    {
+      "item": "plerocottage:jalapeno_powder"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:mentaiko"
+  }
+}

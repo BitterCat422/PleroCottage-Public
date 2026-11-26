@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/peach_tree_sapling",
+    "all": "plerocottage:block/peach_tree_sapling",
+    "dirt": "minecraft:block/dirt",
+    "flower_pot": "minecraft:block/flower_pot",
+    "particle": "plerocottage:block/peach_tree_sapling",
+    "plant": "plerocottage:block/peach_tree_sapling"
+  }
+}

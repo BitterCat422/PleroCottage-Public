@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:cheddar_cheese_wheel"
+  },
+  "output": {
+    "count": 4,
+    "item": "plerocottage:cheddar_cheese_wedge"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

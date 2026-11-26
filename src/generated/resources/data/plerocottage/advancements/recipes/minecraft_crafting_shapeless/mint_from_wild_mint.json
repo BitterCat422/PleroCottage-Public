@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "plerocottage:mint_from_wild_mint"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wild_mint": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:wild_mint"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wild_mint",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "plerocottage:mint_from_wild_mint"
+    ]
+  },
+  "sends_telemetry_event": false
+}

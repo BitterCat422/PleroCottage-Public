@@ -1,0 +1,245 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "glasses": "plerocottage:block/glasses",
+    "particle": "plerocottage:block/glasses"
+  },
+  "elements": [
+    {
+      "from": [
+        2.1,
+        1.05,
+        2.1
+      ],
+      "to": [
+        13.9,
+        5.85,
+        13.9
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          9,
+          0.95,
+          2
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            1.5,
+            6,
+            5,
+            8
+          ],
+          "texture": "#glasses"
+        },
+        "east": {
+          "uv": [
+            1.5,
+            6,
+            5,
+            8
+          ],
+          "texture": "#glasses"
+        },
+        "south": {
+          "uv": [
+            1.5,
+            6,
+            5,
+            8
+          ],
+          "texture": "#glasses"
+        },
+        "west": {
+          "uv": [
+            1.5,
+            6,
+            5,
+            8
+          ],
+          "texture": "#glasses"
+        },
+        "up": {
+          "uv": [
+            10,
+            12.5,
+            13.5,
+            16
+          ],
+          "texture": "#glasses"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            10,
+            13,
+            12.5
+          ],
+          "texture": "#glasses"
+        }
+      }
+    },
+    {
+      "from": [
+        13.9,
+        5.85,
+        13.9
+      ],
+      "to": [
+        2.1,
+        1.05,
+        2.1
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          14,
+          5.95,
+          14
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            1,
+            0.5,
+            3
+          ],
+          "texture": "#glasses"
+        },
+        "east": {
+          "uv": [
+            0,
+            1,
+            0.5,
+            3
+          ],
+          "texture": "#glasses"
+        },
+        "south": {
+          "uv": [
+            0,
+            1,
+            0.5,
+            3
+          ],
+          "texture": "#glasses"
+        },
+        "west": {
+          "uv": [
+            0,
+            1,
+            0.5,
+            3
+          ],
+          "texture": "#glasses"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.5,
+            2.5
+          ],
+          "texture": "#glasses"
+        },
+        "down": {
+          "uv": [
+            8,
+            10,
+            10.5,
+            12.5
+          ],
+          "texture": "#glasses"
+        }
+      }
+    },
+    {
+      "from": [
+        5.5,
+        0.125,
+        5.5
+      ],
+      "to": [
+        10.5,
+        1.125,
+        10.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6.5,
+          0.125,
+          6.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            13.5,
+            15.5,
+            16,
+            16
+          ],
+          "texture": "#glasses"
+        },
+        "east": {
+          "uv": [
+            13.5,
+            15.5,
+            16,
+            16
+          ],
+          "texture": "#glasses"
+        },
+        "south": {
+          "uv": [
+            13.5,
+            15.5,
+            16,
+            16
+          ],
+          "texture": "#glasses"
+        },
+        "west": {
+          "uv": [
+            13.5,
+            15.5,
+            16,
+            16
+          ],
+          "texture": "#glasses"
+        },
+        "up": {
+          "uv": [
+            8,
+            8,
+            10,
+            10
+          ],
+          "texture": "#glasses"
+        },
+        "down": {
+          "uv": [
+            10,
+            8,
+            12,
+            10
+          ],
+          "texture": "#glasses"
+        }
+      }
+    }
+  ]
+}

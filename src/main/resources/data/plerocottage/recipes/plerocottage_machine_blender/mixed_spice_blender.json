@@ -1,0 +1,21 @@
+{
+  "type": "plerocottage:blender",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mainInput": [
+    {
+      "item": "plerocottage:cinnamon"
+    },
+    {
+      "item": "plerocottage:dried_nutmeg"
+    },
+    {
+      "item": "plerocottage:cloves"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:mixed_spice"
+  }
+}

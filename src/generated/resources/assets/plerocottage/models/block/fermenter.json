@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/fermenter",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/fermenter",
+    "all": "plerocottage:block/fermenter",
+    "particle": "plerocottage:block/fermenter"
+  }
+}

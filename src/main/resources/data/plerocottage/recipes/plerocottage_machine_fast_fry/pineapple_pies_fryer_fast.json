@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:fast_fry",
+  "input": {
+    "item": "plerocottage:cooked_pineapple_slices"
+  },
+  "output": {
+    "item": "plerocottage:pineapple_pies"
+  }
+}

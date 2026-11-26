@@ -1,0 +1,27 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:lavender_essential_oil"
+    },
+    {
+      "item": "plerocottage:lavender_dye"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:pon_de_ring"
+    },
+    {
+      "item": "plerocottage:grated_coconut"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:lavender_pon_de_ring"
+  }
+}

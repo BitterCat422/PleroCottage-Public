@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "age=0,top=false": {
+      "model": "plerocottage:block/corn_crop_stem_0"
+    },
+    "age=0,top=true": {
+      "model": "plerocottage:block/corn_crop_top_0"
+    },
+    "age=1,top=false": {
+      "model": "plerocottage:block/corn_bottom"
+    },
+    "age=1,top=true": {
+      "model": "plerocottage:block/corn_top"
+    },
+    "age=2,top=false": {
+      "model": "plerocottage:block/corn_bottom"
+    },
+    "age=2,top=true": {
+      "model": "plerocottage:block/corn_top"
+    }
+  }
+}

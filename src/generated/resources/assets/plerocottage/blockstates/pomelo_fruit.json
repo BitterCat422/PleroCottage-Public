@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "stage=growing": {
+      "model": "plerocottage:block/pomelo_fruit_growing"
+    },
+    "stage=immature": {
+      "model": "plerocottage:block/pomelo_fruit"
+    },
+    "stage=ripe": {
+      "model": "plerocottage:block/pomelo_fruit_ripe"
+    }
+  }
+}

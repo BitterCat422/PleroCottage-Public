@@ -1,0 +1,21 @@
+{
+  "type": "plerocottage:bright_fermentation",
+  "cookingTime": 600,
+  "input": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "plerocottage:yogurt"
+    },
+    {
+      "item": "plerocottage:fig_slice"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:mozzarella_cheese_wheel"
+  }
+}

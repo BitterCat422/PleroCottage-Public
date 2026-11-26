@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:hawthorns"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:hawthorn_seeds",
+    "count": 1
+  }
+}

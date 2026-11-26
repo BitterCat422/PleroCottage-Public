@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:fast_fry",
+  "input": {
+    "item": "plerocottage:cooked_banana"
+  },
+  "output": {
+    "item": "plerocottage:fried_banana"
+  }
+}

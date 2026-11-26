@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "cross": "plerocottage:block/coffee_berry_crop_2",
+    "particle": "plerocottage:block/coffee_berry_crop_1"
+  }
+}

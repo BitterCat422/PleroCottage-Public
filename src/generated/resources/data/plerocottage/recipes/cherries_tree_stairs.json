@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "cherries_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:cherries_tree_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:cherries_tree_stairs"
+  },
+  "show_notification": true
+}

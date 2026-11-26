@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "plerocottage:block/snowy_black_dirt_bottom",
+    "east": "plerocottage:block/snowy_black_dirt_side",
+    "north": "plerocottage:block/snowy_black_dirt_side",
+    "particle": "plerocottage:block/snowy_black_dirt_bottom",
+    "south": "plerocottage:block/snowy_black_dirt_side",
+    "up": "plerocottage:block/snowy_black_dirt_top",
+    "west": "plerocottage:block/snowy_black_dirt_side"
+  }
+}

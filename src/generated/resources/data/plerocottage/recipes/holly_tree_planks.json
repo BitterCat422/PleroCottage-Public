@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "holly_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:holly_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:holly_tree_planks"
+  }
+}

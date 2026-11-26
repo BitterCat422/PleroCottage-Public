@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cda",
+    "ec "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:pineapple_slices"
+    },
+    "b": {
+      "item": "plerocottage:ice_cubes"
+    },
+    "c": {
+      "item": "plerocottage:mango_slice"
+    },
+    "d": {
+      "item": "plerocottage:coconut_milk"
+    },
+    "e": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plerocottage:luau_paleta",
+    "count": 1
+  }
+}

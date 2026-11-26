@@ -1,0 +1,29 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 200,
+  "input": [
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "plerocottage:custard"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "tag": "forge:fruits/raspberry"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:napoleon_pastry"
+  },
+  "temperature": 200
+}

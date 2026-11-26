@@ -1,0 +1,20 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:brandy",
+    "plerocottage:rum",
+    "plerocottage:gin",
+    "plerocottage:red_wine",
+    "plerocottage:starfruit_wine",
+    "plerocottage:absinthe",
+    "plerocottage:white_wine",
+    "plerocottage:beer",
+    "plerocottage:sake",
+    "plerocottage:creme_de_cassis",
+    "plerocottage:vodka",
+    "plerocottage:kvass",
+    "plerocottage:champagne",
+    "plerocottage:whiskey",
+    "plerocottage:umeshu"
+  ]
+}

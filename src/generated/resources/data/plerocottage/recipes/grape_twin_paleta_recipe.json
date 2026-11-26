@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "plerocottage:muscat_grapes"
+    },
+    "b": {
+      "item": "plerocottage:ice_cubes"
+    },
+    "c": {
+      "item": "minecraft:stick"
+    },
+    "d": {
+      "item": "plerocottage:grapes"
+    }
+  },
+  "pattern": [
+    " ab",
+    "cbd",
+    " c "
+  ],
+  "result": {
+    "item": "plerocottage:grape_twin_paleta"
+  },
+  "show_notification": true
+}

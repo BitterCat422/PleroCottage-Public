@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "plerocottage:block/saucepan_and_whisk",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "plerocottage:block/saucepan_and_whisk"
+    },
+    "facing=south": {
+      "model": "plerocottage:block/saucepan_and_whisk",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plerocottage:block/saucepan_and_whisk",
+      "y": 270
+    }
+  }
+}

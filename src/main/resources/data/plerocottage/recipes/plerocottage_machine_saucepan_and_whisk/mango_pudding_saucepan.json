@@ -1,0 +1,30 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:mango_juice"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:mango_slice"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:mango_pudding"
+  }
+}

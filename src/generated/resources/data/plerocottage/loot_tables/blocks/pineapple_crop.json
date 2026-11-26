@@ -1,0 +1,102 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "block": "plerocottage:pineapple_crop",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "0"
+              }
+            },
+            {
+              "block": "plerocottage:pineapple_crop",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "1"
+              }
+            },
+            {
+              "block": "plerocottage:pineapple_crop",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "2"
+              }
+            },
+            {
+              "block": "plerocottage:pineapple_crop",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "3"
+              }
+            },
+            {
+              "block": "plerocottage:pineapple_crop",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "4"
+              }
+            },
+            {
+              "block": "plerocottage:pineapple_crop",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "5"
+              }
+            },
+            {
+              "block": "plerocottage:pineapple_crop",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "6"
+              }
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "plerocottage:pineapple_crop"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "plerocottage:pineapple_crop",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "age": "7"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 1.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "plerocottage:pineapple"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "plerocottage:blocks/pineapple_crop"
+}

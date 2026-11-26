@@ -1,0 +1,35 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "item": "plerocottage:fig_slice"
+    },
+    {
+      "item": "plerocottage:raisins"
+    },
+    {
+      "item": "plerocottage:mixed_spice"
+    },
+    {
+      "item": "plerocottage:brown_sugar"
+    },
+    {
+      "item": "plerocottage:glass_of_brandy"
+    },
+    {
+      "item": "plerocottage:custard"
+    },
+    {
+      "item": "plerocottage:holly_berries"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:figgy_pudding"
+  },
+  "temperature": 150
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "juniper",
+  "key": {
+    "#": {
+      "item": "plerocottage:juniper_planks"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "plerocottage:juniper_pressure_plate"
+  },
+  "show_notification": true
+}

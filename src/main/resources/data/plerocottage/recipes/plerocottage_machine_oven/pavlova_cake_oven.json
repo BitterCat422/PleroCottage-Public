@@ -1,0 +1,29 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:meringue"
+    },
+    {
+      "item": "plerocottage:meringue"
+    },
+    {
+      "item": "plerocottage:kiwifruit_slice"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "item": "plerocottage:half_of_passion_fruit"
+    },
+    {
+      "tag": "forge:fruits/raspberry"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:pavlova_cake"
+  },
+  "temperature": 150
+}

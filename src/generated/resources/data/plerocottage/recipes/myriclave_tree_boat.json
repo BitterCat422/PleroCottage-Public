@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "myriclave_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:myriclave_tree_planks"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "plerocottage:myriclave_tree_boat"
+  },
+  "show_notification": true
+}

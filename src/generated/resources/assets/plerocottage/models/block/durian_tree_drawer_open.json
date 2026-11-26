@@ -1,0 +1,7 @@
+{
+  "parent": "plerocottage:custom/drawer_open",
+  "textures": {
+    "11": "plerocottage:block/durian_tree_drawer",
+    "particle": "plerocottage:block/durian_tree_drawer"
+  }
+}

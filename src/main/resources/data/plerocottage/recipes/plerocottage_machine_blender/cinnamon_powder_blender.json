@@ -1,0 +1,12 @@
+{
+  "type": "plerocottage:blender",
+  "mainInput": [
+    {
+      "item": "plerocottage:cinnamon"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:cinnamon_powder"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    "b": {
+      "item": "plerocottage:condensed_milk"
+    },
+    "c": {
+      "item": "minecraft:milk_bucket"
+    },
+    "d": {
+      "item": "minecraft:snowball"
+    },
+    "e": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "plerocottage:vanilla_ice_cream_fluid_bucket",
+    "count": 1
+  }
+}

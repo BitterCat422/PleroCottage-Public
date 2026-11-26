@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/lemonade_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/lemonade",
+    "particle": "plerocottage:block/lemonade"
+  }
+}

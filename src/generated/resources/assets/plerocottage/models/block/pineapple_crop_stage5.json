@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/pineapple_crop_4",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/pineapple_crop_4",
+    "all": "plerocottage:block/pineapple_crop_4",
+    "particle": "plerocottage:block/pineapple_crop_1"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#plerocottage:mediterranean",
+  "features": "plerocottage:wild_pistachio_tree",
+  "step": "vegetal_decoration"
+}

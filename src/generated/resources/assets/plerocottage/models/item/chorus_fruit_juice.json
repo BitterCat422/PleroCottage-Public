@@ -1,0 +1,30 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/chorus_fruit_juice_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/chorus_fruit_juice"
+      }
+    },
+    "ground": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/chorus_fruit_juice"
+      }
+    },
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/chorus_fruit_juice"
+      }
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/chorus_fruit_juice"
+  }
+}

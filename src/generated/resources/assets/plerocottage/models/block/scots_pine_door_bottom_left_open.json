@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_left_open",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "bottom": "plerocottage:block/scots_pine_door_bottom",
+    "top": "plerocottage:block/scots_pine_door_top"
+  }
+}

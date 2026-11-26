@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:jungle",
+  "features": "plerocottage:wild_cinnise_tree",
+  "step": "vegetal_decoration"
+}

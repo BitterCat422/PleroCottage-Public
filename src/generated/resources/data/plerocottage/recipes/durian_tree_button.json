@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "durian_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:durian_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:durian_tree_button"
+  }
+}

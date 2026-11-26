@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:banana_bunch"
+  },
+  "output": {
+    "count": 4,
+    "item": "plerocottage:banana"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/castella",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/castella",
+    "1": "plerocottage:block/castella",
+    "2": "plerocottage:block/castella",
+    "3": "plerocottage:block/castella",
+    "4": "plerocottage:block/castella",
+    "5": "plerocottage:block/castella",
+    "particle": "plerocottage:block/castella"
+  }
+}

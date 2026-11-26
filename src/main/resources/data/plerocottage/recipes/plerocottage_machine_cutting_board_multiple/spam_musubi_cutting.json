@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:cooked_rice"
+    },
+    {
+      "item": "plerocottage:cooked_spam_slice"
+    },
+    {
+      "item": "plerocottage:nori"
+    }
+  ],
+  "isShaped": true,
+  "output": {
+    "count": 1,
+    "item": "plerocottage:spam_musubi"
+  }
+}

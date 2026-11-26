@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "tag": "forge:fruits/muskmelon"
+  },
+  "output": {
+    "count": 9,
+    "item": "plerocottage:muskmelon_slice"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

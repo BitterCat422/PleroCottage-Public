@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:durian_mile_crepe_cake_slice"
+    },
+    {
+      "item": "plerocottage:durian_mile_crepe_cake_slice"
+    },
+    {
+      "item": "plerocottage:durian_mile_crepe_cake_slice"
+    },
+    {
+      "item": "plerocottage:durian_mile_crepe_cake_slice"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:durian_mile_crepe_cake",
+    "count": 1
+  }
+}

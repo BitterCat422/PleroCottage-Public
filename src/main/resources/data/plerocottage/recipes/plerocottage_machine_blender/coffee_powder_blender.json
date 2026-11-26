@@ -1,0 +1,15 @@
+{
+  "type": "plerocottage:blender",
+  "mainInput": [
+    {
+      "item": "plerocottage:coffee_beans"
+    },
+    {
+      "item": "plerocottage:coffee_beans"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:coffee_powder"
+  }
+}

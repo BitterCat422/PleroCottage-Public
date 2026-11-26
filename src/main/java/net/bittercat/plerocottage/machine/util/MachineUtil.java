@@ -1,0 +1,98 @@
+package net.bittercat.plerocottage.machine.util;
+
+import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.Container;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraftforge.common.SoundActions;
+import net.minecraftforge.fluids.FluidActionResult;
+import net.minecraftforge.fluids.FluidStack;
+import net.minecraftforge.fluids.FluidUtil;
+import net.minecraftforge.fluids.capability.IFluidHandler;
+import net.bittercat.plerocottage.machine.blockentities.BaseHasItemBlockEntity;
+import net.bittercat.plerocottage.machine.compat.plerocottage.PleroCottageCompat;
+
+import java.util.List;
+
+public class MachineUtil {
+    public static void handlerFluidSlot(int slot, BaseHasItemBlockEntity container, IFluidHandler fluidHandler, Level level, BlockPos blockPos) {
+        ItemStack stack = container.getItem(slot);
+        if (stack.isEmpty() || !(FluidUtil.getFluidHandler(stack).isPresent() || PleroCottageCompat.BUCKET_FLUID_MAP.containsKey(stack.getItem())))
+            return;
+        ItemStack emptyStackableFluidTank = ItemStack.EMPTY;
+        int emptyStackableFluidTankCount = 0;
+        for (int i = 0; i < stack.getCount(); i++) {
+            ItemStack singleTank = stack.copyWithCount(1);
+            FluidActionResult fluidActionResult = FluidUtil.tryEmptyContainer(singleTank, fluidHandler, Integer.MAX_VALUE, null, true);
+            if (fluidActionResult.isSuccess()) {
+                emptyStackableFluidTankCount++;
+                emptyStackableFluidTank = fluidActionResult.getResult().copy();
+            } else if (
+                    fluidHandler.getTankCapacity(0) - fluidHandler.getFluidInTank(0).getAmount() >= 1000
+                            && PleroCottageCompat.BUCKET_FLUID_MAP.containsKey(stack.getItem())
+            ) {
+                FluidStack fluidStack = new FluidStack(PleroCottageCompat.BUCKET_FLUID_MAP.get(stack.getItem()), 1000);
+                int filled = fluidHandler.fill(fluidStack, IFluidHandler.FluidAction.EXECUTE);
+                if (filled > 0) {
+                    emptyStackableFluidTankCount++;
+                    emptyStackableFluidTank = Items.BUCKET.getDefaultInstance();
+                } else {
+                    break;
+                }
+            } else {
+                break;
+            }
+        }
+        if (emptyStackableFluidTankCount == 0) return;
+        emptyStackableFluidTank.setCount(emptyStackableFluidTankCount);
+        stack.shrink(emptyStackableFluidTankCount);
+        if (stack.isEmpty()) {
+            container.setItem(slot, emptyStackableFluidTank);
+        } else {
+            popCraftRemaining(level, blockPos, emptyStackableFluidTank);
+        }
+        FluidStack fluidStack = fluidHandler.getFluidInTank(0);
+        if (!level.isClientSide()) {
+            container.getLevel().sendBlockUpdated(container.getBlockPos(), container.getBlockState(), container.getBlockState(), 2);
+        }
+        SoundEvent soundevent = fluidStack.getFluid().getFluidType().getSound(fluidStack, SoundActions.BUCKET_EMPTY);
+        if (soundevent != null) {
+            level.playSound(null, blockPos, soundevent, SoundSource.BLOCKS);
+        }
+    }
+
+    public static ItemStack getCraftRemaining(ItemStack input) {
+        return getCraftRemaining(input, input.getCount());
+    }
+
+    public static ItemStack getCraftRemaining(ItemStack input, int count) {
+
+        if (input.isDamageableItem()) {
+            return ItemStack.EMPTY;
+        }
+        return input.hasCraftingRemainingItem() ? input.getCraftingRemainingItem().copyWithCount(count) : ItemStack.EMPTY;
+    }
+
+    public static void insertCraftRemaining(Container container, int[] slots, List<ItemStack> craftRemaining) {
+        for (int slot : slots) {
+            if (!craftRemaining.isEmpty() && container.getItem(slot).isEmpty()) {
+                container.setItem(slot, craftRemaining.remove(0));
+            }
+        }
+    }
+
+    public static void popCraftRemaining(Level level, BlockPos blockPos, ItemStack craftRemaining) {
+        Block.popResourceFromFace(level, blockPos, Direction.UP, craftRemaining);
+    }
+
+    public static void popCraftRemaining(Level level, BlockPos blockPos, List<ItemStack> craftRemaining) {
+        for (ItemStack remaining : craftRemaining) {
+            Block.popResourceFromFace(level, blockPos, Direction.UP, remaining);
+        }
+    }
+}

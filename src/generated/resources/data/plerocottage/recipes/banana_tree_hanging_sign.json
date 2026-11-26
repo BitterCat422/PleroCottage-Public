@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "banana_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:stripped_banana_tree_stalk"
+    },
+    "-": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "- -",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "plerocottage:banana_tree_hanging_sign"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "cookingTime": 600,
+  "input": [
+    {
+      "tag": "plerocottage:tea_base"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:nata_de_coco"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:kombucha"
+  }
+}

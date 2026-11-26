@@ -1,0 +1,24 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:donut"
+    },
+    {
+      "item": "plerocottage:ganache"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:strawberry_donut"
+  }
+}

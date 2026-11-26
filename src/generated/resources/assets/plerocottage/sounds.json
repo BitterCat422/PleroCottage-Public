@@ -1,0 +1,240 @@
+{
+  "blender_cup_place": {
+    "sounds": [
+      "plerocottage:blender_cup_place"
+    ],
+    "subtitle": "sound.plerocottage.blender_cup_place"
+  },
+  "blender_open": {
+    "sounds": [
+      "plerocottage:blender_open"
+    ],
+    "subtitle": "sound.plerocottage.blender_open"
+  },
+  "blender_powder_done": {
+    "sounds": [
+      "plerocottage:blender_powder_done"
+    ],
+    "subtitle": "sound.plerocottage.blender_powder_done"
+  },
+  "blender_running": {
+    "sounds": [
+      "plerocottage:blender_running"
+    ],
+    "subtitle": "sound.plerocottage.blender_running"
+  },
+  "blender_water_done": {
+    "sounds": [
+      "plerocottage:blender_water_done"
+    ],
+    "subtitle": "sound.plerocottage.blender_water_done"
+  },
+  "cutting_board_crafting": {
+    "sounds": [
+      "plerocottage:cutting_board_crafting"
+    ],
+    "subtitle": "sound.plerocottage.cutting_board_crafting"
+  },
+  "cutting_board_cutting": {
+    "sounds": [
+      "plerocottage:cutting_board_cutting"
+    ],
+    "subtitle": "sound.plerocottage.cutting_board_cutting"
+  },
+  "cutting_board_roll_out": {
+    "sounds": [
+      "plerocottage:cutting_board_roll_out"
+    ],
+    "subtitle": "sound.plerocottage.cutting_board_roll_out"
+  },
+  "effect.momentary_meteor.stardust_shatter": {
+    "sounds": [
+      "plerocottage:stardust_shatter"
+    ],
+    "subtitle": "subtitles.plerocottage.effect.momentary_meteor.stardust_shatter"
+  },
+  "effect.transmutation.dazzling_gleam": {
+    "sounds": [
+      "plerocottage:dazzling_gleam"
+    ],
+    "subtitle": "subtitles.plerocottage.effect.transmutation.dazzling_gleam"
+  },
+  "entity.duck.ambient": {
+    "sounds": [
+      "plerocottage:entity.duck.ambient_0",
+      "plerocottage:entity.duck.ambient_1",
+      "plerocottage:entity.duck.ambient_2"
+    ],
+    "subtitle": "subtitles.entity.duck.ambient"
+  },
+  "entity.duck.death": {
+    "sounds": [
+      "plerocottage:entity.duck.death_0",
+      "plerocottage:entity.duck.death_1"
+    ],
+    "subtitle": "subtitles.entity.duck.death"
+  },
+  "entity.duck.hurt": {
+    "sounds": [
+      "plerocottage:entity.duck.hurt_0",
+      "plerocottage:entity.duck.hurt_1"
+    ],
+    "subtitle": "subtitles.entity.duck.hurt"
+  },
+  "entity.duck.step": {
+    "sounds": [
+      "plerocottage:entity.duck.step_0",
+      "plerocottage:entity.duck.step_1"
+    ],
+    "subtitle": "subtitles.entity.duck.step"
+  },
+  "entity.turkey.ambient": {
+    "sounds": [
+      "plerocottage:entity.turkey.ambient_0",
+      "plerocottage:entity.turkey.ambient_1",
+      "plerocottage:entity.turkey.ambient_2"
+    ],
+    "subtitle": "subtitles.entity.turkey.ambient"
+  },
+  "entity.turkey.death": {
+    "sounds": [
+      "plerocottage:entity.turkey.death_0",
+      "plerocottage:entity.turkey.death_1"
+    ],
+    "subtitle": "subtitles.entity.turkey.death"
+  },
+  "entity.turkey.hurt": {
+    "sounds": [
+      "plerocottage:entity.turkey.hurt_0",
+      "plerocottage:entity.turkey.hurt_1"
+    ],
+    "subtitle": "subtitles.entity.turkey.hurt"
+  },
+  "entity.turkey.step": {
+    "sounds": [
+      "plerocottage:entity.turkey.step_0",
+      "plerocottage:entity.turkey.step_1"
+    ],
+    "subtitle": "subtitles.entity.turkey.step"
+  },
+  "fryer_frying": {
+    "sounds": [
+      "plerocottage:fryer_frying"
+    ],
+    "subtitle": "sound.plerocottage.fryer_frying"
+  },
+  "ice_cream_machine_clank": {
+    "sounds": [
+      "plerocottage:ice_cream_machine_clank"
+    ],
+    "subtitle": "sound.plerocottage.ice_cream_machine_clank"
+  },
+  "ice_cream_machine_done": {
+    "sounds": [
+      "plerocottage:ice_cream_machine_done"
+    ],
+    "subtitle": "sound.plerocottage.ice_cream_machine_done"
+  },
+  "item.rolling_pin.flatten": {
+    "sounds": [
+      "plerocottage:bongo_hit_01"
+    ],
+    "subtitle": "subtitles.item.rolling_pin.flatten"
+  },
+  "oven_ding": {
+    "sounds": [
+      "plerocottage:oven_ding"
+    ],
+    "subtitle": "sound.plerocottage.oven_ding"
+  },
+  "oven_knob_turn": {
+    "sounds": [
+      "plerocottage:oven_knob_turn"
+    ],
+    "subtitle": "sound.plerocottage.oven_knob_turn"
+  },
+  "oven_open": {
+    "sounds": [
+      "plerocottage:oven_open"
+    ],
+    "subtitle": "sound.plerocottage.oven_open"
+  },
+  "oven_running": {
+    "sounds": [
+      "plerocottage:oven_running"
+    ],
+    "subtitle": "sound.plerocottage.oven_running"
+  },
+  "saucepan_and_whisk_done": {
+    "sounds": [
+      "plerocottage:saucepan_and_whisk_done"
+    ],
+    "subtitle": "sound.plerocottage.saucepan_and_whisk_done"
+  },
+  "saucepan_and_whisk_stirs_1": {
+    "sounds": [
+      "plerocottage:saucepan_and_whisk_stirs_1"
+    ],
+    "subtitle": "sound.plerocottage.saucepan_and_whisk_stirs_1"
+  },
+  "saucepan_and_whisk_stirs_2": {
+    "sounds": [
+      "plerocottage:saucepan_and_whisk_stirs_2"
+    ],
+    "subtitle": "sound.plerocottage.saucepan_and_whisk_stirs_2"
+  },
+  "shaker_open": {
+    "sounds": [
+      "plerocottage:shaker_open"
+    ],
+    "subtitle": "sound.plerocottage.shaker_open"
+  },
+  "shaker_shake": {
+    "sounds": [
+      "plerocottage:shaker_shake"
+    ],
+    "subtitle": "sound.plerocottage.shaker_shake"
+  },
+  "stock_pot_cover_moving": {
+    "sounds": [
+      "plerocottage:stock_pot_cover_moving"
+    ],
+    "subtitle": "sound.plerocottage.stock_pot_cover_moving"
+  },
+  "stock_pot_running": {
+    "sounds": [
+      "plerocottage:stock_pot_running"
+    ],
+    "subtitle": "sound.plerocottage.stock_pot_running"
+  },
+  "teapot_close": {
+    "sounds": [
+      "plerocottage:teapot_close"
+    ],
+    "subtitle": "sound.plerocottage.teapot_close"
+  },
+  "teapot_cup_place": {
+    "sounds": [
+      "plerocottage:teapot_cup_place"
+    ],
+    "subtitle": "sound.plerocottage.teapot_cup_place"
+  },
+  "teapot_done": {
+    "sounds": [
+      "plerocottage:teapot_done"
+    ],
+    "subtitle": "sound.plerocottage.teapot_done"
+  },
+  "teapot_open": {
+    "sounds": [
+      "plerocottage:teapot_open"
+    ],
+    "subtitle": "sound.plerocottage.teapot_open"
+  },
+  "teapot_running": {
+    "sounds": [
+      "plerocottage:teapot_running"
+    ],
+    "subtitle": "sound.plerocottage.teapot_running"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/avocado_shake_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/avocado_shake"
+      }
+    },
+    "ground": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/avocado_shake"
+      }
+    },
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/avocado_shake"
+      }
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/avocado_shake"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "nut_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:nut_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:nut_tree_planks"
+  }
+}

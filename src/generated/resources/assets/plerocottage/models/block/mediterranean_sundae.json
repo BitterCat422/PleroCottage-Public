@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/mediterranean_sundae",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/mediterranean_sundae",
+    "1": "plerocottage:block/mediterranean_sundae",
+    "2": "plerocottage:block/mediterranean_sundae",
+    "3": "plerocottage:block/mediterranean_sundae",
+    "4": "plerocottage:block/mediterranean_sundae",
+    "5": "plerocottage:block/mediterranean_sundae",
+    "particle": "plerocottage:block/mediterranean_sundae"
+  }
+}

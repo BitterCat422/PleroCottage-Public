@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/glass_parts/thick_bottomed_double_glass_5x1_4x5_5x4",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "glasses": "plerocottage:block/glasses",
+    "klein_bottle": "plerocottage:block/klein_bottle",
+    "particle": "plerocottage:block/glasses"
+  }
+}

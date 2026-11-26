@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:caramel_chocolate_cake_slice"
+    },
+    {
+      "item": "plerocottage:caramel_chocolate_cake_slice"
+    },
+    {
+      "item": "plerocottage:caramel_chocolate_cake_slice"
+    },
+    {
+      "item": "plerocottage:caramel_chocolate_cake_slice"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:caramel_chocolate_cake",
+    "count": 1
+  }
+}

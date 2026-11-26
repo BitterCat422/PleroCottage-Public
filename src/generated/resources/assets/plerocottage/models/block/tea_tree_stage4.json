@@ -1,0 +1,10 @@
+{
+  "parent": "plerocottage:custom/tea_tree_grow",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/tea_tree",
+    "5": "plerocottage:block/tea_tree",
+    "all": "plerocottage:block/tea_tree",
+    "particle": "plerocottage:block/tea_tree"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "kiwifruit_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:kiwifruit_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:kiwifruit_tree_chest_boat"
+  }
+}

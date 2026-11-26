@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "rutaceae_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:rutaceae_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:rutaceae_tree_planks"
+  }
+}

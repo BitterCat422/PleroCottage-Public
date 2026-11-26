@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "plerocottage:nut_tree_planks"
+    },
+    "b": {
+      "item": "plerocottage:nut_tree_trapdoor"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "item": "plerocottage:nut_tree_cabinet"
+  },
+  "show_notification": true
+}

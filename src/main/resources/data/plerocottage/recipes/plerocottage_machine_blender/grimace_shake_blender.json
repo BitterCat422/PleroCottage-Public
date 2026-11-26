@@ -1,0 +1,38 @@
+{
+  "type": "plerocottage:blender",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mainInput": [
+    {
+      "tag": "forge:fruits/blueberries"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:scoop_of_ice_cream"
+    },
+    {
+      "item": "plerocottage:yogurt"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "tag": "forge:fruits/cherry"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:grimace_shake"
+  }
+}

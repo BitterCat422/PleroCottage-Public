@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/baguette",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/baguette",
+    "all": "plerocottage:block/baguette",
+    "particle": "plerocottage:block/baguette"
+  }
+}

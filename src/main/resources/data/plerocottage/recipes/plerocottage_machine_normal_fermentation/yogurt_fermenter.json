@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingTime": 600,
+  "input": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:lemon_slice"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:yogurt"
+  }
+}

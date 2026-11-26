@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:ice_cream",
+  "container": {
+    "item": "plerocottage:ice_cream_cone"
+  },
+  "fluid": {
+    "Amount": 250,
+    "FluidName": "plerocottage:vanilla_ice_cream_fluid"
+  },
+  "input": [
+    {
+  	  "tag": "forge:fruits/blueberries"
+    },
+    []
+  ],
+  "output": {
+    "item": "plerocottage:blueberry_ice_cream"
+  }
+}

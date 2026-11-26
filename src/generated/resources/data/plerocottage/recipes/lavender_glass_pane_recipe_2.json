@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "plerocottage:lavender_glass"
+    },
+    {
+      "item": "plerocottage:lavender_glass"
+    },
+    {
+      "item": "plerocottage:lavender_glass"
+    },
+    {
+      "item": "plerocottage:lavender_glass"
+    },
+    {
+      "item": "plerocottage:lavender_glass"
+    },
+    {
+      "item": "plerocottage:lavender_glass"
+    }
+  ],
+  "result": {
+    "count": 16,
+    "item": "plerocottage:lavender_glass_pane"
+  }
+}

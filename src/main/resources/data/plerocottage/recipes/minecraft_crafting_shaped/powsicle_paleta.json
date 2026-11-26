@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "cda",
+    "ec "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:fruits/cherry"
+    },
+    "b": {
+      "item": "plerocottage:ice_cubes"
+    },
+    "c": {
+      "item": "plerocottage:blue_raspberry"
+    },
+    "d": {
+      "item": "plerocottage:lime_slice"
+    },
+    "e": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plerocottage:bomb_paleta",
+    "count": 1
+  }
+}

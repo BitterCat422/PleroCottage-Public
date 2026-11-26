@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:dim_fermentation",
+  "container": {
+    "item": "minecraft:gold_ingot"
+  },
+  "cookingTime": 600,
+  "input": [
+    {
+      "item": "plerocottage:tropical_fish_roe"
+    },
+    {
+      "item": "plerocottage:tropical_fish_roe"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:caviar"
+  }
+}

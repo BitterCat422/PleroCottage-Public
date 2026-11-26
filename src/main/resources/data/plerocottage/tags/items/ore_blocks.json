@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:pearl_rock_block",
+    "plerocottage:topaz_block",
+    "plerocottage:pink_crystal_block",
+    "plerocottage:brilliant_diamond_block",
+    "plerocottage:garnet_block"
+  ]
+}

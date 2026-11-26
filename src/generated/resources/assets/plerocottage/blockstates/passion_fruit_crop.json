@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "age=0,rare=false": {
+      "model": "plerocottage:block/passion_fruit_crop_stage0"
+    },
+    "age=0,rare=true": {
+      "model": "plerocottage:block/passion_fruit_crop_stage0"
+    },
+    "age=1,rare=false": {
+      "model": "plerocottage:block/passion_fruit_crop_stage1"
+    },
+    "age=1,rare=true": {
+      "model": "plerocottage:block/passion_fruit_crop_stage1"
+    },
+    "age=2,rare=false": {
+      "model": "plerocottage:block/passion_fruit_crop_stage2"
+    },
+    "age=2,rare=true": {
+      "model": "plerocottage:block/passion_fruit_crop_stage2"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "plerocottage:custom/potted_clover",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/potted_wild_roses",
+    "dirt": "minecraft:block/dirt",
+    "flower_pot": "minecraft:block/flower_pot",
+    "particle": "plerocottage:block/potted_wild_roses"
+  }
+}

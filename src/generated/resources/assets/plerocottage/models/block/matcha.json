@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/matcha",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/matcha",
+    "1": "plerocottage:block/matcha",
+    "2": "plerocottage:block/matcha",
+    "3": "plerocottage:block/matcha",
+    "4": "plerocottage:block/matcha",
+    "5": "plerocottage:block/matcha",
+    "particle": "plerocottage:block/matcha"
+  }
+}

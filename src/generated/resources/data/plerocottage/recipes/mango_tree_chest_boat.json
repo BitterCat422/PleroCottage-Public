@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "mango_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:mango_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:mango_tree_chest_boat"
+  }
+}

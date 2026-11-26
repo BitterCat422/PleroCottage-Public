@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "minecraft:apple"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:ringo_ame"
+  }
+}

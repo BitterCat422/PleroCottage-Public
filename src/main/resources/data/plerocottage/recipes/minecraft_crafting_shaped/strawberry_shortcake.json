@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:fruits/strawberry"
+    },
+    "b": {
+      "item": "plerocottage:chocolate"
+    },
+    "c": {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    "d": {
+      "item": "minecraft:wheat"
+    },
+    "e": {
+      "tag": "forge:edible_eggs"
+    },
+    "f": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "plerocottage:strawberry_shortcake",
+    "count": 1
+  }
+}

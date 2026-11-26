@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/coffee",
+  "textures": {
+    "0": "plerocottage:block/coffee",
+    "1": "plerocottage:block/coffee",
+    "2": "plerocottage:block/coffee",
+    "3": "plerocottage:block/coffee",
+    "4": "plerocottage:block/coffee",
+    "5": "plerocottage:block/coffee",
+    "particle": "plerocottage:block/coffee"
+  }
+}

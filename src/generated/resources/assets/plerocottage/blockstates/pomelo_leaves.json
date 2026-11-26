@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "stage=flowers": {
+      "model": "plerocottage:block/pomelo_leaves_flowers"
+    },
+    "stage=fruitless": {
+      "model": "plerocottage:block/pomelo_leaves_fruitless"
+    },
+    "stage=growing": {
+      "model": "plerocottage:block/pomelo_leaves_growing"
+    },
+    "stage=leaves": {
+      "model": "plerocottage:block/pomelo_leaves_leaves"
+    },
+    "stage=rare_ripe": {
+      "model": "plerocottage:block/pomelo_leaves_rare_ripe"
+    },
+    "stage=ripe": {
+      "model": "plerocottage:block/pomelo_leaves_ripe"
+    },
+    "stage=small": {
+      "model": "plerocottage:block/pomelo_leaves_small"
+    },
+    "stage=unrolled": {
+      "model": "plerocottage:block/pomelo_leaves_unrolled"
+    }
+  }
+}

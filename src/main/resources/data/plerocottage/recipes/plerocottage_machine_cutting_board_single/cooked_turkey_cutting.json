@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:cooked_turkey"
+  },
+  "output": {
+    "count": 2,
+    "item": "plerocottage:cooked_turkey_breast"
+  },
+  "outgrowths": [
+  {
+    "chance": 1.0,
+    "count": 2,
+    "item": "plerocottage:cooked_turkey_wing"
+  },
+  {
+    "chance": 1.0,
+    "count": 2,
+    "item": "plerocottage:cooked_turkey_drumstick"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

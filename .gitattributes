@@ -1,0 +1,14 @@
+# Normalise every text file to LF in the repository, keep Windows scripts native.
+* text=auto eol=lf
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary assets.
+*.jar binary
+*.png binary
+*.ogg binary
+*.zip binary
+
+# Gradle wrapper keeps its own line endings.
+gradlew text eol=lf
+gradlew.bat text eol=crlf

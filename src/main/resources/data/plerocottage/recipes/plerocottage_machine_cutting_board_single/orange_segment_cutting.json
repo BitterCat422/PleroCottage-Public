@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "tag": "forge:fruits/orange"
+  },
+  "output": {
+    "count": 3,
+    "item": "plerocottage:orange_segment"
+  },
+  "outgrowths": [
+  {
+    "chance": 1.0,
+    "count": 1,
+    "item": "plerocottage:orange_seeds"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

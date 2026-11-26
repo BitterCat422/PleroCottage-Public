@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "plerocottage:block/marble_brick",
+    "side": "plerocottage:block/marble_brick",
+    "top": "plerocottage:block/marble_brick"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:corn_flour"
+    },
+    {
+      "item": "plerocottage:corn_flour"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    }
+  ],
+  "isShaped": false,
+  "output": {
+    "count": 2,
+    "item": "plerocottage:corn_dough"
+  }
+}

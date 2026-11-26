@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/einspanner",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/einspanner",
+    "1": "plerocottage:block/einspanner",
+    "2": "plerocottage:block/einspanner",
+    "3": "plerocottage:block/einspanner",
+    "4": "plerocottage:block/einspanner",
+    "5": "plerocottage:block/einspanner",
+    "particle": "plerocottage:block/einspanner"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "avocado_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:avocado_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:avocado_tree_chest_boat"
+  }
+}

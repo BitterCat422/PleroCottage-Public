@@ -1,0 +1,82 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "random_mirror": false,
+            "random_rotation": false,
+            "structure": "plerocottage:banana_tree_4block"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "random_mirror": false,
+            "random_rotation": false,
+            "structure": "plerocottage:banana_tree_4block"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "random_mirror": false,
+            "random_rotation": false,
+            "structure": "plerocottage:banana_tree_5block"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "random_mirror": false,
+            "random_rotation": false,
+            "structure": "plerocottage:banana_tree_5block"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "random_mirror": false,
+            "random_rotation": false,
+            "structure": "plerocottage:banana_tree_6block"
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

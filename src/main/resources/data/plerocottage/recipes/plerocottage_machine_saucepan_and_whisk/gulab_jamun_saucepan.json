@@ -1,0 +1,36 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:bottled_olive_oil"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "plerocottage:flour"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:apricot_kernel"
+    },
+    {
+      "item": "plerocottage:saffron"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "plerocottage:rosa_water"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:gulab_jamuns"
+  }
+}

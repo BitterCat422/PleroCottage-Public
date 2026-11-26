@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "plerocottage:rutaceae_tree_planks"
+    },
+    "b": {
+      "item": "plerocottage:rutaceae_tree_trapdoor"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "item": "plerocottage:rutaceae_tree_cabinet"
+  },
+  "show_notification": true
+}

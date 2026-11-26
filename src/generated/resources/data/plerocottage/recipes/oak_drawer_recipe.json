@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:oak_planks"
+    },
+    "b": {
+      "item": "minecraft:oak_trapdoor"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aba"
+  ],
+  "result": {
+    "item": "plerocottage:oak_drawer"
+  },
+  "show_notification": true
+}

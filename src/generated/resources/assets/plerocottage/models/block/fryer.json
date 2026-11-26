@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/fryer",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/fryer",
+    "all": "plerocottage:block/fryer",
+    "particle": "plerocottage:block/fryer"
+  }
+}

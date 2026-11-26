@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "hawthorn_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:hawthorn_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:hawthorn_tree_chest_boat"
+  }
+}

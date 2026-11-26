@@ -1,0 +1,35 @@
+# Build outputs, runtime files and datagen cache (not the generated resources).
+.gradle/
+build/
+run/
+run-data/
+out/
+bin/
+logs/
+*.log
+*.class
+/src/generated/resources/.cache/
+
+# IDE and local tool files.
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+/.codex/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local files, backups and reference checkouts.
+/src/main/resources/META-INF/mods.toml.bak
+/AGENTS.md
+/PleroCottage.zip
+/build_jar.bat
+/run_data.bat
+/libs/
+/libs.lnk
+/ref-workspace/

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "a",
+    "b",
+    "c"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:boxed_milk"
+    },
+    "b": {
+      "item": "plerocottage:sweet_hot_cocoa"
+    },
+    "c": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "plerocottage:boxed_chocolate_milk",
+    "count": 1
+  }
+}

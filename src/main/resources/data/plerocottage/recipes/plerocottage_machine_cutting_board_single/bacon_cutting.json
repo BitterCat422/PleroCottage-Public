@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "minecraft:cooked_porkchop"
+  },
+  "output": {
+    "count": 3,
+    "item": "plerocottage:bacon"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

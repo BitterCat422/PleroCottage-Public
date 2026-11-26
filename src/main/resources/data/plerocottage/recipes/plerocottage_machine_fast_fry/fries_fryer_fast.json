@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:fast_fry",
+  "input": {
+    "item": "minecraft:baked_potato"
+  },
+  "output": {
+    "item": "plerocottage:fries"
+  }
+}

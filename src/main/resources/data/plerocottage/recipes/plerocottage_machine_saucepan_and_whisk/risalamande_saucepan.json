@@ -1,0 +1,31 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:cooked_rice"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:cooked_almonds"
+    },
+    {
+      "tag": "forge:fruits/cherry"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:risalamande"
+  }
+}

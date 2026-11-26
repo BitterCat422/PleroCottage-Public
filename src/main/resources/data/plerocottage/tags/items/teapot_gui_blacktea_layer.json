@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:black_tea",
+    "plerocottage:earl_grey_tea",
+    "plerocottage:suutei_tsai",
+    "plerocottage:saffron_tea",
+    "plerocottage:russian_tea",
+    "plerocottage:po_cha"
+  ]
+}

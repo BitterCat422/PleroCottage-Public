@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "cherries_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:cherries_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:cherries_tree_planks"
+  }
+}

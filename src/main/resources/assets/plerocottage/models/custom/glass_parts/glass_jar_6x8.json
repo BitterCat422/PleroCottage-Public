@@ -1,0 +1,98 @@
+{
+	"format_version": "1.9.0",
+	"credit": "Made with Blockbench",
+	"texture_size": [32, 32],
+	"elements": [
+		{
+			"from": [5, 0.1, 5],
+			"to": [11, 8.1, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 0.1, 5]},
+			"faces": {
+				"north": {"uv": [5, 4, 8, 8], "texture": "#glasses"},
+				"east": {"uv": [5, 4, 8, 8], "texture": "#glasses"},
+				"south": {"uv": [5, 4, 8, 8], "texture": "#glasses"},
+				"west": {"uv": [5, 4, 8, 8], "texture": "#glasses"},
+				"up": {"uv": [10.5, 10, 13, 12.5], "texture": "#glasses"},
+				"down": {"uv": [10.5, 10, 13, 12.5], "texture": "#glasses"}
+			}
+		},
+		{
+			"from": [5.5, 8, 5.5],
+			"to": [10.5, 9, 10.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.5, 8, 5.5]},
+			"faces": {
+				"north": {"uv": [8, 12, 10.5, 12.5], "texture": "#glasses"},
+				"east": {"uv": [8, 12, 10.5, 12.5], "texture": "#glasses"},
+				"south": {"uv": [8, 12, 10.5, 12.5], "texture": "#glasses"},
+				"west": {"uv": [8, 12, 10.5, 12.5], "texture": "#glasses"},
+				"up": {"uv": [8, 10, 10.5, 12.5], "texture": "#glasses"},
+				"down": {"uv": [10.5, 10, 13, 12.5], "texture": "#glasses"}
+			}
+		},
+		{
+			"from": [11, 8.1, 11],
+			"to": [5, 0.1, 5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 8.1, 11]},
+			"faces": {
+				"north": {"uv": [0, 1, 0.5, 6], "texture": "#glasses"},
+				"east": {"uv": [0, 1, 0.5, 6], "texture": "#glasses"},
+				"south": {"uv": [0, 1, 0.5, 6], "texture": "#glasses"},
+				"west": {"uv": [0, 1, 0.5, 6], "texture": "#glasses"},
+				"up": {"uv": [0, 0, 0.5, 2], "texture": "#glasses"},
+				"down": {"uv": [8, 8, 10, 10], "texture": "#glasses"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 55],
+			"translation": [0, 4, 2.5],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, 55],
+			"translation": [0, 4, 2.5],
+			"scale": [0.85, 0.85, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [-20, 110, 15],
+			"translation": [1, 5.1, 0.8],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-20, 110, 15],
+			"translation": [1, 5.1, 0.8],
+			"scale": [0.68, 0.68, 0.68]
+		},
+		"ground": {
+			"translation": [0, 2, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [25, 45, -15],
+			"translation": [0.75, 2.25, 0],
+			"scale": [1.2, 1.2, 1.2]
+		},
+		"head": {
+			"translation": [0, 14.25, 0]
+		},
+		"fixed": {
+			"rotation": [-90, 0, 0],
+			"translation": [0, 0, -16],
+			"scale": [2, 2, 2]
+		},
+		"on_shelf": {
+			"rotation": [0, -135, 15],
+			"scale": [3, 3, 3]
+		}
+	},
+	"groups": [
+		{
+			"name": "glass",
+			"origin": [5, 0.1, 5],
+			"scope": 0,
+			"color": 0,
+			"children": [0, 1, 2]
+		}
+	]
+}

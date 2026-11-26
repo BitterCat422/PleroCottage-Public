@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/whiskey",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/whiskey",
+    "1": "plerocottage:block/whiskey",
+    "2": "plerocottage:block/whiskey",
+    "3": "plerocottage:block/whiskey",
+    "4": "plerocottage:block/whiskey",
+    "5": "plerocottage:block/whiskey",
+    "particle": "plerocottage:block/whiskey"
+  }
+}

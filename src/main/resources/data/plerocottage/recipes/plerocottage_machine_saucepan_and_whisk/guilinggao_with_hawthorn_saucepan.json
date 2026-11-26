@@ -1,0 +1,33 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "item": "plerocottage:mugwort"
+    },
+    {
+      "item": "minecraft:scute"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "plerocottage:hawthorn_flakes"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:guilinggao"
+  }
+}

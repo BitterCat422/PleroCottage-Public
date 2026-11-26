@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,waterlogged=false": {
+      "model": "plerocottage:block/pudding_a_la_mode",
+      "y": 90
+    },
+    "facing=east,waterlogged=true": {
+      "model": "plerocottage:block/pudding_a_la_mode",
+      "y": 90
+    },
+    "facing=north,waterlogged=false": {
+      "model": "plerocottage:block/pudding_a_la_mode"
+    },
+    "facing=north,waterlogged=true": {
+      "model": "plerocottage:block/pudding_a_la_mode"
+    },
+    "facing=south,waterlogged=false": {
+      "model": "plerocottage:block/pudding_a_la_mode",
+      "y": 180
+    },
+    "facing=south,waterlogged=true": {
+      "model": "plerocottage:block/pudding_a_la_mode",
+      "y": 180
+    },
+    "facing=west,waterlogged=false": {
+      "model": "plerocottage:block/pudding_a_la_mode",
+      "y": 270
+    },
+    "facing=west,waterlogged=true": {
+      "model": "plerocottage:block/pudding_a_la_mode",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingTime": 1200,
+  "input": [
+    {
+      "item": "plerocottage:white_wine"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:champagne"
+  }
+}

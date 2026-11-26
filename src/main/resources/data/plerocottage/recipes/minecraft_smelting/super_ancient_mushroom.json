@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.35,
+  "cookingtime": 300,
+  "ingredient": {
+    "item": "plerocottage:debrishroom"
+  },
+  "result": "plerocottage:super_ancient_mushroom"
+}

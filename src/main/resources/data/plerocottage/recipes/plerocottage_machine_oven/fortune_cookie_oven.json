@@ -1,0 +1,17 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 100,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "item": "plerocottage:fortune_cookie"
+  },
+  "temperature": 200
+}

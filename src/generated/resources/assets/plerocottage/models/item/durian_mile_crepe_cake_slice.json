@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "plerocottage:item/durian_mile_crepe_cake_slice"
+  }
+}

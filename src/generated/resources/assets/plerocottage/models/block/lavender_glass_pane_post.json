@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_glass_pane_post",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "edge": "plerocottage:block/lavender_glass_pane_top",
+    "pane": "plerocottage:block/lavender_glass",
+    "particle": "plerocottage:block/lavender_glass"
+  }
+}

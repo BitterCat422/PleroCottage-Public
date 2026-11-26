@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "tag": "minecraft:wooden_slabs"
+    },
+    "b": {
+      "tag": "forge:stripped_wood"
+    }
+  },
+  "pattern": [
+    "aaa",
+    " b "
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:plate"
+  },
+  "show_notification": true
+}

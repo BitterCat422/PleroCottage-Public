@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 200,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "plerocottage:brown_sugar"
+    },
+    {
+      "item": "plerocottage:cinnamon_powder"
+    },
+    {
+      "item": "plerocottage:cream_cheese"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:cinnamon_roll"
+  },
+  "temperature": 200
+}

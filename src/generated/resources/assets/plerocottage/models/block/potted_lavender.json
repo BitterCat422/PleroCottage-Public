@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/potted_lavender",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/lavender_big",
+    "1": "plerocottage:block/lavender_small",
+    "all": "plerocottage:block/lavender",
+    "dirt": "minecraft:block/dirt",
+    "flowerpot": "minecraft:block/flower_pot",
+    "particle": "plerocottage:block/lavender"
+  }
+}

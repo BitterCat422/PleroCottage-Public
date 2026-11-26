@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/kvass",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/kvass",
+    "1": "plerocottage:block/kvass",
+    "2": "plerocottage:block/kvass",
+    "3": "plerocottage:block/kvass",
+    "4": "plerocottage:block/kvass",
+    "5": "plerocottage:block/kvass",
+    "particle": "plerocottage:block/kvass"
+  }
+}

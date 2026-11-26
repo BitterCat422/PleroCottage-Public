@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/ota_ika",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "0": "plerocottage:block/ota_ika",
+    "1": "plerocottage:block/ota_ika",
+    "2": "plerocottage:block/ota_ika",
+    "3": "plerocottage:block/ota_ika",
+    "4": "plerocottage:block/ota_ika",
+    "5": "plerocottage:block/ota_ika",
+    "particle": "plerocottage:block/ota_ika"
+  }
+}

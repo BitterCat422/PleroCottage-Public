@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/figgy_pudding",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/figgy_pudding",
+    "1": "plerocottage:block/figgy_pudding",
+    "2": "plerocottage:block/figgy_pudding",
+    "3": "plerocottage:block/figgy_pudding",
+    "4": "plerocottage:block/figgy_pudding",
+    "5": "plerocottage:block/figgy_pudding",
+    "particle": "plerocottage:block/figgy_pudding"
+  }
+}

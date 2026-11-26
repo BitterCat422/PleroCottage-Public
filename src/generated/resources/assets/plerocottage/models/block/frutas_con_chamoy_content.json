@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/frutas_con_chamoy_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/frutas_con_chamoy",
+    "particle": "plerocottage:block/frutas_con_chamoy"
+  }
+}

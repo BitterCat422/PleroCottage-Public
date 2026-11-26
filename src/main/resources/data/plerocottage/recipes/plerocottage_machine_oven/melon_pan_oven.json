@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "item": "plerocottage:butter"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:melon_pan"
+  },
+  "temperature": 150
+}

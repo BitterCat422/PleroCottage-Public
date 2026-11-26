@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/grimace_shake_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/grimace_shake",
+    "particle": "plerocottage:block/grimace_shake"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "plerocottage:raw_turkey_breast"
+  },
+  "result": "plerocottage:cooked_turkey_breast"
+}

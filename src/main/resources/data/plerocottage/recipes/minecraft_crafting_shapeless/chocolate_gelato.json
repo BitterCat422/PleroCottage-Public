@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:ice_cream_cone"
+    },
+    {
+      "item": "plerocottage:scoop_of_chocolate_ice_cream"
+    },
+    {
+      "item": "plerocottage:rainbow_chocolate_candies"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:chocolate_gelato",
+    "count": 1
+  }
+}

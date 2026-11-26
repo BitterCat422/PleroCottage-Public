@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:shaker",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "input": [
+    {
+      "item": "plerocottage:yogurt"
+    },
+    {
+      "tag": "forge:fruits/blueberries"
+    },
+    {
+      "tag": "forge:fruits/blueberries"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:blueberry_yogurt"
+  }
+}

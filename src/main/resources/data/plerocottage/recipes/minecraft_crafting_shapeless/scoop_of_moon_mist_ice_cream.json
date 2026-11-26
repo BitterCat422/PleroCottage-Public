@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:vanilla_ice_cream_fluid_bucket"
+    },
+    {
+      "tag": "forge:fruits/grapes"
+    },
+    {
+      "tag": "forge:fruits/grapes"
+    },
+    {
+      "item": "plerocottage:blue_raspberry_bubble_gum"
+    },
+    {
+      "item": "plerocottage:banana_slices"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:scoop_of_moon_mist_ice_cream",
+    "count": 4
+  }
+}

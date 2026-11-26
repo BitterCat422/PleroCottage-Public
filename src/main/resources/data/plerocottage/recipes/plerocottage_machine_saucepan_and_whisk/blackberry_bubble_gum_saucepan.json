@@ -1,0 +1,28 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "plerocottage:blackberry"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:holly_berries"
+    },
+    {
+      "item": "plerocottage:cloves"
+    },
+    {
+      "item": "plerocottage:cinnamon_powder"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "item": "plerocottage:blackberry_bubble_gum"
+  }
+}

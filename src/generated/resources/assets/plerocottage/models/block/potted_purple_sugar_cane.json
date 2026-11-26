@@ -1,0 +1,11 @@
+{
+  "parent": "plerocottage:custom/potted_purple_sugar_cane",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/potted_purple_sugar_cane",
+    "all": "plerocottage:block/potted_purple_sugar_cane",
+    "dirt": "minecraft:block/dirt",
+    "flower_pot": "minecraft:block/flower_pot",
+    "particle": "plerocottage:block/potted_purple_sugar_cane"
+  }
+}

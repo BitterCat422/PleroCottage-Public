@@ -1,0 +1,21 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/brandy_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "plerocottage:item/brandy_flat"
+    },
+    "ground": {
+      "parent": "plerocottage:item/brandy_flat"
+    },
+    "gui": {
+      "parent": "plerocottage:item/brandy_flat"
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/brandy"
+  }
+}

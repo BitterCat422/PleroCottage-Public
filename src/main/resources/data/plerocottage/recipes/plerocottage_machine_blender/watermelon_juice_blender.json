@@ -1,0 +1,32 @@
+{
+  "type": "plerocottage:blender",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mainInput": [
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "minecraft:melon_slice"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "minecraft:melon_slice"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:watermelon_juice"
+  }
+}

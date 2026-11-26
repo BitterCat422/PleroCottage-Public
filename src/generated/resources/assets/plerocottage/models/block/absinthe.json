@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/absinthe",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/absinthe",
+    "1": "plerocottage:block/absinthe",
+    "2": "plerocottage:block/absinthe",
+    "3": "plerocottage:block/absinthe",
+    "4": "plerocottage:block/absinthe",
+    "5": "plerocottage:block/absinthe",
+    "particle": "plerocottage:block/absinthe"
+  }
+}

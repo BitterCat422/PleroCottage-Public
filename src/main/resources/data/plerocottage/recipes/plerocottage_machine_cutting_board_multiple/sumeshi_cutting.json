@@ -1,0 +1,16 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:rice_vinegar"
+    },
+    {
+      "item": "plerocottage:cooked_rice"
+    }
+  ],
+  "isShaped": false,
+  "output": {
+    "count": 2,
+    "item": "plerocottage:sumeshi"
+  }
+}

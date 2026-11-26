@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "plerocottage:block/rosaceae_tree_planks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/sakura",
+    "all": "plerocottage:block/sakura",
+    "dirt": "minecraft:block/dirt",
+    "flower_pot": "minecraft:block/flower_pot",
+    "particle": "plerocottage:block/sakura",
+    "plant": "plerocottage:block/sakura"
+  }
+}

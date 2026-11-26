@@ -1,0 +1,335 @@
+package net.bittercat.plerocottage.machine.compat.plerocottage;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.tags.BlockTags;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.material.Fluid;
+import net.minecraft.world.level.material.Fluids;
+import net.minecraftforge.fluids.FluidStack;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.bittercat.plerocottage.machine.PleroCottageMachine;
+import net.bittercat.plerocottage.machine.blocks.CooktopBlock;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class PleroCottageCompat {
+    public static final String MOD_ID = "plerocottage";
+
+    public static final TagKey<Item> ICE_CREAM_AND_CONE = ItemTags.create(getPleroCottageResourceLocation("ice_cream_and_cone"));
+    public static final TagKey<Item> DAMAGEABLE_MATERIAL = ItemTags.create(getPleroCottageResourceLocation("damageable_material"));
+    
+    public static final TagKey<Item> TEAPOT_GUI_MUG_APRICOT_KERNEL = ItemTags.create(getPleroCottageResourceLocation("teapot_gui_apricotkernel_layer"));
+    public static final TagKey<Item> TEAPOT_GUI_MUG_BLACK_TEA = ItemTags.create(getPleroCottageResourceLocation("teapot_gui_blacktea_layer"));
+    public static final TagKey<Item> TEAPOT_GUI_MUG_COCOA = ItemTags.create(getPleroCottageResourceLocation("teapot_gui_cocoa_layer"));
+    public static final TagKey<Item> TEAPOT_GUI_MUG_COFFEE = ItemTags.create(getPleroCottageResourceLocation("teapot_gui_coffee_layer"));
+    public static final TagKey<Item> TEAPOT_GUI_MUG_GREEN_TEA = ItemTags.create(getPleroCottageResourceLocation("teapot_gui_greentea_layer"));
+    public static final TagKey<Item> TEAPOT_GUI_MUG_MATCHA = ItemTags.create(getPleroCottageResourceLocation("teapot_gui_matcha_layer"));
+    public static final TagKey<Item> TEAPOT_GUI_MUG_CHAMOMILE = ItemTags.create(getPleroCottageResourceLocation("teapot_gui_chamomile_layer"));
+    public static final TagKey<Item> TEAPOT_GUI_MUG_MATE = ItemTags.create(getPleroCottageResourceLocation("teapot_gui_mate_layer"));
+    public static final TagKey<Item> TEAPOT_GUI_MUG_MINT = ItemTags.create(getPleroCottageResourceLocation("teapot_gui_mint_layer"));
+    
+    public static final TagKey<Item> TEAPOT_GUI_GLASS_BOTTLE_MILK_TEA = ItemTags.create(getPleroCottageResourceLocation("teapot_gui_milktea_layer"));
+    public static final TagKey<Item> CATALYSTS = ItemTags.create(getPleroCottageResourceLocation("catalysts"));
+    public static final TagKey<Item> CATALYSTS_A = ItemTags.create(getPleroCottageResourceLocation("catalyst_type_a"));
+    public static final TagKey<Item> CATALYSTS_B = ItemTags.create(getPleroCottageResourceLocation("catalyst_type_b"));
+    public static final TagKey<Item> CATALYSTS_C = ItemTags.create(getPleroCottageResourceLocation("catalyst_type_c"));
+    public static final TagKey<Item> CATALYSTS_X = ItemTags.create(getPleroCottageResourceLocation("catalyst_type_x"));
+    public static final TagKey<Item> KNIVES = ItemTags.create(getForgeResourceLocation("tools/knives"));
+    public static final TagKey<Item> ROLLING_PINS = ItemTags.create(getForgeResourceLocation("tools/rolling_pins"));
+
+    public static final TagKey<Item> OUTPUT_FLUID = ItemTags.create(getPleroCottageResourceLocation("blender_output_type_fluid"));
+    public static final TagKey<Item> OUTPUT_POWDER = ItemTags.create(getPleroCottageResourceLocation("blender_output_type_powder"));
+
+    public static final TagKey<Block> TEAPOT_HEAT_BLOCKS = BlockTags.create(getPleroCottageResourceLocation("teapot_heat_blocks"));
+    public static final TagKey<Block> STOCK_POT_HEAT_BLOCKS = BlockTags.create(getPleroCottageResourceLocation("stock_pot_heat_blocks"));
+    public static final TagKey<Block> SAUCEPAN_AND_WHISK_HEAT_BLOCKS = BlockTags.create(getPleroCottageResourceLocation("saucepan_and_whisk_heat_blocks"));
+
+    public static final Map<String, String> STRING_MAP = Map.of(
+            "olive_oil_bucket", "olive_oil",
+            "vanilla_ice_cream_fluid_bucket", "vanilla_ice_cream_fluid",
+            "blueberry_ice_cream_fluid_bucket", "blueberry_ice_cream_fluid",
+            "cherries_ice_cream_fluid_bucket", "cherries_ice_cream_fluid",
+            "starfruit_ice_cream_fluid_bucket", "starfruit_ice_cream_fluid",
+            "chocolate_ice_cream_fluid_bucket", "chocolate_ice_cream_fluid",
+            "jalapeno_ice_cream_fluid_bucket", "jalapeno_ice_cream_fluid"
+    );
+
+    public static final List<Fluid> OIL_FLUIDS = new ArrayList<>();
+
+    public static final Map<Item, Fluid> BUCKET_FLUID_MAP = new HashMap<>();
+
+    static {
+        STRING_MAP.forEach((itemName, fluidName) -> {
+            Item item = getPleroCottageItem(itemName);
+            Fluid fluid = getManorBountyFluid(fluidName);
+            if (item != Items.AIR && fluid != Fluids.EMPTY) {
+                if (fluidName.equals("olive_oil")) {
+                    OIL_FLUIDS.add(fluid);
+                }
+                BUCKET_FLUID_MAP.put(item, fluid);
+            }
+        });
+    }
+
+    public static ResourceLocation getPleroCottageResourceLocation(String name) {
+        return ResourceLocation.fromNamespaceAndPath(MOD_ID, name);
+    }
+
+    public static ResourceLocation getForgeResourceLocation(String name) {
+        return ResourceLocation.fromNamespaceAndPath("forge", name);
+    }
+
+    public static Item getPleroCottageItem(String name) {
+        return ForgeRegistries.ITEMS.getValue(getPleroCottageResourceLocation(name));
+    }
+
+    public static ItemStack getPleroCottageItemStack(String name, int count) {
+        return getPleroCottageItem(name).getDefaultInstance().copyWithCount(count);
+    }
+
+    public static ItemStack getPleroCottageItemStack(String name) {
+        return getPleroCottageItemStack(name, 1);
+    }
+
+    public static Fluid getManorBountyFluid(String name) {
+        return ForgeRegistries.FLUIDS.getValue(getPleroCottageResourceLocation(name));
+    }
+
+    public static boolean isIceCreamAndCone(ItemStack itemStack) {
+        return itemStack.is(ICE_CREAM_AND_CONE) || SlotInputLimitManager.ICE_CREAM_MACHINE_INPUT_LIMIT.stream().anyMatch(ingredient -> ingredient.test(itemStack));
+    }
+
+    public static boolean isDamageableMaterial(ItemStack itemStack) {
+        return itemStack.is(DAMAGEABLE_MATERIAL);
+    }
+
+    public static boolean isDeformedGlassBottle(ItemStack itemStack) {
+        Item item = getPleroCottageItem("deformed_glass_bottle");
+        if (item == Items.AIR) {
+            return false;
+        }
+        return itemStack.is(item);
+    }
+
+    public static boolean isDeformedWineBottle(ItemStack itemStack) {
+        Item item = getPleroCottageItem("deformed_wine_bottle");
+        if (item == Items.AIR) {
+            return false;
+        }
+        return itemStack.is(item);
+    }
+
+    public static boolean isTeapotGuiGlassBottle(ItemStack itemStack) {
+        return itemStack.is(Items.GLASS_BOTTLE)
+                || itemStack.getCraftingRemainingItem().is(Items.GLASS_BOTTLE);
+
+    }
+
+    public static boolean isTeapotGuiMug(ItemStack itemStack) {
+        Item item = getPleroCottageItem("cup");
+        if (item == Items.AIR) {
+            return false;
+        }
+        return itemStack.is(item) || itemStack.getCraftingRemainingItem().is(item);
+
+    }
+
+    public static boolean isTeapotGuiGlassBottleMilkTea(ItemStack itemStack) {
+        return itemStack.is(TEAPOT_GUI_GLASS_BOTTLE_MILK_TEA);
+    }
+
+    public static boolean isTeapotGuiMugApricotKernel(ItemStack itemStack) {
+        return itemStack.is(TEAPOT_GUI_MUG_APRICOT_KERNEL);
+    }
+
+    public static boolean isTeapotGuiMugBlackTea(ItemStack itemStack) {
+        return itemStack.is(TEAPOT_GUI_MUG_BLACK_TEA);
+    }
+
+    public static boolean isTeapotGuiMugCocoa(ItemStack itemStack) {
+        return itemStack.is(TEAPOT_GUI_MUG_COCOA);
+    }
+
+    public static boolean isTeapotGuiMugCoffee(ItemStack itemStack) {
+        return itemStack.is(TEAPOT_GUI_MUG_COFFEE);
+    }
+
+    public static boolean isTeapotGuiMugGreenTea(ItemStack itemStack) {
+        return itemStack.is(TEAPOT_GUI_MUG_GREEN_TEA);
+    }
+
+    public static boolean isTeapotGuiMugMatcha(ItemStack itemStack) {
+        return itemStack.is(TEAPOT_GUI_MUG_MATCHA);
+    }
+
+    public static boolean isTeapotGuiMugChamomile(ItemStack itemStack) {
+        return itemStack.is(TEAPOT_GUI_MUG_CHAMOMILE);
+    }
+
+    public static boolean isTeapotGuiMugMate(ItemStack itemStack) {
+        return itemStack.is(TEAPOT_GUI_MUG_MATE);
+    }
+
+    public static boolean isTeapotGuiMugMint(ItemStack itemStack) {
+        return itemStack.is(TEAPOT_GUI_MUG_MINT);
+    }
+
+    public static boolean isCatalysts(ItemStack itemStack) {
+        return itemStack.is(CATALYSTS);
+    }
+
+    public static boolean isCatalystsA(ItemStack itemStack) {
+        return itemStack.is(CATALYSTS_A);
+    }
+
+    public static boolean isCatalystsB(ItemStack itemStack) {
+        return itemStack.is(CATALYSTS_B);
+    }
+
+    public static boolean isCatalystsC(ItemStack itemStack) {
+        return itemStack.is(CATALYSTS_C);
+    }
+
+    public static boolean isCatalystsX(ItemStack itemStack) {
+        return itemStack.is(CATALYSTS_X);
+    }
+
+    public static ResourceLocation getTeapotGuiTexture(TagKey<Item> tag) {
+        return tag.location().withPrefix("textures/gui/teapot_gui/").withSuffix(".png");
+    }
+
+    public static ResourceLocation getTeapotGuiTexture(String modid, TagKey<Item> tag) {
+        return ResourceLocation.fromNamespaceAndPath(modid, getTeapotGuiTexture(tag).getPath());
+    }
+
+    public static ResourceLocation getTeapotGuiGlassBottleMilkTeaTexture() {
+        return getTeapotGuiTexture(PleroCottageMachine.MOD_ID, TEAPOT_GUI_GLASS_BOTTLE_MILK_TEA);
+    }
+
+    public static ResourceLocation getTeapotGuiMugApricotKernelTexture() {
+        return getTeapotGuiTexture(PleroCottageMachine.MOD_ID, TEAPOT_GUI_MUG_APRICOT_KERNEL);
+    }
+
+    public static ResourceLocation getTeapotGuiMugBlackTeaTexture() {
+        return getTeapotGuiTexture(PleroCottageMachine.MOD_ID, TEAPOT_GUI_MUG_BLACK_TEA);
+    }
+
+    public static ResourceLocation getTeapotGuiMugCocoaTexture() {
+        return getTeapotGuiTexture(PleroCottageMachine.MOD_ID, TEAPOT_GUI_MUG_COCOA);
+    }
+
+    public static ResourceLocation getTeapotGuiMugCoffeeTexture() {
+        return getTeapotGuiTexture(PleroCottageMachine.MOD_ID, TEAPOT_GUI_MUG_COFFEE);
+    }
+
+    public static ResourceLocation getTeapotGuiMugGreenTeaTexture() {
+        return getTeapotGuiTexture(PleroCottageMachine.MOD_ID, TEAPOT_GUI_MUG_GREEN_TEA);
+    }
+
+    public static ResourceLocation getTeapotGuiMugMatchaTexture() {
+        return getTeapotGuiTexture(PleroCottageMachine.MOD_ID, TEAPOT_GUI_MUG_MATCHA);
+    }
+
+    public static ResourceLocation getTeapotGuiMugChamomileTexture() {
+        return getTeapotGuiTexture(PleroCottageMachine.MOD_ID, TEAPOT_GUI_MUG_CHAMOMILE);
+    }
+
+    public static ResourceLocation getTeapotGuiMugMateTexture() {
+        return getTeapotGuiTexture(PleroCottageMachine.MOD_ID, TEAPOT_GUI_MUG_MATE);
+    }
+
+    public static ResourceLocation getTeapotGuiMugMintTexture() {
+        return getTeapotGuiTexture(PleroCottageMachine.MOD_ID, TEAPOT_GUI_MUG_MINT);
+    }
+
+    public static boolean isIceCreamCone(ItemStack itemStack) {
+        Item item = getPleroCottageItem("ice_cream_cone");
+        if (item == Items.AIR) {
+            return false;
+        }
+        return itemStack.is(item);
+    }
+
+    public static boolean isBottledWater(ItemStack itemStack) {
+        Item item = getPleroCottageItem("bottled_water");
+        if (item == Items.AIR) {
+            return false;
+        }
+        return itemStack.is(item);
+    }
+
+    public static boolean isBoxedMilk(ItemStack itemStack) {
+        Item item = getPleroCottageItem("boxed_milk");
+        if (item == Items.AIR) {
+            return false;
+        }
+        return itemStack.is(item);
+    }
+
+    public static boolean isKnife(ItemStack itemStack) {
+        return itemStack.is(KNIVES);
+    }
+
+    public static boolean isAxe(ItemStack itemStack) {
+        return itemStack.is(ItemTags.AXES);
+    }
+
+    public static boolean isOutputFluid(ItemStack itemStack) {
+        return itemStack.is(OUTPUT_FLUID);
+    }
+
+    public static boolean isOutputPowder(ItemStack itemStack) {
+        return itemStack.is(OUTPUT_POWDER);
+    }
+
+    public static boolean isRollingPin(ItemStack itemStack) {
+        return itemStack.is(ROLLING_PINS);
+    }
+
+    public static boolean isCookTopRunningOrTrue(BlockState blockState) {
+        return blockState.hasProperty(CooktopBlock.RUNNING) ? blockState.getValue(CooktopBlock.RUNNING) : true;
+    }
+
+    public static boolean isOnTeapotHeatBlock(BlockState blockState) {
+        return blockState.is(TEAPOT_HEAT_BLOCKS) && isCookTopRunningOrTrue(blockState) || blockState.is(Blocks.MAGMA_BLOCK);
+    }
+
+    public static boolean isStockPotHeatBlock(BlockState blockState) {
+        return blockState.is(STOCK_POT_HEAT_BLOCKS) && isCookTopRunningOrTrue(blockState) || blockState.is(Blocks.MAGMA_BLOCK);
+    }
+
+    public static boolean isSaucepanAndWhiskHeatBlock(BlockState blockState) {
+        return blockState.is(SAUCEPAN_AND_WHISK_HEAT_BLOCKS) && isCookTopRunningOrTrue(blockState) || blockState.is(Blocks.MAGMA_BLOCK);
+    }
+
+    public static boolean isOilFluid(FluidStack fluidStack) {
+        return OIL_FLUIDS.contains(fluidStack.getFluid());
+    }
+
+    public static boolean isIceCreamFluid(FluidStack fluidStack) {
+        return SlotInputLimitManager.ICE_CREAM_MACHINE_FLUID_LIMIT.stream().anyMatch(fluid -> fluid.isSame(fluidStack.getFluid()));
+    }
+
+    public static void damageItem(ItemStack stack, Level level) {
+        damageItem(1, stack, level);
+    }
+
+    public static void damageItem(int amount, ItemStack stack, Level level) {
+        if (level.isClientSide()) return;
+        if (stack.hurt(amount, level.random, null)) {
+            stack.shrink(1);
+            stack.setDamageValue(0);
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "rutaceae_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:rutaceae_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:rutaceae_tree_button"
+  }
+}

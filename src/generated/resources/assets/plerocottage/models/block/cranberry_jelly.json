@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/cranberry_jelly",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "0": "plerocottage:block/cranberry_jelly",
+    "1": "plerocottage:block/cranberry_jelly",
+    "2": "plerocottage:block/cranberry_jelly",
+    "3": "plerocottage:block/cranberry_jelly",
+    "4": "plerocottage:block/cranberry_jelly",
+    "5": "plerocottage:block/cranberry_jelly",
+    "particle": "plerocottage:block/cranberry_jelly"
+  }
+}

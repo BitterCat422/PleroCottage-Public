@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "tag": "forge:dyes"
+    },
+    {
+      "item": "plerocottage:grenadine"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:eyeball_jelly",
+    "count": 2
+  }
+}

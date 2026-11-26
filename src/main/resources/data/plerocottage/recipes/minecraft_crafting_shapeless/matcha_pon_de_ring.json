@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:pon_de_ring"
+    },
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:matcha_powder"
+    },
+    {
+      "item": "plerocottage:ganache"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:matcha_pon_de_ring",
+    "count": 1
+  }
+}

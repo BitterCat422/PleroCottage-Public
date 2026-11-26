@@ -1,0 +1,48 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:stripped_coconut_tree_log"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:water_bucket"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "plerocottage:minecraft_crafting_shaped/sago"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_material_1",
+      "has_material_2"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "plerocottage:minecraft_crafting_shaped/sago"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:fast_fry",
+  "input": {
+    "item": "minecraft:cooked_porkchop"
+  },
+  "output": {
+    "item": "plerocottage:fried_porkchop"
+  }
+}

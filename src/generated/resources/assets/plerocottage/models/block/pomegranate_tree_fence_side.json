@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_side",
+  "textures": {
+    "texture": "plerocottage:block/pomegranate_tree_planks"
+  }
+}

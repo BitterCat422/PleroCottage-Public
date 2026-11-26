@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:almond_powder"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:meringue"
+    },
+    {
+      "tag": "forge:fruits/raspberry"
+    },
+    {
+      "item": "plerocottage:cream_cheese"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:raspberry_macaron"
+  },
+  "temperature": 150
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "plerocottage:custom/strawberry_bush_new_1",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/strawberry_bush_new_1",
+    "5": "plerocottage:block/strawberry_bush_new_1",
+    "all": "plerocottage:block/strawberry_bush_new_1",
+    "particle": "plerocottage:block/strawberry_bush_new_1"
+  }
+}

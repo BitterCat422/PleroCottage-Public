@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:elderberries"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:lemon_slice"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "item": "plerocottage:elderberry_gummy_bear"
+  }
+}

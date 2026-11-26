@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "plerocottage:marshmallow_skewer"
+  },
+  "result": "plerocottage:campfire_marshmallow"
+}

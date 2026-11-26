@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 100,
+  "input": [
+    {
+      "item": "plerocottage:vanilla_pizza"
+    },
+    {
+      "item": "plerocottage:cooked_beef_cubes"
+    },
+    {
+      "item": "plerocottage:green_bell_pepper_slices"
+    },
+    {
+      "item": "plerocottage:black_olive_fruits"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:supreme_pizza"
+  },
+  "temperature": 150
+}

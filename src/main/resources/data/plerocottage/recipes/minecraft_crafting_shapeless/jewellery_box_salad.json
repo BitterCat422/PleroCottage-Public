@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:bowl"
+    },
+    {
+      "item": "plerocottage:pomegranate_seeds"
+    },
+    {
+      "item": "plerocottage:pomegranate_seeds"
+    },
+    {
+      "tag": "forge:fruits/cranberries"
+    },
+    {
+      "item": "plerocottage:gold_kiwifruit_slice"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:jewellery_box_salad",
+    "count": 1
+  }
+}

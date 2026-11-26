@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/kir_royal_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/kir_royal",
+    "particle": "plerocottage:block/kir_royal"
+  }
+}

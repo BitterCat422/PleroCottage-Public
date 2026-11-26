@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/espresso_con_panna",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "0": "plerocottage:block/espresso_con_panna",
+    "1": "plerocottage:block/espresso_con_panna",
+    "2": "plerocottage:block/espresso_con_panna",
+    "3": "plerocottage:block/espresso_con_panna",
+    "4": "plerocottage:block/espresso_con_panna",
+    "5": "plerocottage:block/espresso_con_panna",
+    "particle": "plerocottage:block/espresso_con_panna"
+  }
+}

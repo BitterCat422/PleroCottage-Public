@@ -1,0 +1,31 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:loaf_slice"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "plerocottage:kiwifruit_slice"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "item": "plerocottage:orange_segment"
+    },
+    {
+      "item": "plerocottage:loaf_slice"
+    }
+  ],
+  "isShaped": true,
+  "output": {
+    "count": 2,
+    "item": "plerocottage:fruit_sandwich"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:cinnise_tree_log"
+  },
+  "output": {
+    "count": 1,
+    "item": "plerocottage:cinnamon"
+  },
+  "outgrowths": [
+  {
+    "chance": 1.0,
+    "count": 1,
+    "item": "plerocottage:stripped_cinnise_tree_log"
+  },
+  {
+    "chance": 0.25,
+    "count": 1,
+    "item": "plerocottage:cinnamon"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/axes"
+  }
+}

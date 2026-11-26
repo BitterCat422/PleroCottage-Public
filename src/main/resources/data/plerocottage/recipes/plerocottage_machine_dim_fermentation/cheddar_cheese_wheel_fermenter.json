@@ -1,0 +1,21 @@
+{
+  "type": "plerocottage:dim_fermentation",
+  "cookingTime": 2400,
+  "input": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "plerocottage:yogurt"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:cheddar_cheese_wheel"
+  }
+}

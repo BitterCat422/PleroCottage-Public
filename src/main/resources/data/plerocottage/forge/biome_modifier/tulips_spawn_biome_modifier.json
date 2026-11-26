@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "plerocottage:mediterranean_plain",
+  "features": "plerocottage:tulips_spawn",
+  "step": "vegetal_decoration"
+}

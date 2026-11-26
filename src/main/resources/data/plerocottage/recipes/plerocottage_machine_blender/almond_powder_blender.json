@@ -1,0 +1,18 @@
+{
+  "type": "plerocottage:blender",
+  "mainInput": [
+    {
+      "item": "plerocottage:cooked_almonds"
+    },
+    {
+      "item": "plerocottage:cooked_almonds"
+    },
+    {
+      "item": "plerocottage:cooked_almonds"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:almond_powder"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1.0,
+  "ingredient": {
+    "item": "plerocottage:dragon_fruit_cactus"
+  },
+  "result": "plerocottage:turquoise_dye"
+}

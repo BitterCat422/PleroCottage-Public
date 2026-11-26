@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "plerocottage:block/marble_brick",
+    "particle": "plerocottage:block/marble_brick"
+  }
+}

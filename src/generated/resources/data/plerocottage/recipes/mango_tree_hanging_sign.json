@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "mango_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:stripped_mango_tree_log"
+    },
+    "-": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "#-#",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "plerocottage:mango_tree_hanging_sign"
+  },
+  "show_notification": true
+}

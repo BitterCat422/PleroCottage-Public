@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/daiquiri_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/daiquiri",
+    "particle": "plerocottage:block/daiquiri"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "plerocottage:cooked_pistachios"
+    },
+    {
+      "tag": "forge:edible_nuts"
+    },
+    [
+    	{
+    	  "item": "plerocottage:rosa_water"
+    	},
+    	{
+    	  "item": "plerocottage:orange_blossom_water"
+    	}
+    ]
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:baklava"
+  },
+  "temperature": 200
+}

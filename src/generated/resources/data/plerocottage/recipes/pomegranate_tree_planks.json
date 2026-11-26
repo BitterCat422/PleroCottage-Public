@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "pomegranate_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:pomegranate_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:pomegranate_tree_planks"
+  }
+}

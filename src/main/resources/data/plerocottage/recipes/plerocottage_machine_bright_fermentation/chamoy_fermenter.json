@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:bright_fermentation",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingTime": 600,
+  "input": [
+    {
+      "item": "plerocottage:prune"
+    },
+    {
+      "item": "plerocottage:jalapeno"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:lime_slice"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:chamoy"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/affogato",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/affogato",
+    "1": "plerocottage:block/affogato",
+    "2": "plerocottage:block/affogato",
+    "3": "plerocottage:block/affogato",
+    "4": "plerocottage:block/affogato",
+    "5": "plerocottage:block/affogato",
+    "particle": "plerocottage:block/affogato"
+  }
+}

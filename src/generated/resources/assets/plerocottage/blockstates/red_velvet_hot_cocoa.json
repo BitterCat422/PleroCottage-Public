@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,waterlogged=false": {
+      "model": "plerocottage:block/red_velvet_hot_cocoa",
+      "y": 90
+    },
+    "facing=east,waterlogged=true": {
+      "model": "plerocottage:block/red_velvet_hot_cocoa",
+      "y": 90
+    },
+    "facing=north,waterlogged=false": {
+      "model": "plerocottage:block/red_velvet_hot_cocoa"
+    },
+    "facing=north,waterlogged=true": {
+      "model": "plerocottage:block/red_velvet_hot_cocoa"
+    },
+    "facing=south,waterlogged=false": {
+      "model": "plerocottage:block/red_velvet_hot_cocoa",
+      "y": 180
+    },
+    "facing=south,waterlogged=true": {
+      "model": "plerocottage:block/red_velvet_hot_cocoa",
+      "y": 180
+    },
+    "facing=west,waterlogged=false": {
+      "model": "plerocottage:block/red_velvet_hot_cocoa",
+      "y": 270
+    },
+    "facing=west,waterlogged=true": {
+      "model": "plerocottage:block/red_velvet_hot_cocoa",
+      "y": 270
+    }
+  }
+}

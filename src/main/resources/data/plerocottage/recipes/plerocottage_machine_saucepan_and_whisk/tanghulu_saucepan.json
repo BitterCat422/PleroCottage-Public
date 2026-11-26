@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:hawthorns"
+    },
+    {
+      "item": "plerocottage:hawthorns"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:tanghulu"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "cherries_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:cherries_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:cherries_tree_button"
+  }
+}

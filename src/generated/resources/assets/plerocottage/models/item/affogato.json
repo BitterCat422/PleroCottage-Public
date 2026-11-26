@@ -1,0 +1,21 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/affogato_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "plerocottage:item/affogato_flat"
+    },
+    "ground": {
+      "parent": "plerocottage:item/affogato_flat"
+    },
+    "gui": {
+      "parent": "plerocottage:item/affogato_flat"
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/affogato"
+  }
+}

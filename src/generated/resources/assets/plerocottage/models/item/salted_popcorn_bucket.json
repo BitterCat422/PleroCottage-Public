@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "plerocottage:item/salted_popcorn_bucket_0",
+      "predicate": {
+        "minecraft:damage": 0.33
+      }
+    },
+    {
+      "model": "plerocottage:item/salted_popcorn_bucket_1",
+      "predicate": {
+        "minecraft:damage": 0.66
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "plerocottage:item/salted_popcorn_bucket"
+  }
+}

@@ -1,0 +1,126 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_material_1": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:sweet_dough"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_2": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:fig_slice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_3": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:raisins"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_4": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:mixed_spice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_5": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:brown_sugar"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_6": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:glass_of_brandy"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_7": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:custard"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_material_8": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:holly_berries"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "plerocottage:plerocottage_machine_oven/fig_pudding_oven"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_material_1",
+      "has_material_2",
+      "has_material_3",
+      "has_material_4",
+      "has_material_5",
+      "has_material_6",
+      "has_material_7",
+      "has_material_8"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "plerocottage:plerocottage_machine_oven/fig_pudding_oven"
+    ]
+  },
+  "sends_telemetry_event": false
+}

@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "input": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:black_tea_leaves"
+    },
+    {
+      "item": "plerocottage:mixed_spice"
+    },
+    {
+      "item": "plerocottage:cinnamon"
+    },
+    {
+      "item": "plerocottage:dried_star_anise"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:masala_chai"
+  }
+}

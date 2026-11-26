@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "kiwifruit_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:kiwifruit_tree_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:kiwifruit_tree_stairs"
+  },
+  "show_notification": true
+}

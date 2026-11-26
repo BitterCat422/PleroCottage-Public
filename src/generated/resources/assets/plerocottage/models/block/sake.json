@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/sake",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/sake",
+    "1": "plerocottage:block/sake",
+    "2": "plerocottage:block/sake",
+    "3": "plerocottage:block/sake",
+    "4": "plerocottage:block/sake",
+    "5": "plerocottage:block/sake",
+    "particle": "plerocottage:block/sake"
+  }
+}

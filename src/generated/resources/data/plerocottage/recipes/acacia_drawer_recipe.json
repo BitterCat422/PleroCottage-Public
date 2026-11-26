@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:acacia_planks"
+    },
+    "b": {
+      "item": "minecraft:acacia_trapdoor"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aba"
+  ],
+  "result": {
+    "item": "plerocottage:acacia_drawer"
+  },
+  "show_notification": true
+}

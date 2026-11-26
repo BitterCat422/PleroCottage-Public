@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "plerocottage:cherries"
+    },
+    "b": {
+      "item": "minecraft:pink_banner"
+    },
+    "c": {
+      "item": "minecraft:white_banner"
+    },
+    "d": {
+      "item": "plerocottage:checkerboard_cookie"
+    },
+    "e": {
+      "item": "plerocottage:chocolate"
+    }
+  },
+  "pattern": [
+    " a ",
+    "bcd",
+    " e "
+  ],
+  "result": {
+    "item": "plerocottage:pastry_chef_hat_helmet"
+  },
+  "show_notification": true
+}

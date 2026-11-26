@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:wild_jalapeno_slices"
+    },
+    "b": {
+      "item": "plerocottage:chamoy"
+    },
+    "c": {
+      "item": "plerocottage:tomato_slice"
+    },
+    "d": {
+      "item": "plerocottage:cucumber_slices"
+    },
+    "e": {
+      "item": "plerocottage:cooked_beef_patty"
+    },
+    "f": {
+      "item": "plerocottage:avocado_slice"
+    },
+    "g": {
+      "item": "plerocottage:cheddar_cheese_slice"
+    },
+    "h": {
+      "item": "plerocottage:tostada_shell"
+    },
+    "i": {
+      "item": "plerocottage:yogurt"
+    }
+  },
+  "result": {
+    "item": "plerocottage:taco",
+    "count": 1
+  }
+}

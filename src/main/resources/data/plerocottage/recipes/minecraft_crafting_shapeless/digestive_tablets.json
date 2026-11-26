@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "plerocottage:corn_flour"
+    },
+    {
+      "item": "plerocottage:hawthorns"
+    },
+    {
+      "item": "plerocottage:licorice"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:digestive_tablets"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:black_tea_leaves"
+    },
+    {
+      "item": "plerocottage:marmalade"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "plerocottage:glass_of_vodka"
+    },
+    {
+      "item": "plerocottage:lemon_slice"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:russian_tea"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "juniper",
+  "key": {
+    "#": {
+      "item": "plerocottage:juniper_planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    " / "
+  ],
+  "result": {
+    "count": 3,
+    "item": "plerocottage:juniper_sign"
+  },
+  "show_notification": true
+}

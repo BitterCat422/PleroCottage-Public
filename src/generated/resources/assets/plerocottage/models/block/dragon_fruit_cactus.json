@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cactus",
+  "textures": {
+    "bottom": "plerocottage:block/dragon_fruit_cactus_bottom",
+    "particle": "plerocottage:block/dragon_fruit_cactus_side",
+    "side": "plerocottage:block/dragon_fruit_cactus_side",
+    "top": "plerocottage:block/dragon_fruit_cactus_top"
+  }
+}

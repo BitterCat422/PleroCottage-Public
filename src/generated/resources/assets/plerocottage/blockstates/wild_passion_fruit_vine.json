@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "fruit=false,tip=false": {
+      "model": "plerocottage:block/wild_passion_fruit_vine_middle"
+    },
+    "fruit=false,tip=true": {
+      "model": "plerocottage:block/wild_passion_fruit_vine_tip"
+    },
+    "fruit=true,tip=false": {
+      "model": "plerocottage:block/wild_passion_fruit_vine_middle_fruit"
+    },
+    "fruit=true,tip=true": {
+      "model": "plerocottage:block/wild_passion_fruit_vine_tip_fruit"
+    }
+  }
+}

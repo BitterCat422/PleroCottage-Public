@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:bowl"
+    },
+    {
+      "item": "plerocottage:apple_slice"
+    },
+    {
+      "item": "plerocottage:peach_slice"
+    },
+    {
+      "item": "plerocottage:pear_slice"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "plerocottage:wild_roses"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:rosa_salad",
+    "count": 1
+  }
+}

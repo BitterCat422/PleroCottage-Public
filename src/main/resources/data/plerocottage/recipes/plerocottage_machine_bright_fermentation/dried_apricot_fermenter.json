@@ -1,0 +1,16 @@
+{
+  "type": "plerocottage:bright_fermentation",
+  "cookingTime": 300,
+  "input": [
+    {
+      "tag": "forge:fruits/apricots"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:dried_apricots"
+  }
+}

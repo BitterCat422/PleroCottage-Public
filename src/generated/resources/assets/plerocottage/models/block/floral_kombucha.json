@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/floral_kombucha",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "0": "plerocottage:block/floral_kombucha",
+    "1": "plerocottage:block/floral_kombucha",
+    "2": "plerocottage:block/floral_kombucha",
+    "3": "plerocottage:block/floral_kombucha",
+    "4": "plerocottage:block/floral_kombucha",
+    "5": "plerocottage:block/floral_kombucha",
+    "particle": "plerocottage:block/floral_kombucha"
+  }
+}

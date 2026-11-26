@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/champagne",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/champagne",
+    "1": "plerocottage:block/champagne",
+    "2": "plerocottage:block/champagne",
+    "3": "plerocottage:block/champagne",
+    "4": "plerocottage:block/champagne",
+    "5": "plerocottage:block/champagne",
+    "particle": "plerocottage:block/champagne"
+  }
+}

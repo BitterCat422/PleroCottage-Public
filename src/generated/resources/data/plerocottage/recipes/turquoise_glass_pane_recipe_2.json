@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "plerocottage:turquoise_glass"
+    },
+    {
+      "item": "plerocottage:turquoise_glass"
+    },
+    {
+      "item": "plerocottage:turquoise_glass"
+    },
+    {
+      "item": "plerocottage:turquoise_glass"
+    },
+    {
+      "item": "plerocottage:turquoise_glass"
+    },
+    {
+      "item": "plerocottage:turquoise_glass"
+    }
+  ],
+  "result": {
+    "count": 16,
+    "item": "plerocottage:turquoise_glasspane"
+  }
+}

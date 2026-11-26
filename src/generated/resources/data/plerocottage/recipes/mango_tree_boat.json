@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "mango_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:mango_tree_planks"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "plerocottage:mango_tree_boat"
+  },
+  "show_notification": true
+}

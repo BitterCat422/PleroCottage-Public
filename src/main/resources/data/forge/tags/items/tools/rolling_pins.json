@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:wooden_rolling_pin",
+    "plerocottage:stone_rolling_pin",
+    "plerocottage:iron_rolling_pin",
+    "plerocottage:golden_rolling_pin",
+    "plerocottage:diamond_rolling_pin",
+    "plerocottage:netherite_rolling_pin"
+  ]
+}

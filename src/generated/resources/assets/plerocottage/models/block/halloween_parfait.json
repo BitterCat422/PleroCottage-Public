@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/halloween_parfait",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "0": "plerocottage:block/halloween_parfait",
+    "1": "plerocottage:block/halloween_parfait",
+    "2": "plerocottage:block/halloween_parfait",
+    "3": "plerocottage:block/halloween_parfait",
+    "4": "plerocottage:block/halloween_parfait",
+    "5": "plerocottage:block/halloween_parfait",
+    "particle": "plerocottage:block/halloween_parfait"
+  }
+}

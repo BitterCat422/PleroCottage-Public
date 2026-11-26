@@ -1,0 +1,30 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/mango_pudding_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/mango_pudding"
+      }
+    },
+    "ground": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/mango_pudding"
+      }
+    },
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/mango_pudding"
+      }
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/mango_pudding"
+  }
+}

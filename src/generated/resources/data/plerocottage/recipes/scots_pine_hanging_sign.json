@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "scots_pine",
+  "key": {
+    "#": {
+      "item": "plerocottage:stripped_scots_pine_log"
+    },
+    "-": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "#-#",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "plerocottage:scots_pine_hanging_sign"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 0.35,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "plerocottage:pineapple_slices"
+  },
+  "result": "plerocottage:cooked_pineapple_slices"
+}

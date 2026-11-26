@@ -1,0 +1,55 @@
+{
+  "type": "plerocottage:stock_pot",
+  "container": {
+    "item": "plerocottage:bowl"
+  },
+  "cookingTime": 200,
+  "mainInput": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "tag": "forge:fruits/elderberries"
+    },
+    [
+      {
+        "item": "plerocottage:apple_slice"
+      },
+      {
+        "item": "plerocottage:pear_slice"
+      }
+    ],
+    {
+      "item": "plerocottage:sago"
+    },
+    {
+      "item": "plerocottage:lemon_slice"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:cinnamon"
+    },
+    {
+      "item": "plerocottage:cloves"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "item": "plerocottage:glass_of_rum"
+    },
+    {
+      "item": "plerocottage:yogurt"
+    },
+    {
+      "item": "plerocottage:mint"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:fliederbeersuppe"
+  }
+}

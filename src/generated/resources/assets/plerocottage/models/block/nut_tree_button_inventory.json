@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_inventory",
+  "textures": {
+    "texture": "plerocottage:block/nut_tree_planks"
+  }
+}

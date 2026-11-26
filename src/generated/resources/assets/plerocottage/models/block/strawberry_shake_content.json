@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/strawberry_shake_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/strawberry_shake",
+    "particle": "plerocottage:block/strawberry_shake"
+  }
+}

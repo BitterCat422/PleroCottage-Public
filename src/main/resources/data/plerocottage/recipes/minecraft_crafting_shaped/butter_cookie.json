@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wheat"
+    },
+    "b": {
+      "item": "plerocottage:butter"
+    }
+  },
+  "result": {
+    "item": "plerocottage:butter_cookie",
+    "count": 2
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghg"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:cranberry_jelly"
+    },
+    "b": {
+      "item": "plerocottage:orange_juice"
+    },
+    "c": {
+      "item": "plerocottage:pineapple_juice"
+    },
+    "d": {
+      "item": "plerocottage:lemon_slice"
+    },
+    "e": {
+      "item": "plerocottage:grenadine"
+    },
+    "f": {
+      "item": "minecraft:dragon_breath"
+    },
+    "g": {
+      "item": "plerocottage:ice_cubes"
+    },
+    "h": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "plerocottage:punch_bowl",
+    "count": 1
+  }
+}

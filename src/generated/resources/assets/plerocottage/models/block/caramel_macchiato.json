@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/caramel_macchiato",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/caramel_macchiato",
+    "1": "plerocottage:block/caramel_macchiato",
+    "2": "plerocottage:block/caramel_macchiato",
+    "3": "plerocottage:block/caramel_macchiato",
+    "4": "plerocottage:block/caramel_macchiato",
+    "5": "plerocottage:block/caramel_macchiato",
+    "particle": "plerocottage:block/caramel_macchiato"
+  }
+}

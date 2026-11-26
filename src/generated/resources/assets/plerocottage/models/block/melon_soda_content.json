@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/melon_soda_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/melon_soda",
+    "particle": "plerocottage:block/melon_soda"
+  }
+}

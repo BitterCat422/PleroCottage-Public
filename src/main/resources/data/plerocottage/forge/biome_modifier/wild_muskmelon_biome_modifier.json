@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_desert",
+  "features": "plerocottage:wild_muskmelon",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:cherries_pie"
+  },
+  "output": {
+    "count": 4,
+    "item": "plerocottage:cherries_pie_slice"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

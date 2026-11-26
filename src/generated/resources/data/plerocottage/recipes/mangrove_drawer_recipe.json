@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:mangrove_planks"
+    },
+    "b": {
+      "item": "minecraft:mangrove_trapdoor"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aba"
+  ],
+  "result": {
+    "item": "plerocottage:mangrove_drawer"
+  },
+  "show_notification": true
+}

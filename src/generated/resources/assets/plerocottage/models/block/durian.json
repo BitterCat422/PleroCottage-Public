@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/durian",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/durian_block",
+    "all": "plerocottage:block/durian_block",
+    "particle": "plerocottage:block/durian_block"
+  }
+}

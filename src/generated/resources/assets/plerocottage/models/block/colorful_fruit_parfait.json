@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/colorful_fruit_parfait",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/colorful_fruit_parfait",
+    "1": "plerocottage:block/colorful_fruit_parfait",
+    "2": "plerocottage:block/colorful_fruit_parfait",
+    "3": "plerocottage:block/colorful_fruit_parfait",
+    "4": "plerocottage:block/colorful_fruit_parfait",
+    "5": "plerocottage:block/colorful_fruit_parfait",
+    "particle": "plerocottage:block/colorful_fruit_parfait"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "plerocottage:bright_fermentation",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingTime": 1200,
+  "input": [
+  	[
+      {
+        "item": "minecraft:wheat"
+      },
+      {
+        "tag": "forge:crops/corn"
+      }
+    ],
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "tag": "forge:fruits/juniper_berries"
+    },
+    {
+      "item": "plerocottage:licorice"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:gin"
+  }
+}

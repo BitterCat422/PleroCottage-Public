@@ -1,0 +1,30 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "tag": "forge:fruits/pomelo"
+  },
+  "output": {
+    "count": 4,
+    "item": "plerocottage:pomelo_wedge"
+  },
+  "outgrowths": [
+  {
+    "chance": 0.5,
+    "count": 1,
+    "item": "plerocottage:pomelo_wedge"
+  },
+  {
+    "chance": 0.25,
+    "count": 1,
+    "item": "plerocottage:pomelo_wedge"
+  },
+  {
+    "chance": 1.0,
+    "count": 1,
+    "item": "plerocottage:pomelo_seeds"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

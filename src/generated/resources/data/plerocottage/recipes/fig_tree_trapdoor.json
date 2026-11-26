@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "fig_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:fig_tree_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "item": "plerocottage:fig_tree_trapdoor"
+  },
+  "show_notification": true
+}

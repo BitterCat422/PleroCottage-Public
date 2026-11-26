@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "cookingTime": 600,
+  "input": [
+    {
+      "item": "plerocottage:umes"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:umeboshis"
+  }
+}

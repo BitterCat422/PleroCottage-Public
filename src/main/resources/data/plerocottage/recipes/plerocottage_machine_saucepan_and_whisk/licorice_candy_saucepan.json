@@ -1,0 +1,28 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:corn_flour"
+    },
+    {
+      "item": "plerocottage:licorice"
+    },
+    {
+      "item": "plerocottage:brown_sugar"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:licorice_candy"
+  }
+}

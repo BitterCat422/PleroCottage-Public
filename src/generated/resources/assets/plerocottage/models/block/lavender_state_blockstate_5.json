@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/lavender",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/lavender_warm",
+    "all": "plerocottage:block/lavender_warm",
+    "particle": "plerocottage:block/lavender_warm"
+  }
+}

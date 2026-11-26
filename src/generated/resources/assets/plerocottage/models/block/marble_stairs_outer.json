@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "plerocottage:block/marble",
+    "side": "plerocottage:block/marble",
+    "top": "plerocottage:block/marble"
+  }
+}

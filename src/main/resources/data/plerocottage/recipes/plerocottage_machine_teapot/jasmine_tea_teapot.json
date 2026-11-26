@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:green_tea_leaves"
+    },
+    {
+      "item": "plerocottage:jasmine"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:jasmine_tea"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:corn_flour"
+    },
+    {
+      "item": "plerocottage:flour"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:bottled_olive_oil"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "plerocottage:cooked_pistachios"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:kadayif"
+  }
+}

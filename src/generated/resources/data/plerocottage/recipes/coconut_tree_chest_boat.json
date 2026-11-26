@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "coconut_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:coconut_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:coconut_tree_chest_boat"
+  }
+}

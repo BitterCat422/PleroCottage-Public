@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_snowy",
+  "features": "plerocottage:wild_scots_pine_tree",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "plerocottage:durian_flesh"
+  },
+  "output": {
+    "item": "plerocottage:durian_crisp"
+  }
+}

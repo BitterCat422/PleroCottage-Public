@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "efe"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:fruits/strawberry"
+    },
+    "b": {
+      "item": "minecraft:sweet_berries"
+    },
+    "c": {
+      "tag": "forge:fruits/raspberry"
+    },
+    "d": {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    "e": {
+      "item": "plerocottage:meringue"
+    },
+    "f": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "plerocottage:eton_mess",
+    "count": 1
+  }
+}

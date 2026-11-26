@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "holly_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:holly_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:holly_tree_chest_boat"
+  }
+}

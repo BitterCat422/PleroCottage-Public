@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:nether_wastes",
+  "features": "plerocottage:wild_pomegranate_tree",
+  "step": "vegetal_decoration"
+}

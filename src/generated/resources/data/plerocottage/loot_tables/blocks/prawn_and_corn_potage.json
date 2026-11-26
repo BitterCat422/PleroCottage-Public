@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "plerocottage:prawn_and_corn_potage"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "plerocottage:blocks/prawn_and_corn_potage"
+}

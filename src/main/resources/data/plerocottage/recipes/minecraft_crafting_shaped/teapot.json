@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "abc",
+    " cc"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:polished_marble_slab"
+    },
+    "b": {
+      "item": "plerocottage:bowl"
+    },
+    "c": {
+      "item": "plerocottage:polished_marble"
+    }
+  },
+  "result": {
+    "item": "plerocottage:teapot",
+    "count": 1
+  }
+}

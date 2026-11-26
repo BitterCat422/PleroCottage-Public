@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "plerocottage:block/stripped_fig_tree_log",
+    "side": "plerocottage:block/stripped_fig_tree_log"
+  }
+}

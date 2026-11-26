@@ -1,0 +1,16 @@
+{
+  "type": "plerocottage:bright_fermentation",
+  "cookingTime": 2400,
+  "input": [
+    {
+      "item": "plerocottage:half_of_coconut"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:nata_de_coco"
+  }
+}

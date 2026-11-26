@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "hawthorn_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:hawthorn_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:hawthorn_tree_planks"
+  }
+}

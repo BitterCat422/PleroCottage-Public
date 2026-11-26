@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "plerocottage:wild_cucumber_vine",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "fruit": "false"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "plerocottage:cucumber_seeds"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "plerocottage:wild_cucumber_vine",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "fruit": "true"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "functions": [
+            {
+              "add": false,
+              "count": {
+                "type": "minecraft:uniform",
+                "max": 2.0,
+                "min": 1.0
+              },
+              "function": "minecraft:set_count"
+            }
+          ],
+          "name": "plerocottage:cucumber"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "plerocottage:blocks/wild_cucumber_vine"
+}

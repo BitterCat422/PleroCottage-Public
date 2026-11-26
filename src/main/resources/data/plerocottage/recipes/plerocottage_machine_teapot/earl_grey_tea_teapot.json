@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:black_tea_leaves"
+    },
+    {
+      "item": "plerocottage:lime_slice"
+    },
+    {
+      "item": "minecraft:cornflower"
+    },
+    {
+      "item": "plerocottage:glass_of_gin"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:earl_grey_tea"
+  }
+}

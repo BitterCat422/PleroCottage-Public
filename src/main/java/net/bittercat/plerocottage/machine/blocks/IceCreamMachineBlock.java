@@ -1,0 +1,47 @@
+package net.bittercat.plerocottage.machine.blocks;
+
+import net.minecraft.core.BlockPos;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.level.BlockGetter;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.shapes.CollisionContext;
+import net.minecraft.world.phys.shapes.VoxelShape;
+import net.bittercat.plerocottage.machine.blockentities.IceCreamMachineBlockEntity;
+import net.bittercat.plerocottage.init.BlockRegistry;
+import net.bittercat.plerocottage.init.SoundRegistry;
+import net.bittercat.plerocottage.machine.init.manager.BlockShapeManager;
+import org.jetbrains.annotations.Nullable;
+
+public class IceCreamMachineBlock extends BaseMachineBlock {
+    public IceCreamMachineBlock() {
+        super(BlockRegistry.getBlockProperties());
+    }
+
+    @Nullable
+    @Override
+    public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
+        return new IceCreamMachineBlockEntity(pPos, pState);
+    }
+
+    @Override
+    public VoxelShape getShape(BlockState pState, BlockGetter pLevel, BlockPos pPos, CollisionContext pContext) {
+        return switch (pState.getValue(FACING)) {
+            case NORTH -> BlockShapeManager.NORTH_ICE_CREAM_MACHINE_SHAPE;
+            case SOUTH -> BlockShapeManager.SOUTH_ICE_CREAM_MACHINE_SHAPE;
+            case WEST -> BlockShapeManager.WEST_ICE_CREAM_MACHINE_SHAPE;
+            default -> BlockShapeManager.EAST_ICE_CREAM_MACHINE_SHAPE;
+        };
+    }
+
+    @Override
+    public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
+        pLevel.playSound(pPlayer, pPos, SoundRegistry.ICE_CREAM_MACHINE_CLANK.get(), SoundSource.BLOCKS, 0.3F, 1F);
+        return super.use(pState, pLevel, pPos, pPlayer, pHand, pHit);
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/cappuccino",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/cappuccino",
+    "1": "plerocottage:block/cappuccino",
+    "2": "plerocottage:block/cappuccino",
+    "3": "plerocottage:block/cappuccino",
+    "4": "plerocottage:block/cappuccino",
+    "5": "plerocottage:block/cappuccino",
+    "particle": "plerocottage:block/cappuccino"
+  }
+}

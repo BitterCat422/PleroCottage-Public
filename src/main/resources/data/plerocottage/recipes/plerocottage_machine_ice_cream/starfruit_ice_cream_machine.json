@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:ice_cream",
+  "container": {
+    "item": "plerocottage:ice_cream_cone"
+  },
+  "fluid": {
+    "Amount": 250,
+    "FluidName": "plerocottage:vanilla_ice_cream_fluid"
+  },
+  "input": [
+    {
+    "item": "plerocottage:starfruit_slice"
+    },
+    []
+  ],
+  "output": {
+    "item": "plerocottage:starfruit_ice_cream"
+  }
+}

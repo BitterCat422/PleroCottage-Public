@@ -1,0 +1,27 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "plerocottage:bottled_olive_oil"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:sachima"
+  }
+}

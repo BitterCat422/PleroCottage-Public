@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "plerocottage:item/prawn_and_corn_potage"
+  }
+}

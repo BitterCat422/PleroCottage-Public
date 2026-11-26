@@ -1,0 +1,29 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "input": [
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:caramel_syrup"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:pudding"
+  },
+  "temperature": 150
+}

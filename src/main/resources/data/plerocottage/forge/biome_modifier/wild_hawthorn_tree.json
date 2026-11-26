@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:soul_sand_valley",
+  "features": "plerocottage:wild_hawthorn_tree",
+  "step": "vegetal_decoration"
+}

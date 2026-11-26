@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/hurricane_cocktail_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/hurricane_cocktail",
+    "particle": "plerocottage:block/hurricane_cocktail"
+  }
+}

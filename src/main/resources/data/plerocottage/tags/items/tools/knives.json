@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:wooden_knife",
+    "plerocottage:stone_knife",
+    "plerocottage:iron_knife",
+    "plerocottage:golden_knife",
+    "plerocottage:diamond_knife",
+    "plerocottage:netherite_knife"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/apricot_kernel_tofu_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/apricot_kernel_tofu",
+    "particle": "plerocottage:block/apricot_kernel_tofu"
+  }
+}

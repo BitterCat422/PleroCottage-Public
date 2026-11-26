@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "plerocottage:item/chamoy_0",
+      "predicate": {
+        "minecraft:damage": 0.25
+      }
+    },
+    {
+      "model": "plerocottage:item/chamoy_1",
+      "predicate": {
+        "minecraft:damage": 0.5
+      }
+    },
+    {
+      "model": "plerocottage:item/chamoy_2",
+      "predicate": {
+        "minecraft:damage": 0.75
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "plerocottage:item/chamoy"
+  }
+}

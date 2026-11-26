@@ -1,0 +1,30 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:butter"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:saffron"
+    },
+    {
+      "item": "plerocottage:cooked_pistachios"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:pedas"
+  }
+}

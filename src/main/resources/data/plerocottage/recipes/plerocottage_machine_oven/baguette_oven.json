@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:baguette"
+  },
+  "temperature": 250
+}

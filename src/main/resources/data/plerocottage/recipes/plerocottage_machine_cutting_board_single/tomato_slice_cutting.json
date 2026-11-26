@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "tag": "forge:crops/tomato"
+  },
+  "output": {
+    "count": 3,
+    "item": "plerocottage:tomato_slice"
+  },
+  "outgrowths": [
+  {
+    "chance": 1.0,
+    "count": 1,
+    "item": "plerocottage:tomato_seeds"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

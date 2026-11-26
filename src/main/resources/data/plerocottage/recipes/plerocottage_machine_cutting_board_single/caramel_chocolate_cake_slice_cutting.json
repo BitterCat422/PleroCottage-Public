@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:caramel_chocolate_cake"
+  },
+  "output": {
+    "count": 4,
+    "item": "plerocottage:caramel_chocolate_cake_slice"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

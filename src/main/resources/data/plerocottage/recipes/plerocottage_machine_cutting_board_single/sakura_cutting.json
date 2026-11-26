@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "minecraft:cherry_leaves"
+  },
+  "output": {
+    "count": 4,
+    "item": "plerocottage:sakura"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "tag": "forge:dough/wheat"
+  },
+  "output": {
+    "item": "plerocottage:you_tiao"
+  }
+}

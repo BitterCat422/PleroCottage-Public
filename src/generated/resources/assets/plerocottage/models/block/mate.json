@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/mate",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/mate",
+    "1": "plerocottage:block/mate",
+    "2": "plerocottage:block/mate",
+    "3": "plerocottage:block/mate",
+    "4": "plerocottage:block/mate",
+    "5": "plerocottage:block/mate",
+    "particle": "plerocottage:block/mate"
+  }
+}

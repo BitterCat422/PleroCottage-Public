@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/pear_with_rock_sugar_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/pear_with_rock_sugar",
+    "particle": "plerocottage:block/pear_with_rock_sugar"
+  }
+}

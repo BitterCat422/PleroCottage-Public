@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "plerocottage:olive_tree_log"
+    },
+    {
+      "item": "plerocottage:olive_tree_log"
+    },
+    {
+      "item": "plerocottage:olive_tree_log"
+    },
+    {
+      "item": "plerocottage:olive_tree_log"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:olive_tree_wood",
+    "count": 3
+  }
+}

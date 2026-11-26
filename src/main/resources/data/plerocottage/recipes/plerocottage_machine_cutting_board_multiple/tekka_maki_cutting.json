@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:sumeshi"
+    },
+    {
+      "item": "plerocottage:tropical_fish_slice"
+    },
+    {
+      "item": "plerocottage:nori"
+    }
+  ],
+  "isShaped": true,
+  "output": {
+    "count": 2,
+    "item": "plerocottage:tekka_maki"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

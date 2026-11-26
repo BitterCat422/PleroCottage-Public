@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "plerocottage:block/durian_tree_log",
+    "side": "plerocottage:block/durian_tree_log"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_beach",
+  "features": "plerocottage:wild_coconut_tree",
+  "step": "vegetal_decoration"
+}

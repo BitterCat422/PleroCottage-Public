@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:cream_cheese"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:bagel"
+  },
+  "temperature": 200
+}

@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:black_tea_leaves"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    },
+    {
+      "item": "plerocottage:butter"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:suutei_tsai"
+  }
+}

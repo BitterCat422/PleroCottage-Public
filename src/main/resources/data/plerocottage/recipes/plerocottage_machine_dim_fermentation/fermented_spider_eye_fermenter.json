@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:dim_fermentation",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "minecraft:fermented_spider_eye"
+  }
+}

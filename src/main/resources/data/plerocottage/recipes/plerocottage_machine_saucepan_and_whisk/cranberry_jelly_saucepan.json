@@ -1,0 +1,30 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "tag": "forge:fruits/cranberries"
+    },
+    {
+      "tag": "forge:fruits/cranberries"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "tag": "forge:fruits/cherry"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:cranberry_jelly"
+  }
+}

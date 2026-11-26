@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "banana_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:banana_tree_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "item": "plerocottage:banana_tree_trapdoor"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/grapefruit_juice_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/grapefruit_juice",
+    "particle": "plerocottage:block/grapefruit_juice"
+  }
+}

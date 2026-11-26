@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:bowl"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "plerocottage:cooked_prawn"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    },
+    {
+      "item": "plerocottage:bottled_olive_oil"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:sea_pearl_salad",
+    "count": 1
+  }
+}

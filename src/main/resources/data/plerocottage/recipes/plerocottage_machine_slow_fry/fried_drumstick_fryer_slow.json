@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "plerocottage:raw_chicken_drumstick"
+  },
+  "output": {
+    "item": "plerocottage:fried_drumstick"
+  }
+}

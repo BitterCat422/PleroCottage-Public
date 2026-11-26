@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "plerocottage:item/jalapeno_powder_0",
+      "predicate": {
+        "minecraft:damage": 0.25
+      }
+    },
+    {
+      "model": "plerocottage:item/jalapeno_powder_1",
+      "predicate": {
+        "minecraft:damage": 0.5
+      }
+    },
+    {
+      "model": "plerocottage:item/jalapeno_powder_2",
+      "predicate": {
+        "minecraft:damage": 0.75
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "plerocottage:item/jalapeno_powder"
+  }
+}

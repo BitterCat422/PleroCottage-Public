@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:topaz"
+    },
+    {
+      "item": "plerocottage:topaz"
+    },
+    {
+      "item": "plerocottage:topaz"
+    },
+    {
+      "item": "plerocottage:topaz"
+    },
+    {
+      "item": "plerocottage:topaz"
+    },
+    {
+      "item": "plerocottage:topaz"
+    },
+    {
+      "item": "plerocottage:topaz"
+    },
+    {
+      "item": "plerocottage:topaz"
+    },
+    {
+      "item": "plerocottage:topaz"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:topaz_block",
+    "count": 1
+  }
+}

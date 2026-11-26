@@ -1,0 +1,10 @@
+{
+  "parent": "plerocottage:custom/egg_incubator",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/egg_incubator",
+    "1": "minecraft:block/redstone_lamp_on",
+    "all": "plerocottage:block/egg_incubator",
+    "particle": "plerocottage:block/egg_incubator"
+  }
+}

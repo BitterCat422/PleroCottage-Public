@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "plerocottage:onigiri"
+  },
+  "output": {
+    "item": "plerocottage:senbei"
+  }
+}

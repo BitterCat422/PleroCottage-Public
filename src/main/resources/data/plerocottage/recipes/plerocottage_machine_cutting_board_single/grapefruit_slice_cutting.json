@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:grapefruit"
+  },
+  "output": {
+    "count": 3,
+    "item": "plerocottage:grapefruit_slice"
+  },
+  "outgrowths": [
+  {
+    "chance": 1.0,
+    "count": 1,
+    "item": "plerocottage:orange_seeds"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

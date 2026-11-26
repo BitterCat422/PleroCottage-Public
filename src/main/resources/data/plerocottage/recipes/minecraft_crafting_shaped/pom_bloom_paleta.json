@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "aca",
+    "da "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:pomegranate_seeds"
+    },
+    "b": {
+      "item": "plerocottage:chamomiles"
+    },
+    "c": {
+      "item": "plerocottage:ice_cubes"
+    },
+    "d": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plerocottage:pom_bloom_paleta",
+    "count": 1
+  }
+}

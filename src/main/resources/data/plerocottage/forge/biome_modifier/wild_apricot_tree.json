@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:cherry_grove",
+  "features": "plerocottage:wild_apricot_tree",
+  "step": "vegetal_decoration"
+}

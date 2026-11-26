@@ -1,0 +1,39 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:apricot_kernel_drink"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "tag": "forge:fruits/cherry"
+    },
+    {
+      "item": "plerocottage:orange_segment"
+    },
+    {
+      "item": "plerocottage:pineapple_slices"
+    },
+    {
+      "tag": "forge:fruits/apricots"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:apricot_kernel_tofu"
+  }
+}

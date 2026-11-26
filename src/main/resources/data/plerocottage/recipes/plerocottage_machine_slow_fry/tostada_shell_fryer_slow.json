@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "plerocottage:corn_dough"
+  },
+  "output": {
+    "item": "plerocottage:tostada_shell"
+  }
+}

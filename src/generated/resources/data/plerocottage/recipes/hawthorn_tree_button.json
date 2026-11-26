@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "hawthorn_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:hawthorn_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:hawthorn_tree_button"
+  }
+}

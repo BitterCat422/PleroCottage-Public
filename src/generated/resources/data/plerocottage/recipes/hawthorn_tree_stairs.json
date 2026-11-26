@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "hawthorn_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:hawthorn_tree_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:hawthorn_tree_stairs"
+  },
+  "show_notification": true
+}

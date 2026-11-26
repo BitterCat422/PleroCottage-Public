@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/pudding_a_la_mode",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/pudding_a_la_mode",
+    "1": "plerocottage:block/pudding_a_la_mode",
+    "2": "plerocottage:block/pudding_a_la_mode",
+    "3": "plerocottage:block/pudding_a_la_mode",
+    "4": "plerocottage:block/pudding_a_la_mode",
+    "5": "plerocottage:block/pudding_a_la_mode",
+    "particle": "plerocottage:block/pudding_a_la_mode"
+  }
+}

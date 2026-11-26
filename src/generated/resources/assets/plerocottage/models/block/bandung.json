@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/bandung",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/bandung",
+    "1": "plerocottage:block/bandung",
+    "2": "plerocottage:block/bandung",
+    "3": "plerocottage:block/bandung",
+    "4": "plerocottage:block/bandung",
+    "5": "plerocottage:block/bandung",
+    "particle": "plerocottage:block/bandung"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:butter"
+  }
+}

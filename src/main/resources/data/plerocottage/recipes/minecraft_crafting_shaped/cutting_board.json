@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abb",
+    "abb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "tag": "forge:stripped_wood"
+    }
+  },
+  "result": {
+    "item": "plerocottage:cutting_board",
+    "count": 1
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cdc",
+    "aea"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wheat"
+    },
+    "b": {
+      "item": "minecraft:sugar"
+    },
+    "c": {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    "d": {
+      "item": "plerocottage:durian_flesh"
+    },
+    "e": {
+      "tag": "forge:edible_eggs"
+    }
+  },
+  "result": {
+    "item": "plerocottage:durian_mile_crepe_cake",
+    "count": 1
+  }
+}

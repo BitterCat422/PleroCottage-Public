@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/glass_parts/beer_mug_6x8",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "glasses": "plerocottage:block/glasses",
+    "klein_bottle": "plerocottage:block/klein_bottle",
+    "particle": "plerocottage:block/glasses"
+  }
+}

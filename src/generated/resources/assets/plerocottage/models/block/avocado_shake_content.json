@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/avocado_shake_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/avocado_shake",
+    "particle": "plerocottage:block/avocado_shake"
+  }
+}

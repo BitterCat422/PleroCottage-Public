@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:cake_liquid_bucket"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "plerocottage:dark_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:grated_coconut"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "plerocottage:lamingtons"
+  },
+  "temperature": 200
+}

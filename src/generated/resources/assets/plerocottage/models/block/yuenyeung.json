@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/yuenyeung",
+  "textures": {
+    "0": "plerocottage:block/yuenyeung",
+    "1": "plerocottage:block/yuenyeung",
+    "2": "plerocottage:block/yuenyeung",
+    "3": "plerocottage:block/yuenyeung",
+    "4": "plerocottage:block/yuenyeung",
+    "5": "plerocottage:block/yuenyeung",
+    "particle": "plerocottage:block/yuenyeung"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:raw_cod_slice"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "minecraft:red_dye"
+    }
+  ],
+  "isShaped": false,
+  "output": {
+    "count": 1,
+    "item": "plerocottage:surimi_crab_stick"
+  },
+  "tool": {
+    "tag": "forge:tools/rolling_pins"
+  }
+}

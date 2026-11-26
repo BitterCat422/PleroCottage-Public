@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "rosaceae_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:stripped_rosaceae_tree_log"
+    },
+    "-": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "#-#",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "plerocottage:rosaceae_tree_hanging_sign"
+  },
+  "show_notification": true
+}

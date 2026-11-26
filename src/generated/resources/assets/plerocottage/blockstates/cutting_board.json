@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "plerocottage:block/cutting_board",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "plerocottage:block/cutting_board"
+    },
+    "facing=south": {
+      "model": "plerocottage:block/cutting_board",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plerocottage:block/cutting_board",
+      "y": 270
+    }
+  }
+}

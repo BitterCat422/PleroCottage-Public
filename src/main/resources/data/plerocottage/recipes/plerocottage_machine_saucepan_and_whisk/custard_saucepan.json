@@ -1,0 +1,28 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:corn_flour"
+    },
+    {
+      "item": "plerocottage:butter"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:custard"
+  }
+}

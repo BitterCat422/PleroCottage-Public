@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+      	"item": "plerocottage:lucky_clovers"
+      },
+      {
+      	"item": "plerocottage:unlucky_clovers"
+      },
+      {
+      	"item": "plerocottage:alfalfa"
+      }
+    ]
+  ],
+  "result": {
+    "item": "plerocottage:alfalfa_seeds",
+    "count": 4
+  }
+}

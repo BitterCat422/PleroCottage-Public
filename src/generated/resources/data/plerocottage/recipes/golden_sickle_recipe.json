@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:flint"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "bbb",
+    " ab",
+    " a "
+  ],
+  "result": {
+    "item": "plerocottage:golden_sickle"
+  },
+  "show_notification": true
+}

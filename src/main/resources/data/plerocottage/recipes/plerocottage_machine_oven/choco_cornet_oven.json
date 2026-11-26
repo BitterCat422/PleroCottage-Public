@@ -1,0 +1,17 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "item": "plerocottage:ganache"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:choco_cornet"
+  },
+  "temperature": 200
+}

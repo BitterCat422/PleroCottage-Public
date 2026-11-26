@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:strawberry_shortcake_slice"
+    },
+    {
+      "item": "plerocottage:strawberry_shortcake_slice"
+    },
+    {
+      "item": "plerocottage:strawberry_shortcake_slice"
+    },
+    {
+      "item": "plerocottage:strawberry_shortcake_slice"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:strawberry_shortcake",
+    "count": 1
+  }
+}

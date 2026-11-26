@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:fast_fry",
+  "input": {
+    "item": "plerocottage:naan"
+  },
+  "output": {
+    "item": "plerocottage:you_tiao"
+  }
+}

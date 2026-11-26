@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/rum",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/rum",
+    "1": "plerocottage:block/rum",
+    "2": "plerocottage:block/rum",
+    "3": "plerocottage:block/rum",
+    "4": "plerocottage:block/rum",
+    "5": "plerocottage:block/rum",
+    "particle": "plerocottage:block/rum"
+  }
+}

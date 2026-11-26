@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:blender",
+  "mainInput": [
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:cocoa_powder"
+  },
+  "outgrowth": {
+    "count": 1,
+    "item": "plerocottage:cocoa_butter"
+  },
+  "outgrowthChance": 1.0
+}

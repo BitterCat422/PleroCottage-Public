@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "kiwifruit_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:kiwifruit_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:kiwifruit_tree_button"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:almond_powder"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:meringue"
+    },
+    {
+      "item": "plerocottage:blackcurrants"
+    },
+    {
+      "item": "plerocottage:marmalade"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:blackcurrant_macaron"
+  },
+  "temperature": 150
+}

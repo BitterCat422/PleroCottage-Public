@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/candle_four_candles",
+  "textures": {
+    "all": "plerocottage:block/turquoise_candle",
+    "particle": "plerocottage:block/turquoise_candle"
+  }
+}

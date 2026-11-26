@@ -1,0 +1,42 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mainInput": [
+    {
+      "item": "plerocottage:elderberries"
+    },
+    {
+      "item": "plerocottage:mint"
+    },
+    {
+      "item": "plerocottage:cloves"
+    },
+    {
+      "item": "plerocottage:chamomiles"
+    },
+    {
+      "item": "plerocottage:licorice"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "minecraft:pufferfish"
+    },
+    {
+      "item": "minecraft:magma_cream"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:cough_syrup"
+  }
+}

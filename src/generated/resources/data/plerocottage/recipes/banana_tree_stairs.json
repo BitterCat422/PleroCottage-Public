@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "banana_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:banana_tree_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:banana_tree_stairs"
+  },
+  "show_notification": true
+}

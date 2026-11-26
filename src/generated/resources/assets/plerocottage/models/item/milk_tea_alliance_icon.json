@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "plerocottage:item/milk_tea_alliance_icon"
+  }
+}

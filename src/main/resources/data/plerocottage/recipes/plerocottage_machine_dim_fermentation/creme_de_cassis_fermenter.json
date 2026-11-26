@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:dim_fermentation",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingTime": 1200,
+  "input": [
+    {
+      "item": "plerocottage:blackcurrants"
+    },
+    {
+      "item": "plerocottage:blackcurrants"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:vodka"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:creme_de_cassis"
+  }
+}

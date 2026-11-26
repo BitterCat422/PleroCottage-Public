@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:sumeshi"
+    },
+    {
+      "item": "minecraft:beef"
+    },
+    {
+      "item": "plerocottage:caviar"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "isShaped": true,
+  "output": {
+    "count": 1,
+    "item": "plerocottage:wagyu_with_caviar_nigiri"
+  }
+}

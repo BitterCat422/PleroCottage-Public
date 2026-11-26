@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/pancake",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/pancake",
+    "1": "plerocottage:block/pancake",
+    "2": "plerocottage:block/pancake",
+    "3": "plerocottage:block/pancake",
+    "4": "plerocottage:block/pancake",
+    "5": "plerocottage:block/pancake",
+    "particle": "plerocottage:block/pancake"
+  }
+}

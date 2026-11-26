@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:is_fall",
+      "required": false
+    },
+    "in_wall",
+    "starve",
+    "cactus",
+    {
+      "id": "#minecraft:is_drowning",
+      "required": false
+    },
+    "dry_out",
+    "sweet_berry_bush",
+    {
+      "id": "#minecraft:is_fire",
+      "required": false
+    },
+    {
+      "id": "#minecraft:is_freezing",
+      "required": false
+    },
+    "fly_into_wall",
+    {
+      "id": "#minecraft:is_lightning",
+      "required": false
+    }
+  ]
+}

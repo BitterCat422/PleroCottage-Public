@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/tiramisu",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/tiramisu",
+    "1": "plerocottage:block/tiramisu",
+    "2": "plerocottage:block/tiramisu",
+    "3": "plerocottage:block/tiramisu",
+    "4": "plerocottage:block/tiramisu",
+    "5": "plerocottage:block/tiramisu",
+    "particle": "plerocottage:block/tiramisu"
+  }
+}

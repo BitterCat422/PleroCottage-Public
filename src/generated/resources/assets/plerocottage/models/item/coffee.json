@@ -1,0 +1,21 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/coffee_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "plerocottage:item/coffee_flat"
+    },
+    "ground": {
+      "parent": "plerocottage:item/coffee_flat"
+    },
+    "gui": {
+      "parent": "plerocottage:item/coffee_flat"
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/coffee"
+  }
+}

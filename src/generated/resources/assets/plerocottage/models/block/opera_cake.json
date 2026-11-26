@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/opera_cake",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/opera_cake",
+    "1": "plerocottage:block/opera_cake",
+    "2": "plerocottage:block/opera_cake",
+    "3": "plerocottage:block/opera_cake",
+    "4": "plerocottage:block/opera_cake",
+    "5": "plerocottage:block/opera_cake",
+    "particle": "plerocottage:block/opera_cake"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_coffea_arabica": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:coffea_arabica"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "plerocottage:coffee_berry_from_coffea_arabica_recipe"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_coffea_arabica",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "plerocottage:coffee_berry_from_coffea_arabica_recipe"
+    ]
+  },
+  "sends_telemetry_event": false
+}

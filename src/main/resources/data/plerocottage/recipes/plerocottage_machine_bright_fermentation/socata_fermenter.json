@@ -1,0 +1,24 @@
+{
+  "type": "plerocottage:bright_fermentation",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingTime": 600,
+  "input": [
+    {
+      "item": "plerocottage:elderberry_flowers"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:lemon_slice"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:socata"
+  }
+}

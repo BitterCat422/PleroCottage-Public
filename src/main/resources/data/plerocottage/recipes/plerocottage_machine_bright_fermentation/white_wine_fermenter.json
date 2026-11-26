@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:bright_fermentation",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingTime": 1200,
+  "input": [
+    {
+      "item": "plerocottage:muscat_grapes"
+    },
+    {
+      "item": "plerocottage:muscat_grapes"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:white_wine"
+  }
+}

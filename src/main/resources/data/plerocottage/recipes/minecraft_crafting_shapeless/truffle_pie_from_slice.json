@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:truffle_pie_slice"
+    },
+    {
+      "item": "plerocottage:truffle_pie_slice"
+    },
+    {
+      "item": "plerocottage:truffle_pie_slice"
+    },
+    {
+      "item": "plerocottage:truffle_pie_slice"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:truffle_pie",
+    "count": 1
+  }
+}

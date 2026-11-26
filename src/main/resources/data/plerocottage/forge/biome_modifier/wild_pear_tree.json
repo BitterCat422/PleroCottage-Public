@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:sunflower_plains",
+  "features": "plerocottage:wild_pear_tree",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,32 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "heatState": "no_need",
+  "mainInput": [
+    {
+      "item": "plerocottage:gooseberries"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "plerocottage:rosa_water"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:butter_cookie"
+    },
+    {
+      "item": "plerocottage:mint"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:gooseberry_fool"
+  }
+}

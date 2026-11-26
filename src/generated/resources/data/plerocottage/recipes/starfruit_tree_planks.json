@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "starfruit_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:starfruit_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:starfruit_tree_planks"
+  }
+}

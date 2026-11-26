@@ -1,0 +1,32 @@
+{
+  "type": "plerocottage:blender",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mainInput": [
+    {
+      "item": "plerocottage:pineapple_slices"
+    },
+    {
+      "item": "plerocottage:pineapple_slices"
+    },
+    {
+      "item": "plerocottage:pineapple_slices"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:pineapple_slices"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:pineapple_juice"
+  }
+}

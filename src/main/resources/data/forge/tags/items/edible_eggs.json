@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:egg",
+    "plerocottage:mallard_duck_egg",
+    "plerocottage:turkey_egg"
+  ]
+}

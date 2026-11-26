@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/suutei_tsai",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/suutei_tsai",
+    "1": "plerocottage:block/suutei_tsai",
+    "2": "plerocottage:block/suutei_tsai",
+    "3": "plerocottage:block/suutei_tsai",
+    "4": "plerocottage:block/suutei_tsai",
+    "5": "plerocottage:block/suutei_tsai",
+    "particle": "plerocottage:block/suutei_tsai"
+  }
+}

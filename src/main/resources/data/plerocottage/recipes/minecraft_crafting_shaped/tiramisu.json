@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abh",
+    "cde",
+    "fgf"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    "b": {
+      "item": "plerocottage:cocoa_powder"
+    },
+    "c": {
+      "item": "plerocottage:espresso"
+    },
+    "d": {
+      "item": "plerocottage:cream_cheese"
+    },
+    "e": {
+      "item": "plerocottage:glass_of_rum"
+    },
+    "f": {
+      "item": "plerocottage:savoiardi"
+    },
+    "g": {
+      "tag": "forge:edible_eggs"
+    },
+    "h": {
+      "item": "plerocottage:mint"
+    }
+  },
+  "result": {
+    "item": "plerocottage:tiramisu",
+    "count": 1
+  }
+}

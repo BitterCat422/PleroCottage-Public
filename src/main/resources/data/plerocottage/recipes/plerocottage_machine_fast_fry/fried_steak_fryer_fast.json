@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:fast_fry",
+  "input": {
+    "item": "minecraft:cooked_beef"
+  },
+  "output": {
+    "item": "plerocottage:fried_steak"
+  }
+}

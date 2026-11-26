@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "plerocottage:mediterranean_plain",
+  "features": "plerocottage:marble_ore_more",
+  "step": "underground_ores"
+}

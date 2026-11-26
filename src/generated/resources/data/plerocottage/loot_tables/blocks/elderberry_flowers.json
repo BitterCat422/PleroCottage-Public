@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "plerocottage:elderberry_flowers",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "0"
+              }
+            }
+          ],
+          "name": "plerocottage:elderberry_flowers"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "plerocottage:elderberry_flowers",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "1"
+              }
+            }
+          ],
+          "name": "plerocottage:elderberry_flowers"
+        },
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "block": "plerocottage:elderberry_flowers",
+              "condition": "minecraft:block_state_property",
+              "properties": {
+                "age": "2"
+              }
+            }
+          ],
+          "name": "plerocottage:elderberries"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "plerocottage:blocks/elderberry_flowers"
+}

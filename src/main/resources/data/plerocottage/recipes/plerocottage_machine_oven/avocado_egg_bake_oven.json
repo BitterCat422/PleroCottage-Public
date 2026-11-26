@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:half_of_avocado"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:avocado_egg_bake"
+  },
+  "temperature": 200
+}

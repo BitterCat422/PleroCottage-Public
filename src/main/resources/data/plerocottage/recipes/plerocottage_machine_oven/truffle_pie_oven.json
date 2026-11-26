@@ -1,0 +1,29 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "item": "plerocottage:truffle"
+    },
+    {
+      "item": "plerocottage:truffle"
+    },
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:truffle_pie"
+  },
+  "temperature": 200
+}

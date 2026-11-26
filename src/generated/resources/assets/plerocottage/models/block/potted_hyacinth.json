@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/hyacinth",
+    "all": "plerocottage:block/hyacinth",
+    "dirt": "minecraft:block/dirt",
+    "flower_pot": "minecraft:block/flower_pot",
+    "particle": "plerocottage:block/hyacinth",
+    "plant": "plerocottage:block/hyacinth"
+  }
+}

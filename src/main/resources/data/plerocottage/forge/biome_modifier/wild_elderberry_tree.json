@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:small_end_islands",
+  "features": "plerocottage:wild_elderberry_tree",
+  "step": "vegetal_decoration"
+}

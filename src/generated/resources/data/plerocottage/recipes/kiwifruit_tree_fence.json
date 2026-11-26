@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "kiwifruit_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:kiwifruit_tree_planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#/#",
+    "#/#"
+  ],
+  "result": {
+    "count": 3,
+    "item": "plerocottage:kiwifruit_tree_fence"
+  },
+  "show_notification": true
+}

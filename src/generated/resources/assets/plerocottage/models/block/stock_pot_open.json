@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/stock_pot_open",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/stock_pot",
+    "all": "plerocottage:block/stock_pot",
+    "particle": "plerocottage:block/stock_pot"
+  }
+}

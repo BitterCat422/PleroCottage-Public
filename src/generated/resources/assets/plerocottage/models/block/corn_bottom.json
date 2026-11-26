@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/corn_bottom",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "corn": "plerocottage:block/corn",
+    "cross": "plerocottage:block/corn_crop_3",
+    "particle": "plerocottage:block/corn_crop_3"
+  }
+}

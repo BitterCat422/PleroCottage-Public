@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "no_need",
+  "mainInput": [
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:meringue"
+  }
+}

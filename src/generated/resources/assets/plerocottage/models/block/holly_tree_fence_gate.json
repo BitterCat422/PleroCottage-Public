@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_fence_gate",
+  "textures": {
+    "texture": "plerocottage:block/holly_tree_planks"
+  }
+}

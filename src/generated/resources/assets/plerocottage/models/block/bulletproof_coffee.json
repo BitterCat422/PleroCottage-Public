@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/bulletproof_coffee",
+  "textures": {
+    "0": "plerocottage:block/bulletproof_coffee",
+    "1": "plerocottage:block/bulletproof_coffee",
+    "2": "plerocottage:block/bulletproof_coffee",
+    "3": "plerocottage:block/bulletproof_coffee",
+    "4": "plerocottage:block/bulletproof_coffee",
+    "5": "plerocottage:block/bulletproof_coffee",
+    "particle": "plerocottage:block/bulletproof_coffee"
+  }
+}

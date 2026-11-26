@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "plerocottage:lemon_slice"
+    },
+    {
+      "item": "plerocottage:lemon_slice"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:lemonade",
+    "count": 1
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/bed",
+  "textures": {
+    "particle": "plerocottage:block/snow_wool"
+  }
+}

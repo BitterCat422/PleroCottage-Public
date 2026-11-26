@@ -1,0 +1,21 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:dark_chocolate_chips"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:donut"
+    },
+    {
+      "item": "plerocottage:rainbow_sprinkles"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:chocolate_donut"
+  }
+}

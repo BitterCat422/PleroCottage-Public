@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/hk_milk_tea_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/hk_milk_tea",
+    "particle": "plerocottage:block/hk_milk_tea"
+  }
+}

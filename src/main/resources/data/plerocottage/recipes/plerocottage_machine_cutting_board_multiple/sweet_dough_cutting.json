@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:butter"
+    }
+  ],
+  "isShaped": false,
+  "output": {
+    "count": 2,
+    "item": "plerocottage:sweet_dough"
+  }
+}

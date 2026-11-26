@@ -1,0 +1,29 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:almond_powder"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:meringue"
+    },
+    {
+      "item": "plerocottage:lavender_essential_oil"
+    },
+    {
+      "item": "plerocottage:snow_dye"
+    },
+    {
+      "item": "plerocottage:pearl_rock"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:lavender_macaron"
+  },
+  "temperature": 150
+}

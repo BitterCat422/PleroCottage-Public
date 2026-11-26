@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:cake_liquid_bucket"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "item": "plerocottage:chocolate"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:strawberry_shortcake"
+  },
+  "temperature": 150
+}

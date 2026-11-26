@@ -1,0 +1,7 @@
+{
+  "parent": "plerocottage:custom/muffin/muffin_3/chocolate_muffin",
+  "textures": {
+    "muffin": "plerocottage:block/chocolate_muffin",
+    "particle": "plerocottage:block/chocolate_muffin"
+  }
+}

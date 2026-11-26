@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:pink_crystal"
+    },
+    {
+      "item": "plerocottage:pink_crystal"
+    },
+    {
+      "item": "plerocottage:pink_crystal"
+    },
+    {
+      "item": "plerocottage:pink_crystal"
+    },
+    {
+      "item": "plerocottage:pink_crystal"
+    },
+    {
+      "item": "plerocottage:pink_crystal"
+    },
+    {
+      "item": "plerocottage:pink_crystal"
+    },
+    {
+      "item": "plerocottage:pink_crystal"
+    },
+    {
+      "item": "plerocottage:pink_crystal"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:pink_crystal_block",
+    "count": 1
+  }
+}

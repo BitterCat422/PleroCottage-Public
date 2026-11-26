@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:fast_fry",
+  "input": {
+    "item": "minecraft:dried_kelp"
+  },
+  "output": {
+    "item": "plerocottage:nori"
+  }
+}

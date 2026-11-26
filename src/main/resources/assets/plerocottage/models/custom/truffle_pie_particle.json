@@ -1,0 +1,6 @@
+{
+  "parent": "plerocottage:displaysettings/cherries_pie_veiw",
+  "textures": {
+    "particle": "plerocottage:block/truffle_pie_particle"
+  }
+}

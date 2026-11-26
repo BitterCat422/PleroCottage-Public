@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plerocottage:block/holly_tree_slab"
+    },
+    "type=double": {
+      "model": "plerocottage:block/holly_tree_planks"
+    },
+    "type=top": {
+      "model": "plerocottage:block/holly_tree_slab_top"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/watermelon_juice_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/watermelon_juice",
+    "particle": "plerocottage:block/watermelon_juice"
+  }
+}

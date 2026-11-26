@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:coffea_arabica"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "plerocottage:coffee_berries"
+  }
+}

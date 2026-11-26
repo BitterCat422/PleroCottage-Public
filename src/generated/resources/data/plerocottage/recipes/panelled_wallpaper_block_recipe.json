@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "minecraft:bricks"
+    },
+    "c": {
+      "tag": "minecraft:slabs"
+    }
+  },
+  "pattern": [
+    "a a",
+    "aba",
+    "aca"
+  ],
+  "result": {
+    "item": "plerocottage:panelled_wallpaper_block"
+  },
+  "show_notification": true
+}

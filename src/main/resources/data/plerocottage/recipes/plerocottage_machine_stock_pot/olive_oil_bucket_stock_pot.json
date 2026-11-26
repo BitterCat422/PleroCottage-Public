@@ -1,0 +1,36 @@
+{
+  "type": "plerocottage:stock_pot",
+  "container": {
+    "item": "minecraft:bucket"
+  },
+  "cookingTime": 200,
+  "mainInput": [
+    {
+      "item": "plerocottage:olive_fruits"
+    },
+    {
+      "item": "plerocottage:olive_fruits"
+    },
+    {
+      "item": "plerocottage:olive_fruits"
+    },
+    {
+      "item": "plerocottage:olive_fruits"
+    },
+    {
+      "item": "plerocottage:olive_fruits"
+    },
+    {
+      "item": "plerocottage:olive_fruits"
+    },
+    {
+      "item": "plerocottage:olive_fruits"
+    },
+    {
+      "item": "plerocottage:olive_fruits"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:olive_oil_bucket"
+  }
+}

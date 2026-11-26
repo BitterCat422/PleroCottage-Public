@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "a": {
+      "tag": "plerocottage:panelled_wallpaper_block"
+    },
+    "b": {
+      "item": "plerocottage:snow_dye"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "item": "plerocottage:snow_panelled_wallpaper_block"
+  },
+  "show_notification": true
+}

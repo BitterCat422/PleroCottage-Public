@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,waterlogged=false": {
+      "model": "plerocottage:block/absinthe",
+      "y": 90
+    },
+    "facing=east,waterlogged=true": {
+      "model": "plerocottage:block/absinthe",
+      "y": 90
+    },
+    "facing=north,waterlogged=false": {
+      "model": "plerocottage:block/absinthe"
+    },
+    "facing=north,waterlogged=true": {
+      "model": "plerocottage:block/absinthe"
+    },
+    "facing=south,waterlogged=false": {
+      "model": "plerocottage:block/absinthe",
+      "y": 180
+    },
+    "facing=south,waterlogged=true": {
+      "model": "plerocottage:block/absinthe",
+      "y": 180
+    },
+    "facing=west,waterlogged=false": {
+      "model": "plerocottage:block/absinthe",
+      "y": 270
+    },
+    "facing=west,waterlogged=true": {
+      "model": "plerocottage:block/absinthe",
+      "y": 270
+    }
+  }
+}

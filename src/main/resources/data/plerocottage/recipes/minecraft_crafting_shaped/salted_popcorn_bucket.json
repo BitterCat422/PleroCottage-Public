@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "bbb",
+    "cad"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:paper"
+    },
+    "b": {
+      "item": "plerocottage:popcorn"
+    },
+    "c": {
+      "item": "plerocottage:bottled_olive_oil"
+    },
+    "d": {
+      "item": "plerocottage:salt_shaker"
+    }
+  },
+  "result": {
+    "item": "plerocottage:salted_popcorn_bucket",
+    "count": 1
+  }
+}

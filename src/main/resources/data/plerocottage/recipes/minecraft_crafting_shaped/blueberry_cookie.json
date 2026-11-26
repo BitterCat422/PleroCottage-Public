@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wheat"
+    },
+    "b": {
+      "tag": "forge:fruits/blueberries"
+    }
+  },
+  "result": {
+    "item": "plerocottage:blueberry_cookie",
+    "count": 2
+  }
+}

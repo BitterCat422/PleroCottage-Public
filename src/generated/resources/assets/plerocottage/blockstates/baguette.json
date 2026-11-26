@@ -1,0 +1,49 @@
+{
+  "variants": {
+    "blockstate=0,facing=east": {
+      "model": "plerocottage:block/baguette",
+      "y": 90
+    },
+    "blockstate=0,facing=north": {
+      "model": "plerocottage:block/baguette"
+    },
+    "blockstate=0,facing=south": {
+      "model": "plerocottage:block/baguette",
+      "y": 180
+    },
+    "blockstate=0,facing=west": {
+      "model": "plerocottage:block/baguette",
+      "y": 270
+    },
+    "blockstate=1,facing=east": {
+      "model": "plerocottage:block/baguette_blockstate_0",
+      "y": 90
+    },
+    "blockstate=1,facing=north": {
+      "model": "plerocottage:block/baguette_blockstate_0"
+    },
+    "blockstate=1,facing=south": {
+      "model": "plerocottage:block/baguette_blockstate_0",
+      "y": 180
+    },
+    "blockstate=1,facing=west": {
+      "model": "plerocottage:block/baguette_blockstate_0",
+      "y": 270
+    },
+    "blockstate=2,facing=east": {
+      "model": "plerocottage:block/baguette_blockstate_1",
+      "y": 90
+    },
+    "blockstate=2,facing=north": {
+      "model": "plerocottage:block/baguette_blockstate_1"
+    },
+    "blockstate=2,facing=south": {
+      "model": "plerocottage:block/baguette_blockstate_1",
+      "y": 180
+    },
+    "blockstate=2,facing=west": {
+      "model": "plerocottage:block/baguette_blockstate_1",
+      "y": 270
+    }
+  }
+}

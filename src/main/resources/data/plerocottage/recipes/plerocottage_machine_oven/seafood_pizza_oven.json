@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 100,
+  "input": [
+    {
+      "item": "plerocottage:vanilla_pizza"
+    },
+    {
+      "item": "plerocottage:cooked_prawn"
+    },
+    {
+      "item": "plerocottage:cooked_prawn"
+    },
+    {
+      "item": "plerocottage:cooked_abalone"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:seafood_pizza"
+  },
+  "temperature": 150
+}

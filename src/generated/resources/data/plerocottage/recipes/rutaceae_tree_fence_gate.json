@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "rutaceae_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:rutaceae_tree_planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "/#/",
+    "/#/"
+  ],
+  "result": {
+    "item": "plerocottage:rutaceae_tree_fence_gate"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ada"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_ingot"
+    },
+    "b": {
+      "item": "minecraft:pink_dye"
+    },
+    "c": {
+      "item": "plerocottage:creativity_mechanism"
+    },
+    "d": {
+      "item": "minecraft:ice"
+    }
+  },
+  "result": {
+    "item": "plerocottage:ice_cream_machine",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "nut_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:nut_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:nut_tree_chest_boat"
+  }
+}

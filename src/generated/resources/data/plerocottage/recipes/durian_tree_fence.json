@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "durian_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:durian_tree_planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "#/#",
+    "#/#"
+  ],
+  "result": {
+    "count": 3,
+    "item": "plerocottage:durian_tree_fence"
+  },
+  "show_notification": true
+}

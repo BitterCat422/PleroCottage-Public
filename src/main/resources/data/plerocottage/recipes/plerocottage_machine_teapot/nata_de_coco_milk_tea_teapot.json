@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "input": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:black_tea_leaves"
+    },
+    {
+      "item": "plerocottage:nata_de_coco"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:nata_de_coco_milk_tea"
+  }
+}

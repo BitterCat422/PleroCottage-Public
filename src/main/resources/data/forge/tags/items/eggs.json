@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:sniffer_egg",
+    "plerocottage:mallard_duck_egg",
+    "plerocottage:turkey_egg",
+    "minecraft:turtle_egg",
+    "minecraft:egg"
+  ]
+}

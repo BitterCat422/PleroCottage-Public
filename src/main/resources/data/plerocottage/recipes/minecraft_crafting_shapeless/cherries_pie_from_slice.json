@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:cherries_pie_slice"
+    },
+    {
+      "item": "plerocottage:cherries_pie_slice"
+    },
+    {
+      "item": "plerocottage:cherries_pie_slice"
+    },
+    {
+      "item": "plerocottage:cherries_pie_slice"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:cherries_pie",
+    "count": 1
+  }
+}

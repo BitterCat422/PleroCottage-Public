@@ -1,0 +1,6 @@
+{
+  "parent": "plerocottage:displaysettings/bowl_display",
+  "textures": {
+    "particle": "plerocottage:block/pepperoni_pizza"
+  }
+}

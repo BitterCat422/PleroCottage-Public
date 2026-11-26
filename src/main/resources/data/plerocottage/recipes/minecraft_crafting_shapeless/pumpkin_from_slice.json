@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:pumpkin_slice"
+    },
+    {
+      "item": "plerocottage:pumpkin_slice"
+    },
+    {
+      "item": "plerocottage:pumpkin_slice"
+    },
+    {
+      "item": "plerocottage:pumpkin_slice"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pumpkin",
+    "count": 1
+  }
+}

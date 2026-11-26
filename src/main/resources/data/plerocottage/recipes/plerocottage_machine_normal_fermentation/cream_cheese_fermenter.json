@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "cookingTime": 2400,
+  "input": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "plerocottage:yogurt"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:cream_cheese"
+  }
+}

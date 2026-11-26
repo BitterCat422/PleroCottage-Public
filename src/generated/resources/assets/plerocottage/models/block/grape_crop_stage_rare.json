@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/grape_crop_4",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "3": "plerocottage:block/grape_crop_spe",
+    "all": "plerocottage:block/grape_crop_spe",
+    "particle": "plerocottage:block/grape_crop_1"
+  }
+}

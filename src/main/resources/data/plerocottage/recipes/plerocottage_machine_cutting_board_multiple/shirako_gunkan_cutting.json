@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:sumeshi"
+    },
+    {
+      "item": "plerocottage:shirako"
+    },
+    {
+      "item": "plerocottage:jalapeno_powder"
+    },
+    {
+      "item": "plerocottage:nori"
+    }
+  ],
+  "isShaped": true,
+  "output": {
+    "count": 1,
+    "item": "plerocottage:shirako_gunkan"
+  }
+}

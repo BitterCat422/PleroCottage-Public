@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "experience": 0.35,
+  "cookingtime": 200,
+  "ingredient": {
+    "tag": "forge:edible_eggs"
+  },
+  "result": "plerocottage:sunny_side_up_egg"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "river",
+    "beach"
+  ],
+  "spawners": {
+    "type": "plerocottage:mallard_duck",
+    "weight": 24,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

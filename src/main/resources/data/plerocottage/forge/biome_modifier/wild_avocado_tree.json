@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:sparse_jungle",
+  "features": "plerocottage:wild_avocado_tree",
+  "step": "vegetal_decoration"
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smoking",
+  "category": "misc",
+  "experience": 0.35,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "plerocottage:apricot_seed"
+  },
+  "result": "plerocottage:apricot_kernel"
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "rosaceae_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:rosaceae_tree_planks"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "plerocottage:rosaceae_tree_pressure_plate"
+  },
+  "show_notification": true
+}

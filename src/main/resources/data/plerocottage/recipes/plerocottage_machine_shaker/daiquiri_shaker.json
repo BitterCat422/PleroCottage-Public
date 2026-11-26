@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:shaker",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "input": [
+    {
+      "item": "plerocottage:glass_of_rum"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:lime_slice"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:daiquiri"
+  }
+}

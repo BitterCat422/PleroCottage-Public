@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:pon_de_ring"
+    },
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:lavender_essential_oil"
+    },
+    {
+      "item": "plerocottage:lavender_dye"
+    },
+    {
+      "item": "plerocottage:grated_coconut"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:lavender_pon_de_ring",
+    "count": 1
+  }
+}

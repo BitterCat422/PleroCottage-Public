@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/starfruit_wine",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/starfruit_wine",
+    "1": "plerocottage:block/starfruit_wine",
+    "2": "plerocottage:block/starfruit_wine",
+    "3": "plerocottage:block/starfruit_wine",
+    "4": "plerocottage:block/starfruit_wine",
+    "5": "plerocottage:block/starfruit_wine",
+    "particle": "plerocottage:block/starfruit_wine"
+  }
+}

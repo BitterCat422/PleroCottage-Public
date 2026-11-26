@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/citrus_bavarois",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/citrus_bavarois",
+    "1": "plerocottage:block/citrus_bavarois",
+    "2": "plerocottage:block/citrus_bavarois",
+    "3": "plerocottage:block/citrus_bavarois",
+    "4": "plerocottage:block/citrus_bavarois",
+    "5": "plerocottage:block/citrus_bavarois",
+    "particle": "plerocottage:block/citrus_bavarois"
+  }
+}

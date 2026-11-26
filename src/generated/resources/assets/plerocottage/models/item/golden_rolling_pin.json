@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "plerocottage:item/golden_rolling_pin"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "nut_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:nut_tree_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:nut_tree_stairs"
+  },
+  "show_notification": true
+}

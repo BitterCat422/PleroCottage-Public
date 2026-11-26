@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    " f "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:sugar"
+    },
+    "b": {
+      "tag": "forge:flour"
+    },
+    "c": {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    "d": {
+      "tag": "forge:edible_eggs"
+    },
+    "e": {
+      "tag": "forge:milk_bucket"
+    },
+    "f": {
+      "item": "minecraft:bucket"
+    }
+  },
+  "result": {
+    "item": "plerocottage:cake_liquid_bucket",
+    "count": 1
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghg"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:fruits/strawberry"
+    },
+    "b": {
+      "item": "plerocottage:kiwifruit_slice"
+    },
+    "c": {
+      "item": "plerocottage:muskmelon_slice"
+    },
+    "d": {
+      "item": "plerocottage:scoop_of_ice_cream"
+    },
+    "e": {
+      "tag": "forge:fruits/cherry"
+    },
+    "f": {
+      "item": "plerocottage:apple_slice"
+    },
+    "g": {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    "h": {
+      "item": "plerocottage:pudding"
+    }
+  },
+  "result": {
+    "item": "plerocottage:pudding_a_la_mode",
+    "count": 1
+  }
+}

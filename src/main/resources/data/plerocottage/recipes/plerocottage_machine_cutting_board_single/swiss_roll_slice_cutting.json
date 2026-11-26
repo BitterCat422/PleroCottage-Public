@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:swiss_roll"
+  },
+  "output": {
+    "count": 3,
+    "item": "plerocottage:swiss_roll_slice"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 100,
+  "input": [
+    {
+      "item": "plerocottage:vanilla_pizza"
+    },
+    {
+      "item": "plerocottage:sausage"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:pepperoni_pizza"
+  },
+  "temperature": 150
+}

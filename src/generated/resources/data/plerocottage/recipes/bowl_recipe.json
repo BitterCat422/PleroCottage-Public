@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "plerocottage:polished_marble"
+    }
+  },
+  "pattern": [
+    "a a",
+    "aaa"
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:bowl"
+  },
+  "show_notification": true
+}

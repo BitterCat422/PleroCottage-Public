@@ -1,0 +1,38 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:flour"
+    },
+    {
+      "item": "plerocottage:yogurt"
+    },
+    {
+      "item": "minecraft:orange_dye"
+    },
+    {
+      "item": "plerocottage:bottled_olive_oil"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    [
+    	{
+      "item": "plerocottage:rosa_water"
+    	},
+    	{
+      "item": "plerocottage:orange_blossom_water"
+    	}
+    ],
+    {
+      "item": "plerocottage:saffron"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "plerocottage:jalebi"
+  }
+}

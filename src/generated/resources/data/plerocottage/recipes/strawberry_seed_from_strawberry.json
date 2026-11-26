@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "plerocottage:strawberry"
+      },
+      {
+        "item": "plerocottage:pineberry"
+      }
+    ]
+  ],
+  "result": {
+    "count": 2,
+    "item": "plerocottage:strawberry_seeds"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "starfruit_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:starfruit_tree_planks"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "plerocottage:starfruit_tree_boat"
+  },
+  "show_notification": true
+}

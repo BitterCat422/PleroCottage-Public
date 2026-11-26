@@ -1,0 +1,7 @@
+{
+  "parent": "plerocottage:custom/plate",
+  "textures": {
+    "1": "plerocottage:block/plate",
+    "particle": "plerocottage:block/plate"
+  }
+}

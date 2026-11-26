@@ -1,0 +1,28 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:cocoa_butter"
+    },
+    {
+      "item": "plerocottage:cocoa_butter"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:white_chocolate"
+  }
+}

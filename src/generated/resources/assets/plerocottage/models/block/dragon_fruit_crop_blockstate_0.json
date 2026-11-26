@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/dragon_fruit_crop_2",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/dragon_fruit_crop_2",
+    "all": "plerocottage:block/dragon_fruit_crop_2",
+    "particle": "plerocottage:block/dragon_fruit_crop_2"
+  }
+}

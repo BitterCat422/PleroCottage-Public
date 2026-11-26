@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "hawthorn_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:hawthorn_tree_planks"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "plerocottage:hawthorn_tree_pressure_plate"
+  },
+  "show_notification": true
+}

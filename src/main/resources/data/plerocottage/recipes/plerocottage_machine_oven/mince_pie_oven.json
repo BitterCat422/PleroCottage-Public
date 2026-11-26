@@ -1,0 +1,35 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "item": "plerocottage:raisins"
+    },
+    {
+      "item": "plerocottage:green_apple_slice"
+    },
+    {
+      "item": "plerocottage:orange_segment"
+    },
+    {
+      "item": "plerocottage:brown_sugar"
+    },
+    {
+      "item": "plerocottage:mixed_spice"
+    },
+    {
+      "item": "plerocottage:glass_of_brandy"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:mince_pie"
+  },
+  "temperature": 200
+}

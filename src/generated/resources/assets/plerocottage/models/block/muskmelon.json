@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "down": "plerocottage:block/muskmelon_side",
+    "east": "plerocottage:block/muskmelon_side",
+    "north": "plerocottage:block/muskmelon_side",
+    "particle": "plerocottage:block/muskmelon_side",
+    "south": "plerocottage:block/muskmelon_side",
+    "up": "plerocottage:block/muskmelon_top",
+    "west": "plerocottage:block/muskmelon_side"
+  }
+}

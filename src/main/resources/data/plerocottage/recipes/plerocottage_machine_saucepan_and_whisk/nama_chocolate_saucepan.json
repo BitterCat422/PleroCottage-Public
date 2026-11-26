@@ -1,0 +1,27 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:dark_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:dark_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "plerocottage:butter"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:cocoa_powder"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:nama_chocolate"
+  }
+}

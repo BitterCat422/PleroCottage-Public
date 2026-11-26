@@ -1,0 +1,37 @@
+{
+  "type": "plerocottage:shaker",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    [
+   	  {
+    	  "item": "plerocottage:glass_of_brandy"
+  	  },
+  	  {
+        "item": "plerocottage:glass_of_rum"
+  	  },
+  	  {
+        "item": "plerocottage:glass_of_whiskey"
+  	  }
+    ],
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+        "item": "plerocottage:mixed_spice"
+    },
+    {
+      "item": "plerocottage:cinnamon"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:eggnog"
+  }
+}

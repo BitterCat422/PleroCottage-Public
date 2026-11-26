@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "plerocottage:block/muskmelon_attached_stem",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "plerocottage:block/muskmelon_attached_stem"
+    },
+    "facing=south": {
+      "model": "plerocottage:block/muskmelon_attached_stem",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plerocottage:block/muskmelon_attached_stem",
+      "y": 270
+    }
+  }
+}

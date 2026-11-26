@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/banana_tree_flower",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/banana_frond_block_none",
+    "all": "plerocottage:block/banana_frond_block_none",
+    "particle": "plerocottage:block/banana_frond_block_none"
+  }
+}

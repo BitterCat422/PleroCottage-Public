@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 200,
+  "input": [
+    {
+      "item": "plerocottage:cake_liquid_bucket"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "plerocottage:dark_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:cooked_walpecans"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:brownie"
+  },
+  "temperature": 200
+}

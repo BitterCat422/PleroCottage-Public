@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#forge:is_plains",
+  "features": "plerocottage:jasmine",
+  "step": "vegetal_decoration"
+}

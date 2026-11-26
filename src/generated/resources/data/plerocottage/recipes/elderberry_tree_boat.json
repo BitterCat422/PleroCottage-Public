@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "elderberry_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:elderberry_tree_planks"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "plerocottage:elderberry_tree_boat"
+  },
+  "show_notification": true
+}

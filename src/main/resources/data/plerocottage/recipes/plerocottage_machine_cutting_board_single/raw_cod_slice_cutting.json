@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "minecraft:cod"
+  },
+  "output": {
+    "count": 2,
+    "item": "plerocottage:raw_cod_slice"
+  },
+  "outgrowths": [
+  {
+    "chance": 0.8,
+    "count": 1,
+    "item": "minecraft:bone_meal"
+  },
+  {
+    "chance": 0.2,
+    "count": 1,
+    "item": "plerocottage:tarako"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

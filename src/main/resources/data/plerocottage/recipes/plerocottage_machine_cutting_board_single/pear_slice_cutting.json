@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "tag": "forge:fruits/pear"
+  },
+  "output": {
+    "count": 3,
+    "item": "plerocottage:pear_slice"
+  },
+  "outgrowths": [
+  {
+    "chance": 1.0,
+    "count": 1,
+    "item": "plerocottage:pear_seeds"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

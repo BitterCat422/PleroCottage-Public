@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/americano",
+  "textures": {
+    "0": "plerocottage:block/americano",
+    "1": "plerocottage:block/americano",
+    "2": "plerocottage:block/americano",
+    "3": "plerocottage:block/americano",
+    "4": "plerocottage:block/americano",
+    "5": "plerocottage:block/americano",
+    "particle": "plerocottage:block/americano"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "cinnise_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:cinnise_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:cinnise_tree_planks"
+  }
+}

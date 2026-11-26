@@ -1,0 +1,17 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 200,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "item": "plerocottage:matcha_powder"
+    }
+  ],
+  "output": {
+    "count": 6,
+    "item": "plerocottage:matcha_cookie"
+  },
+  "temperature": 200
+}

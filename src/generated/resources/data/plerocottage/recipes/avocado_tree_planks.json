@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "avocado_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:avocado_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:avocado_tree_planks"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "tag": "forge:dyes"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:grenadine"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:eyeball_jelly"
+  }
+}

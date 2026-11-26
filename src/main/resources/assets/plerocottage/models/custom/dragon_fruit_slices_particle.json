@@ -1,0 +1,6 @@
+{
+  "parent": "plerocottage:displaysettings/dragon_fruit_slices_display",
+  "textures": {
+    "particle": "plerocottage:block/dragon_fruit_slices_1"
+  }
+}

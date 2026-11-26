@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/durian_leaves_c",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/durian_leaves_c",
+    "particle": "plerocottage:block/durian_leaves_c"
+  }
+}

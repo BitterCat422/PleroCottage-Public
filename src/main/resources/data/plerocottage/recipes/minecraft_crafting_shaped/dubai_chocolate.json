@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:dark_chocolate"
+    },
+    "b": {
+      "item": "plerocottage:cooked_pistachios"
+    },
+    "c": {
+      "item": "plerocottage:kadayif"
+    }
+  },
+  "result": {
+    "item": "plerocottage:dubai_chocolate",
+    "count": 2
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:flint"
+    },
+    "b": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "bbb",
+    " ab",
+    " a "
+  ],
+  "result": {
+    "item": "plerocottage:stone_sickle"
+  },
+  "show_notification": true
+}

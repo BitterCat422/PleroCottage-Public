@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "durian_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:durian_tree_planks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 3,
+    "item": "plerocottage:durian_tree_door"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "plerocottage:block/wild_mint_lower"
+    },
+    "half=upper": {
+      "model": "plerocottage:block/wild_mint_upper"
+    }
+  }
+}

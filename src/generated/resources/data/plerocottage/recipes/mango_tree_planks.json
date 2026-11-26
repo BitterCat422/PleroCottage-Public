@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mango_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:mango_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:mango_tree_planks"
+  }
+}

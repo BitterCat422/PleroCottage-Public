@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "minecraft:cooked_chicken"
+  },
+  "output": {
+    "count": 2,
+    "item": "plerocottage:cooked_chicken_breast"
+  },
+  "outgrowths": [
+  {
+    "chance": 1.0,
+    "count": 2,
+    "item": "plerocottage:cooked_chicken_wing"
+  },
+  {
+    "chance": 1.0,
+    "count": 2,
+    "item": "plerocottage:cooked_chicken_drumstick"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

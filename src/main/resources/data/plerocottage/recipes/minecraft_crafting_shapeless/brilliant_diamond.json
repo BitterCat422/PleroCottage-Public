@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:brilliant_diamond_block"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:brilliant_diamond",
+    "count": 9
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "type": "plerocottage:stock_pot",
+  "container": {
+    "item": "plerocottage:bowl"
+  },
+  "cookingTime": 200,
+  "mainInput": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:beetroot_slice"
+    },
+    {
+      "item": "plerocottage:beetroot_slice"
+    },
+    {
+      "item": "plerocottage:tomato_slice"
+    },
+    {
+      "item": "plerocottage:carrot_slices"
+    },
+    {
+      "item": "plerocottage:potato_slices"
+    },
+    {
+      "tag": "forge:raw_beef"
+    },
+    {
+      "item": "plerocottage:bay_leaves"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:salt_shaker"
+    },
+    {
+      "item": "plerocottage:yogurt"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:borscht"
+  }
+}

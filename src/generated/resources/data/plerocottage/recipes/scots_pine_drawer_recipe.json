@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "plerocottage:scots_pine_planks"
+    },
+    "b": {
+      "item": "plerocottage:scots_pine_trapdoor"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aba"
+  ],
+  "result": {
+    "item": "plerocottage:scots_pine_drawer"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:cocoa_powder"
+    },
+    {
+      "item": "plerocottage:marshmallows"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:sweet_hot_cocoa"
+  }
+}

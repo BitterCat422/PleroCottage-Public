@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "tag": "forge:fruits/dragonfruit"
+  },
+  "output": {
+    "count": 3,
+    "item": "plerocottage:dragon_fruit_slices"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghi"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:scoop_of_tiger_tail_ice_cream"
+    },
+    "b": {
+      "item": "plerocottage:marshmallows"
+    },
+    "c": {
+      "item": "plerocottage:starfruit_slice"
+    },
+    "d": {
+      "item": "plerocottage:grenadine"
+    },
+    "e": {
+      "item": "plerocottage:eyeball_jelly"
+    },
+    "f": {
+      "item": "plerocottage:grape_paleta"
+    },
+    "g": {
+      "item": "plerocottage:pumpkin_slice"
+    },
+    "h": {
+      "item": "minecraft:glass_bottle"
+    },
+    "i": {
+      "item": "plerocottage:rainbow_cookie"
+    }
+  },
+  "result": {
+    "item": "plerocottage:halloween_parfait",
+    "count": 1
+  }
+}

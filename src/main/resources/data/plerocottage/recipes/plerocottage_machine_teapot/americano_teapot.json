@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:coffee_powder"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:americano"
+  }
+}

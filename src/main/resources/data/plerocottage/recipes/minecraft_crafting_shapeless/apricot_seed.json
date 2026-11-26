@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+  	[
+    	{
+      	"item": "plerocottage:apricots"
+    	},
+    	{
+      	"item": "plerocottage:umes"
+    	}
+    ]
+  ],
+  "result": {
+    "item": "plerocottage:apricot_seed",
+    "count": 2
+  }
+}

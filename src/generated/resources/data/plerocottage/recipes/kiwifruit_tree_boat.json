@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "kiwifruit_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:kiwifruit_tree_planks"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "plerocottage:kiwifruit_tree_boat"
+  },
+  "show_notification": true
+}

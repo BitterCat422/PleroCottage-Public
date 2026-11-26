@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 200,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "plerocottage:grated_coconut"
+    },
+    {
+      "item": "plerocottage:condensed_milk"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:cream_bun"
+  },
+  "temperature": 200
+}

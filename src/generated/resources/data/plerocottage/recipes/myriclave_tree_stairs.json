@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "myriclave_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:myriclave_tree_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:myriclave_tree_stairs"
+  },
+  "show_notification": true
+}

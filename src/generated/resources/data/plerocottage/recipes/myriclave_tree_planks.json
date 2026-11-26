@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "myriclave_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:myriclave_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:myriclave_tree_planks"
+  }
+}

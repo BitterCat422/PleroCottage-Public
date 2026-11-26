@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    "bdb"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:hay_nest"
+    },
+    "b": {
+      "item": "plerocottage:vine_arbor"
+    },
+    "c": {
+      "item": "redstone_lamp"
+    },
+    "d": {
+      "item": "minecraft:redstone_block"
+    }
+  },
+  "result": {
+    "item": "plerocottage:egg_incubator",
+    "count": 1
+  }
+}

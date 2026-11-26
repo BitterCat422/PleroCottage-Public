@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "plerocottage:corn_flour"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:marshmallows"
+  }
+}

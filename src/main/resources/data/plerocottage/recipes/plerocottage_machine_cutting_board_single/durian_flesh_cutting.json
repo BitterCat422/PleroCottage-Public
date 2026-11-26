@@ -1,0 +1,30 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:half_of_durian"
+  },
+  "output": {
+    "count": 2,
+    "item": "plerocottage:durian_flesh"
+  },
+  "outgrowths": [
+  {
+    "chance": 0.5,
+    "count": 1,
+    "item": "plerocottage:durian_flesh"
+  },
+  {
+    "chance": 1.0,
+    "count": 1,
+    "item": "plerocottage:durian_seed"
+  },
+  {
+    "chance": 0.5,
+    "count": 1,
+    "item": "plerocottage:durian_seed"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

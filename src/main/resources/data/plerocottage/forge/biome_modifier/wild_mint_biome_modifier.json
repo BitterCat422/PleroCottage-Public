@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "plerocottage:mediterranean_plain",
+  "features": "plerocottage:wild_mint",
+  "step": "vegetal_decoration"
+}

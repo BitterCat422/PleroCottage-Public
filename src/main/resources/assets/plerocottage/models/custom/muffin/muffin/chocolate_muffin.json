@@ -1,0 +1,545 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "elements": [
+    {
+      "from": [
+        5,
+        3.5,
+        5
+      ],
+      "to": [
+        11,
+        5.5,
+        11
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          6,
+          3.5,
+          6
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            6,
+            6,
+            8
+          ],
+          "texture": "#muffin"
+        },
+        "east": {
+          "uv": [
+            0,
+            6,
+            6,
+            8
+          ],
+          "texture": "#muffin"
+        },
+        "south": {
+          "uv": [
+            0,
+            6,
+            6,
+            8
+          ],
+          "texture": "#muffin"
+        },
+        "west": {
+          "uv": [
+            0,
+            6,
+            6,
+            8
+          ],
+          "texture": "#muffin"
+        },
+        "up": {
+          "uv": [
+            6,
+            6,
+            0,
+            0
+          ],
+          "texture": "#muffin"
+        },
+        "down": {
+          "uv": [
+            12,
+            0,
+            6,
+            6
+          ],
+          "texture": "#muffin"
+        }
+      }
+    },
+    {
+      "from": [
+        5.5,
+        5,
+        5.5
+      ],
+      "to": [
+        10.5,
+        7,
+        10.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          5.5,
+          5,
+          5.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            13,
+            10,
+            15
+          ],
+          "texture": "#muffin"
+        },
+        "east": {
+          "uv": [
+            5,
+            13,
+            10,
+            15
+          ],
+          "texture": "#muffin"
+        },
+        "south": {
+          "uv": [
+            5,
+            13,
+            10,
+            15
+          ],
+          "texture": "#muffin"
+        },
+        "west": {
+          "uv": [
+            5,
+            13,
+            10,
+            15
+          ],
+          "texture": "#muffin"
+        },
+        "up": {
+          "uv": [
+            10,
+            13,
+            5,
+            8
+          ],
+          "texture": "#muffin"
+        }
+      }
+    },
+    {
+      "from": [
+        5.5,
+        0,
+        5.5
+      ],
+      "to": [
+        10.5,
+        3,
+        10.5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          5.5,
+          0,
+          5.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            13,
+            5,
+            16
+          ],
+          "texture": "#muffin"
+        },
+        "east": {
+          "uv": [
+            0,
+            13,
+            5,
+            16
+          ],
+          "texture": "#muffin"
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            5,
+            16
+          ],
+          "texture": "#muffin"
+        },
+        "west": {
+          "uv": [
+            0,
+            13,
+            5,
+            16
+          ],
+          "texture": "#muffin"
+        },
+        "down": {
+          "uv": [
+            5,
+            8,
+            0,
+            13
+          ],
+          "texture": "#muffin"
+        }
+      }
+    },
+    {
+      "from": [
+        5.4,
+        2.4,
+        5.4
+      ],
+      "to": [
+        10.6,
+        3.6,
+        10.6
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          5.5,
+          -1.5,
+          5.5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            13,
+            5,
+            14
+          ],
+          "texture": "#muffin"
+        },
+        "east": {
+          "uv": [
+            0,
+            13,
+            5,
+            14
+          ],
+          "texture": "#muffin"
+        },
+        "south": {
+          "uv": [
+            0,
+            13,
+            5,
+            14
+          ],
+          "texture": "#muffin"
+        },
+        "west": {
+          "uv": [
+            0,
+            13,
+            5,
+            14
+          ],
+          "texture": "#muffin"
+        }
+      }
+    },
+    {
+      "from": [
+        7.1,
+        6.35,
+        7.02074
+      ],
+      "to": [
+        8.9,
+        8.15,
+        9.82074
+      ],
+      "rotation": {
+        "angle": -22.5,
+        "axis": "x",
+        "origin": [
+          8,
+          6.25,
+          7.92074
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            12,
+            1,
+            14,
+            3
+          ],
+          "texture": "#muffin"
+        },
+        "east": {
+          "uv": [
+            13,
+            3,
+            16,
+            5
+          ],
+          "texture": "#muffin"
+        },
+        "south": {
+          "uv": [
+            12,
+            1,
+            14,
+            3
+          ],
+          "texture": "#muffin"
+        },
+        "west": {
+          "uv": [
+            13,
+            3,
+            16,
+            5
+          ],
+          "texture": "#muffin"
+        },
+        "up": {
+          "uv": [
+            16,
+            3,
+            14,
+            0
+          ],
+          "texture": "#muffin"
+        },
+        "down": {
+          "uv": [
+            14,
+            4,
+            13,
+            5
+          ],
+          "texture": "#muffin"
+        }
+      }
+    }
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        0,
+        90,
+        55
+      ],
+      "translation": [
+        0,
+        4,
+        2.5
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        0,
+        90,
+        55
+      ],
+      "translation": [
+        0,
+        4,
+        2.5
+      ],
+      "scale": [
+        0.85,
+        0.85,
+        0.85
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        -20,
+        110,
+        15
+      ],
+      "translation": [
+        1,
+        5.1,
+        0.8
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        -20,
+        110,
+        15
+      ],
+      "translation": [
+        1,
+        5.1,
+        0.8
+      ],
+      "scale": [
+        0.68,
+        0.68,
+        0.68
+      ]
+    },
+    "ground": {
+      "translation": [
+        0,
+        2,
+        0
+      ],
+      "scale": [
+        0.5,
+        0.5,
+        0.5
+      ]
+    },
+    "gui": {
+      "rotation": [
+        25,
+        45,
+        -15
+      ],
+      "translation": [
+        0.75,
+        2.25,
+        0
+      ],
+      "scale": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        14.25,
+        0
+      ]
+    },
+    "fixed": {
+      "rotation": [
+        -90,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0,
+        -16
+      ],
+      "scale": [
+        2,
+        2,
+        2
+      ]
+    },
+    "on_shelf": {
+      "rotation": [
+        0,
+        -135,
+        15
+      ],
+      "scale": [
+        3,
+        3,
+        3
+      ]
+    }
+  },
+  "groups": [
+    {
+      "name": "muffin",
+      "origin": [
+        5.5,
+        0,
+        5.5
+      ],
+      "scope": 0,
+      "color": 0,
+      "children": [
+        {
+          "name": "cake",
+          "origin": [
+            8,
+            8,
+            8
+          ],
+          "scope": 0,
+          "color": 0,
+          "children": [
+            0,
+            1
+          ]
+        },
+        {
+          "name": "cup",
+          "origin": [
+            5.5,
+            0,
+            5.5
+          ],
+          "scope": 0,
+          "color": 0,
+          "children": [
+            2,
+            3
+          ]
+        },
+        {
+          "name": "chocolate",
+          "origin": [
+            0,
+            0,
+            0
+          ],
+          "scope": 0,
+          "color": 0,
+          "children": [
+            4
+          ]
+        }
+      ]
+    }
+  ]
+}

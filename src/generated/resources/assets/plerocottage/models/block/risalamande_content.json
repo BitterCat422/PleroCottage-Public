@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/risalamande_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/risalamande",
+    "particle": "plerocottage:block/risalamande"
+  }
+}

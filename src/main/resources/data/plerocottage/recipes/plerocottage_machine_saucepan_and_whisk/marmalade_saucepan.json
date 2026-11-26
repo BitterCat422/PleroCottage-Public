@@ -1,0 +1,28 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "tag": "forge:fruits/orange"
+    },
+    {
+      "tag": "forge:fruits/orange"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:marmalade"
+  }
+}

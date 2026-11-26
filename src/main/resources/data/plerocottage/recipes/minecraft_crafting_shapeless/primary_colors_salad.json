@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:bowl"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "tag": "forge:fruits/strawberry"
+    },
+    {
+      "tag": "forge:fruits/blueberries"
+    },
+    {
+      "item": "plerocottage:mango_slice"
+    },
+    {
+      "item": "plerocottage:kiwifruit_slice"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:primary_colors_salad",
+    "count": 1
+  }
+}

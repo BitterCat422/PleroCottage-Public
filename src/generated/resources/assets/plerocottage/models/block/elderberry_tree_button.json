@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button",
+  "textures": {
+    "texture": "plerocottage:block/elderberry_tree_planks"
+  }
+}

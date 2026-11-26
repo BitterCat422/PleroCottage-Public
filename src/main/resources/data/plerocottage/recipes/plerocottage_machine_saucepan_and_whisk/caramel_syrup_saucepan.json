@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:coconut_sugar_caramels"
+    },
+    {
+      "item": "plerocottage:coconut_sugar_caramels"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:caramel_syrup"
+  }
+}

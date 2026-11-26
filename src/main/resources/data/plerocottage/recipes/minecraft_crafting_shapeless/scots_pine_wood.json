@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "plerocottage:scots_pine_log"
+    },
+    {
+      "item": "plerocottage:scots_pine_log"
+    },
+    {
+      "item": "plerocottage:scots_pine_log"
+    },
+    {
+      "item": "plerocottage:scots_pine_log"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:scots_pine_wood",
+    "count": 3
+  }
+}

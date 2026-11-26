@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "plerocottage:red_wine"
+    },
+    "title": {
+      "translate": "advancements.local_brewery_ii.title"
+    },
+    "description": {
+      "translate": "advancements.local_brewery_ii.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "local_brewery_ii_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "plerocottage:wine",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "plerocottage:glass_creaking"
+}

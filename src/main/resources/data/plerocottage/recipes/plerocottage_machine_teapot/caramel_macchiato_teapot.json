@@ -1,0 +1,29 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:coffee_powder"
+    },
+    {
+      "item": "plerocottage:coffee_powder"
+    },
+    {
+      "item": "plerocottage:coffee_powder"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:caramel_syrup"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:caramel_macchiato"
+  }
+}

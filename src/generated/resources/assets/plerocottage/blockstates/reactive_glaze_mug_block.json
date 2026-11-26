@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "plerocottage:block/reactive_glaze_mug_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "plerocottage:block/reactive_glaze_mug_block"
+    },
+    "facing=south": {
+      "model": "plerocottage:block/reactive_glaze_mug_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plerocottage:block/reactive_glaze_mug_block",
+      "y": 270
+    }
+  }
+}

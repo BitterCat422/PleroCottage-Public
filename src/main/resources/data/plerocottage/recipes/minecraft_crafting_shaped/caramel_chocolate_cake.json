@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "bcb",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:dark_chocolate_chips"
+    },
+    "b": {
+      "item": "plerocottage:coconut_sugar_caramels"
+    },
+    "c": {
+      "tag": "forge:edible_eggs"
+    },
+    "d": {
+      "item": "minecraft:wheat"
+    },
+    "e": {
+      "item": "plerocottage:custard"
+    }
+  },
+  "result": {
+    "item": "plerocottage:caramel_chocolate_cake",
+    "count": 1
+  }
+}

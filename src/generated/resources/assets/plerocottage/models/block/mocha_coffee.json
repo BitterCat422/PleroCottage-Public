@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/mocha_coffee",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/mocha_coffee",
+    "1": "plerocottage:block/mocha_coffee",
+    "2": "plerocottage:block/mocha_coffee",
+    "3": "plerocottage:block/mocha_coffee",
+    "4": "plerocottage:block/mocha_coffee",
+    "5": "plerocottage:block/mocha_coffee",
+    "particle": "plerocottage:block/mocha_coffee"
+  }
+}

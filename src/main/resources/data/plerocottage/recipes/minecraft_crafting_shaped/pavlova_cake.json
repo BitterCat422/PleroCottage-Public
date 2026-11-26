@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "adc",
+    "eee"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:kiwifruit_slice"
+    },
+    "b": {
+      "item": "plerocottage:half_of_passion_fruit"
+    },
+    "c": {
+      "tag": "forge:fruits/strawberry"
+    },
+    "d": {
+      "tag": "forge:fruits/raspberry"
+    },
+    "e": {
+      "item": "plerocottage:meringue"
+    }
+  },
+  "result": {
+    "item": "plerocottage:pavlova_cake",
+    "count": 1
+  }
+}

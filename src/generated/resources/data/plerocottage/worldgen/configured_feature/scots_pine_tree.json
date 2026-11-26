@@ -1,0 +1,87 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -2,
+              0,
+              -2
+            ],
+            "random_mirror": false,
+            "random_rotation": false,
+            "structure": "plerocottage:scots_pine_1"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -2,
+              0,
+              -2
+            ],
+            "random_mirror": false,
+            "random_rotation": false,
+            "structure": "plerocottage:scots_pine_2"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -2,
+              0,
+              -2
+            ],
+            "random_mirror": false,
+            "random_rotation": false,
+            "structure": "plerocottage:scots_pine_3"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -2,
+              -1,
+              -2
+            ],
+            "random_mirror": false,
+            "random_rotation": false,
+            "structure": "plerocottage:scots_pine_4"
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

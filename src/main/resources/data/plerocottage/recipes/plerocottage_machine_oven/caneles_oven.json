@@ -1,0 +1,32 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "minecraft:honeycomb"
+    },
+    {
+      "item": "plerocottage:glass_of_rum"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:caneles"
+  },
+  "temperature": 250
+}

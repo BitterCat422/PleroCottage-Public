@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/watergate_salad",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/watergate_salad",
+    "1": "plerocottage:block/watergate_salad",
+    "2": "plerocottage:block/watergate_salad",
+    "3": "plerocottage:block/watergate_salad",
+    "4": "plerocottage:block/watergate_salad",
+    "5": "plerocottage:block/watergate_salad",
+    "particle": "plerocottage:block/watergate_salad"
+  }
+}

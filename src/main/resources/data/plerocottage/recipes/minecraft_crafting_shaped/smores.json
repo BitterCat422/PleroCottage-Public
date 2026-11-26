@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:graham_cacker"
+    },
+    "b": {
+      "item": "plerocottage:campfire_marshmallow"
+    },
+    "c": {
+      "item": "plerocottage:chocolate"
+    }
+  },
+  "result": {
+    "item": "plerocottage:s_mores",
+    "count": 1
+  }
+}

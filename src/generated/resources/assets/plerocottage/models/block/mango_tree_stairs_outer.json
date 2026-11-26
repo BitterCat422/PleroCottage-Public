@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "plerocottage:block/mango_tree_planks",
+    "side": "plerocottage:block/mango_tree_planks",
+    "top": "plerocottage:block/mango_tree_planks"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:coffee_powder"
+    }
+  ],
+  "secondaryInput": [],
+  "output": {
+    "item": "plerocottage:coffee"
+  }
+}

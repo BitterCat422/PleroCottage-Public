@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:corn"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:corn_seeds",
+    "count": 8
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/earl_grey_tea",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "0": "plerocottage:block/earl_grey_tea",
+    "1": "plerocottage:block/earl_grey_tea",
+    "2": "plerocottage:block/earl_grey_tea",
+    "3": "plerocottage:block/earl_grey_tea",
+    "4": "plerocottage:block/earl_grey_tea",
+    "5": "plerocottage:block/earl_grey_tea",
+    "particle": "plerocottage:block/earl_grey_tea"
+  }
+}

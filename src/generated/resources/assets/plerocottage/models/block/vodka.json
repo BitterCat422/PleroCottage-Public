@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/vodka",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/vodka",
+    "1": "plerocottage:block/vodka",
+    "2": "plerocottage:block/vodka",
+    "3": "plerocottage:block/vodka",
+    "4": "plerocottage:block/vodka",
+    "5": "plerocottage:block/vodka",
+    "particle": "plerocottage:block/vodka"
+  }
+}

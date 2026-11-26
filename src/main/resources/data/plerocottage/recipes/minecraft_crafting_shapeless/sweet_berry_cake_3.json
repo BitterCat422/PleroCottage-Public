@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:sweet_berry_cake_slice"
+    },
+    {
+      "item": "plerocottage:sweet_berry_cake_slice"
+    },
+    {
+      "item": "plerocottage:sweet_berry_cake_slice"
+    },
+    {
+      "item": "plerocottage:sweet_berry_cake_slice"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:sweet_berry_cake",
+    "count": 1
+  }
+}

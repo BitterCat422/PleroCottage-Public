@@ -1,0 +1,124 @@
+{
+  "variants": {
+    "animation=0,blockstate=0,facing=east": {
+      "model": "plerocottage:block/young_coconuts_stage_0",
+      "y": 90
+    },
+    "animation=0,blockstate=0,facing=north": {
+      "model": "plerocottage:block/young_coconuts_stage_0"
+    },
+    "animation=0,blockstate=0,facing=south": {
+      "model": "plerocottage:block/young_coconuts_stage_0",
+      "y": 180
+    },
+    "animation=0,blockstate=0,facing=west": {
+      "model": "plerocottage:block/young_coconuts_stage_0",
+      "y": 270
+    },
+    "animation=0,blockstate=1,facing=east": {
+      "model": "plerocottage:block/young_coconuts_stage_1",
+      "y": 90
+    },
+    "animation=0,blockstate=1,facing=north": {
+      "model": "plerocottage:block/young_coconuts_stage_1"
+    },
+    "animation=0,blockstate=1,facing=south": {
+      "model": "plerocottage:block/young_coconuts_stage_1",
+      "y": 180
+    },
+    "animation=0,blockstate=1,facing=west": {
+      "model": "plerocottage:block/young_coconuts_stage_1",
+      "y": 270
+    },
+    "animation=0,blockstate=2,facing=east": {
+      "model": "plerocottage:block/young_coconuts_stage_2",
+      "y": 90
+    },
+    "animation=0,blockstate=2,facing=north": {
+      "model": "plerocottage:block/young_coconuts_stage_2"
+    },
+    "animation=0,blockstate=2,facing=south": {
+      "model": "plerocottage:block/young_coconuts_stage_2",
+      "y": 180
+    },
+    "animation=0,blockstate=2,facing=west": {
+      "model": "plerocottage:block/young_coconuts_stage_2",
+      "y": 270
+    },
+    "animation=0,blockstate=3,facing=east": {
+      "model": "plerocottage:block/young_coconuts_stage_3",
+      "y": 90
+    },
+    "animation=0,blockstate=3,facing=north": {
+      "model": "plerocottage:block/young_coconuts_stage_3"
+    },
+    "animation=0,blockstate=3,facing=south": {
+      "model": "plerocottage:block/young_coconuts_stage_3",
+      "y": 180
+    },
+    "animation=0,blockstate=3,facing=west": {
+      "model": "plerocottage:block/young_coconuts_stage_3",
+      "y": 270
+    },
+    "animation=1,blockstate=0,facing=east": {
+      "model": "plerocottage:block/young_coconuts_stage_0",
+      "y": 90
+    },
+    "animation=1,blockstate=0,facing=north": {
+      "model": "plerocottage:block/young_coconuts_stage_0"
+    },
+    "animation=1,blockstate=0,facing=south": {
+      "model": "plerocottage:block/young_coconuts_stage_0",
+      "y": 180
+    },
+    "animation=1,blockstate=0,facing=west": {
+      "model": "plerocottage:block/young_coconuts_stage_0",
+      "y": 270
+    },
+    "animation=1,blockstate=1,facing=east": {
+      "model": "plerocottage:block/young_coconuts_stage_1",
+      "y": 90
+    },
+    "animation=1,blockstate=1,facing=north": {
+      "model": "plerocottage:block/young_coconuts_stage_1"
+    },
+    "animation=1,blockstate=1,facing=south": {
+      "model": "plerocottage:block/young_coconuts_stage_1",
+      "y": 180
+    },
+    "animation=1,blockstate=1,facing=west": {
+      "model": "plerocottage:block/young_coconuts_stage_1",
+      "y": 270
+    },
+    "animation=1,blockstate=2,facing=east": {
+      "model": "plerocottage:block/young_coconuts_stage_2",
+      "y": 90
+    },
+    "animation=1,blockstate=2,facing=north": {
+      "model": "plerocottage:block/young_coconuts_stage_2"
+    },
+    "animation=1,blockstate=2,facing=south": {
+      "model": "plerocottage:block/young_coconuts_stage_2",
+      "y": 180
+    },
+    "animation=1,blockstate=2,facing=west": {
+      "model": "plerocottage:block/young_coconuts_stage_2",
+      "y": 270
+    },
+    "animation=1,blockstate=3,facing=east": {
+      "model": "plerocottage:block/young_coconuts_stage_3",
+      "y": 90
+    },
+    "animation=1,blockstate=3,facing=north": {
+      "model": "plerocottage:block/young_coconuts_stage_3"
+    },
+    "animation=1,blockstate=3,facing=south": {
+      "model": "plerocottage:block/young_coconuts_stage_3",
+      "y": 180
+    },
+    "animation=1,blockstate=3,facing=west": {
+      "model": "plerocottage:block/young_coconuts_stage_3",
+      "y": 270
+    }
+  }
+}

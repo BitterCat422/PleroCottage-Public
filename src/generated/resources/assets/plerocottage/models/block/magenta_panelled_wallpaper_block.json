@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "plerocottage:block/magenta_panelled_wallpaper_block"
+  }
+}

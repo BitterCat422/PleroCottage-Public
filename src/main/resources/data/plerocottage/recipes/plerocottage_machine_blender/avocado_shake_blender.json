@@ -1,0 +1,38 @@
+{
+  "type": "plerocottage:blender",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mainInput": [
+    {
+      "item": "plerocottage:avocado_slice"
+    },
+    {
+      "item": "plerocottage:avocado_slice"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:scoop_of_ice_cream"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:condensed_milk"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "plerocottage:cream_cheese"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:avocado_shake"
+  }
+}

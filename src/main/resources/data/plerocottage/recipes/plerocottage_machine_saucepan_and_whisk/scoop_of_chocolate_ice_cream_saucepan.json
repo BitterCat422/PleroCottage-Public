@@ -1,0 +1,28 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "no_need",
+  "mainInput": [
+    {
+      "item": "plerocottage:vanilla_ice_cream_fluid_bucket"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    },
+    {
+      "item": "plerocottage:dark_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:dark_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:dark_chocolate_chips"
+    }
+  ],
+  "output": {
+    "count": 6,
+    "item": "plerocottage:scoop_of_chocolate_ice_cream"
+  }
+}

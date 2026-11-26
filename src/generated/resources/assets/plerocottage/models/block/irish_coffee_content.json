@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/irish_coffee_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/irish_coffee",
+    "particle": "plerocottage:block/irish_coffee"
+  }
+}

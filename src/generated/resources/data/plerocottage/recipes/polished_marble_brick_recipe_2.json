@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:polished_marble"
+    },
+    {
+      "item": "plerocottage:polished_marble"
+    },
+    {
+      "item": "plerocottage:polished_marble"
+    },
+    {
+      "item": "plerocottage:polished_marble"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:polished_marble_brick"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/cucumber_crop_2",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "1": "plerocottage:block/cucumber_crop_2",
+    "all": "plerocottage:block/cucumber_crop_2",
+    "particle": "plerocottage:block/cucumber_crop_1"
+  }
+}

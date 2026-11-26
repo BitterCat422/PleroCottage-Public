@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 200,
+  "input": [
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "item": "plerocottage:mozzarella_cheese_slice"
+    },
+    {
+      "item": "plerocottage:mozzarella_cheese_slice"
+    },
+    {
+      "item": "plerocottage:durian_flesh"
+    },
+    {
+      "item": "plerocottage:durian_flesh"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:durian_pizza"
+  },
+  "temperature": 250
+}

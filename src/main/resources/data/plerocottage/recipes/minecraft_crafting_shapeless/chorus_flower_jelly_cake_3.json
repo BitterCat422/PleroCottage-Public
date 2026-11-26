@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:chorus_flower_jelly_cake_slice"
+    },
+    {
+      "item": "plerocottage:chorus_flower_jelly_cake_slice"
+    },
+    {
+      "item": "plerocottage:chorus_flower_jelly_cake_slice"
+    },
+    {
+      "item": "plerocottage:chorus_flower_jelly_cake_slice"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:chorus_flower_jelly_cake",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "plerocottage:blender",
+  "mainInput": [
+    {
+      "item": "plerocottage:cooked_beef_cubes"
+    },
+    {
+      "item": "plerocottage:cooked_beef_cubes"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:cooked_beef_patty"
+  }
+}

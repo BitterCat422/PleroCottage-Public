@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "plerocottage:coconut_tree_wood"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:coconut_tree_planks",
+    "count": 4
+  }
+}

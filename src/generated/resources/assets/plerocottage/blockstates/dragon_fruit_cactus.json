@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "age=0": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=1": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=10": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=11": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=12": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=13": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=14": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=15": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=2": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=3": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=4": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=5": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=6": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=7": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=8": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    },
+    "age=9": {
+      "model": "plerocottage:block/dragon_fruit_cactus"
+    }
+  }
+}

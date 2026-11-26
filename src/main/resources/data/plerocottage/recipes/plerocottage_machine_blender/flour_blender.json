@@ -1,0 +1,12 @@
+{
+  "type": "plerocottage:blender",
+  "mainInput": [
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:flour"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "plerocottage:durian_tree_log"
+    },
+    {
+      "item": "plerocottage:durian_tree_log"
+    },
+    {
+      "item": "plerocottage:durian_tree_log"
+    },
+    {
+      "item": "plerocottage:durian_tree_log"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:durian_tree_wood",
+    "count": 3
+  }
+}

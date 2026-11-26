@@ -1,0 +1,21 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/eggnog_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "plerocottage:item/eggnog_flat"
+    },
+    "ground": {
+      "parent": "plerocottage:item/eggnog_flat"
+    },
+    "gui": {
+      "parent": "plerocottage:item/eggnog_flat"
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/eggnog"
+  }
+}

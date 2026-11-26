@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:paper"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "tag": "forge:dyes"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:wrapped_candy"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:meadow",
+  "features": "plerocottage:wild_walpecan_tree",
+  "step": "vegetal_decoration"
+}

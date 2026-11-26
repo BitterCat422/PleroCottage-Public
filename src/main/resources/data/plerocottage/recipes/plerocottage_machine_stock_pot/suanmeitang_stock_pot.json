@@ -1,0 +1,33 @@
+{
+  "type": "plerocottage:stock_pot",
+  "container": {
+    "item": "plerocottage:bowl"
+  },
+  "cookingTime": 200,
+  "mainInput": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:umeboshis"
+    },
+    {
+      "item": "plerocottage:dried_hawthorns"
+    },
+    {
+      "item": "plerocottage:dried_hawthorns"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:suanmeitang"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/vine_arbor",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/vine_arbor",
+    "all": "plerocottage:block/vine_arbor",
+    "particle": "plerocottage:block/vine_arbor"
+  }
+}

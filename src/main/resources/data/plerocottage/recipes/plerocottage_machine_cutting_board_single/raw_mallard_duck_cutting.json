@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:raw_mallard_duck"
+  },
+  "output": {
+    "count": 2,
+    "item": "plerocottage:raw_duck_breast"
+  },
+  "outgrowths": [
+  {
+    "chance": 1.0,
+    "count": 2,
+    "item": "plerocottage:raw_duck_wing"
+  },
+  {
+    "chance": 1.0,
+    "count": 2,
+    "item": "plerocottage:raw_duck_drumstick"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

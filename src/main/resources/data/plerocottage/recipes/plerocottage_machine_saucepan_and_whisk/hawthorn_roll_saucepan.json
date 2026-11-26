@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "tag": "forge:fruits/hawthorns"
+    },
+    {
+      "tag": "forge:fruits/hawthorns"
+    },
+    {
+      "tag": "forge:fruits/hawthorns"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:hawthorn_rolls"
+  }
+}

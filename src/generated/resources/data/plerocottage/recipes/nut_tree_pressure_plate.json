@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "nut_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:nut_tree_planks"
+    }
+  },
+  "pattern": [
+    "##"
+  ],
+  "result": {
+    "item": "plerocottage:nut_tree_pressure_plate"
+  },
+  "show_notification": true
+}

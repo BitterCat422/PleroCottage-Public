@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plerocottage:block/polished_marble_brick_slab"
+    },
+    "type=double": {
+      "model": "plerocottage:block/polished_marble_brick"
+    },
+    "type=top": {
+      "model": "plerocottage:block/polished_marble_brick_slab_top"
+    }
+  }
+}

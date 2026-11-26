@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:has_structure/village_savanna",
+  "features": "plerocottage:wild_wild_jalapeno_bush",
+  "step": "vegetal_decoration"
+}

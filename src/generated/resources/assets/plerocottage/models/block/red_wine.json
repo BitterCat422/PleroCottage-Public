@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/red_wine",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/red_wine",
+    "1": "plerocottage:block/red_wine",
+    "2": "plerocottage:block/red_wine",
+    "3": "plerocottage:block/red_wine",
+    "4": "plerocottage:block/red_wine",
+    "5": "plerocottage:block/red_wine",
+    "particle": "plerocottage:block/red_wine"
+  }
+}

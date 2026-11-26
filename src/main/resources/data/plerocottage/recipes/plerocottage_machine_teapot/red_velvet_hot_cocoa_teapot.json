@@ -1,0 +1,29 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:cocoa_powder"
+    },
+    {
+      "item": "plerocottage:beetroot_slice"
+    },
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:marshmallows"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:red_velvet_hot_cocoa"
+  }
+}

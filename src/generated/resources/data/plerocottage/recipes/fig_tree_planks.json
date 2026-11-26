@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "fig_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:fig_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:fig_tree_planks"
+  }
+}

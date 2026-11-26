@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:rice_ear"
+  },
+  "output": {
+    "count": 1,
+    "item": "plerocottage:raw_rice"
+  },
+  "outgrowths": [
+  {
+    "chance": 0.5,
+    "count": 1,
+    "item": "plerocottage:raw_rice"
+  }
+],
+  "tool": {
+    "tag": "forge:tools/rolling_pins"
+  }
+}

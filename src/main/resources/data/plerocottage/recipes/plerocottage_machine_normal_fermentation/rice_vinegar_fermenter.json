@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "cookingTime": 2400,
+  "input": [
+    {
+      "item": "plerocottage:sake"
+    },
+    {
+      "item": "plerocottage:lemon_slice"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:rice_vinegar"
+  }
+}

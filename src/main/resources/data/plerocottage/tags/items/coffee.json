@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:espresso_con_panna",
+    "plerocottage:latte",
+    "plerocottage:americano",
+    "plerocottage:affogato",
+    "plerocottage:lavender_latte",
+    "plerocottage:caramel_macchiato",
+    "plerocottage:flat_white",
+    "plerocottage:yuenyeung",
+    "plerocottage:egg_coffee",
+    "plerocottage:cappuccino",
+    "plerocottage:cafe_au_lait",
+    "plerocottage:mocha_coffee",
+    "plerocottage:espresso",
+    "plerocottage:bulletproof_coffee",
+    "plerocottage:coffee",
+    "plerocottage:einspanner",
+    "plerocottage:pumpkin_spice_latte"
+  ]
+}

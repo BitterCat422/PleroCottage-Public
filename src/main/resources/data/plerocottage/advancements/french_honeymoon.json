@@ -1,0 +1,70 @@
+{
+  "display": {
+    "icon": {
+      "item": "plerocottage:french_honeymoon_icon"
+    },
+    "title": {
+      "translate": "advancements.french_honeymoon.title"
+    },
+    "description": {
+      "translate": "advancements.french_honeymoon.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "french_honeymoon_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "plerocottage:raspberry_macaron"
+          ]
+        }
+      }
+    },
+    "french_honeymoon_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "plerocottage:chocolate_macaron"
+          ]
+        }
+      }
+    },
+    "french_honeymoon_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "plerocottage:blackcurrant_macaron"
+          ]
+        }
+      }
+    },
+    "french_honeymoon_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "plerocottage:lavender_macaron"
+          ]
+        }
+      }
+    },
+    "french_honeymoon_4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "plerocottage:lemon_macaron"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "plerocottage:novelty_fruits"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "plerocottage:custom/young_coconut",
+  "textures": {
+    "0": "plerocottage:block/young_coconut_4",
+    "particle": "plerocottage:block/young_coconut_4"
+  }
+}

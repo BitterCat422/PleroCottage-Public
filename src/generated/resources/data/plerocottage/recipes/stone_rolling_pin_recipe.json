@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:flint"
+    },
+    "b": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "aba"
+  ],
+  "result": {
+    "item": "plerocottage:stone_rolling_pin"
+  },
+  "show_notification": true
+}

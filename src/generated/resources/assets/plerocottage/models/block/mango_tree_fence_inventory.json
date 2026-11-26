@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "plerocottage:block/mango_tree_planks"
+  }
+}

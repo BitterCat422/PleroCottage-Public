@@ -1,0 +1,28 @@
+{
+  "variants": {
+    "stage=flowers": {
+      "model": "plerocottage:block/durian_tree_leaves_flowers"
+    },
+    "stage=fruitless": {
+      "model": "plerocottage:block/durian_tree_leaves_fruitless"
+    },
+    "stage=growing": {
+      "model": "plerocottage:block/durian_tree_leaves_growing"
+    },
+    "stage=leaves": {
+      "model": "plerocottage:block/durian_tree_leaves_leaves"
+    },
+    "stage=rare_ripe": {
+      "model": "plerocottage:block/durian_tree_leaves_rare_ripe"
+    },
+    "stage=ripe": {
+      "model": "plerocottage:block/durian_tree_leaves_ripe"
+    },
+    "stage=small": {
+      "model": "plerocottage:block/durian_tree_leaves_small"
+    },
+    "stage=unrolled": {
+      "model": "plerocottage:block/durian_tree_leaves_unrolled"
+    }
+  }
+}

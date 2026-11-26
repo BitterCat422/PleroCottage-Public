@@ -1,0 +1,30 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/pear_with_rock_sugar_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/pear_with_rock_sugar"
+      }
+    },
+    "ground": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/pear_with_rock_sugar"
+      }
+    },
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/pear_with_rock_sugar"
+      }
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/pear_with_rock_sugar"
+  }
+}

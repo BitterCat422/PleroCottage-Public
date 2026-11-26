@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:sumeshi"
+    },
+    {
+      "item": "plerocottage:fugu_slice"
+    },
+    {
+      "item": "plerocottage:jalapeno_powder"
+    }
+  ],
+  "isShaped": true,
+  "output": {
+    "count": 1,
+    "item": "plerocottage:fugu_nigiri"
+  }
+}

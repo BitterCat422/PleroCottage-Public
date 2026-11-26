@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ded",
+    "fgh"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:orange_segment"
+    },
+    "b": {
+      "tag": "forge:fruits/cherry"
+    },
+    "c": {
+      "item": "plerocottage:vanilla_ice_cream"
+    },
+    "d": {
+      "tag": "forge:fruits/strawberry"
+    },
+    "e": {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    "f": {
+      "item": "plerocottage:banana_slices"
+    },
+    "g": {
+      "item": "minecraft:glass_bottle"
+    },
+    "h": {
+      "item": "plerocottage:mango_slice"
+    }
+  },
+  "result": {
+    "item": "plerocottage:colorful_fruit_parfait",
+    "count": 1
+  }
+}

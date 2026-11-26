@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "plerocottage:raw_prawn"
+  },
+  "output": {
+    "item": "plerocottage:fried_tempura"
+  }
+}

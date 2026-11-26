@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "mango_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:mango_tree_planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "/#/",
+    "/#/"
+  ],
+  "result": {
+    "item": "plerocottage:mango_tree_fence_gate"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/elderberry_tree_flower",
+    "all": "plerocottage:block/elderberry_tree_flower",
+    "dirt": "minecraft:block/dirt",
+    "flower_pot": "minecraft:block/flower_pot",
+    "particle": "plerocottage:block/elderberry_tree_flower",
+    "plant": "plerocottage:block/elderberry_tree_flower"
+  }
+}

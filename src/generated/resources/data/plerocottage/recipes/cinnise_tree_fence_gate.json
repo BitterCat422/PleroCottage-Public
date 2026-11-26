@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "cinnise_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:cinnise_tree_planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "/#/",
+    "/#/"
+  ],
+  "result": {
+    "item": "plerocottage:cinnise_tree_fence_gate"
+  },
+  "show_notification": true
+}

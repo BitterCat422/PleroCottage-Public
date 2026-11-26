@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bca",
+    "db "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:sakura"
+    },
+    "b": {
+      "item": "plerocottage:mugwort"
+    },
+    "c": {
+      "item": "plerocottage:mochi"
+    },
+    "d": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "plerocottage:hanami_dango",
+    "count": 1
+  }
+}

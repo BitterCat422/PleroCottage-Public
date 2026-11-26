@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "tag": "forge:fruits/pomegranate"
+  },
+  "output": {
+    "count": 3,
+    "item": "plerocottage:pomegranate_wedges"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "banana_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:banana_tree_raft"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:banana_tree_chest_raft"
+  }
+}

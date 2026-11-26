@@ -1,0 +1,17 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:chamomiles"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:chamomile_tea"
+  }
+}

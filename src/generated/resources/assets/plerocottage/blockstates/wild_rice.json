@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "plerocottage:block/wild_rice_bottom"
+    },
+    "half=upper": {
+      "model": "plerocottage:block/wild_rice"
+    }
+  }
+}

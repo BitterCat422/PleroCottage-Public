@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:dim_fermentation",
+  "cookingTime": 600,
+  "input": [
+    {
+      "tag": "forge:crops/cucumber"
+    },
+    {
+      "tag": "forge:crops/cucumber"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:pickle"
+  }
+}

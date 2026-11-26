@@ -1,0 +1,21 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:pineberry"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:pon_de_ring"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:pineberry_pon_de_ring"
+  }
+}

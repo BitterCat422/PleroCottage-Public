@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:fast_fry",
+  "input": {
+    "item": "plerocottage:elderberry_flowers"
+  },
+  "output": {
+    "item": "plerocottage:elderberry_flowers_fritters"
+  }
+}

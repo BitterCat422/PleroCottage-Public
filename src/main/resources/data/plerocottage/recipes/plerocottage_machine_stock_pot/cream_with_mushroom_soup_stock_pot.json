@@ -1,0 +1,35 @@
+{
+  "type": "plerocottage:stock_pot",
+  "container": {
+    "item": "plerocottage:bowl"
+  },
+  "cookingTime": 200,
+  "mainInput": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "tag": "forge:flour"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:salt_shaker"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:mushroom_potage"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:vanilla_pizza",
+    "plerocottage:cheesy_mushroom_bacon_pizza",
+    "plerocottage:supreme_pizza",
+    "plerocottage:hawaiian_pizza",
+    "plerocottage:seafood_pizza",
+    "plerocottage:pepperoni_pizza",
+    "plerocottage:durian_pizza"
+  ]
+}

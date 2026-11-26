@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "animation=0,facing=east": {
+      "model": "plerocottage:block/banana_bunch",
+      "y": 90
+    },
+    "animation=0,facing=north": {
+      "model": "plerocottage:block/banana_bunch"
+    },
+    "animation=0,facing=south": {
+      "model": "plerocottage:block/banana_bunch",
+      "y": 180
+    },
+    "animation=0,facing=west": {
+      "model": "plerocottage:block/banana_bunch",
+      "y": 270
+    },
+    "animation=1,facing=east": {
+      "model": "plerocottage:block/banana_bunch",
+      "y": 90
+    },
+    "animation=1,facing=north": {
+      "model": "plerocottage:block/banana_bunch"
+    },
+    "animation=1,facing=south": {
+      "model": "plerocottage:block/banana_bunch",
+      "y": 180
+    },
+    "animation=1,facing=west": {
+      "model": "plerocottage:block/banana_bunch",
+      "y": 270
+    }
+  }
+}

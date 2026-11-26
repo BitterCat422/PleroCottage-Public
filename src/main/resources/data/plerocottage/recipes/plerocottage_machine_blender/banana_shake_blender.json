@@ -1,0 +1,41 @@
+{
+  "type": "plerocottage:blender",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mainInput": [
+    {
+      "item": "plerocottage:banana_slices"
+    },
+    {
+      "item": "plerocottage:banana_slices"
+    },
+    {
+      "item": "plerocottage:banana_slices"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:scoop_of_ice_cream"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:ganache"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "plerocottage:rainbow_sprinkles"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:banana_shake"
+  }
+}

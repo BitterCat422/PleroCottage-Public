@@ -1,0 +1,32 @@
+{
+  "type": "plerocottage:blender",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mainInput": [
+    {
+      "item": "plerocottage:orange_segment"
+    },
+    {
+      "item": "plerocottage:orange_segment"
+    },
+    {
+      "item": "plerocottage:orange_segment"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:orange_segment"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:orange_juice"
+  }
+}

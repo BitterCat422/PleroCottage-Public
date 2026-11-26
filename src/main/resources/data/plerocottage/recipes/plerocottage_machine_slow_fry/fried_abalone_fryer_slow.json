@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "plerocottage:abalone"
+  },
+  "output": {
+    "item": "plerocottage:fried_abalone"
+  }
+}

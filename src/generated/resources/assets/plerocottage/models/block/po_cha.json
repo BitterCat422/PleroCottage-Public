@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/po_cha",
+  "textures": {
+    "0": "plerocottage:block/po_cha",
+    "1": "plerocottage:block/po_cha",
+    "2": "plerocottage:block/po_cha",
+    "3": "plerocottage:block/po_cha",
+    "4": "plerocottage:block/po_cha",
+    "5": "plerocottage:block/po_cha",
+    "particle": "plerocottage:block/po_cha"
+  }
+}

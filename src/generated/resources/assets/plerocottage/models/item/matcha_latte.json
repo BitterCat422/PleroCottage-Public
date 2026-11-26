@@ -1,0 +1,21 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/matcha_latte_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "plerocottage:item/matcha_latte_flat"
+    },
+    "ground": {
+      "parent": "plerocottage:item/matcha_latte_flat"
+    },
+    "gui": {
+      "parent": "plerocottage:item/matcha_latte_flat"
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/matcha_latte"
+  }
+}

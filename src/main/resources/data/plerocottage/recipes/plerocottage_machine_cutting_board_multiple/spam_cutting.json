@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:raw_chicken_breast"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    }
+  ],
+  "isShaped": false,
+  "output": {
+    "count": 1,
+    "item": "plerocottage:spam"
+  },
+  "tool": {
+    "tag": "forge:tools/rolling_pins"
+  }
+}

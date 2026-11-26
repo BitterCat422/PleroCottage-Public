@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    "ghg"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:pickle_slices"
+    },
+    "b": {
+      "item": "plerocottage:grenadine"
+    },
+    "c": {
+      "item": "plerocottage:fries"
+    },
+    "d": {
+      "item": "plerocottage:yogurt"
+    },
+    "e": {
+      "tag": "forge:cooked_mutton"
+    },
+    "f": {
+      "item": "plerocottage:tomato_slice"
+    },
+    "g": {
+      "tag": "forge:bell_pepper_slices"
+    },
+    "h": {
+      "item": "plerocottage:naan"
+    }
+  },
+  "result": {
+    "item": "plerocottage:shawarma",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:graham_cacker"
+    },
+    {
+      "item": "plerocottage:campfire_marshmallow"
+    },
+    {
+      "item": "plerocottage:chocolate"
+    },
+    {
+      "item": "plerocottage:graham_cacker"
+    }
+  ],
+  "isShaped": true,
+  "output": {
+    "count": 1,
+    "item": "plerocottage:s_mores"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#plerocottage:ice_cream",
+      "required": false
+    },
+    "plerocottage:ice_cream_cone"
+  ]
+}

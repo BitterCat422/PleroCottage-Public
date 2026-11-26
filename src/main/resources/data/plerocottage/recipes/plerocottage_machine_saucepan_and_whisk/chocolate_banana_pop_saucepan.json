@@ -1,0 +1,24 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "tag": "forge:fruits/banana"
+    },
+    {
+      "item": "plerocottage:chocolate_chips"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:rainbow_sprinkles"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:chocolate_banana_pop"
+  }
+}

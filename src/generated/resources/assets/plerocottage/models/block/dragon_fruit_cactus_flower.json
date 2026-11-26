@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/dragon_fruit_cactus_flower",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/dragon_fruit_cactus_flower",
+    "all": "plerocottage:block/dragon_fruit_cactus_flower",
+    "particle": "plerocottage:block/dragon_fruit_cactus_flower"
+  }
+}

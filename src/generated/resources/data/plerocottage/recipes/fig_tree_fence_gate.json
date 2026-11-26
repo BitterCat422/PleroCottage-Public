@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "fig_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:fig_tree_planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "/#/",
+    "/#/"
+  ],
+  "result": {
+    "item": "plerocottage:fig_tree_fence_gate"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "avocado_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:avocado_tree_planks"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "plerocottage:avocado_tree_boat"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:bowl"
+    },
+    {
+      "item": "plerocottage:starfruit_slice"
+    },
+    {
+      "item": "plerocottage:starfruit_slice"
+    },
+    {
+      "item": "plerocottage:dragon_fruit_slices"
+    },
+    {
+      "item": "plerocottage:dragon_fruit_slices"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:cosmic_dragon_salad",
+    "count": 1
+  }
+}

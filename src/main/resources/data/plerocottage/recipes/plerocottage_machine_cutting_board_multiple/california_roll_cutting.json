@@ -1,0 +1,31 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "item": "plerocottage:sumeshi"
+    },
+    {
+      "item": "plerocottage:nori"
+    },
+    {
+      "item": "plerocottage:cucumber_slices"
+    },
+    {
+      "item": "plerocottage:avocado_slice"
+    },
+    {
+      "item": "plerocottage:surimi_crab_stick"
+    },
+    {
+      "item": "plerocottage:ikura"
+    }
+  ],
+  "isShaped": true,
+  "output": {
+    "count": 2,
+    "item": "plerocottage:california_roll"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

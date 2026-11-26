@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:wheat"
+    },
+    "b": {
+      "item": "plerocottage:lemon_slice"
+    }
+  },
+  "result": {
+    "item": "plerocottage:lemon_cookie",
+    "count": 2
+  }
+}

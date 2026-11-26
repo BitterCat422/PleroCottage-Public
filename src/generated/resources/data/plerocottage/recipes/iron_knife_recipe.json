@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:flint"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    "  b",
+    " b ",
+    "a  "
+  ],
+  "result": {
+    "item": "plerocottage:iron_knife"
+  },
+  "show_notification": true
+}

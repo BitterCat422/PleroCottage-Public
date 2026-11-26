@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    [
+      {
+        "item": "plerocottage:grapes"
+      },
+      {
+        "item": "plerocottage:muscat_grapes"
+      }
+    ]
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:grape_seeds"
+  }
+}

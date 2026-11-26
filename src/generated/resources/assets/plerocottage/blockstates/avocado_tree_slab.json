@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plerocottage:block/avocado_tree_slab"
+    },
+    "type=double": {
+      "model": "plerocottage:block/avocado_tree_planks"
+    },
+    "type=top": {
+      "model": "plerocottage:block/avocado_tree_slab_top"
+    }
+  }
+}

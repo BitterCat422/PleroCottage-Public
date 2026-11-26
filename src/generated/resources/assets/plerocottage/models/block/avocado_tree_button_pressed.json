@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/button_pressed",
+  "textures": {
+    "texture": "plerocottage:block/avocado_tree_planks"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/semper_augustus",
+    "all": "plerocottage:block/semper_augustus",
+    "dirt": "minecraft:block/dirt",
+    "flower_pot": "minecraft:block/flower_pot",
+    "particle": "plerocottage:block/semper_augustus",
+    "plant": "plerocottage:block/semper_augustus"
+  }
+}

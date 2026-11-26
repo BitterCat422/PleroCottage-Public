@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:wild_mint"
+    }
+  ],
+  "result": {
+    "count": 2,
+    "item": "plerocottage:mint"
+  }
+}

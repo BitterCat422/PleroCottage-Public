@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 200,
+  "input": [
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "plerocottage:corn_flour"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:savoiardi"
+  },
+  "temperature": 200
+}

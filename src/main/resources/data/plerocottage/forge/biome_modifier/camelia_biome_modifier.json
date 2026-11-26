@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "minecraft:cherry_grove",
+    "minecraft:flower_forest"
+  ],
+  "features": "plerocottage:camelia",
+  "step": "vegetal_decoration"
+}

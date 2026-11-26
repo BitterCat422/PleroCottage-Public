@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "hatch=0": {
+      "model": "plerocottage:block/egg_incubator"
+    },
+    "hatch=1": {
+      "model": "plerocottage:block/egg_incubator"
+    },
+    "hatch=2": {
+      "model": "plerocottage:block/egg_incubator"
+    }
+  }
+}

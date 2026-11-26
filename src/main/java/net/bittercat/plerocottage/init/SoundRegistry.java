@@ -1,0 +1,104 @@
+package net.bittercat.plerocottage.init;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+import net.bittercat.plerocottage.PleroCottage;
+
+public final class SoundRegistry {
+    public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
+        DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, PleroCottage.MODID);
+
+    public static final String ICE_CREAM_MACHINE_CLANK_NAME = "ice_cream_machine_clank";
+    public static final String ICE_CREAM_MACHINE_DONE_NAME = "ice_cream_machine_done";
+    public static final String FRYER_FRYING_NAME = "fryer_frying";
+    public static final String OVEN_OPEN_NAME = "oven_open";
+    public static final String OVEN_KNOB_TURN_NAME = "oven_knob_turn";
+    public static final String OVEN_DING_NAME = "oven_ding";
+    public static final String OVEN_RUNNING_NAME = "oven_running";
+    public static final String TEAPOT_CUP_PLACE_NAME = "teapot_cup_place";
+    public static final String TEAPOT_OPEN_NAME = "teapot_open";
+    public static final String TEAPOT_CLOSE_NAME = "teapot_close";
+    public static final String TEAPOT_RUNNING_NAME = "teapot_running";
+    public static final String TEAPOT_DONE_NAME = "teapot_done";
+    public static final String BLENDER_CUP_PLACE_NAME = "blender_cup_place";
+    public static final String BLENDER_OPEN_NAME = "blender_open";
+    public static final String BLENDER_RUNNING_NAME = "blender_running";
+    public static final String BLENDER_WATER_DONE_NAME = "blender_water_done";
+    public static final String BLENDER_POWDER_DONE_NAME = "blender_powder_done";
+    public static final String CUTTING_BOARD_CUTTING_NAME = "cutting_board_cutting";
+    public static final String CUTTING_BOARD_ROLL_OUT_NAME = "cutting_board_roll_out";
+    public static final String CUTTING_BOARD_CRAFTING_NAME = "cutting_board_crafting";
+    public static final String STOCK_POT_COVER_MOVING_NAME = "stock_pot_cover_moving";
+    public static final String STOCK_POT_RUNNING_NAME = "stock_pot_running";
+    public static final String SAUCEPAN_AND_WHISK_STIRS_1_NAME = "saucepan_and_whisk_stirs_1";
+    public static final String SAUCEPAN_AND_WHISK_STIRS_2_NAME = "saucepan_and_whisk_stirs_2";
+    public static final String SAUCEPAN_AND_WHISK_DONE_NAME = "saucepan_and_whisk_done";
+    public static final String SHAKER_OPEN_NAME = "shaker_open";
+    public static final String SHAKER_SHAKE_NAME = "shaker_shake";
+
+    public static final String ICE_CREAM_MACHINE_CLANK_TRANSLATABLE = "sound.plerocottage.ice_cream_machine_clank";
+    public static final String ICE_CREAM_MACHINE_DONE_TRANSLATABLE = "sound.plerocottage.ice_cream_machine_done";
+    public static final String FRYER_FRYING_TRANSLATABLE = "sound.plerocottage.fryer_frying";
+    public static final String OVEN_OPEN_TRANSLATABLE = "sound.plerocottage.oven_open";
+    public static final String OVEN_KNOB_TURN_TRANSLATABLE = "sound.plerocottage.oven_knob_turn";
+    public static final String OVEN_DING_TRANSLATABLE = "sound.plerocottage.oven_ding";
+    public static final String OVEN_RUNNING_TRANSLATABLE = "sound.plerocottage.oven_running";
+    public static final String TEAPOT_CUP_PLACE_TRANSLATABLE = "sound.plerocottage.teapot_cup_place";
+    public static final String TEAPOT_OPEN_TRANSLATABLE = "sound.plerocottage.teapot_open";
+    public static final String TEAPOT_CLOSE_TRANSLATABLE = "sound.plerocottage.teapot_close";
+    public static final String TEAPOT_RUNNING_TRANSLATABLE = "sound.plerocottage.teapot_running";
+    public static final String TEAPOT_DONE_TRANSLATABLE = "sound.plerocottage.teapot_done";
+    public static final String BLENDER_CUP_PLACE_TRANSLATABLE = "sound.plerocottage.blender_cup_place";
+    public static final String BLENDER_OPEN_TRANSLATABLE = "sound.plerocottage.blender_open";
+    public static final String BLENDER_RUNNING_TRANSLATABLE = "sound.plerocottage.blender_running";
+    public static final String BLENDER_WATER_DONE_TRANSLATABLE = "sound.plerocottage.blender_water_done";
+    public static final String BLENDER_POWDER_DONE_TRANSLATABLE = "sound.plerocottage.blender_powder_done";
+    public static final String CUTTING_BOARD_CUTTING_TRANSLATABLE = "sound.plerocottage.cutting_board_cutting";
+    public static final String CUTTING_BOARD_ROLL_OUT_TRANSLATABLE = "sound.plerocottage.cutting_board_roll_out";
+    public static final String CUTTING_BOARD_CRAFTING_TRANSLATABLE = "sound.plerocottage.cutting_board_crafting";
+    public static final String STOCK_POT_COVER_MOVING_TRANSLATABLE = "sound.plerocottage.stock_pot_cover_moving";
+    public static final String STOCK_POT_RUNNING_TRANSLATABLE = "sound.plerocottage.stock_pot_running";
+    public static final String SAUCEPAN_AND_WHISK_STIRS_1_TRANSLATABLE = "sound.plerocottage.saucepan_and_whisk_stirs_1";
+    public static final String SAUCEPAN_AND_WHISK_STIRS_2_TRANSLATABLE = "sound.plerocottage.saucepan_and_whisk_stirs_2";
+    public static final String SAUCEPAN_AND_WHISK_DONE_TRANSLATABLE = "sound.plerocottage.saucepan_and_whisk_done";
+    public static final String SHAKER_OPEN_TRANSLATABLE = "sound.plerocottage.shaker_open";
+    public static final String SHAKER_SHAKE_TRANSLATABLE = "sound.plerocottage.shaker_shake";
+
+    public static final RegistryObject<SoundEvent> ICE_CREAM_MACHINE_CLANK = register(ICE_CREAM_MACHINE_CLANK_NAME);
+    public static final RegistryObject<SoundEvent> ICE_CREAM_MACHINE_DONE = register(ICE_CREAM_MACHINE_DONE_NAME);
+    public static final RegistryObject<SoundEvent> FRYER_FRYING = register(FRYER_FRYING_NAME);
+    public static final RegistryObject<SoundEvent> OVEN_OPEN = register(OVEN_OPEN_NAME);
+    public static final RegistryObject<SoundEvent> OVEN_KNOB_TURN = register(OVEN_KNOB_TURN_NAME);
+    public static final RegistryObject<SoundEvent> OVEN_DING = register(OVEN_DING_NAME);
+    public static final RegistryObject<SoundEvent> OVEN_RUNNING = register(OVEN_RUNNING_NAME);
+    public static final RegistryObject<SoundEvent> TEAPOT_CUP_PLACE = register(TEAPOT_CUP_PLACE_NAME);
+    public static final RegistryObject<SoundEvent> TEAPOT_OPEN = register(TEAPOT_OPEN_NAME);
+    public static final RegistryObject<SoundEvent> TEAPOT_CLOSE = register(TEAPOT_CLOSE_NAME);
+    public static final RegistryObject<SoundEvent> TEAPOT_DONE = register(TEAPOT_DONE_NAME);
+    public static final RegistryObject<SoundEvent> TEAPOT_RUNNING = register(TEAPOT_RUNNING_NAME);
+    public static final RegistryObject<SoundEvent> BLENDER_CUP_PLACE = register(BLENDER_CUP_PLACE_NAME);
+    public static final RegistryObject<SoundEvent> BLENDER_OPEN = register(BLENDER_OPEN_NAME);
+    public static final RegistryObject<SoundEvent> BLENDER_RUNNING = register(BLENDER_RUNNING_NAME);
+    public static final RegistryObject<SoundEvent> BLENDER_WATER_DONE = register(BLENDER_WATER_DONE_NAME);
+    public static final RegistryObject<SoundEvent> BLENDER_POWDER_DONE = register(BLENDER_POWDER_DONE_NAME);
+    public static final RegistryObject<SoundEvent> CUTTING_BOARD_CUTTING = register(CUTTING_BOARD_CUTTING_NAME);
+    public static final RegistryObject<SoundEvent> CUTTING_BOARD_ROLL_OUT = register(CUTTING_BOARD_ROLL_OUT_NAME);
+    public static final RegistryObject<SoundEvent> CUTTING_BOARD_CRAFTING = register(CUTTING_BOARD_CRAFTING_NAME);
+    public static final RegistryObject<SoundEvent> STOCK_POT_COVER_MOVING = register(STOCK_POT_COVER_MOVING_NAME);
+    public static final RegistryObject<SoundEvent> STOCK_POT_RUNNING = register(STOCK_POT_RUNNING_NAME);
+    public static final RegistryObject<SoundEvent> SAUCEPAN_AND_WHISK_STIRS_1 = register(SAUCEPAN_AND_WHISK_STIRS_1_NAME);
+    public static final RegistryObject<SoundEvent> SAUCEPAN_AND_WHISK_STIRS_2 = register(SAUCEPAN_AND_WHISK_STIRS_2_NAME);
+    public static final RegistryObject<SoundEvent> SAUCEPAN_AND_WHISK_DONE = register(SAUCEPAN_AND_WHISK_DONE_NAME);
+    public static final RegistryObject<SoundEvent> SHAKER_OPEN = register(SHAKER_OPEN_NAME);
+    public static final RegistryObject<SoundEvent> SHAKER_SHAKE = register(SHAKER_SHAKE_NAME);
+
+    public static RegistryObject<SoundEvent> register(String name) {
+        return SOUND_EVENTS.register(
+                name,
+                () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(PleroCottage.MODID, name))
+        );
+    }
+}

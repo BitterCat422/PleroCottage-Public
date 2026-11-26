@@ -1,0 +1,24 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:white_chocolate_chips"
+    },
+    {
+      "item": "plerocottage:snow_dye"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:donut"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:snow_donut"
+  }
+}

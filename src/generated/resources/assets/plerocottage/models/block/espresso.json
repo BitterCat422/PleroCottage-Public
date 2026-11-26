@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/espresso",
+  "textures": {
+    "0": "plerocottage:block/espresso",
+    "1": "plerocottage:block/espresso",
+    "2": "plerocottage:block/espresso",
+    "3": "plerocottage:block/espresso",
+    "4": "plerocottage:block/espresso",
+    "5": "plerocottage:block/espresso",
+    "particle": "plerocottage:block/espresso"
+  }
+}

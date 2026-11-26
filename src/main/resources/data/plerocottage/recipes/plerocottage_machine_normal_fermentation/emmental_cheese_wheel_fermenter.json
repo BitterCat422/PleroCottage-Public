@@ -1,0 +1,21 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "cookingTime": 1200,
+  "input": [
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "plerocottage:yogurt"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:emmental_cheese_wheel"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ab ",
+    "cde",
+    " f "
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:fruits/cherry"
+    },
+    "b": {
+      "item": "plerocottage:scoop_of_ice_cream"
+    },
+    "c": {
+      "item": "plerocottage:scoop_of_strawberry_ice_cream"
+    },
+    "d": {
+      "tag": "forge:fruits/banana"
+    },
+    "e": {
+      "item": "plerocottage:scoop_of_chocolate_ice_cream"
+    },
+    "f": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "plerocottage:banana_split",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "juniper",
+  "key": {
+    "#": {
+      "item": "plerocottage:stripped_juniper_log"
+    },
+    "-": {
+      "item": "minecraft:chain"
+    }
+  },
+  "pattern": [
+    "#-#",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "plerocottage:juniper_hanging_sign"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "minecraft:old_growth_birch_forest",
+  "features": "plerocottage:wild_pomelo_tree",
+  "step": "vegetal_decoration"
+}

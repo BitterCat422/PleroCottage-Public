@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "animation=0,blockstate=0,facing=east": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 90
+    },
+    "animation=0,blockstate=0,facing=north": {
+      "model": "plerocottage:block/banana_frond"
+    },
+    "animation=0,blockstate=0,facing=south": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 180
+    },
+    "animation=0,blockstate=0,facing=west": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 270
+    },
+    "animation=0,blockstate=1,facing=east": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 90
+    },
+    "animation=0,blockstate=1,facing=north": {
+      "model": "plerocottage:block/banana_frond"
+    },
+    "animation=0,blockstate=1,facing=south": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 180
+    },
+    "animation=0,blockstate=1,facing=west": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 270
+    },
+    "animation=1,blockstate=0,facing=east": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 90
+    },
+    "animation=1,blockstate=0,facing=north": {
+      "model": "plerocottage:block/banana_frond"
+    },
+    "animation=1,blockstate=0,facing=south": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 180
+    },
+    "animation=1,blockstate=0,facing=west": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 270
+    },
+    "animation=1,blockstate=1,facing=east": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 90
+    },
+    "animation=1,blockstate=1,facing=north": {
+      "model": "plerocottage:block/banana_frond"
+    },
+    "animation=1,blockstate=1,facing=south": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 180
+    },
+    "animation=1,blockstate=1,facing=west": {
+      "model": "plerocottage:block/banana_frond",
+      "y": 270
+    }
+  }
+}

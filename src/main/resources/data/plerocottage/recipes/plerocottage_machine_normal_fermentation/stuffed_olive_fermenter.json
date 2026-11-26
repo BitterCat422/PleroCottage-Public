@@ -1,0 +1,22 @@
+{
+  "type": "plerocottage:normal_fermentation",
+  "cookingTime": 600,
+  "input": [
+    {
+      "tag": "forge:fruits/green_olive"
+    },
+    {
+      "item": "plerocottage:pimento_slices"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:stuffed_olives"
+  }
+}

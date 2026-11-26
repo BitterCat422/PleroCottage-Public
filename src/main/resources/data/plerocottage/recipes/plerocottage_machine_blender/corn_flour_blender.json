@@ -1,0 +1,12 @@
+{
+  "type": "plerocottage:blender",
+  "mainInput": [
+    {
+      "item": "plerocottage:corn_seeds"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:corn_flour"
+  }
+}

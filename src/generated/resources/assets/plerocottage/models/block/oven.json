@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/oven",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/oven",
+    "all": "plerocottage:block/oven",
+    "particle": "plerocottage:block/oven"
+  }
+}

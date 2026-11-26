@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/pressure_plate_up",
+  "textures": {
+    "texture": "plerocottage:block/pomegranate_tree_planks"
+  }
+}

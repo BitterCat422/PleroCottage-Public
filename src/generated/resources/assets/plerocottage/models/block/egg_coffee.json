@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/egg_coffee",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/egg_coffee",
+    "1": "plerocottage:block/egg_coffee",
+    "2": "plerocottage:block/egg_coffee",
+    "3": "plerocottage:block/egg_coffee",
+    "4": "plerocottage:block/egg_coffee",
+    "5": "plerocottage:block/egg_coffee",
+    "particle": "plerocottage:block/egg_coffee"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "cbd",
+    "efg"
+  ],
+  "key": {
+    "a": {
+      "tag": "forge:fruits/cherry"
+    },
+    "b": {
+      "item": "plerocottage:scoop_of_ice_cream"
+    },
+    "c": {
+      "item": "plerocottage:ganache"
+    },
+    "d": {
+      "item": "plerocottage:grenadine"
+    },
+    "e": {
+      "item": "plerocottage:rainbow_chocolate_candies"
+    },
+    "f": {
+      "item": "minecraft:glass_bottle"
+    },
+    "g": {
+      "item": "plerocottage:banana_bunch"
+    }
+  },
+  "result": {
+    "item": "plerocottage:goofy_goober_sundae",
+    "count": 1
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "plerocottage:shaker",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:latte"
+    },
+    {
+      "item": "plerocottage:pumpkin_slice"
+    },
+    {
+      "item": "plerocottage:mixed_spice"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "plerocottage:cinnamon"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:pumpkin_spice_latte"
+  }
+}

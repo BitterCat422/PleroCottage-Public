@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "pomegranate_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:pomegranate_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:pomegranate_tree_button"
+  }
+}

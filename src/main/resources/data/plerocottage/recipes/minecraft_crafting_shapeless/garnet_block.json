@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:garnet"
+    },
+    {
+      "item": "plerocottage:garnet"
+    },
+    {
+      "item": "plerocottage:garnet"
+    },
+    {
+      "item": "plerocottage:garnet"
+    },
+    {
+      "item": "plerocottage:garnet"
+    },
+    {
+      "item": "plerocottage:garnet"
+    },
+    {
+      "item": "plerocottage:garnet"
+    },
+    {
+      "item": "plerocottage:garnet"
+    },
+    {
+      "item": "plerocottage:garnet"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:garnet_block",
+    "count": 1
+  }
+}

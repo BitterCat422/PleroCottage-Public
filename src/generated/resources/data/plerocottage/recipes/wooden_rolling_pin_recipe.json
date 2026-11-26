@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "aba"
+  ],
+  "result": {
+    "item": "plerocottage:wooden_rolling_pin"
+  },
+  "show_notification": true
+}

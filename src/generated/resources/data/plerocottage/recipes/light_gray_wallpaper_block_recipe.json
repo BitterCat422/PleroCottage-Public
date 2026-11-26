@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "a": {
+      "tag": "plerocottage:wallpaper_block"
+    },
+    "b": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "result": {
+    "count": 8,
+    "item": "plerocottage:light_gray_wallpaper_block"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "plerocottage:kiwifruit_tree_planks"
+    },
+    "b": {
+      "item": "plerocottage:kiwifruit_tree_trapdoor"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aba"
+  ],
+  "result": {
+    "item": "plerocottage:kiwifruit_tree_drawer"
+  },
+  "show_notification": true
+}

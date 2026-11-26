@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "plerocottage:block/holly_tree_planks",
+    "side": "plerocottage:block/holly_tree_planks",
+    "top": "plerocottage:block/holly_tree_planks"
+  }
+}

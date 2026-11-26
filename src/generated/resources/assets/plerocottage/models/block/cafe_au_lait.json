@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/cafe_au_lait",
+  "textures": {
+    "0": "plerocottage:block/cafe_au_lait",
+    "1": "plerocottage:block/cafe_au_lait",
+    "2": "plerocottage:block/cafe_au_lait",
+    "3": "plerocottage:block/cafe_au_lait",
+    "4": "plerocottage:block/cafe_au_lait",
+    "5": "plerocottage:block/cafe_au_lait",
+    "particle": "plerocottage:block/cafe_au_lait"
+  }
+}

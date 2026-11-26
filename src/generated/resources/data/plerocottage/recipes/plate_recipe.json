@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "minecraft:smooth_quartz_slab"
+    },
+    "b": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "pattern": [
+    "aaa",
+    " b "
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:plate"
+  },
+  "show_notification": true
+}

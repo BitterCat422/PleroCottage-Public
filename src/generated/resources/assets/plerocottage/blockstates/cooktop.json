@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,running=false": {
+      "model": "plerocottage:block/cooktop",
+      "y": 90
+    },
+    "facing=east,running=true": {
+      "model": "plerocottage:block/cooktop",
+      "y": 90
+    },
+    "facing=north,running=false": {
+      "model": "plerocottage:block/cooktop"
+    },
+    "facing=north,running=true": {
+      "model": "plerocottage:block/cooktop"
+    },
+    "facing=south,running=false": {
+      "model": "plerocottage:block/cooktop",
+      "y": 180
+    },
+    "facing=south,running=true": {
+      "model": "plerocottage:block/cooktop",
+      "y": 180
+    },
+    "facing=west,running=false": {
+      "model": "plerocottage:block/cooktop",
+      "y": 270
+    },
+    "facing=west,running=true": {
+      "model": "plerocottage:block/cooktop",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "stage=growing": {
+      "model": "plerocottage:block/durian_fruit_growing"
+    },
+    "stage=immature": {
+      "model": "plerocottage:block/durian_fruit"
+    },
+    "stage=ripe": {
+      "model": "plerocottage:block/durian_fruit_ripe"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "plerocottage:blender",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mainInput": [
+    {
+      "item": "plerocottage:dried_jalapeno"
+    },
+    {
+      "item": "plerocottage:dried_jalapeno"
+    },
+    {
+      "item": "plerocottage:dried_jalapeno"
+    },
+    {
+      "item": "plerocottage:dried_jalapeno"
+    },
+    {
+      "item": "plerocottage:dried_jalapeno"
+    },
+    {
+      "item": "plerocottage:dried_jalapeno"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:jalapeno_powder"
+  }
+}

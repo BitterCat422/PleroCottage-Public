@@ -1,0 +1,29 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "plerocottage:flour"
+    },
+    {
+      "item": "plerocottage:corn_flour"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:pineapple_slices"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:pineapple_pastries"
+  },
+  "temperature": 200
+}

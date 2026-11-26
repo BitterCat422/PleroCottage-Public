@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "stage=flowers": {
+      "model": "plerocottage:block/elderberry_tree_leaves_flowers"
+    },
+    "stage=fruitless": {
+      "model": "plerocottage:block/elderberry_tree_leaves_fruitless"
+    },
+    "stage=leaves": {
+      "model": "plerocottage:block/elderberry_tree_leaves_leaves"
+    },
+    "stage=ripe": {
+      "model": "plerocottage:block/elderberry_tree_leaves_ripe"
+    },
+    "stage=small": {
+      "model": "plerocottage:block/elderberry_tree_leaves_small"
+    },
+    "stage=unrolled": {
+      "model": "plerocottage:block/elderberry_tree_leaves_unrolled"
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_inventory",
+  "textures": {
+    "texture": "plerocottage:block/holly_tree_planks"
+  }
+}

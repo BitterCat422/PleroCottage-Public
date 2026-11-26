@@ -1,0 +1,36 @@
+{
+  "type": "plerocottage:stock_pot",
+  "container": {
+    "item": "plerocottage:bowl"
+  },
+  "cookingTime": 200,
+  "mainInput": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:dragon_fruit_cactus_flower"
+    },
+    {
+      "item": "plerocottage:pear_slice"
+    },
+    {
+      "item": "plerocottage:pear_slice"
+    },
+    {
+      "tag": "forge:fruits/fig"
+    },
+    {
+      "item": "plerocottage:apricot_kernel"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:canton_bloom_soup"
+  }
+}

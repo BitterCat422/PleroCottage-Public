@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "ddd",
+    "efg"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:brown_dye"
+    },
+    "b": {
+      "item": "minecraft:red_dye"
+    },
+    "c": {
+      "item": "minecraft:yellow_dye"
+    },
+    "d": {
+      "item": "plerocottage:chocolate_chips"
+    },
+    "e": {
+      "item": "minecraft:lime_dye"
+    },
+    "f": {
+      "item": "minecraft:orange_dye"
+    },
+    "g": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "item": "plerocottage:rainbow_chocolate_candies",
+    "count": 6
+  }
+}

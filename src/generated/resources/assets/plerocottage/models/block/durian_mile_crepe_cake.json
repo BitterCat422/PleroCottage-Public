@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/durian_mile_crepe_cake",
+  "textures": {
+    "0": "plerocottage:block/durian_mile_crepe_cake",
+    "1": "plerocottage:block/durian_mile_crepe_cake",
+    "2": "plerocottage:block/durian_mile_crepe_cake",
+    "3": "plerocottage:block/durian_mile_crepe_cake",
+    "4": "plerocottage:block/durian_mile_crepe_cake",
+    "5": "plerocottage:block/durian_mile_crepe_cake",
+    "particle": "plerocottage:block/durian_mile_crepe_cake"
+  }
+}

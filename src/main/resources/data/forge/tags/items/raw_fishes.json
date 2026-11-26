@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:raw_cod_slice",
+    "plerocottage:fugu_slice",
+    "plerocottage:tropical_fish_slice",
+    "minecraft:cod",
+    "minecraft:salmon",
+    "plerocottage:raw_salmon_slice"
+  ]
+}

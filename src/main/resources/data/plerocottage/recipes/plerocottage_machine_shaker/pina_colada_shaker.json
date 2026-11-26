@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:shaker",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "input": [
+    {
+      "item": "plerocottage:pineapple_juice"
+    },
+    {
+      "item": "plerocottage:coconut_milk"
+    },
+    {
+      "item": "plerocottage:glass_of_rum"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    },
+    {
+      "tag": "forge:fruits/cherry"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:pina_colada"
+  }
+}

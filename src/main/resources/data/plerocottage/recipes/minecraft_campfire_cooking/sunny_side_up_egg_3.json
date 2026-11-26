@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 0.35,
+  "cookingtime": 600,
+  "ingredient": {
+    "tag": "forge:edible_eggs"
+  },
+  "result": "plerocottage:sunny_side_up_egg"
+}

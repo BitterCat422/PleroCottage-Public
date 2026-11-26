@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "plerocottage:cherries_tree_planks"
+    },
+    "b": {
+      "item": "plerocottage:cherries_tree_trapdoor"
+    }
+  },
+  "pattern": [
+    "aaa",
+    "aba",
+    "aba"
+  ],
+  "result": {
+    "item": "plerocottage:cherries_tree_drawer"
+  },
+  "show_notification": true
+}

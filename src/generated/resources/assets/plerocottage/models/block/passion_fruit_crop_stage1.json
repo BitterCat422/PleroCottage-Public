@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/passion_fruit_crop_2",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "1": "plerocottage:block/passion_fruit_crop_2",
+    "all": "plerocottage:block/passion_fruit_crop_2",
+    "particle": "plerocottage:block/passion_fruit_crop_1"
+  }
+}

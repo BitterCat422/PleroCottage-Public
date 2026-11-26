@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:muskmelon_slice"
+    },
+    {
+      "item": "plerocottage:muskmelon_slice"
+    },
+    {
+      "item": "plerocottage:muskmelon_slice"
+    },
+    {
+      "item": "plerocottage:muskmelon_slice"
+    },
+    {
+      "item": "plerocottage:muskmelon_slice"
+    },
+    {
+      "item": "plerocottage:muskmelon_slice"
+    },
+    {
+      "item": "plerocottage:muskmelon_slice"
+    },
+    {
+      "item": "plerocottage:muskmelon_slice"
+    },
+    {
+      "item": "plerocottage:muskmelon_slice"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:muskmelon",
+    "count": 1
+  }
+}

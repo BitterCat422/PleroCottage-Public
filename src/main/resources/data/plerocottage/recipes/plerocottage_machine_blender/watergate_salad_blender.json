@@ -1,0 +1,35 @@
+{
+  "type": "plerocottage:blender",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mainInput": [
+    {
+      "item": "plerocottage:cooked_pistachios"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "plerocottage:marshmallows"
+    },
+    {
+      "item": "plerocottage:pineapple_slices"
+    },
+    {
+      "item": "plerocottage:cooked_walpecans"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "tag": "forge:fruits/cherry"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:watergate_salad"
+  }
+}

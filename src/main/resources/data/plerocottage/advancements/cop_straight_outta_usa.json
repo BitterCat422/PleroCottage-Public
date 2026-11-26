@@ -1,0 +1,80 @@
+{
+  "display": {
+    "icon": {
+      "item": "plerocottage:cop_straight_outta_usa_icon"
+    },
+    "title": {
+      "translate": "advancements.cop_straight_outta_usa.title"
+    },
+    "description": {
+      "translate": "advancements.cop_straight_outta_usa.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cop_straight_outta_usa_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "plerocottage:donut"
+          ]
+        }
+      }
+    },
+    "cop_straight_outta_usa_1": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "plerocottage:chocolate_donut"
+          ]
+        }
+      }
+    },
+    "cop_straight_outta_usa_2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "plerocottage:strawberry_donut"
+          ]
+        }
+      }
+    },
+    "cop_straight_outta_usa_3": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "plerocottage:white_chocolate_donut"
+          ]
+        }
+      }
+    },
+    "cop_straight_outta_usa_4": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "plerocottage:lemon_donut"
+          ]
+        }
+      }
+    },
+    "cop_straight_outta_usa_5": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "plerocottage:snow_donut"
+          ]
+        }
+      }
+    }
+  },
+  "parent": "plerocottage:novelty_fruits"
+}

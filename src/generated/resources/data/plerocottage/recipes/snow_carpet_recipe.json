@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "a": {
+      "item": "plerocottage:snow_wool"
+    }
+  },
+  "pattern": [
+    "aa"
+  ],
+  "result": {
+    "count": 3,
+    "item": "plerocottage:snow_carpet"
+  },
+  "show_notification": true
+}

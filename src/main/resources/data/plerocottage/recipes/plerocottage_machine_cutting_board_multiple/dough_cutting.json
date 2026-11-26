@@ -1,0 +1,19 @@
+{
+  "type": "plerocottage:cutting_board_multiple",
+  "input": [
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "tag": "forge:flour"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    }
+  ],
+  "isShaped": false,
+  "output": {
+    "count": 2,
+    "item": "plerocottage:dough"
+  }
+}

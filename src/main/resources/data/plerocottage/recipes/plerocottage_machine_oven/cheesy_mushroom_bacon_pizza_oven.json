@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 100,
+  "input": [
+    {
+      "item": "plerocottage:vanilla_pizza"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "tag": "forge:cooked_bacon"
+    },
+    {
+      "tag": "forge:cooked_bacon"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:cheesy_mushroom_bacon_pizza"
+  },
+  "temperature": 150
+}

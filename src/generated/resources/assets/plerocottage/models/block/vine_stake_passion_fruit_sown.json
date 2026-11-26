@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/vine_stake_seed",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/vine_stake_seed",
+    "all": "plerocottage:block/vine_stake_seed",
+    "particle": "plerocottage:block/vine_stake_none"
+  }
+}

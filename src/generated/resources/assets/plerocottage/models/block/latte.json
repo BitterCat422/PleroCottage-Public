@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/latte",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/latte",
+    "1": "plerocottage:block/latte",
+    "2": "plerocottage:block/latte",
+    "3": "plerocottage:block/latte",
+    "4": "plerocottage:block/latte",
+    "5": "plerocottage:block/latte",
+    "particle": "plerocottage:block/latte"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:americano"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:scoop_of_ice_cream"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:coffee_jelly"
+  }
+}

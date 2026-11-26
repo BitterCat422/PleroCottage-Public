@@ -1,0 +1,28 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "no_need",
+  "mainInput": [
+    {
+      "item": "plerocottage:vanilla_ice_cream_fluid_bucket"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    },
+    {
+      "item": "plerocottage:grapes"
+    },
+    {
+      "item": "plerocottage:blue_raspberry_bubble_gum"
+    },
+    {
+      "item": "plerocottage:banana_slices"
+    }
+  ],
+  "output": {
+    "count": 6,
+    "item": "plerocottage:scoop_of_moon_mist_ice_cream"
+  }
+}

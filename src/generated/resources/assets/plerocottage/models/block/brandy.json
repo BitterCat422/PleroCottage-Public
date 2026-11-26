@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/brandy",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/brandy",
+    "1": "plerocottage:block/brandy",
+    "2": "plerocottage:block/brandy",
+    "3": "plerocottage:block/brandy",
+    "4": "plerocottage:block/brandy",
+    "5": "plerocottage:block/brandy",
+    "particle": "plerocottage:block/brandy"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:mozzarella_cheese_wedge"
+  },
+  "output": {
+    "count": 4,
+    "item": "plerocottage:mozzarella_cheese_slice"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "variants": {
+    "blockstate=0,facing=east": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_0",
+      "y": 90
+    },
+    "blockstate=0,facing=north": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_0"
+    },
+    "blockstate=0,facing=south": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_0",
+      "y": 180
+    },
+    "blockstate=0,facing=west": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_0",
+      "y": 270
+    },
+    "blockstate=1,facing=east": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_1",
+      "y": 90
+    },
+    "blockstate=1,facing=north": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_1"
+    },
+    "blockstate=1,facing=south": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_1",
+      "y": 180
+    },
+    "blockstate=1,facing=west": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_1",
+      "y": 270
+    },
+    "blockstate=2,facing=east": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_2",
+      "y": 90
+    },
+    "blockstate=2,facing=north": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_2"
+    },
+    "blockstate=2,facing=south": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_2",
+      "y": 180
+    },
+    "blockstate=2,facing=west": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_2",
+      "y": 270
+    },
+    "blockstate=3,facing=east": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_3",
+      "y": 90
+    },
+    "blockstate=3,facing=north": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_3"
+    },
+    "blockstate=3,facing=south": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_3",
+      "y": 180
+    },
+    "blockstate=3,facing=west": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_3",
+      "y": 270
+    },
+    "blockstate=4,facing=east": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_4",
+      "y": 90
+    },
+    "blockstate=4,facing=north": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_4"
+    },
+    "blockstate=4,facing=south": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_4",
+      "y": 180
+    },
+    "blockstate=4,facing=west": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_4",
+      "y": 270
+    },
+    "blockstate=5,facing=east": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_5",
+      "y": 90
+    },
+    "blockstate=5,facing=north": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_5"
+    },
+    "blockstate=5,facing=south": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_5",
+      "y": 180
+    },
+    "blockstate=5,facing=west": {
+      "model": "plerocottage:block/dragon_fruit_slices_blockstate_5",
+      "y": 270
+    }
+  }
+}

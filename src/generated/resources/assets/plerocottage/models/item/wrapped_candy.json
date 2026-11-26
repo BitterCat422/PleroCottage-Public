@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "plerocottage:item/wrapped_candy_0",
+      "predicate": {
+        "plerocottage:wrapped_candy_texture_number": 0.0
+      }
+    },
+    {
+      "model": "plerocottage:item/wrapped_candy_1",
+      "predicate": {
+        "plerocottage:wrapped_candy_texture_number": 1.0
+      }
+    },
+    {
+      "model": "plerocottage:item/wrapped_candy_2",
+      "predicate": {
+        "plerocottage:wrapped_candy_texture_number": 2.0
+      }
+    },
+    {
+      "model": "plerocottage:item/wrapped_candy_3",
+      "predicate": {
+        "plerocottage:wrapped_candy_texture_number": 3.0
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "plerocottage:item/wrapped_candy_3"
+  }
+}

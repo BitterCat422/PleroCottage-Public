@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "avocado_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:avocado_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:avocado_tree_button"
+  }
+}

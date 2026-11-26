@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/banana_split",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/banana_split",
+    "1": "plerocottage:block/banana_split",
+    "2": "plerocottage:block/banana_split",
+    "3": "plerocottage:block/banana_split",
+    "4": "plerocottage:block/banana_split",
+    "5": "plerocottage:block/banana_split",
+    "particle": "plerocottage:block/banana_split"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "stage=flowers": {
+      "model": "plerocottage:block/avocado_tree_leaves_flowers"
+    },
+    "stage=fruitless": {
+      "model": "plerocottage:block/avocado_tree_leaves_fruitless"
+    },
+    "stage=fruits": {
+      "model": "plerocottage:block/avocado_tree_leaves_fruits"
+    },
+    "stage=leaves": {
+      "model": "plerocottage:block/avocado_tree_leaves_leaves"
+    },
+    "stage=rare_fruits": {
+      "model": "plerocottage:block/avocado_tree_leaves_rare_fruits"
+    },
+    "stage=unrolled": {
+      "model": "plerocottage:block/avocado_tree_leaves_unrolled"
+    }
+  }
+}

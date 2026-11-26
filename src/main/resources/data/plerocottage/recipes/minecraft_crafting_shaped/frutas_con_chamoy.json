@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "def",
+    " g "
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:jalapeno_powder"
+    },
+    "b": {
+      "item": "plerocottage:chamoy"
+    },
+    "c": {
+      "item": "plerocottage:lime_slice"
+    },
+    "d": {
+      "item": "plerocottage:cucumber_slices"
+    },
+    "e": {
+      "item": "plerocottage:apple_slice"
+    },
+    "f": {
+      "item": "plerocottage:mango_slice"
+    },
+    "g": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "plerocottage:frutas_con_chamoy",
+    "count": 1
+  }
+}

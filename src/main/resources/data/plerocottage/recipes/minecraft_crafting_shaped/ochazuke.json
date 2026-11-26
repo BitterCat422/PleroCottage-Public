@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " de"
+  ],
+  "key": {
+    "a": {
+      "item": "plerocottage:umeboshis"
+    },
+    "b": {
+      "item": "plerocottage:nori"
+    },
+    "c": {
+      "item": "plerocottage:green_tea"
+    },
+    "d": {
+      "item": "plerocottage:cooked_rice"
+    },
+    "e": {
+      "item": "plerocottage:bowl"
+    }
+  },
+  "result": {
+    "item": "plerocottage:ochazuke",
+    "count": 1
+  }
+}

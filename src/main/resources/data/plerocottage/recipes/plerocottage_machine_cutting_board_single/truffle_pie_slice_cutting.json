@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:truffle_pie"
+  },
+  "output": {
+    "count": 4,
+    "item": "plerocottage:truffle_pie_slice"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

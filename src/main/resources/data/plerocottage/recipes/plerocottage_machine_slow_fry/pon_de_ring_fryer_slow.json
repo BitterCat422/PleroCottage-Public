@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "plerocottage:mochi"
+  },
+  "output": {
+    "item": "plerocottage:pon_de_ring"
+  }
+}

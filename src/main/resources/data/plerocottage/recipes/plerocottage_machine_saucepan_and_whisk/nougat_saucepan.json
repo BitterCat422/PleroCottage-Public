@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:marshmallows"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "tag": "forge:edible_nuts"
+    },
+    {
+      "tag": "forge:fruits/cranberries"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:nougat"
+  }
+}

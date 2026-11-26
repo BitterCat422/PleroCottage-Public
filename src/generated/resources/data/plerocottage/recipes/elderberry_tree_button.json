@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "elderberry_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:elderberry_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:elderberry_tree_button"
+  }
+}

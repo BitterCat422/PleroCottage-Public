@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "item": "plerocottage:milk_tea_alliance_icon"
+    },
+    "title": {
+      "translate": "advancements.milk_tea_alliance.title"
+    },
+    "description": {
+      "translate": "advancements.milk_tea_alliance.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "milk_tea_alliance_0": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:bubble_tea"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "milk_tea_alliance_1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:hk_milk_tea"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    },
+    "milk_tea_alliance_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "plerocottage:thai_tea"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parent": "plerocottage:glass_creaking"
+}

@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:dim_fermentation",
+  "cookingTime": 300,
+  "input": [
+    {
+      "tag": "forge:mushrooms"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:suspicious_mold"
+  }
+}

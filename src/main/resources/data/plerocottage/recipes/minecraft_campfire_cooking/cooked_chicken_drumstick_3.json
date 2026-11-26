@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "misc",
+  "experience": 0.35,
+  "cookingtime": 600,
+  "ingredient": {
+    "item": "plerocottage:raw_chicken_drumstick"
+  },
+  "result": "plerocottage:cooked_chicken_drumstick"
+}

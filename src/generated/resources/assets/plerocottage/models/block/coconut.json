@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/coconut",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "1": "plerocottage:block/coconut_block",
+    "particle": "plerocottage:block/coconut_block"
+  }
+}

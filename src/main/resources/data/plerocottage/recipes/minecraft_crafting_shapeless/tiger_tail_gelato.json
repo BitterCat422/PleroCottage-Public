@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:ice_cream_cone"
+    },
+    {
+      "item": "plerocottage:scoop_of_tiger_tail_ice_cream"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:tiger_tail_gelato",
+    "count": 1
+  }
+}

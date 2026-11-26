@@ -1,0 +1,168 @@
+{
+  "format_version": "1.9.0",
+  "credit": "Made with Blockbench",
+  "texture_size": [
+    32,
+    32
+  ],
+  "textures": {
+    "glasses": "plerocottage:block/glasses",
+    "particle": "plerocottage:block/glasses"
+  },
+  "elements": [
+    {
+      "from": [
+        5,
+        0.1,
+        5
+      ],
+      "to": [
+        11,
+        7.1,
+        11
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          7,
+          0.1,
+          5
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            5,
+            4.5,
+            8,
+            8
+          ],
+          "texture": "#glasses"
+        },
+        "east": {
+          "uv": [
+            5,
+            4.5,
+            8,
+            8
+          ],
+          "texture": "#glasses"
+        },
+        "south": {
+          "uv": [
+            5,
+            4.5,
+            8,
+            8
+          ],
+          "texture": "#glasses"
+        },
+        "west": {
+          "uv": [
+            5,
+            4.5,
+            8,
+            8
+          ],
+          "texture": "#glasses"
+        },
+        "up": {
+          "uv": [
+            13,
+            9.5,
+            16,
+            12.5
+          ],
+          "texture": "#glasses"
+        },
+        "down": {
+          "uv": [
+            10.5,
+            10,
+            13,
+            12.5
+          ],
+          "texture": "#glasses"
+        }
+      }
+    },
+    {
+      "from": [
+        11,
+        7.1,
+        11
+      ],
+      "to": [
+        5,
+        0.1,
+        5
+      ],
+      "rotation": {
+        "angle": 0,
+        "axis": "y",
+        "origin": [
+          11,
+          7.1,
+          11
+        ]
+      },
+      "faces": {
+        "north": {
+          "uv": [
+            0,
+            1,
+            0.5,
+            4.5
+          ],
+          "texture": "#glasses"
+        },
+        "east": {
+          "uv": [
+            0,
+            1,
+            0.5,
+            4.5
+          ],
+          "texture": "#glasses"
+        },
+        "south": {
+          "uv": [
+            0,
+            1,
+            0.5,
+            4.5
+          ],
+          "texture": "#glasses"
+        },
+        "west": {
+          "uv": [
+            0,
+            1,
+            0.5,
+            4.5
+          ],
+          "texture": "#glasses"
+        },
+        "up": {
+          "uv": [
+            0,
+            0,
+            0.5,
+            2
+          ],
+          "texture": "#glasses"
+        },
+        "down": {
+          "uv": [
+            8,
+            8,
+            10,
+            10
+          ],
+          "texture": "#glasses"
+        }
+      }
+    }
+  ]
+}

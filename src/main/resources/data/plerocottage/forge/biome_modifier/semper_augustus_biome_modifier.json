@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "plerocottage:mediterranean_plain",
+  "features": "plerocottage:semper_augustus",
+  "step": "vegetal_decoration"
+}

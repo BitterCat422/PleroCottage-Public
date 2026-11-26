@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 200,
+  "input": [
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "plerocottage:sausage"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:sausage_bun"
+  },
+  "temperature": 200
+}

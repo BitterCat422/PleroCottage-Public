@@ -1,0 +1,30 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/pina_colada_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/pina_colada"
+      }
+    },
+    "ground": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/pina_colada"
+      }
+    },
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/pina_colada"
+      }
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/pina_colada"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "group": "mango_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:mango_tree_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "item": "plerocottage:mango_tree_trapdoor"
+  },
+  "show_notification": true
+}

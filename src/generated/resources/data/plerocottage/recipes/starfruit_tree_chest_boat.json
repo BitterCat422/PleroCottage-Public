@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "starfruit_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:starfruit_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:starfruit_tree_chest_boat"
+  }
+}

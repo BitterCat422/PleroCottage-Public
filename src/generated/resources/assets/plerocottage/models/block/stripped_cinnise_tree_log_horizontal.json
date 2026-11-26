@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "plerocottage:block/stripped_cinnise_tree_log_top",
+    "side": "plerocottage:block/stripped_cinnise_tree_log"
+  }
+}

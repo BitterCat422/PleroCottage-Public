@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "elderberry_tree",
+  "ingredients": [
+    {
+      "tag": "plerocottage:elderberry_tree_logs"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:elderberry_tree_planks"
+  }
+}

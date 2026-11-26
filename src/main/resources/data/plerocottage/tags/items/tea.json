@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:kombucha",
+    "plerocottage:green_tea",
+    "plerocottage:black_tea",
+    "plerocottage:earl_grey_tea",
+    "plerocottage:bubble_tea",
+    "plerocottage:suutei_tsai",
+    "plerocottage:fruit_flavored_kombucha",
+    "plerocottage:yuenyeung",
+    "plerocottage:boxed_lemon_tea",
+    "plerocottage:saffron_tea",
+    "plerocottage:nata_de_coco_milk_tea",
+    "plerocottage:thai_tea",
+    "plerocottage:russian_tea",
+    "plerocottage:po_cha",
+    "plerocottage:jasmine_tea",
+    "plerocottage:chamomile_tea",
+    "plerocottage:mint_tea",
+    "plerocottage:floral_kombucha",
+    "plerocottage:hk_milk_tea",
+    "plerocottage:matcha"
+  ]
+}

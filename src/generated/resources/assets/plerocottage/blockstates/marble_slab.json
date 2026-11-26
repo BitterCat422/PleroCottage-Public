@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plerocottage:block/marble_slab"
+    },
+    "type=double": {
+      "model": "plerocottage:block/marble"
+    },
+    "type=top": {
+      "model": "plerocottage:block/marble_slab_top"
+    }
+  }
+}

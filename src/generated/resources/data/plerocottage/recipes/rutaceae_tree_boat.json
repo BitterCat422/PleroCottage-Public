@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "rutaceae_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:rutaceae_tree_planks"
+    }
+  },
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "result": {
+    "item": "plerocottage:rutaceae_tree_boat"
+  },
+  "show_notification": true
+}

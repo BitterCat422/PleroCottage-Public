@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:fast_fry",
+  "input": {
+    "tag": "forge:cooked_whole_chicken"
+  },
+  "output": {
+    "item": "plerocottage:fried_chicken"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#plerocottage:ice_cream_and_cone",
+      "required": false
+    }
+  ]
+}

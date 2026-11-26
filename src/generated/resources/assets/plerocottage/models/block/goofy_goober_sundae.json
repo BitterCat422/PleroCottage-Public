@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/goofy_goober_sundae",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/goofy_goober_sundae",
+    "1": "plerocottage:block/goofy_goober_sundae",
+    "2": "plerocottage:block/goofy_goober_sundae",
+    "3": "plerocottage:block/goofy_goober_sundae",
+    "4": "plerocottage:block/goofy_goober_sundae",
+    "5": "plerocottage:block/goofy_goober_sundae",
+    "particle": "plerocottage:block/goofy_goober_sundae"
+  }
+}

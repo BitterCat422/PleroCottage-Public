@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/flower_pot_cross",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/coconut_sapling",
+    "all": "plerocottage:block/coconut_sapling",
+    "dirt": "minecraft:block/dirt",
+    "flower_pot": "minecraft:block/flower_pot",
+    "particle": "plerocottage:block/coconut_sapling",
+    "plant": "plerocottage:block/coconut_sapling"
+  }
+}

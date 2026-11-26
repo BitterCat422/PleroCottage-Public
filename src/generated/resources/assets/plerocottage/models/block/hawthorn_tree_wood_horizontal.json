@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "plerocottage:block/hawthorn_tree_log",
+    "side": "plerocottage:block/hawthorn_tree_log"
+  }
+}

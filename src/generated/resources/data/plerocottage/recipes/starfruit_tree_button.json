@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "starfruit_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:starfruit_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:starfruit_tree_button"
+  }
+}

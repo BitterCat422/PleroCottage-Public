@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:cocoa_powder"
+    },
+    {
+      "item": "plerocottage:cocoa_butter"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:chocolate",
+    "count": 1
+  }
+}

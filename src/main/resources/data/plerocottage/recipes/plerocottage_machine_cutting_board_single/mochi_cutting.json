@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:cooked_rice"
+  },
+  "output": {
+    "count": 2,
+    "item": "plerocottage:mochi"
+  },
+  "tool": {
+    "tag": "forge:tools/rolling_pins"
+  }
+}

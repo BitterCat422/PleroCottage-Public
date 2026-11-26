@@ -1,0 +1,20 @@
+{
+  "type": "plerocottage:shaker",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "input": [
+    {
+      "item": "plerocottage:glass_of_creme_de_cassis"
+    },
+    {
+      "item": "plerocottage:glass_of_champagne"
+    },
+    {
+      "item": "plerocottage:blackberry"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:kir_royal"
+  }
+}

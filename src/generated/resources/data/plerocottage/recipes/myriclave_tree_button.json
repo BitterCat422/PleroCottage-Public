@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "myriclave_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:myriclave_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:myriclave_tree_button"
+  }
+}

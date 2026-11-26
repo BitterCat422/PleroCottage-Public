@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "avocado_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:avocado_tree_planks"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    " / "
+  ],
+  "result": {
+    "count": 3,
+    "item": "plerocottage:avocado_tree_sign"
+  },
+  "show_notification": true
+}

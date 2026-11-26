@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/reactive_glaze_mug",
+  "render_type": "minecraft:solid",
+  "textures": {
+    "0": "plerocottage:block/reactive_glaze_mug_block",
+    "all": "plerocottage:block/reactive_glaze_mug_block",
+    "particle": "plerocottage:block/reactive_glaze_mug_block"
+  }
+}

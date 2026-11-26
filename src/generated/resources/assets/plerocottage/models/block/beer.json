@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/beer",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/beer",
+    "1": "plerocottage:block/beer",
+    "2": "plerocottage:block/beer",
+    "3": "plerocottage:block/beer",
+    "4": "plerocottage:block/beer",
+    "5": "plerocottage:block/beer",
+    "particle": "plerocottage:block/beer"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "plerocottage:block/myriclave_tree_planks"
+  }
+}

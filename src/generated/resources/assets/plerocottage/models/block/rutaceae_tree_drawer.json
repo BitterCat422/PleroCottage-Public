@@ -1,0 +1,7 @@
+{
+  "parent": "plerocottage:custom/drawer",
+  "textures": {
+    "11": "plerocottage:block/rutaceae_tree_drawer",
+    "particle": "plerocottage:block/rutaceae_tree_drawer"
+  }
+}

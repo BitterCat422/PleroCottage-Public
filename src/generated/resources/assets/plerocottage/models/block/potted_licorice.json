@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/potted_licorice",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/licorice_flower",
+    "1": "plerocottage:block/licorice_leaves",
+    "all": "plerocottage:block/licorice",
+    "dirt": "minecraft:block/dirt",
+    "flower_pot": "minecraft:block/flower_pot",
+    "particle": "plerocottage:block/licorice"
+  }
+}

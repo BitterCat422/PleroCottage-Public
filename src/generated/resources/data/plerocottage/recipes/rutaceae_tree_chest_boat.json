@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "rutaceae_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:rutaceae_tree_boat"
+    },
+    {
+      "item": "minecraft:chest"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:rutaceae_tree_chest_boat"
+  }
+}

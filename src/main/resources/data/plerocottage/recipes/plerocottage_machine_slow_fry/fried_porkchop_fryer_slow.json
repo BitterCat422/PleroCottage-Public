@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:slow_fry",
+  "input": {
+    "item": "minecraft:porkchop"
+  },
+  "output": {
+    "item": "plerocottage:fried_porkchop"
+  }
+}

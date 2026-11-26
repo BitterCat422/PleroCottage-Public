@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#plerocottage:wild_vines",
+      "required": false
+    },
+    "plerocottage:muskmelon_stem",
+    "plerocottage:vine_stake",
+    "plerocottage:vine_arbor",
+    "minecraft:bamboo_sapling",
+    {
+      "id": "#minecraft:leaves",
+      "required": false
+    },
+    "minecraft:bamboo",
+    {
+      "id": "#plerocottage:vine_fruits",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "type": "plerocottage:blender",
+  "mainInput": [
+    {
+      "item": "plerocottage:apricot_kernel"
+    },
+    {
+      "item": "plerocottage:apricot_kernel"
+    },
+    {
+      "item": "plerocottage:apricot_kernel"
+    },
+    {
+      "item": "plerocottage:apricot_kernel"
+    },
+    {
+      "item": "plerocottage:apricot_kernel"
+    },
+    {
+      "item": "plerocottage:apricot_kernel"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:apricot_kernel_powder"
+  }
+}

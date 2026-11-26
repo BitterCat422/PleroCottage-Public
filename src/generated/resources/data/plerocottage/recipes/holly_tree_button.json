@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "holly_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:holly_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:holly_tree_button"
+  }
+}

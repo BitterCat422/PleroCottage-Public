@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/sweet_hot_cocoa",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/sweet_hot_cocoa",
+    "1": "plerocottage:block/sweet_hot_cocoa",
+    "2": "plerocottage:block/sweet_hot_cocoa",
+    "3": "plerocottage:block/sweet_hot_cocoa",
+    "4": "plerocottage:block/sweet_hot_cocoa",
+    "5": "plerocottage:block/sweet_hot_cocoa",
+    "particle": "plerocottage:block/sweet_hot_cocoa"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "type": "plerocottage:blender",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "mainInput": [
+    {
+      "item": "plerocottage:mango_slice"
+    },
+    {
+      "item": "plerocottage:mango_slice"
+    },
+    {
+      "item": "plerocottage:lime_slice"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    },
+    {
+      "item": "plerocottage:ice_cubes"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "plerocottage:mango_slice"
+    },
+    {
+      "item": "plerocottage:jalapeno_powder"
+    },
+    {
+      "item": "plerocottage:chamoy"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:mangonada"
+  }
+}

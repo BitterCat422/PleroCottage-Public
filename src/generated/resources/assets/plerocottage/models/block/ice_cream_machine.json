@@ -1,0 +1,9 @@
+{
+  "parent": "plerocottage:custom/ice_cream_machine",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/ice_cream_machine",
+    "all": "plerocottage:block/ice_cream_machine",
+    "particle": "plerocottage:block/ice_cream_machine"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "required": true,
+  "package": "net.bittercat.plerocottage.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "plerocottage.refmap.json",
+  "mixins": [
+    "NoiseGeneratorSettingsMixin",
+    "NoiseBasedChunkGeneratorAccessor",
+    "LivingEntityMixin",
+    "PlayerAttackMixin",
+    "EnchantmentMenuMixin",
+    "AbstractContainerScreenAccessor"
+  ],
+  "client": [
+    "LivingEntityRendererMixin",
+    "EnchantmentScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "minVersion": "0.8"
+}

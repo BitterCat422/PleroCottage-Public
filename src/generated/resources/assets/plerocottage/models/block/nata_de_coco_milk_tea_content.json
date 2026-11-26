@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/nata_de_coco_milk_tea_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/nata_de_coco_milk_tea",
+    "particle": "plerocottage:block/nata_de_coco_milk_tea"
+  }
+}

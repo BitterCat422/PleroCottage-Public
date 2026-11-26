@@ -1,0 +1,9 @@
+{
+  "type": "plerocottage:fast_fry",
+  "input": {
+    "tag": "forge:cooked_fishes"
+  },
+  "output": {
+    "item": "plerocottage:fried_fish"
+  }
+}

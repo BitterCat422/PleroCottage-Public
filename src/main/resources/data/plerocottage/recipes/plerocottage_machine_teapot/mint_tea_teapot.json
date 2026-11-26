@@ -1,0 +1,17 @@
+{
+  "type": "plerocottage:teapot",
+  "container": {
+    "item": "plerocottage:cup"
+  },
+  "input": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:mint"
+    }
+  ],
+  "output": {
+    "item": "plerocottage:mint_tea"
+  }
+}

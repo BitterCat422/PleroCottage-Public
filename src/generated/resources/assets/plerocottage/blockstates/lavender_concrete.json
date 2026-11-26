@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "plerocottage:block/lavender_concrete",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "plerocottage:block/lavender_concrete"
+    },
+    "facing=south": {
+      "model": "plerocottage:block/lavender_concrete",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "plerocottage:block/lavender_concrete",
+      "y": 270
+    }
+  }
+}

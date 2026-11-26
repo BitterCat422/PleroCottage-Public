@@ -1,0 +1,30 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:stick"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:green_apple"
+    },
+    {
+      "item": "plerocottage:coconut_sugar_caramels"
+    },
+    {
+      "item": "plerocottage:coconut_sugar_caramels"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "tag": "forge:edible_nuts"
+    },
+    {
+      "item": "plerocottage:rainbow_chocolate_candies"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:taffy_apple"
+  }
+}

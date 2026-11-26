@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "plerocottage:block/deepslate_suspicious_ore_1"
+  }
+}

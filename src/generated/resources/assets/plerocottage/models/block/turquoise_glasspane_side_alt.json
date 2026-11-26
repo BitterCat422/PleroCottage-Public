@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side_alt",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "edge": "plerocottage:block/turquoise_glass_pine_top",
+    "pane": "plerocottage:block/turquoise_glass",
+    "particle": "plerocottage:block/turquoise_glass"
+  }
+}

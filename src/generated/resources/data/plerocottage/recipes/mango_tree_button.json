@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "group": "mango_tree",
+  "ingredients": [
+    {
+      "item": "plerocottage:mango_tree_planks"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:mango_tree_button"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "plerocottage:corn_flour"
+    },
+    {
+      "item": "plerocottage:corn_flour"
+    },
+    {
+      "item": "plerocottage:bottled_water"
+    }
+  ],
+  "result": {
+    "item": "plerocottage:corn_dough",
+    "count": 2
+  }
+}

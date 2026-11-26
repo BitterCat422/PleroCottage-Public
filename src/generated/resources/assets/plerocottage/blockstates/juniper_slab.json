@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "plerocottage:block/juniper_slab"
+    },
+    "type=double": {
+      "model": "plerocottage:block/juniper_planks"
+    },
+    "type=top": {
+      "model": "plerocottage:block/juniper_slab_top"
+    }
+  }
+}

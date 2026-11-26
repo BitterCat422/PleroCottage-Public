@@ -1,0 +1,12 @@
+{
+  "parent": "plerocottage:custom/eggnog",
+  "textures": {
+    "0": "plerocottage:block/eggnog",
+    "1": "plerocottage:block/eggnog",
+    "2": "plerocottage:block/eggnog",
+    "3": "plerocottage:block/eggnog",
+    "4": "plerocottage:block/eggnog",
+    "5": "plerocottage:block/eggnog",
+    "particle": "plerocottage:block/eggnog"
+  }
+}

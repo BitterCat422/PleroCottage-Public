@@ -1,0 +1,17 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 200,
+  "input": [
+    {
+      "item": "plerocottage:sweet_dough"
+    },
+    {
+      "tag": "forge:fruits/cherry"
+    }
+  ],
+  "output": {
+    "count": 6,
+    "item": "plerocottage:cherries_cookie"
+  },
+  "temperature": 200
+}

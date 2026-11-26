@@ -1,0 +1,21 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/whiskey_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "plerocottage:item/whiskey_flat"
+    },
+    "ground": {
+      "parent": "plerocottage:item/whiskey_flat"
+    },
+    "gui": {
+      "parent": "plerocottage:item/whiskey_flat"
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/whiskey"
+  }
+}

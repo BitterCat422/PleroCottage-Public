@@ -1,0 +1,107 @@
+{
+  "type": "minecraft:simple_random_selector",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -4,
+              -3,
+              -4
+            ],
+            "random_mirror": true,
+            "random_rotation": true,
+            "structure": "plerocottage:wild_elderberry_tree_1"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -5,
+              -4,
+              -5
+            ],
+            "random_mirror": true,
+            "random_rotation": true,
+            "structure": "plerocottage:wild_elderberry_tree_2"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -4,
+              -2,
+              -4
+            ],
+            "random_mirror": true,
+            "random_rotation": true,
+            "structure": "plerocottage:wild_elderberry_tree_3"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -4,
+              -3,
+              -4
+            ],
+            "random_mirror": true,
+            "random_rotation": true,
+            "structure": "plerocottage:wild_elderberry_tree_4"
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "plerocottage:structure_feature",
+          "config": {
+            "ignored_blocks": [
+              "minecraft:air",
+              "minecraft:structure_block"
+            ],
+            "offset": [
+              -3,
+              -1,
+              -3
+            ],
+            "random_mirror": true,
+            "random_rotation": true,
+            "structure": "plerocottage:wild_elderberry_tree_5"
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

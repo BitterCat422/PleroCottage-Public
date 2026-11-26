@@ -1,0 +1,28 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:bottled_water"
+    },
+    {
+      "item": "plerocottage:brown_sugar"
+    },
+    {
+      "item": "plerocottage:brown_sugar"
+    },
+    {
+      "item": "plerocottage:sago"
+    },
+    {
+      "item": "plerocottage:sago"
+    },
+    {
+      "item": "plerocottage:sago"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "plerocottage:boba"
+  }
+}

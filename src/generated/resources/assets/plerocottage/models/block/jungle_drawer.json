@@ -1,0 +1,7 @@
+{
+  "parent": "plerocottage:custom/drawer",
+  "textures": {
+    "11": "plerocottage:block/jungle_drawer",
+    "particle": "plerocottage:block/jungle_drawer"
+  }
+}

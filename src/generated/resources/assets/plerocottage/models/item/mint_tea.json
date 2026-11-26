@@ -1,0 +1,21 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/mint_tea_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "plerocottage:item/mint_tea_flat"
+    },
+    "ground": {
+      "parent": "plerocottage:item/mint_tea_flat"
+    },
+    "gui": {
+      "parent": "plerocottage:item/mint_tea_flat"
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/mint_tea"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "plerocottage:wrapped_candy",
+    {
+      "id": "#plerocottage:chocolate_chips",
+      "required": false
+    },
+    "plerocottage:licorice_candy",
+    "plerocottage:tanghulu",
+    "plerocottage:marshmallow_skewer",
+    "plerocottage:campfire_marshmallow",
+    "plerocottage:candy_corn",
+    "plerocottage:ringo_ame",
+    "plerocottage:magic_rock_candy",
+    "plerocottage:snowflake_hawthorn_balls",
+    "plerocottage:buntan_ames",
+    "plerocottage:eyeball_jelly",
+    "plerocottage:taffy_apple",
+    "plerocottage:marshmallows",
+    {
+      "id": "#forge:bar_of_chocolate",
+      "required": false
+    },
+    "plerocottage:gummy_worm"
+  ]
+}

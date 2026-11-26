@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "plerocottage:spam"
+  },
+  "output": {
+    "count": 4,
+    "item": "plerocottage:spam_slice"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

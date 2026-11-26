@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "age=0,rare=false": {
+      "model": "plerocottage:block/pimento_bush_stage0"
+    },
+    "age=0,rare=true": {
+      "model": "plerocottage:block/pimento_bush_stage0"
+    },
+    "age=1,rare=false": {
+      "model": "plerocottage:block/pimento_bush_stage1"
+    },
+    "age=1,rare=true": {
+      "model": "plerocottage:block/pimento_bush_stage1"
+    },
+    "age=2,rare=false": {
+      "model": "plerocottage:block/pimento_bush_stage2"
+    },
+    "age=2,rare=true": {
+      "model": "plerocottage:block/pimento_bush_stage2"
+    },
+    "age=3,rare=false": {
+      "model": "plerocottage:block/pimento_bush_stage3"
+    },
+    "age=3,rare=true": {
+      "model": "plerocottage:block/pimento_bush_stage3"
+    },
+    "age=4,rare=false": {
+      "model": "plerocottage:block/pimento_bush_stage4"
+    },
+    "age=4,rare=true": {
+      "model": "plerocottage:block/pimento_bush_stage4"
+    }
+  }
+}

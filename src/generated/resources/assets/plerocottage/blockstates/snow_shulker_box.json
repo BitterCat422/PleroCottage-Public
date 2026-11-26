@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "plerocottage:block/snow_shulker_box"
+    },
+    "facing=east": {
+      "model": "plerocottage:block/snow_shulker_box"
+    },
+    "facing=north": {
+      "model": "plerocottage:block/snow_shulker_box"
+    },
+    "facing=south": {
+      "model": "plerocottage:block/snow_shulker_box"
+    },
+    "facing=up": {
+      "model": "plerocottage:block/snow_shulker_box"
+    },
+    "facing=west": {
+      "model": "plerocottage:block/snow_shulker_box"
+    }
+  }
+}

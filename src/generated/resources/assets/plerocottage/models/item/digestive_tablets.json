@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/generated",
+  "overrides": [
+    {
+      "model": "plerocottage:item/digestive_tablets_1",
+      "predicate": {
+        "minecraft:damage": 0.16666667
+      }
+    },
+    {
+      "model": "plerocottage:item/digestive_tablets_2",
+      "predicate": {
+        "minecraft:damage": 0.33333334
+      }
+    },
+    {
+      "model": "plerocottage:item/digestive_tablets_3",
+      "predicate": {
+        "minecraft:damage": 0.5
+      }
+    },
+    {
+      "model": "plerocottage:item/digestive_tablets_4",
+      "predicate": {
+        "minecraft:damage": 0.6666667
+      }
+    },
+    {
+      "model": "plerocottage:item/digestive_tablets_5",
+      "predicate": {
+        "minecraft:damage": 0.8333333
+      }
+    }
+  ],
+  "textures": {
+    "layer0": "plerocottage:item/digestive_tablets_0"
+  }
+}

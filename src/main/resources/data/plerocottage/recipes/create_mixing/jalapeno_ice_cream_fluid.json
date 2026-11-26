@@ -1,0 +1,33 @@
+{
+    "type":"create:mixing",
+    "conditions": [
+        {
+            "type": "forge:mod_loaded",
+            "modid": "create"
+        }
+    ],
+    "ingredients": [
+    {
+      "item": "plerocottage:jalapeno_slices"
+    },
+    {
+      "item": "plerocottage:jalapeno_slices"
+    },
+    {
+      "item": "plerocottage:jalapeno_slices"
+    },
+    {
+      "item": "plerocottage:jalapeno_slices"
+    },
+    {
+      "fluid": "plerocottage:vanilla_ice_cream_fluid",
+      "amount": 1000
+    }
+  ],
+  "results": [
+    {
+      "fluid": "plerocottage:jalapeno_ice_cream_fluid",
+      "amount": 1000
+    }
+  ]
+}

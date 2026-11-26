@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "item": "plerocottage:bottled_olive_oil"
+    },
+    {
+      "item": "plerocottage:salt_shaker"
+    },
+    {
+      "item": "plerocottage:black_olive_fruits"
+    },
+    {
+      "tag": "forge:fruits/cherry_tomato"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:focaccia"
+  },
+  "temperature": 200
+}

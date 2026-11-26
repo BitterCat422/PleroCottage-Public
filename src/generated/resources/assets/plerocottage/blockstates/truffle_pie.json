@@ -1,0 +1,64 @@
+{
+  "variants": {
+    "blockstate=1,facing=east": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 90
+    },
+    "blockstate=1,facing=north": {
+      "model": "plerocottage:block/truffle_pie"
+    },
+    "blockstate=1,facing=south": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 180
+    },
+    "blockstate=1,facing=west": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 270
+    },
+    "blockstate=2,facing=east": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 90
+    },
+    "blockstate=2,facing=north": {
+      "model": "plerocottage:block/truffle_pie"
+    },
+    "blockstate=2,facing=south": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 180
+    },
+    "blockstate=2,facing=west": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 270
+    },
+    "blockstate=3,facing=east": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 90
+    },
+    "blockstate=3,facing=north": {
+      "model": "plerocottage:block/truffle_pie"
+    },
+    "blockstate=3,facing=south": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 180
+    },
+    "blockstate=3,facing=west": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 270
+    },
+    "blockstate=4,facing=east": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 90
+    },
+    "blockstate=4,facing=north": {
+      "model": "plerocottage:block/truffle_pie"
+    },
+    "blockstate=4,facing=south": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 180
+    },
+    "blockstate=4,facing=west": {
+      "model": "plerocottage:block/truffle_pie",
+      "y": 270
+    }
+  }
+}

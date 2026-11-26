@@ -1,0 +1,7 @@
+{
+  "parent": "plerocottage:custom/cabinet",
+  "textures": {
+    "2": "plerocottage:block/fig_tree_cabinet",
+    "particle": "plerocottage:block/fig_tree_cabinet"
+  }
+}

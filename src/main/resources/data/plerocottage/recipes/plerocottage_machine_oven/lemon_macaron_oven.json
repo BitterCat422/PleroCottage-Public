@@ -1,0 +1,26 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "item": "plerocottage:almond_powder"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:meringue"
+    },
+    {
+      "item": "plerocottage:lemon_slice"
+    },
+    {
+      "item": "plerocottage:custard"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:lemon_macaron"
+  },
+  "temperature": 150
+}

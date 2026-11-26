@@ -1,0 +1,13 @@
+{
+  "type": "plerocottage:cutting_board_single",
+  "input": {
+    "item": "minecraft:cooked_beef"
+  },
+  "output": {
+    "count": 3,
+    "item": "plerocottage:cooked_beef_cubes"
+  },
+  "tool": {
+    "tag": "forge:tools/knives"
+  }
+}

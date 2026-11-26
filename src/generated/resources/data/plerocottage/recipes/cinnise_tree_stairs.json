@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "cinnise_tree",
+  "key": {
+    "#": {
+      "item": "plerocottage:cinnise_tree_planks"
+    }
+  },
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "result": {
+    "count": 4,
+    "item": "plerocottage:cinnise_tree_stairs"
+  },
+  "show_notification": true
+}

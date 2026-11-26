@@ -1,0 +1,45 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "container": {
+    "item": "minecraft:glass_bottle"
+  },
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:boxed_milk"
+    },
+    {
+      "item": "plerocottage:boxed_whipping_cream"
+    },
+    {
+      "item": "plerocottage:lemon_slice"
+    },
+    {
+      "tag": "forge:edible_eggs"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "tag": "forge:fruits/cherry"
+    },
+    {
+      "item": "plerocottage:orange_segment"
+    },
+    {
+      "item": "plerocottage:lime_slice"
+    },
+    {
+      "item": "plerocottage:mint"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:citrus_bavarois"
+  }
+}

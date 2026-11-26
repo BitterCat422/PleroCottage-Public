@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "a": {
+      "item": "minecraft:flint"
+    },
+    "b": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "pattern": [
+    "aba"
+  ],
+  "result": {
+    "item": "plerocottage:golden_rolling_pin"
+  },
+  "show_notification": true
+}

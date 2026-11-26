@@ -1,6 +1,8 @@
 {
-  "parent": "minecraft:block/cube_all",
+  "parent": "minecraft:block/cube_bottom_top",
   "textures": {
-    "all": "plerocottage:block/gray_panelled_wallpaper_block"
+    "bottom": "plerocottage:block/gray_wallpaper_block",
+    "side": "plerocottage:block/gray_panelled_wallpaper_block",
+    "top": "plerocottage:block/gray_wallpaper_block"
   }
 }

@@ -370,8 +370,13 @@ public final class ContentBlockStateProvider extends BlockStateProvider {
             for (Map.Entry<String, net.minecraftforge.registries.RegistryObject<net.minecraft.world.level.block.Block>>
                 entry : group.entrySet()) {
                 String name = entry.getKey();
-                if (name.equals("wallpaper_block") || name.equals("panelled_wallpaper_block")
-                    || name.endsWith("_wallpaper_block")) {
+                if (name.equals("panelled_wallpaper_block") || name.endsWith("_panelled_wallpaper_block")) {
+                    ResourceLocation panelledTexture = modLoc("block/" + name);
+                    ResourceLocation wallpaperTexture = modLoc("block/"
+                        + name.replace("panelled_wallpaper_block", "wallpaper_block"));
+                    simpleBlockWithItem(entry.getValue().get(),
+                        models().cubeBottomTop(name, panelledTexture, wallpaperTexture, wallpaperTexture));
+                } else if (name.equals("wallpaper_block") || name.endsWith("_wallpaper_block")) {
                     simpleBlockWithItem(entry.getValue().get(), models().cubeAll(name, modLoc("block/" + name)));
                 }
             }

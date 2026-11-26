@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " b ",
+    "aaa",
+    "bbb"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:red_wool"
+    },
+    "b": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "plerocottage:christmas_hat_helmet",
+    "count": 1
+  }
+}

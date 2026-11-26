@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " c ",
+    "bab"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:turtle_helmet"
+    },
+    "b": {
+      "item": "plerocottage:topaz"
+    },
+    "c": {
+      "item": "minecraft:lantern"
+    }
+  },
+  "result": {
+    "item": "plerocottage:miner_hat_helmet",
+    "count": 1
+  }
+}

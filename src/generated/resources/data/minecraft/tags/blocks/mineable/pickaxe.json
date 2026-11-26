@@ -29,6 +29,12 @@
     "plerocottage:bowl",
     "plerocottage:plate",
     "plerocottage:reactive_glaze_mug_block",
+    "plerocottage:yellow_wallpaper_block",
+    "plerocottage:yellow_panelled_wallpaper_block",
+    "plerocottage:lime_wallpaper_block",
+    "plerocottage:lime_panelled_wallpaper_block",
+    "plerocottage:pink_wallpaper_block",
+    "plerocottage:pink_panelled_wallpaper_block",
     "plerocottage:green_wallpaper_block",
     "plerocottage:green_panelled_wallpaper_block",
     "plerocottage:light_gray_wallpaper_block",
@@ -71,12 +77,6 @@
     "plerocottage:black_wallpaper_block",
     "plerocottage:black_panelled_wallpaper_block",
     "plerocottage:wallpaper_block",
-    "plerocottage:panelled_wallpaper_block",
-    "plerocottage:yellow_wallpaper_block",
-    "plerocottage:yellow_panelled_wallpaper_block",
-    "plerocottage:lime_wallpaper_block",
-    "plerocottage:lime_panelled_wallpaper_block",
-    "plerocottage:pink_wallpaper_block",
-    "plerocottage:pink_panelled_wallpaper_block"
+    "plerocottage:panelled_wallpaper_block"
   ]
 }

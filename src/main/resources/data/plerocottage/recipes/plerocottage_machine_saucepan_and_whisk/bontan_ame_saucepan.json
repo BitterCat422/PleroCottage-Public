@@ -1,0 +1,25 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "tag": "forge:fruits/pomelo"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "output": {
+    "count": 4,
+    "item": "plerocottage:bontan_ame"
+  }
+}

@@ -332,7 +332,7 @@ public final class WorldGenRegistry {
     }
 
     public static void registerAdditionalPlacements(BiConsumer<String, List<PlacementModifier>> register) {
-        register.accept("camelia", rareSurfacePlacement(4));
+        register.accept("camellia", rareSurfacePlacement(4));
         register.accept("coffea_arabica", rareSurfacePlacement(8));
         register.accept("hyacinth", rareSurfacePlacement(3));
         register.accept("jasmine", rareSurfacePlacement(4));

@@ -169,6 +169,14 @@ public final class ModMobEffect extends MobEffect {
     @Override
     public void removeAttributeModifiers(LivingEntity entity, AttributeMap attributes, int amplifier) {
         super.removeAttributeModifiers(entity, attributes, amplifier);
+        if (effectId.equals("lurking_danger")) {
+            // 效果自然到期不会触发 Remove 事件，移速修饰符要在这里一并清掉
+            var speed = entity.getAttribute(Attributes.MOVEMENT_SPEED);
+            if (speed != null) {
+                speed.removeModifier(LURKING_DANGER_SPEED_ID);
+            }
+            entity.getPersistentData().putInt("PleroCottageLurkingTicks", 0);
+        }
         if (effectId.equals("wallnut_first_aid")) {
             float granted = entity.getPersistentData().getFloat(WALLNUT_ABSORPTION_KEY);
             entity.setAbsorptionAmount(Math.max(0, entity.getAbsorptionAmount() - Math.min(granted, entity.getAbsorptionAmount())));

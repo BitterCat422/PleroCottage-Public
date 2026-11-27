@@ -1,5 +1,25 @@
 {
   "values": [
+    "plerocottage:coconut_tree_sign",
+    "plerocottage:kiwifruit_tree_sign",
+    "plerocottage:elderberry_tree_sign",
+    "plerocottage:durian_tree_sign",
+    "plerocottage:avocado_tree_sign",
+    "plerocottage:olive_tree_sign",
+    "plerocottage:mango_tree_sign",
+    "plerocottage:fig_tree_sign",
+    "plerocottage:pomegranate_tree_sign",
+    "plerocottage:starfruit_tree_sign",
+    "plerocottage:hawthorn_tree_sign",
+    "plerocottage:cherries_tree_sign",
+    "plerocottage:rosaceae_tree_sign",
+    "plerocottage:rutaceae_tree_sign",
+    "plerocottage:nut_tree_sign",
+    "plerocottage:juniper_sign",
+    "plerocottage:holly_tree_sign",
+    "plerocottage:scots_pine_sign",
+    "plerocottage:myriclave_tree_sign",
+    "plerocottage:cinnise_tree_sign",
     "plerocottage:banana_tree_sign"
   ]
 }

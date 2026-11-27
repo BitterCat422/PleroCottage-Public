@@ -15,6 +15,84 @@
         }
       ],
       "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "plerocottage:vine_stake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "species": "grapes"
+          }
+        },
+        {
+          "block": "plerocottage:vine_stake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "height": "0"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "plerocottage:grape_seeds"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "plerocottage:vine_stake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "species": "passion_fruit"
+          }
+        },
+        {
+          "block": "plerocottage:vine_stake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "height": "0"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "plerocottage:half_of_passion_fruit"
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "block": "plerocottage:vine_stake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "species": "cucumber"
+          }
+        },
+        {
+          "block": "plerocottage:vine_stake",
+          "condition": "minecraft:block_state_property",
+          "properties": {
+            "height": "0"
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "plerocottage:cucumber_seeds"
+        }
+      ],
+      "rolls": 1.0
     }
   ],
   "random_sequence": "plerocottage:blocks/vine_stake"

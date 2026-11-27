@@ -51,8 +51,11 @@ public class BlenderRecipe extends BaseRecipe<BlenderBlockEntity> implements Has
         for (int slot : INPUT_SLOTS) {
             ItemStack input = pContainer.getItem(slot);
             if (input.isEmpty()) continue;
-            if (slot == CONTAINER && this.hasContainer()) {
-                multiple = Math.min(multiple, input.getCount() / count);
+            if (slot == CONTAINER) {
+                // 不需要容器的配方不看容器槽，里面放着的瓶子既不限制批数也不会被消耗
+                if (this.hasContainer()) {
+                    multiple = Math.min(multiple, input.getCount() / count);
+                }
                 continue;
             }
             if (PleroCottageCompat.isDamageableMaterial(input)) {

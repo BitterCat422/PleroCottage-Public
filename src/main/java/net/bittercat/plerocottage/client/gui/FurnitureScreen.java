@@ -36,7 +36,7 @@ public final class FurnitureScreen extends AbstractContainerScreen<FurnitureMenu
 
     private void addSortButton(int button, int yOffset) {
         addRenderableWidget(new ImageButton(leftPos + 158, topPos + yOffset, 10, 10,
-            0, 0, 10, SORT_BUTTON, 10, 20,
+            0, 0, 0, SORT_BUTTON, 10, 10,
             ignored -> minecraft.gameMode.handleInventoryButtonClick(menu.containerId, button)));
     }
 
@@ -44,6 +44,7 @@ public final class FurnitureScreen extends AbstractContainerScreen<FurnitureMenu
     public void render(GuiGraphics graphics, int mouseX, int mouseY, float partialTick) {
         renderBackground(graphics);
         super.render(graphics, mouseX, mouseY, partialTick);
+        renderTooltip(graphics, mouseX, mouseY);
     }
 
     @Override

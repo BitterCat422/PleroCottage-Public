@@ -1,5 +1,7 @@
 package net.bittercat.plerocottage.machine.compat.farmersdelight;
 
+import java.util.LinkedHashMap;
+import java.util.Arrays;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.RecipeManager;
 import net.bittercat.plerocottage.machine.recipes.CuttingBoardSingleRecipe;
@@ -39,8 +41,13 @@ public class CuttingBoardRecipeCompat {
         List<CuttingBoardRecipe> cuttingRecipes = recipeManager.getAllRecipesFor(ModRecipeTypes.CUTTING.get());
         List<CuttingBoardSingleRecipe> singleRecipes = recipeManager.getAllRecipesFor(RecipeRegistry.CUTTING_BOARD_SINGLE_RECIPE_TYPE.get());
         cuttingRecipes.forEach(recipe -> {
+            // 本模组的配方格式里主产物必出：对方主产物带概率的配方不转换，否则概率产物会变成必出
             if (recipe.getResults().size() <= 6
-                    && singleRecipes.stream().noneMatch(singleRecipe -> singleRecipe.input.equals(recipe.getIngredients().get(0)))) {
+                    && !recipe.getRollableResults().isEmpty()
+                    && recipe.getRollableResults().get(0).getChance() >= 1.0F
+                    // Ingredient 没有按内容比较的 equals，只能看本模组配方的原料是否接受对方的任一物品
+                    && singleRecipes.stream().noneMatch(singleRecipe -> Arrays.stream(
+                            recipe.getIngredients().get(0).getItems()).anyMatch(singleRecipe.input::test))) {
                 recipes.add(toCuttingBoardRecipe(recipe));
             }
         });
@@ -60,7 +67,7 @@ public class CuttingBoardRecipeCompat {
     }
 
     public static CuttingBoardSingleRecipe toCuttingBoardRecipe(CuttingBoardRecipe recipe) {
-        Map<ItemStack, Float> outgrowths = new HashMap<>();
+        Map<ItemStack, Float> outgrowths = new LinkedHashMap<>();
         for (int i = 1; i < recipe.getRollableResults().size(); i++) {
             ChanceResult chanceResult = recipe.getRollableResults().get(i);
             outgrowths.put(chanceResult.getStack(), chanceResult.getChance());

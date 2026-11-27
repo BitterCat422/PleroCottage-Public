@@ -65,7 +65,7 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         register(definitions, "dark_chocolate_chips", 2, 0.3F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "white_chocolate_chips", 2, 0.3F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "surimi_crab_stick", 2, 0.3F, true, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
-        register(definitions, "buntan_ames", 3, 0.3F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
+        register(definitions, "bontan_ame", 3, 0.3F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "mochi", 3, 0.3F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "pickle_slices", 3, 0.3F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "raw_beef_patty", 3, 0.3F, true, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
@@ -93,7 +93,7 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         register(definitions, "blackcurrant_macaron", 4, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "chocolate_macaron", 4, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "cream_puff", 4, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
-        register(definitions, "gulab_jamuns", 4, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
+        register(definitions, "gulab_jamun", 4, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "kuri_manju", 4, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "lavender_macaron", 4, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "lemon_macaron", 4, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
@@ -115,7 +115,7 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         register(definitions, "pretzel", 5, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "savoiardi", 5, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "soul_cake", 5, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
-        register(definitions, "umeboshis", 5, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
+        register(definitions, "umeboshi", 5, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "cupcake_qaq", 5, 0.6F, false, false, 64, Rarity.EPIC, 32, UseAnim.EAT);
         register(definitions, "cod_nigiri", 5, 0.65F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "fugu_nigiri", 5, 0.65F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
@@ -149,10 +149,10 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         register(definitions, "cheesy_mushroom_bacon_pizza_slice", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "cinnamon_roll", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "durian_pizza_slice", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
-        register(definitions, "graham_cacker", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
+        register(definitions, "graham_cracker", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "hawaiian_pizza_slice", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "kadayif", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
-        register(definitions, "kaju_katlis", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
+        register(definitions, "kaju_katli", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "lamingtons", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "madeleine", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "mont_blanc", 6, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
@@ -192,7 +192,7 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         register(definitions, "avocado_egg_bake", 8, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "bagel", 8, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "baked_apple", 8, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
-        register(definitions, "boloyau", 8, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
+        register(definitions, "bo_lo_yau", 8, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "caneles", 8, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "choco_cornet", 8, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "cream_bun", 8, 0.6F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
@@ -260,7 +260,7 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         register(definitions, "mozzarella_cheese_slice", 1, 0.8F, false, false, 64, Rarity.COMMON, 24, UseAnim.EAT);
         register(definitions, "popcorn", 2, 0.3F, false, false, 64, Rarity.COMMON, 16, UseAnim.EAT);
         register(definitions, "banana_chips", 3, 0.6F, false, false, 64, Rarity.COMMON, 24, UseAnim.EAT);
-        register(definitions, "pedas", 3, 0.6F, false, false, 64, Rarity.COMMON, 24, UseAnim.EAT);
+        register(definitions, "peda", 3, 0.6F, false, false, 64, Rarity.COMMON, 24, UseAnim.EAT);
         register(definitions, "apricot_kernel", 4, 0.3F, false, false, 64, Rarity.COMMON, 24, UseAnim.EAT);
         register(definitions, "green_bell_pepper_slices", 4, 0.3F, false, false, 64, Rarity.COMMON, 24, UseAnim.EAT);
         register(definitions, "baguette", 12, 0.6F, false, false, 64, Rarity.COMMON, 64, UseAnim.EAT);
@@ -392,7 +392,7 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         register(definitions, "grape_juice", 3, 0.1F, false, true, 16, Rarity.COMMON, 32, UseAnim.DRINK);
         register(definitions, "mediterranean_sundae", 14, 0.3F, false, false, 16, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "grapefruit_juice", 3, 0.1F, false, true, 16, Rarity.COMMON, 32, UseAnim.DRINK);
-        register(definitions, "yeung_zhi_gum_lo", 4, 0.1F, false, true, 16, Rarity.COMMON, 32, UseAnim.DRINK);
+        register(definitions, "yeung_ji_gam_lo", 4, 0.1F, false, true, 16, Rarity.COMMON, 32, UseAnim.DRINK);
         register(definitions, "citrus_bavarois", 12, 0.3F, false, false, 16, Rarity.COMMON, 32, UseAnim.EAT);
         register(definitions, "plum_juice", 2, 0.1F, false, true, 16, Rarity.COMMON, 32, UseAnim.DRINK);
         register(definitions, "ota_ika", 4, 0.3F, false, false, 64, Rarity.COMMON, 32, UseAnim.EAT);
@@ -426,10 +426,10 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         register(definitions, "glass_of_champagne", 2, 0.1F, false, true, 16, Rarity.COMMON, 24, UseAnim.DRINK);
         register(definitions, "glass_of_gin", 2, 0.1F, false, true, 16, Rarity.COMMON, 24, UseAnim.DRINK);
         register(definitions, "glass_of_rum", 2, 0.1F, false, true, 16, Rarity.COMMON, 24, UseAnim.DRINK);
-        register(definitions, "glass_of_umeshu", 2, 0.1F, false, true, 16, Rarity.COMMON, 24, UseAnim.DRINK);
+        register(definitions, "cup_of_umeshu", 2, 0.1F, false, true, 16, Rarity.COMMON, 24, UseAnim.DRINK);
         register(definitions, "glass_of_beer", 2, 0.1F, false, true, 16, Rarity.COMMON, 24, UseAnim.DRINK);
         register(definitions, "glass_of_absinthe", 2, 0.1F, false, true, 16, Rarity.COMMON, 24, UseAnim.DRINK);
-        register(definitions, "glass_of_sake", 2, 0.1F, false, true, 16, Rarity.COMMON, 24, UseAnim.DRINK);
+        register(definitions, "cup_of_sake", 2, 0.1F, false, true, 16, Rarity.COMMON, 24, UseAnim.DRINK);
         register(definitions, "glass_of_brandy", 2, 0.1F, false, true, 16, Rarity.COMMON, 24, UseAnim.DRINK);
         register(definitions, "glass_of_whiskey", 2, 0.1F, false, true, 16, Rarity.COMMON, 24, UseAnim.DRINK);
         register(definitions, "ochazuke", 13, 0.6F, false, false, 16, Rarity.COMMON, 32, UseAnim.EAT);
@@ -532,7 +532,7 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         register(definitions, "green_apple", 5, 0.3F, 32);
         register(definitions, "green_apple_slice", 2, 0.3F, 32);
         register(definitions, "apricots", 4, 0.3F, 32);
-        register(definitions, "umes", 4, 0.3F, false, false, 64, Rarity.EPIC, 32, UseAnim.EAT);
+        register(definitions, "ume", 4, 0.3F, false, false, 64, Rarity.EPIC, 32, UseAnim.EAT);
         register(definitions, "avocado_slice", 2, 0.3F, 32);
         register(definitions, "cherries", 2, 0.1F, 32);
         register(definitions, "fig", 5, 0.3F, 32);
@@ -708,10 +708,10 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         "glass_of_white_wine", "brandy", "mince_pie", "glass_of_starfruit_wine", "earl_grey_tea",
         "jewellery_box_salad", "prune", "frutas_con_chamoy", "starfruit_wine",
         "pineberry_pon_de_ring", "glass_of_brandy", "daiquiri", "plum_juice", "champagne",
-        "grapefruit_juice", "bellini_base", "umeboshis", "gummy_worm", "umeshu", "suanmeitang",
-        "ochazuke", "glass_of_umeshu", "fruit_flavored_kombucha",
+        "grapefruit_juice", "bellini_base", "umeboshi", "gummy_worm", "umeshu", "suanmeitang",
+        "ochazuke", "cup_of_umeshu", "fruit_flavored_kombucha",
         "pink_snowman_paleta", "supreme_pizza_slice", "ota_ika", "white_wine",
-        "hurricane_cocktail", "taffy_apple", "focaccia", "kir_royal", "yeung_zhi_gum_lo",
+        "hurricane_cocktail", "taffy_apple", "focaccia", "kir_royal", "yeung_ji_gam_lo",
         "glass_of_champagne", "muscat_grape_paleta", "citrus_bavarois", "gooseberry_fool",
         "blackberry_bubble_gum", "bomb_paleta");
 
@@ -765,24 +765,24 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
             "cosmic_dragon_salad", "halloween_parfait", "starfruit_wine");
         addFruitEffect(effects, MobEffectContent.ORIGINAL_EVOLUTION,
             "mango_juice", "luau_paleta", "colorful_fruit_parfait", "frutas_con_chamoy",
-            "yeung_zhi_gum_lo", "mango_pudding", "mangonada", "primary_colors_salad");
+            "yeung_ji_gam_lo", "mango_pudding", "mangonada", "primary_colors_salad");
         addFruitEffect(effects, MobEffectContent.POISON_HEAL_MEDICINE,
             "dried_hawthorns", "suanmeitang", "hawthorn_flakes", "tanghulu", "hawpsicle_paleta",
             "snowflake_hawthorn_balls", "guilinggao", "hawthorn_rolls");
         addFruitEffect(effects, MobEffectContent.ROSA_HEDGE,
             "rosa_salad", "canton_bloom_soup", "pear_with_rock_sugar", "mince_pie", "baked_apple",
             "frutas_con_chamoy", "ringo_ame", "starfruit_wine", "pudding_a_la_mode", "taffy_apple",
-            "apple_juice", "gummy_worm", "suanmeitang", "ochazuke", "glass_of_umeshu",
-            "apricot_kernel_tofu", "dried_apricots", "umeboshis", "apricot_kernel", "umeshu",
+            "apple_juice", "gummy_worm", "suanmeitang", "ochazuke", "cup_of_umeshu",
+            "apricot_kernel_tofu", "dried_apricots", "umeboshi", "apricot_kernel", "umeshu",
             "plum_juice", "heart_crush_paleta", "prune", "fruit_flavored_kombucha",
             "bellini_base", "hakuto_tea", "fliederbeersuppe", "battenberg_cake");
-        addFruitEffect(effects, MobEffectContent.RUTIN_LEMONENE,
-            "buntan_ames", "lemon_cookie", "earl_grey_tea", "frutas_con_chamoy",
+        addFruitEffect(effects, MobEffectContent.RUTIN_LIMONENE,
+            "bontan_ame", "lemon_cookie", "earl_grey_tea", "frutas_con_chamoy",
             "fruit_flavored_kombucha", "punch_bowl", "ota_ika", "hurricane_cocktail",
             "boxed_lemon_tea", "daiquiri", "russian_tea", "lemon_macaron", "madeleine",
             "lemon_donut", "citrus_bavarois", "colorful_fruit_parfait", "halloween_parfait",
             "apricot_kernel_tofu", "scoop_of_tiger_tail_ice_cream", "orange_muffin",
-            "grapefruit_juice", "yeung_zhi_gum_lo", "marmalade", "blackcurrant_macaron",
+            "grapefruit_juice", "yeung_ji_gam_lo", "marmalade", "blackcurrant_macaron",
             "orange_juice", "fruit_sandwich", "tiger_tail_gelato", "socata", "fliederbeersuppe", "elderberry_gummy_bear", "bomb_paleta", "clover_club", "mince_pie");
         addFruitEffect(effects, MobEffectContent.TRANSMUTATION_ELIXIR,
             "cough_syrup", "elderberry_gummy_bear", "elderberry_muffin", "fliederbeersuppe");
@@ -799,7 +799,7 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
             "hawaiian_pizza_slice", "pineapple_juice", "pineapple_pies", "colorful_fruit_parfait",
             "goofy_goober_sundae", "banana_shake", "cooked_banana", "banana_chips", "banana_split",
             "chocolate_banana_pop", "fried_banana", "mango_juice", "frutas_con_chamoy",
-            "yeung_zhi_gum_lo", "mango_pudding", "mangonada", "primary_colors_salad", "lamingtons",
+            "yeung_ji_gam_lo", "mango_pudding", "mangonada", "primary_colors_salad", "lamingtons",
             "lavender_pon_de_ring", "coconut_milk", "ota_ika", "coconut_bun", "inkoco_paleta",
             "thai_tea", "cream_bun", "starfruit_ice_cream", "starfruit_jalapeno_ice_cream",
             "glass_of_starfruit_wine", "cosmic_dragon_salad", "halloween_parfait", "starfruit_wine",
@@ -869,8 +869,8 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         "cough_syrup", "citrus_bavarois", "gooseberry_fool", "fliederbeersuppe", "chewing_gum",
         "mint_tea");
     private static final Set<String> WINE_GLASSES = Set.of(
-        "glass_of_white_wine", "glass_of_starfruit_wine", "glass_of_vodka", "glass_of_sake",
-        "glass_of_whiskey", "glass_of_umeshu", "glass_of_absinthe", "glass_of_brandy",
+        "glass_of_white_wine", "glass_of_starfruit_wine", "glass_of_vodka", "cup_of_sake",
+        "glass_of_whiskey", "cup_of_umeshu", "glass_of_absinthe", "glass_of_brandy",
         "glass_of_beer", "glass_of_creme_de_cassis", "glass_of_champagne",
         "glass_of_red_wine", "glass_of_rum", "glass_of_gin", "daiquiri", "earl_grey_tea",
         "martini", "kir_royal", "eggnog", "clover_club", "bellini_base", "irish_coffee", "tiramisu", "russian_tea", "hurricane_cocktail", "pina_colada");
@@ -909,8 +909,8 @@ public record FoodDefinition(String name, int nutrition, float saturation, boole
         "masala_chai", "hk_milk_tea");
     private static final Set<String> NUT_LEVEL_TWO = Set.of("watergate_salad", "baklava", "pistachio_macaron");
     private static final Set<String> NUT_LEVEL_ONE = Set.of(
-        "opera_cake", "mont_blanc", "pedas", "risalamande", "kadayif", "kaju_katlis", "dubai_chocolate",
+        "opera_cake", "mont_blanc", "peda", "risalamande", "kadayif", "kaju_katli", "dubai_chocolate",
         "apricot_kernel_drink", "apricot_kernel_tofu", "raspberry_macaron", "chocolate_macaron",
-        "gulab_jamuns", "taffy_apple", "lavender_macaron", "lemon_macaron", "madeleine", "wafer",
+        "gulab_jamun", "taffy_apple", "lavender_macaron", "lemon_macaron", "madeleine", "wafer",
         "peanut_butter_cup", "kuri_manju", "blackcurrant_macaron", "canton_bloom_soup", "nougat", "battenberg_cake", "brownie");
 }

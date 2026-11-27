@@ -17,11 +17,10 @@ class SpriteShiftEntry {
     }
 
     void resolve() {
-        if (original == null) {
-            TextureAtlas atlas = Minecraft.getInstance().getModelManager().getAtlas(TextureAtlas.LOCATION_BLOCKS);
-            original = atlas.getSprite(originalLocation);
-            target = atlas.getSprite(targetLocation);
-        }
+        // 资源重载后图集里的 sprite 是新对象，缓存的旧对象 UV 不再对得上，所以每次都按名字取
+        TextureAtlas atlas = Minecraft.getInstance().getModelManager().getAtlas(TextureAtlas.LOCATION_BLOCKS);
+        original = atlas.getSprite(originalLocation);
+        target = atlas.getSprite(targetLocation);
     }
 
     TextureAtlasSprite getOriginal() {

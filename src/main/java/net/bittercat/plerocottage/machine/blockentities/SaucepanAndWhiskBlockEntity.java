@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.machine.blockentities;
 
+import net.bittercat.plerocottage.machine.compat.plerocottage.SlotInputLimitManager;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.NonNullList;
 import net.minecraft.nbt.CompoundTag;
@@ -180,6 +181,24 @@ public class SaucepanAndWhiskBlockEntity extends BaseMachineBlockEntity implemen
     @Override
     public NonNullList<ItemStack> getItems() {
         return this.items;
+    }
+
+    @Override
+    protected boolean canAutomationInsert(int slot, ItemStack stack) {
+        if (slot == CONTAINER) {
+            return accepts(SlotInputLimitManager.SAUCEPAN_AND_WHISK_INPUT_LIMIT, stack);
+        }
+        return slot >= MAIN_TOP_LEFT && slot <= SECONDARY_BOTTOM_RIGHT;
+    }
+
+    @Override
+    protected int automationSlotLimit(int slot) {
+        return slot == RESULT ? super.automationSlotLimit(slot) : 4;
+    }
+
+    @Override
+    protected boolean isOutputSlot(int slot) {
+        return slot == RESULT;
     }
 
     @Override

@@ -1,5 +1,7 @@
 package net.bittercat.plerocottage.blocks;
 
+import net.minecraft.world.level.block.entity.ShulkerBoxBlockEntity;
+import net.minecraft.world.level.material.PushReaction;
 import java.util.List;
 
 import net.bittercat.plerocottage.content.blockentities.BlockEntityContent;
@@ -27,12 +29,22 @@ public final class ColoredShulkerBoxBlock extends ShulkerBoxBlock {
     private final String color;
 
     public ColoredShulkerBoxBlock(String color) {
+        // 属性与原版潜影盒一致：打开时不算完整方块，被活塞推动时破坏并掉落
         super(null, BlockBehaviour.Properties.of()
             .mapColor(mapColor(color))
+            .forceSolidOn()
             .strength(2.0F)
-            .sound(net.minecraft.world.level.block.SoundType.STONE)
-            .noOcclusion());
+            .dynamicShape()
+            .noOcclusion()
+            .isSuffocating(ColoredShulkerBoxBlock::isClosed)
+            .isViewBlocking(ColoredShulkerBoxBlock::isClosed)
+            .pushReaction(PushReaction.DESTROY)
+            .isRedstoneConductor((state, level, pos) -> true));
         this.color = color;
+    }
+
+    private static boolean isClosed(BlockState state, BlockGetter level, BlockPos pos) {
+        return !(level.getBlockEntity(pos) instanceof ShulkerBoxBlockEntity shulkerBox) || shulkerBox.isClosed();
     }
 
     public String colorName() {

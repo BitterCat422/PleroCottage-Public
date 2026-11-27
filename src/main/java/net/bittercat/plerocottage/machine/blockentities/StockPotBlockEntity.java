@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.machine.blockentities;
 
+import net.bittercat.plerocottage.machine.compat.plerocottage.SlotInputLimitManager;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.NonNullList;
 import net.minecraft.nbt.CompoundTag;
@@ -102,7 +103,7 @@ public class StockPotBlockEntity extends BaseMachineBlockEntity {
         public void set(int pIndex, int pValue) {
             switch (pIndex) {
                 case 0 -> StockPotBlockEntity.this.setCookingTime(pValue);
-                case 2 -> StockPotBlockEntity.this.setMaxCookingTime(pValue);
+                case 1 -> StockPotBlockEntity.this.setMaxCookingTime(pValue);
             }
         }
 
@@ -129,7 +130,8 @@ public class StockPotBlockEntity extends BaseMachineBlockEntity {
                     }
                 }
             }
-            if (!pBlockEntity.isPlaySound) {
+            if (!pBlockEntity.isPlaySound
+                    || (pBlockEntity.getLevel().getGameTime() % 20 == 0 && !SoundUtil.isLoopActive(pBlockEntity))) {
                 pBlockEntity.isPlaySound = true;
                 SoundUtil.playStockPotSoundInstance(pBlockEntity);
             }
@@ -137,7 +139,10 @@ public class StockPotBlockEntity extends BaseMachineBlockEntity {
     }
 
     public static void serverTick(Level pLevel, BlockPos pPos, BlockState pState, StockPotBlockEntity pBlockEntity) {
-        pBlockEntity.recheckOpen();
+        // 和原版箱子一样每 5 刻核对一次打开界面的玩家，不必每刻都查周围的实体
+        if (pBlockEntity.getLevel().getGameTime() % 5 == 0) {
+            pBlockEntity.recheckOpen();
+        }
         if (pBlockEntity.isRunning) {
             if (pBlockEntity.isOnStockPotHeatBlock()) {
                 pBlockEntity.cookingTime++;
@@ -294,6 +299,27 @@ public class StockPotBlockEntity extends BaseMachineBlockEntity {
     @Override
     public NonNullList<ItemStack> getItems() {
         return this.items;
+    }
+
+    @Override
+    protected boolean canAutomationInsert(int slot, ItemStack stack) {
+        if (this.isRunning) {
+            return false;
+        }
+        if (slot == CONTAINER) {
+            return accepts(SlotInputLimitManager.stockPotInputLimit(), stack);
+        }
+        return slot >= MAIN_TOP_LEFT && slot <= SECONDARY_BOTTOM_RIGHT;
+    }
+
+    @Override
+    protected int automationSlotLimit(int slot) {
+        return slot == RESULT ? super.automationSlotLimit(slot) : 8;
+    }
+
+    @Override
+    protected boolean isOutputSlot(int slot) {
+        return slot == RESULT;
     }
 
     @Override

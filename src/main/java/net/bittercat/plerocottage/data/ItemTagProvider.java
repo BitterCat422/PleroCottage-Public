@@ -5,6 +5,7 @@ import java.util.Set;
 import java.util.concurrent.CompletableFuture;
 
 import net.bittercat.plerocottage.PleroCottage;
+import net.bittercat.plerocottage.content.plants.Flowers;
 import net.bittercat.plerocottage.content.plants.Bananas;
 import net.bittercat.plerocottage.content.plants.Bushes;
 import net.bittercat.plerocottage.content.plants.Coconuts;
@@ -80,6 +81,12 @@ public final class ItemTagProvider extends ItemTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         copy(BlockTags.FLOWERS, ItemTags.FLOWERS);
+        // 原版的物品 flowers 标签包含 small_flowers，蜜蜂靠它识别花
+        for (var flower : Flowers.blocks().values()) {
+            if (!Flowers.petalNames().contains(flower.getId().getPath())) {
+                tag(ItemTags.SMALL_FLOWERS).add(flower.get().asItem());
+            }
+        }
         var wallpaperTag = tag(WALLPAPER_BLOCK);
         var panelledTag = tag(PANELLED_WALLPAPER_BLOCK);
         for (var family : BuildingBlockContent.all().values()) {
@@ -229,15 +236,15 @@ public final class ItemTagProvider extends ItemTagsProvider {
             if (wood.stalkStyle()) {
                 logs.add(wood.log().get().asItem(), wood.strippedLog().get().asItem());
                 tag(MOD_STRIPPED_WOOD).add(wood.strippedLog().get().asItem());
-                tag(ItemTags.SIGNS).add(wood.signItem().get());
-                tag(ItemTags.HANGING_SIGNS).add(wood.hangingSignItem().get());
-                tag(ItemTags.BOATS).add(wood.vehicleItem().get());
-                tag(ItemTags.CHEST_BOATS).add(wood.chestVehicleItem().get());
             } else {
                 logs.add(wood.log().get().asItem(), wood.strippedLog().get().asItem(),
                     wood.wood().get().asItem(), wood.strippedWood().get().asItem());
                 tag(MOD_STRIPPED_WOOD).add(wood.strippedWood().get().asItem());
             }
+            tag(ItemTags.SIGNS).add(wood.signItem().get());
+            tag(ItemTags.HANGING_SIGNS).add(wood.hangingSignItem().get());
+            tag(ItemTags.BOATS).add(wood.vehicleItem().get());
+            tag(ItemTags.CHEST_BOATS).add(wood.chestVehicleItem().get());
         }
         tag(STRIPPED_WOOD).addTag(MOD_STRIPPED_WOOD);
         tag(ItemTags.create(new ResourceLocation("forge", "seeds")))

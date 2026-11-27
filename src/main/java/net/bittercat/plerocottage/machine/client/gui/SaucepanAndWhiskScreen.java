@@ -177,7 +177,7 @@ public class SaucepanAndWhiskScreen extends BaseMachineScreen<SaucepanAndWhiskMe
 
                     private void setColor(GuiGraphics guiGraphics) {
                         if (this.isHovered()) {
-                            guiGraphics.setColor(255, 255, 255, 0.225F);
+                            guiGraphics.setColor(1.0F, 1.0F, 1.0F, 0.225F);
                         }
                     }
 

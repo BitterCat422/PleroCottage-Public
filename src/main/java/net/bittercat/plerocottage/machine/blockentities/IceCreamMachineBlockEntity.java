@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.machine.blockentities;
 
+import net.bittercat.plerocottage.machine.compat.plerocottage.SlotInputLimitManager;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
@@ -49,7 +50,8 @@ public class IceCreamMachineBlockEntity extends BaseMachineBlockEntity {
         }
     };
     public final NonNullList<ItemStack> items = NonNullList.withSize(ITEMS_SIZE, ItemStack.EMPTY);
-    public LazyOptional<IFluidHandler> fluidHandler = LazyOptional.empty();
+    // 由父类构造器调用的 loadAndRevive() 赋值，这里再写初始值会把它覆盖掉
+    public LazyOptional<IFluidHandler> fluidHandler;
 
     public IceCreamMachineBlockEntity(BlockPos pPos, BlockState pBlockState) {
         super(BlockEntityRegistry.ICE_CREAM_MACHINE.get(), pPos, pBlockState);
@@ -106,6 +108,25 @@ public class IceCreamMachineBlockEntity extends BaseMachineBlockEntity {
     @Override
     public NonNullList<ItemStack> getItems() {
         return this.items;
+    }
+
+    @Override
+    protected boolean canAutomationInsert(int slot, ItemStack stack) {
+        if (slot == CONTAINER_SLOT) {
+            return PleroCottageCompat.isIceCreamCone(stack)
+                || accepts(SlotInputLimitManager.ICE_CREAM_MACHINE_INPUT_LIMIT, stack);
+        }
+        return slot == LEFT_INPUT_SLOT || slot == RIGHT_INPUT_SLOT;
+    }
+
+    @Override
+    protected int automationSlotLimit(int slot) {
+        return slot == CONTAINER_SLOT ? 1 : super.automationSlotLimit(slot);
+    }
+
+    @Override
+    protected boolean isOutputSlot(int slot) {
+        return slot == OUTPUT_SLOT;
     }
 
     @Override

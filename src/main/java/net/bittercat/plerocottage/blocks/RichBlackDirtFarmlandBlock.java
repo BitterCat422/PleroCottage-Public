@@ -45,6 +45,12 @@ public class RichBlackDirtFarmlandBlock extends FarmBlock {
     }
 
     @Override
+    public boolean isFertile(BlockState state, BlockGetter level, BlockPos pos) {
+        // 原版作物的生长速度看这个方法，默认只认原版耕地
+        return state.getValue(MOISTURE) > 0;
+    }
+
+    @Override
     public boolean canSustainPlant(BlockState state, BlockGetter level, BlockPos pos, Direction direction,
                                    IPlantable plantable) {
         PlantType plantType = plantable.getPlantType(level, pos.relative(direction));

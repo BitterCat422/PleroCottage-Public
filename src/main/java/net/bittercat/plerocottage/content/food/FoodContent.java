@@ -1,5 +1,7 @@
 package net.bittercat.plerocottage.content.food;
 
+import java.util.concurrent.ConcurrentHashMap;
+import java.util.Map;
 import java.util.function.Supplier;
 
 import net.bittercat.plerocottage.items.BlockFoodItem;
@@ -24,11 +26,20 @@ public final class FoodContent {
     private FoodContent() {
     }
 
+    // 物品提示每帧都会按名字查，逐个比对全部注册项太慢；只缓存查到的结果
+    private static final Map<String, RegistryObject<Item>> BY_NAME = new ConcurrentHashMap<>();
+
     public static RegistryObject<Item> item(String name) {
-        return ItemRegistry.ITEMS.getEntries().stream()
+        RegistryObject<Item> cached = BY_NAME.get(name);
+        if (cached != null) {
+            return cached;
+        }
+        RegistryObject<Item> found = ItemRegistry.ITEMS.getEntries().stream()
             .filter(entry -> entry.getId().getPath().equals(name))
             .findFirst()
             .orElseThrow(() -> new IllegalStateException("找不到食物物品：" + name));
+        BY_NAME.put(name, found);
+        return found;
     }
 
     public static RegistryObject<Item> registerPlantFood(String name,
@@ -62,7 +73,7 @@ public final class FoodContent {
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "scoop_of_strawberry_ice_cream", "scoop_of_chocolate_ice_cream", "scoop_of_ice_cream", "scoop_of_tiger_tail_ice_cream", "scoop_of_moon_mist_ice_cream", "scoop_of_mint_chocolate_ice_cream");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "chocolate_chips", "dark_chocolate_chips", "white_chocolate_chips");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "surimi_crab_stick");
-        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "buntan_ames", "mochi", "pickle_slices");
+        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "bontan_ame", "mochi", "pickle_slices");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "raw_beef_patty");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "swiss_roll_slice", "waffle");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "corn_chips");
@@ -73,11 +84,11 @@ public final class FoodContent {
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "raspberry_bubble_gum", "blue_raspberry_bubble_gum", "blackberry_bubble_gum");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "chewing_gum");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "spam");
-        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "blackcurrant_macaron", "chocolate_macaron", "cream_puff", "gulab_jamuns", "kuri_manju", "lavender_macaron", "lemon_macaron", "pastel_de_nata", "sachima", "raspberry_macaron", "loaf_slice", "stuffed_olives");
+        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "blackcurrant_macaron", "chocolate_macaron", "cream_puff", "gulab_jamun", "kuri_manju", "lavender_macaron", "lemon_macaron", "pastel_de_nata", "sachima", "raspberry_macaron", "loaf_slice", "stuffed_olives");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "kappa_maki", "tekka_maki");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "cream_cheese");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "licorice_candy");
-        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "bun", "cooked_mochi", "cornbread", "eclair", "naan", "nama_chocolate", "pretzel", "savoiardi", "soul_cake", "umeboshis");
+        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "bun", "cooked_mochi", "cornbread", "eclair", "naan", "nama_chocolate", "pretzel", "savoiardi", "soul_cake", "umeboshi");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "cupcake_qaq");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "cod_nigiri", "fugu_nigiri", "mentaiko_nigiri", "salmon_nigiri", "tropical_fish_nigiri");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "marshmallows");
@@ -86,7 +97,7 @@ public final class FoodContent {
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "jalapeno_ice_cream");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "vanilla_gelato", "strawberry_gelato", "chocolate_gelato", "tiger_tail_gelato", "moon_mist_gelato", "mint_chocolate_gelato");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "durian_crisp");
-        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "cheesy_mushroom_bacon_pizza_slice", "cinnamon_roll", "durian_pizza_slice", "graham_cacker", "hawaiian_pizza_slice", "kadayif", "kaju_katlis", "lamingtons", "madeleine", "mont_blanc", "nata_de_coco", "nougat", "pepperoni_pizza_slice", "sakura_mochi", "seafood_pizza_slice", "supreme_pizza_slice", "vanilla_pizza_slice");
+        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "cheesy_mushroom_bacon_pizza_slice", "cinnamon_roll", "durian_pizza_slice", "graham_cracker", "hawaiian_pizza_slice", "kadayif", "kaju_katli", "lamingtons", "madeleine", "mont_blanc", "nata_de_coco", "nougat", "pepperoni_pizza_slice", "sakura_mochi", "seafood_pizza_slice", "supreme_pizza_slice", "vanilla_pizza_slice");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "california_roll", "lavender_pon_de_ring", "matcha_pon_de_ring", "mince_pie", "pineberry_pon_de_ring", "pon_de_ring", "shirako_gunkan");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "fried_tempura");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "fried_abalone");
@@ -96,7 +107,7 @@ public final class FoodContent {
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "avocado_nigiri", "donut", "fries", "ikura_gunkan", "surimi_crab_stick_nigiri", "you_tiao");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "elderberry_flowers_fritters");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "fried_fish");
-        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "avocado_egg_bake", "bagel", "baked_apple", "boloyau", "caneles", "choco_cornet", "cream_bun", "croissant", "battenberg_cake", "brownie", "fruit_sandwich", "peanut_butter_cup");
+        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "avocado_egg_bake", "bagel", "baked_apple", "bo_lo_yau", "caneles", "choco_cornet", "cream_bun", "croissant", "battenberg_cake", "brownie", "fruit_sandwich", "peanut_butter_cup");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "hot_dog");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "abalone_nigiri", "fried_banana", "shrimp_nigiri", "wagyu_with_caviar_nigiri");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "fried_chicken");
@@ -126,7 +137,7 @@ public final class FoodContent {
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "cooked_pineapple_slices");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "emmental_cheese_slice", "cheddar_cheese_slice", "mozzarella_cheese_slice");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "popcorn");
-        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "banana_chips", "pedas");
+        registerFoods(CreativeTabRegistry.Tab.PROCESSED, "banana_chips", "peda");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "apricot_kernel", "green_bell_pepper_slices");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "loaf");
         registerFoods(CreativeTabRegistry.Tab.PROCESSED, "raw_chicken_drumstick", "raw_chicken_breast", "raw_chicken_wing", "raw_duck_drumstick", "raw_duck_wing", "raw_duck_breast");

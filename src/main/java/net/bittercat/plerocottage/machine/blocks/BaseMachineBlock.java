@@ -1,5 +1,7 @@
 package net.bittercat.plerocottage.machine.blocks;
 
+import net.minecraft.world.item.ItemStack;
+import net.bittercat.plerocottage.machine.blockentities.TeapotBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.server.level.ServerPlayer;
@@ -70,6 +72,14 @@ public abstract class BaseMachineBlock extends BaseEntityBlock {
         if (!pState.is(pNewState.getBlock())) {
             if (pLevel.getBlockEntity(pPos) instanceof BaseHasItemBlockEntity blockEntity && !pLevel.isClientSide()) {
                 Containers.dropContents(pLevel, pPos, blockEntity);
+                // 茶壶开始冲泡时就消耗了原料：冲泡中途被破坏时返还原料，不给成品
+                if (blockEntity instanceof TeapotBlockEntity teapot) {
+                    for (ItemStack stack : teapot.consumedInputs) {
+                        Containers.dropItemStack(pLevel, pPos.getX(), pPos.getY(), pPos.getZ(), stack);
+                    }
+                    teapot.consumedInputs.clear();
+                    teapot.setOutput(ItemStack.EMPTY);
+                }
             }
         }
         super.onRemove(pState, pLevel, pPos, pNewState, pMovedByPiston);

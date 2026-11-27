@@ -12,7 +12,7 @@ import net.minecraftforge.registries.RegistryObject;
 public final class MobEffectContent {
 
     public static final RegistryObject<MobEffect> ROSA_HEDGE = register("rosa_hedge", MobEffectCategory.NEUTRAL, -26215);
-    public static final RegistryObject<MobEffect> RUTIN_LEMONENE = register("rutin_lemonene", MobEffectCategory.BENEFICIAL, -13261);
+    public static final RegistryObject<MobEffect> RUTIN_LIMONENE = register("rutin_limonene", MobEffectCategory.BENEFICIAL, -13261);
     public static final RegistryObject<MobEffect> BURSTING_BERRY = register("bursting_berry", MobEffectCategory.NEUTRAL, -39271);
     public static final RegistryObject<MobEffect> CHERRY_BLOSSOMS_WEEPING = register("cherry_blossoms_weeping", MobEffectCategory.BENEFICIAL, -32367);
     public static final RegistryObject<MobEffect> MOMENTARY_METEOR = register("momentary_meteor", MobEffectCategory.BENEFICIAL, -2816);

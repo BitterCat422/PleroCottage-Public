@@ -7,22 +7,22 @@
       "model": "plerocottage:block/muskmelon_stem"
     },
     "age=2": {
-      "model": "plerocottage:block/muskmelon_stem_state_blockstate_2"
+      "model": "plerocottage:block/muskmelon_stem_state_blockstate_0"
     },
     "age=3": {
-      "model": "plerocottage:block/muskmelon_stem_state_blockstate_3"
+      "model": "plerocottage:block/muskmelon_stem_state_blockstate_1"
     },
     "age=4": {
-      "model": "plerocottage:block/muskmelon_stem_state_blockstate_3"
+      "model": "plerocottage:block/muskmelon_stem_state_blockstate_1"
     },
     "age=5": {
-      "model": "plerocottage:block/muskmelon_stem_state_blockstate_4"
+      "model": "plerocottage:block/muskmelon_stem_state_blockstate_2"
     },
     "age=6": {
-      "model": "plerocottage:block/muskmelon_stem_state_blockstate_4"
+      "model": "plerocottage:block/muskmelon_stem_state_blockstate_2"
     },
     "age=7": {
-      "model": "plerocottage:block/muskmelon_stem_state_blockstate_4"
+      "model": "plerocottage:block/muskmelon_stem_state_blockstate_3"
     }
   }
 }

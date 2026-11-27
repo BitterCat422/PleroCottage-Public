@@ -57,7 +57,7 @@ public final class Flowers {
 
     public static void bootstrap() {
         register("blue_tulip", true);
-        register("camelia", true);
+        register("camellia", true);
         register("coffea_arabica", true);
         register("galanthus_nivalis", false);
         register("hyacinth", true);
@@ -80,7 +80,7 @@ public final class Flowers {
         PlantCatalog.addCompostable(item("hyacinth"), 0.65F);
         PlantCatalog.addCompostable(item("blue_tulip"), 0.65F);
         PlantCatalog.addCompostable(item("semper_augustus"), 0.65F);
-        PlantCatalog.addCompostable(item("camelia"), 0.65F);
+        PlantCatalog.addCompostable(item("camellia"), 0.65F);
         PlantCatalog.addCompostable(item("jasmine"), 0.65F);
         PlantCatalog.addCompostable(item("saffron"), 0.65F);
         PlantCatalog.addCompostable(item("licorice"), 0.65F);
@@ -117,7 +117,7 @@ public final class Flowers {
                 Block.box(5, 0, 5, 11, 12, 11));
             case "jasmine", "orange_blossom" ->
                 new FlowerBlock(() -> MobEffects.MOVEMENT_SPEED, 100, properties(MapColor.PLANT));
-            case "camelia", "rose", "saffron", "sakura" ->
+            case "camellia", "rose", "saffron", "sakura" ->
                 new FlowerBlock(() -> MobEffects.MOVEMENT_SPEED, 100, properties(MapColor.PLANT));
             case "blue_tulip" ->
                 new FlowerBlock(() -> MobEffects.MOVEMENT_SPEED, 0, properties(MapColor.PLANT));

@@ -34,7 +34,7 @@ side="BOTH"
 [[dependencies.${mod_id}]]
 modId="jei"
 mandatory=false
-versionRange="[15,)"
+versionRange="[15.20.0.112,)"
 ordering="AFTER"
 side="BOTH"
 

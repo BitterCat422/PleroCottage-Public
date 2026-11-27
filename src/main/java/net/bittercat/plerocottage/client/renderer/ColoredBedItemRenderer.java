@@ -30,9 +30,14 @@ public final class ColoredBedItemRenderer extends BlockEntityWithoutLevelRendere
     }
 
     private static final class BlockStateHolder {
+        // 物品形态每帧都要画，方块实体只建一次
+        private static final java.util.Map<net.minecraft.world.level.block.Block, BlockEntity> ITEM_ENTITIES =
+            new java.util.HashMap<>();
+
         private static void render(BedBlock bed, PoseStack poseStack, MultiBufferSource buffers,
                                    int packedLight, int packedOverlay) {
-            BlockEntity blockEntity = bed.newBlockEntity(BlockPos.ZERO, bed.defaultBlockState());
+            BlockEntity blockEntity = ITEM_ENTITIES.computeIfAbsent(bed,
+                block -> bed.newBlockEntity(BlockPos.ZERO, bed.defaultBlockState()));
             if (blockEntity != null) {
                 net.minecraft.client.Minecraft.getInstance().getBlockEntityRenderDispatcher()
                     .renderItem(blockEntity, poseStack, buffers, packedLight, packedOverlay);

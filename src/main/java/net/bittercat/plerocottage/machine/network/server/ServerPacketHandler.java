@@ -1,5 +1,8 @@
 package net.bittercat.plerocottage.machine.network.server;
 
+import javax.annotation.Nullable;
+import net.minecraft.world.Container;
+import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.entity.player.Player;
@@ -8,30 +11,43 @@ import net.bittercat.plerocottage.machine.network.server.packet.*;
 import net.bittercat.plerocottage.init.SoundRegistry;
 
 public class ServerPacketHandler {
+    /** 坐标来自客户端：只认已加载、且玩家够得着的机器，否则可以远程操作别人的机器或让服务端加载任意区块。 */
+    @Nullable
+    private static BlockEntity machineAt(@Nullable Player player, BlockPos pos) {
+        if (player == null || !player.level().isLoaded(pos)) {
+            return null;
+        }
+        BlockEntity blockEntity = player.level().getBlockEntity(pos);
+        return blockEntity instanceof Container container && container.stillValid(player) ? blockEntity : null;
+    }
+
     public static void handlerIceCreamCraft(IceCreamCraftPacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof IceCreamMachineBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof IceCreamMachineBlockEntity blockEntity) {
             blockEntity.craftItem();
         }
     }
 
     public static void handlerFryerStart(FryingStartPacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof FryerBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof FryerBlockEntity blockEntity) {
             blockEntity.startRunning();
         }
     }
 
     public static void handlerFriedItemCraft(StopFryingPacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof FryerBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof FryerBlockEntity blockEntity) {
             blockEntity.stopRunning();
         }
     }
 
     public static void handlerSyncOvenTimeOrTemperature(SyncOvenTimeOrTemperaturePacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof OvenBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof OvenBlockEntity blockEntity) {
+            if (blockEntity.isRunning) {
+                return;
+            }
             switch (packet.button) {
                 case 0 -> blockEntity.setTemperature(packet.value);
                 case 1 -> blockEntity.setMaxCookingTime(packet.value);
@@ -42,56 +58,56 @@ public class ServerPacketHandler {
 
     public static void handlerBakeItemCraft(BakeItemCraftPacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof OvenBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof OvenBlockEntity blockEntity) {
             blockEntity.startRunning();
         }
     }
 
     public static void handlerBrewingStart(BrewingStartPacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof TeapotBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof TeapotBlockEntity blockEntity) {
             blockEntity.startRunning();
         }
     }
 
     public static void handlerFermentationStart(FermentationStartPacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof FermenterBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof FermenterBlockEntity blockEntity) {
             blockEntity.startRunning();
         }
     }
 
     public static void handlerFermentationStop(FermentationStopPacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof FermenterBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof FermenterBlockEntity blockEntity) {
             blockEntity.stopRunning();
         }
     }
 
     public static void handlerBlenderStart(BlenderStartPacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof BlenderBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof BlenderBlockEntity blockEntity) {
             blockEntity.startRunning();
         }
     }
 
     public static void handlerStockPotStart(StockPotStartPacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof StockPotBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof StockPotBlockEntity blockEntity) {
             blockEntity.startRunning();
         }
     }
 
     public static void handlerStockPotStop(StockPotStopPacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof StockPotBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof StockPotBlockEntity blockEntity) {
             blockEntity.stopRunning();
         }
     }
 
     public static void handlerTrySaucepanAndWhiskCraft(TrySaucepanAndWhiskCraftPacket packet) {
         Player player = packet.context.getSender();
-        if (player.level().getBlockEntity(packet.blockPos) instanceof SaucepanAndWhiskBlockEntity blockEntity) {
+        if (machineAt(player, packet.blockPos) instanceof SaucepanAndWhiskBlockEntity blockEntity) {
             blockEntity.addStirsCount();
             blockEntity.triggerAnim("saucepan_and_whisk", "animation.saucepan_and_whisk.working");
             BlockPos blockPos = blockEntity.getBlockPos();

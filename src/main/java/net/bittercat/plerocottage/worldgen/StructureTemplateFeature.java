@@ -2,6 +2,11 @@ package net.bittercat.plerocottage.worldgen;
 
 import com.mojang.serialization.Codec;
 
+import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.LevelReader;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessor;
+import net.minecraft.world.level.levelgen.structure.templatesystem.StructureProcessorType;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Holder;
 import net.minecraft.util.RandomSource;
@@ -16,6 +21,29 @@ import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemp
 import net.minecraft.world.level.levelgen.structure.templatesystem.StructureTemplateManager;
 
 public class StructureTemplateFeature extends Feature<StructureTemplateFeatureConfig> {
+
+    /**
+     * 和原版树木一样只占用空气、树叶、树苗和可被树替换的方块（草、花等），
+     * 其余位置保留原有方块，否则在建筑旁长大的树会把墙和箱子换成原木、树叶。
+     */
+    private static final StructureProcessor KEEP_EXISTING_BLOCKS = new StructureProcessor() {
+        @Override
+        public StructureTemplate.StructureBlockInfo processBlock(
+                LevelReader level, BlockPos offset, BlockPos pos,
+                StructureTemplate.StructureBlockInfo original, StructureTemplate.StructureBlockInfo current,
+                StructurePlaceSettings settings) {
+            BlockState existing = level.getBlockState(current.pos());
+            boolean replaceable = existing.isAir() || existing.canBeReplaced()
+                || existing.is(BlockTags.LEAVES) || existing.is(BlockTags.SAPLINGS)
+                || existing.is(BlockTags.REPLACEABLE_BY_TREES);
+            return replaceable ? current : null;
+        }
+
+        @Override
+        protected StructureProcessorType<?> getType() {
+            return StructureProcessorType.BLOCK_IGNORE;
+        }
+    };
 
     public StructureTemplateFeature(Codec<StructureTemplateFeatureConfig> codec) {
         super(codec);
@@ -33,7 +61,8 @@ public class StructureTemplateFeature extends Feature<StructureTemplateFeatureCo
             .setRandom(random)
             .setIgnoreEntities(false)
             .addProcessor(new BlockIgnoreProcessor(
-                config.ignoredBlocks().stream().map(Holder::get).toList()));
+                config.ignoredBlocks().stream().map(Holder::get).toList()))
+            .addProcessor(KEEP_EXISTING_BLOCKS);
 
         StructureTemplateManager templates = level.getLevel().getServer().getStructureManager();
         StructureTemplate template = templates.getOrCreate(config.structure());

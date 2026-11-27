@@ -8,22 +8,20 @@ import net.minecraft.world.item.crafting.SmokingRecipe;
 import net.bittercat.plerocottage.machine.recipes.FastFryRecipe;
 import net.bittercat.plerocottage.machine.recipes.OvenRecipe;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static net.bittercat.plerocottage.machine.blockentities.OvenBlockEntity.INPUT_SLOTS;
 
 public class SmokingRecipeManager {
-    public static List<FastFryRecipe> fastFryRecipes = new ArrayList<>();
+    // 服务端和客户端线程都会重建：整表替换，读的一方不会看到清空到一半的表
+    public static volatile List<FastFryRecipe> fastFryRecipes = List.of();
 
-    public static List<OvenRecipe> ovenRecipes = new ArrayList<>();
+    public static volatile List<OvenRecipe> ovenRecipes = List.of();
 
     public static void reset(RecipeManager recipeManager) {
-        fastFryRecipes.clear();
-        ovenRecipes.clear();
         List<SmokingRecipe> smokingRecipes = recipeManager.getAllRecipesFor(RecipeType.SMOKING);
-        smokingRecipes.forEach(recipe -> fastFryRecipes.add(toFastFryRecipe(recipe)));
-        smokingRecipes.forEach(recipe -> ovenRecipes.add(toOvenRecipe(recipe)));
+        fastFryRecipes = smokingRecipes.stream().map(SmokingRecipeManager::toFastFryRecipe).toList();
+        ovenRecipes = smokingRecipes.stream().map(SmokingRecipeManager::toOvenRecipe).toList();
     }
 
     public static void init(RecipeManager recipeManager) {

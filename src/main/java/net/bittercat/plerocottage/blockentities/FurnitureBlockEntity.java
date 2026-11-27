@@ -163,6 +163,10 @@ public abstract class FurnitureBlockEntity extends RandomizableContainerBlockEnt
     }
 
     private void setOpen(boolean open) {
+        // 界面开着时方块被破坏：这里再 setBlock 会把已经掉落的家具放回原位
+        if (isRemoved() || level.getBlockEntity(worldPosition) != this) {
+            return;
+        }
         BlockState state = getBlockState();
         if (state.hasProperty(FurnitureBlock.OPEN) && state.getValue(FurnitureBlock.OPEN) != open) {
             level.setBlock(worldPosition, state.setValue(FurnitureBlock.OPEN, open), 3);
@@ -176,7 +180,7 @@ public abstract class FurnitureBlockEntity extends RandomizableContainerBlockEnt
         if (path.startsWith("cherry_") || path.startsWith("cherries_tree_")) {
             return SoundEvents.CHERRY_WOOD_TRAPDOOR_OPEN;
         }
-        if (path.startsWith("bamboo_")) {
+        if (path.startsWith("bamboo_") || path.startsWith("banana_tree_")) {
             return SoundEvents.BAMBOO_WOOD_TRAPDOOR_OPEN;
         }
         if (path.startsWith("crimson_") || path.startsWith("warped_")) {
@@ -190,7 +194,7 @@ public abstract class FurnitureBlockEntity extends RandomizableContainerBlockEnt
         if (path.startsWith("cherry_") || path.startsWith("cherries_tree_")) {
             return SoundEvents.CHERRY_WOOD_TRAPDOOR_CLOSE;
         }
-        if (path.startsWith("bamboo_")) {
+        if (path.startsWith("bamboo_") || path.startsWith("banana_tree_")) {
             return SoundEvents.BAMBOO_WOOD_TRAPDOOR_CLOSE;
         }
         if (path.startsWith("crimson_") || path.startsWith("warped_")) {

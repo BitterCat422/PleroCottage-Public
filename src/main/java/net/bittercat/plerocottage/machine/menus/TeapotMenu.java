@@ -53,12 +53,12 @@ public class TeapotMenu extends RecipeBookMenu<TeapotBlockEntity> {
             public boolean mayPlace(ItemStack stack) {
                 return super.mayPlace(stack)
                         && SlotInputLimitManager.TEAPOT_CUP_LIMIT.stream().anyMatch(ingredient -> ingredient.test(stack))
-                        && getCookingTime() == 0;
+                        && isIdle();
             }
 
             @Override
             public boolean mayPickup(Player player) {
-                return super.mayPickup(player) && getCookingTime() == 0;
+                return super.mayPickup(player) && isIdle();
             }
 
             @Override
@@ -110,7 +110,7 @@ public class TeapotMenu extends RecipeBookMenu<TeapotBlockEntity> {
 
             @Override
             public boolean mayPickup(Player player) {
-                return super.mayPickup(player) && getCookingTime() == 0;
+                return super.mayPickup(player) && isIdle();
             }
 
             @Override
@@ -233,5 +233,10 @@ public class TeapotMenu extends RecipeBookMenu<TeapotBlockEntity> {
     public void removed(Player player) {
         super.removed(player);
         this.blockEntity.stopOpen(player);
+    }
+
+    /** 启动的那一刻进度还是 0，所以要连同运行标记一起判断。 */
+    private boolean isIdle() {
+        return !this.blockEntity.isRunning && this.getCookingTime() == 0;
     }
 }

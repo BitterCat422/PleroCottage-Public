@@ -1,5 +1,8 @@
 package net.bittercat.plerocottage.machine.blockentities;
 
+import net.minecraft.nbt.Tag;
+import net.minecraft.nbt.ListTag;
+import net.bittercat.plerocottage.machine.compat.plerocottage.SlotInputLimitManager;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.NonNullList;
 import net.minecraft.nbt.CompoundTag;
@@ -96,6 +99,8 @@ public class TeapotBlockEntity extends BaseMachineBlockEntity {
         }
     };
     public ItemStack output = ItemStack.EMPTY;
+    /** 本次冲泡开始时消耗掉的原料：冲泡中途方块被破坏时原样返还。 */
+    public final List<ItemStack> consumedInputs = new ArrayList<>();
     public int maxCookingTime = SOUND_TIME;
     public int playSoundCooldown = SOUND_TIME;
     public int outputMultiple = 0;
@@ -115,7 +120,10 @@ public class TeapotBlockEntity extends BaseMachineBlockEntity {
     }
 
     public static void serverTick(Level pLevel, BlockPos pPos, BlockState pState, TeapotBlockEntity pBlockEntity) {
-        pBlockEntity.recheckOpen();
+        // 和原版箱子一样每 5 刻核对一次打开界面的玩家，不必每刻都查周围的实体
+        if (pBlockEntity.getLevel().getGameTime() % 5 == 0) {
+            pBlockEntity.recheckOpen();
+        }
         if (pBlockEntity.isRunning) {
             pBlockEntity.cookingTime++;
             if (pBlockEntity.cookingTime >= pBlockEntity.maxCookingTime) {
@@ -152,6 +160,7 @@ public class TeapotBlockEntity extends BaseMachineBlockEntity {
 
     public void handlerRecipe(TeapotRecipe recipe) {
         this.output = recipe.assemble(this, this.level.registryAccess());
+        this.consumedInputs.clear();
         List<ItemStack> craftRemaining = new ArrayList<>();
         for (int i = 0; i < RESULT; i++) {
             ItemStack input = this.getItem(i);
@@ -162,11 +171,12 @@ public class TeapotBlockEntity extends BaseMachineBlockEntity {
                     remaining = ItemStack.EMPTY;
                 }
             } else {
-                if (i == CONTAINER) {
-                    input.shrink(output.getCount());
-                } else {
-                    input.shrink(this.outputMultiple);
+                int used = Math.min(input.getCount(), i == CONTAINER ? output.getCount() : this.outputMultiple);
+                // 带返还物的原料（如桶）已经把返还物给出去了，再记下来会多出一份
+                if (used > 0 && remaining.isEmpty()) {
+                    this.consumedInputs.add(input.copyWithCount(used));
                 }
+                input.shrink(used);
             }
             if (input.isEmpty() && !remaining.isEmpty()) {
                 this.setItem(i, remaining);
@@ -182,6 +192,7 @@ public class TeapotBlockEntity extends BaseMachineBlockEntity {
     public void craftItem() {
         this.setItem(RESULT, this.output);
         this.setOutput(ItemStack.EMPTY);
+        this.consumedInputs.clear();
         this.stopRunning();
     }
 
@@ -259,6 +270,29 @@ public class TeapotBlockEntity extends BaseMachineBlockEntity {
     }
 
     @Override
+    protected boolean canAutomationInsert(int slot, ItemStack stack) {
+        if (this.isRunning) {
+            return false;
+        }
+        return switch (slot) {
+            case CONTAINER -> accepts(SlotInputLimitManager.TEAPOT_CUP_LIMIT, stack);
+            case DRINK -> accepts(SlotInputLimitManager.TEAPOT_DRINK_LIMIT, stack);
+            case MATERIAL -> accepts(SlotInputLimitManager.TEAPOT_MATERIAL_LIMIT, stack);
+            default -> slot >= TOP_LEFT && slot <= BOTTOM_RIGHT;
+        };
+    }
+
+    @Override
+    protected int automationSlotLimit(int slot) {
+        return slot == RESULT ? super.automationSlotLimit(slot) : 4;
+    }
+
+    @Override
+    protected boolean isOutputSlot(int slot) {
+        return slot == RESULT;
+    }
+
+    @Override
     public IItemHandler getItemHandler() {
         return new InvWrapper(this);
     }
@@ -275,6 +309,11 @@ public class TeapotBlockEntity extends BaseMachineBlockEntity {
         this.isRunning = pTag.getBoolean("isRunning");
         this.setCookingTime(pTag.getInt("cookingTime"));
         this.setOutput(ItemStack.of(pTag.getCompound("output")));
+        this.consumedInputs.clear();
+        ListTag consumed = pTag.getList("consumedInputs", Tag.TAG_COMPOUND);
+        for (int i = 0; i < consumed.size(); i++) {
+            this.consumedInputs.add(ItemStack.of(consumed.getCompound(i)));
+        }
     }
 
     @Override
@@ -283,5 +322,10 @@ public class TeapotBlockEntity extends BaseMachineBlockEntity {
         pTag.putBoolean("isRunning", this.isRunning);
         pTag.putInt("cookingTime", this.cookingTime);
         pTag.put("output", this.output.save(new CompoundTag()));
+        ListTag consumed = new ListTag();
+        for (ItemStack stack : this.consumedInputs) {
+            consumed.add(stack.save(new CompoundTag()));
+        }
+        pTag.put("consumedInputs", consumed);
     }
 }

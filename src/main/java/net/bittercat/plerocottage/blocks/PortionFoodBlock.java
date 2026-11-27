@@ -114,6 +114,10 @@ public class PortionFoodBlock extends BaseEntityBlock {
             maxX / 16.0, maxY / 16.0, maxZ / 16.0);
     }
 
+    public Item portionItem() {
+        return portionItem.get();
+    }
+
     @Override
     public InteractionResult use(BlockState state, Level level, BlockPos pos, Player player,
                                  InteractionHand hand, BlockHitResult hit) {

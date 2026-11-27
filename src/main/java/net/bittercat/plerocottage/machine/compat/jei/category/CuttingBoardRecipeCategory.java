@@ -92,11 +92,11 @@ public class CuttingBoardRecipeCategory extends BaseRecipeCategory<CuttingBoardR
                             {131, 53}
                     }
             };
-            builder.addOutputSlot(pos[size][0][0], pos[size][0][1])
+            builder.addOutputSlot(pos[Math.min(size, pos.length - 1)][0][0], pos[Math.min(size, pos.length - 1)][0][1])
                     .addItemStack(singleRecipe.output);
             int i = 1;
             for (Map.Entry<ItemStack, Float> entry : singleRecipe.outgrowths.entrySet()) {
-                builder.addOutputSlot(pos[size][i][0], pos[size][i][1])
+                builder.addOutputSlot(pos[Math.min(size, pos.length - 1)][i][0], pos[Math.min(size, pos.length - 1)][i][1])
                         .addItemStack(entry.getKey())
                         .addRichTooltipCallback((recipeSlotView, tooltip) -> {
                             if (entry.getValue() < 1) {
@@ -152,11 +152,11 @@ public class CuttingBoardRecipeCategory extends BaseRecipeCategory<CuttingBoardR
                             {131, 53}
                     }
             };
-            builder.addOutputSlot(pos[size][0][0], pos[size][0][1])
+            builder.addOutputSlot(pos[Math.min(size, pos.length - 1)][0][0], pos[Math.min(size, pos.length - 1)][0][1])
                     .addItemStack(multipleRecipe.output);
             int i = 1;
             for (Map.Entry<ItemStack, Float> entry : multipleRecipe.outgrowths.entrySet()) {
-                builder.addOutputSlot(pos[size][i][0], pos[size][i][1])
+                builder.addOutputSlot(pos[Math.min(size, pos.length - 1)][i][0], pos[Math.min(size, pos.length - 1)][i][1])
                         .addItemStack(entry.getKey())
                         .addRichTooltipCallback((recipeSlotView, tooltip) -> {
                             if (entry.getValue() < 1) {
@@ -211,13 +211,13 @@ public class CuttingBoardRecipeCategory extends BaseRecipeCategory<CuttingBoardR
                     }
             };
             int i = 0;
-            this.guiHelper.createDrawable(this.background, SLOT_X_OFFSET, SLOT_Y_OFFSET, SLOT_WIDTH, SLOT_HEIGHT).draw(guiGraphics, pos[size][i][0], pos[size][i][1]);
+            this.guiHelper.createDrawable(this.background, SLOT_X_OFFSET, SLOT_Y_OFFSET, SLOT_WIDTH, SLOT_HEIGHT).draw(guiGraphics, pos[Math.min(size, pos.length - 1)][i][0], pos[Math.min(size, pos.length - 1)][i][1]);
             i++;
             for (Map.Entry<ItemStack, Float> entry : singleRecipe.outgrowths.entrySet()) {
                 if (entry.getValue() < 1) {
-                    this.guiHelper.createDrawable(this.background, CHANCE_SLOT_X_OFFSET, CHANCE_SLOT_Y_OFFSET, CHANCE_SLOT_WIDTH, CHANCE_SLOT_HEIGHT).draw(guiGraphics, pos[size][i][0], pos[size][i][1]);
+                    this.guiHelper.createDrawable(this.background, CHANCE_SLOT_X_OFFSET, CHANCE_SLOT_Y_OFFSET, CHANCE_SLOT_WIDTH, CHANCE_SLOT_HEIGHT).draw(guiGraphics, pos[Math.min(size, pos.length - 1)][i][0], pos[Math.min(size, pos.length - 1)][i][1]);
                 } else {
-                    this.guiHelper.createDrawable(this.background, SLOT_X_OFFSET, SLOT_Y_OFFSET, SLOT_WIDTH, SLOT_HEIGHT).draw(guiGraphics, pos[size][i][0], pos[size][i][1]);
+                    this.guiHelper.createDrawable(this.background, SLOT_X_OFFSET, SLOT_Y_OFFSET, SLOT_WIDTH, SLOT_HEIGHT).draw(guiGraphics, pos[Math.min(size, pos.length - 1)][i][0], pos[Math.min(size, pos.length - 1)][i][1]);
                 }
                 i++;
             }
@@ -282,13 +282,13 @@ public class CuttingBoardRecipeCategory extends BaseRecipeCategory<CuttingBoardR
                     }
             };
             int i = 0;
-            this.guiHelper.createDrawable(this.background, SLOT_X_OFFSET, SLOT_Y_OFFSET, SLOT_WIDTH, SLOT_HEIGHT).draw(guiGraphics, pos[size][i][0], pos[size][i][1]);
+            this.guiHelper.createDrawable(this.background, SLOT_X_OFFSET, SLOT_Y_OFFSET, SLOT_WIDTH, SLOT_HEIGHT).draw(guiGraphics, pos[Math.min(size, pos.length - 1)][i][0], pos[Math.min(size, pos.length - 1)][i][1]);
             i++;
             for (Map.Entry<ItemStack, Float> entry : multipleRecipe.outgrowths.entrySet()) {
                 if (entry.getValue() < 1) {
-                    this.guiHelper.createDrawable(this.background, CHANCE_SLOT_X_OFFSET, CHANCE_SLOT_Y_OFFSET, CHANCE_SLOT_WIDTH, CHANCE_SLOT_HEIGHT).draw(guiGraphics, pos[size][i][0], pos[size][i][1]);
+                    this.guiHelper.createDrawable(this.background, CHANCE_SLOT_X_OFFSET, CHANCE_SLOT_Y_OFFSET, CHANCE_SLOT_WIDTH, CHANCE_SLOT_HEIGHT).draw(guiGraphics, pos[Math.min(size, pos.length - 1)][i][0], pos[Math.min(size, pos.length - 1)][i][1]);
                 } else {
-                    this.guiHelper.createDrawable(this.background, SLOT_X_OFFSET, SLOT_Y_OFFSET, SLOT_WIDTH, SLOT_HEIGHT).draw(guiGraphics, pos[size][i][0], pos[size][i][1]);
+                    this.guiHelper.createDrawable(this.background, SLOT_X_OFFSET, SLOT_Y_OFFSET, SLOT_WIDTH, SLOT_HEIGHT).draw(guiGraphics, pos[Math.min(size, pos.length - 1)][i][0], pos[Math.min(size, pos.length - 1)][i][1]);
                 }
                 i++;
             }

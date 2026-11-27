@@ -4,6 +4,11 @@
     "plerocottage:deepslate_pearl_rock_ore",
     "plerocottage:deepslate_suspicious_ore",
     "plerocottage:suspicious_ore",
-    "plerocottage:pearl_rock_ore"
+    "plerocottage:pearl_rock_ore",
+    "plerocottage:pearl_rock_block",
+    "plerocottage:garnet_block",
+    "plerocottage:topaz_block",
+    "plerocottage:pink_crystal_block",
+    "plerocottage:brilliant_diamond_block"
   ]
 }

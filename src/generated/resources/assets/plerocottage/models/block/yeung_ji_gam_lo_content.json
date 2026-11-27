@@ -1,0 +1,8 @@
+{
+  "parent": "plerocottage:custom/yeung_ji_gam_lo_content",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "0": "plerocottage:block/yeung_ji_gam_lo",
+    "particle": "plerocottage:block/yeung_ji_gam_lo"
+  }
+}

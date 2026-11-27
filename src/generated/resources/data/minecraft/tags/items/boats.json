@@ -1,5 +1,25 @@
 {
   "values": [
+    "plerocottage:coconut_tree_boat",
+    "plerocottage:kiwifruit_tree_boat",
+    "plerocottage:elderberry_tree_boat",
+    "plerocottage:durian_tree_boat",
+    "plerocottage:avocado_tree_boat",
+    "plerocottage:olive_tree_boat",
+    "plerocottage:mango_tree_boat",
+    "plerocottage:fig_tree_boat",
+    "plerocottage:pomegranate_tree_boat",
+    "plerocottage:starfruit_tree_boat",
+    "plerocottage:hawthorn_tree_boat",
+    "plerocottage:cherries_tree_boat",
+    "plerocottage:rosaceae_tree_boat",
+    "plerocottage:rutaceae_tree_boat",
+    "plerocottage:nut_tree_boat",
+    "plerocottage:juniper_boat",
+    "plerocottage:holly_tree_boat",
+    "plerocottage:scots_pine_boat",
+    "plerocottage:myriclave_tree_boat",
+    "plerocottage:cinnise_tree_boat",
     "plerocottage:banana_tree_raft"
   ]
 }

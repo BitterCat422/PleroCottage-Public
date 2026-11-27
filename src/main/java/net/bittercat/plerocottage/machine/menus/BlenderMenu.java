@@ -78,12 +78,12 @@ public class BlenderMenu extends RecipeBookMenu<BlenderBlockEntity> {
             this.addSlot(new Slot(this.blockEntity, input[0], input[1], input[2]) {
                 @Override
                 public boolean mayPlace(ItemStack stack) {
-                    return super.mayPlace(stack) && getCookingTime() == 0;
+                    return super.mayPlace(stack) && isIdle();
                 }
 
                 @Override
                 public boolean mayPickup(Player player) {
-                    return super.mayPickup(player) && getCookingTime() == 0;
+                    return super.mayPickup(player) && isIdle();
                 }
 
                 @Override
@@ -97,12 +97,12 @@ public class BlenderMenu extends RecipeBookMenu<BlenderBlockEntity> {
             public boolean mayPlace(ItemStack stack) {
                 return super.mayPlace(stack)
                         && SlotInputLimitManager.BLENDER_INPUT_LIMIT.stream().anyMatch(ingredient -> ingredient.test(stack))
-                        && getCookingTime() == 0;
+                        && isIdle();
             }
 
             @Override
             public boolean mayPickup(Player player) {
-                return super.mayPickup(player) && getCookingTime() == 0;
+                return super.mayPickup(player) && isIdle();
             }
 
             @Override
@@ -123,7 +123,7 @@ public class BlenderMenu extends RecipeBookMenu<BlenderBlockEntity> {
 
             @Override
             public boolean mayPickup(Player player) {
-                return super.mayPickup(player) && getCookingTime() == 0;
+                return super.mayPickup(player) && isIdle();
             }
 
             @Override
@@ -238,5 +238,10 @@ public class BlenderMenu extends RecipeBookMenu<BlenderBlockEntity> {
     @Override
     public boolean stillValid(Player player) {
         return this.blockEntity.stillValid(player);
+    }
+
+    /** 启动的那一刻进度还是 0，所以要连同运行标记一起判断。 */
+    private boolean isIdle() {
+        return !this.blockEntity.isRunning && this.getCookingTime() == 0;
     }
 }

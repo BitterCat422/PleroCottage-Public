@@ -954,7 +954,7 @@
       "subtract": false
     }
   ],
-  "glass_of_umeshu": [
+  "cup_of_umeshu": [
     {
       "minX": 5.0,
       "minY": 1.0,
@@ -1001,7 +1001,7 @@
       "subtract": false
     }
   ],
-  "glass_of_sake": [
+  "cup_of_sake": [
     {
       "minX": 5.0,
       "minY": 1.0,
@@ -2118,7 +2118,7 @@
       "subtract": false
     }
   ],
-  "yeung_zhi_gum_lo": [
+  "yeung_ji_gam_lo": [
     {
       "minX": 6.0,
       "minY": 0.1,

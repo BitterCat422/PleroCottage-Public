@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.machine.blockentities;
 
+import net.bittercat.plerocottage.machine.compat.plerocottage.SlotInputLimitManager;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.NonNullList;
 import net.minecraft.nbt.CompoundTag;
@@ -115,7 +116,10 @@ public class FermenterBlockEntity extends BaseMachineBlockEntity {
     }
 
     public static void serverTick(Level pLevel, BlockPos pPos, BlockState pState, FermenterBlockEntity pBlockEntity) {
-        pBlockEntity.recheckOpen();
+        // 和原版箱子一样每 5 刻核对一次打开界面的玩家，不必每刻都查周围的实体
+        if (pBlockEntity.getLevel().getGameTime() % 5 == 0) {
+            pBlockEntity.recheckOpen();
+        }
         if (pBlockEntity.isRunning) {
             pBlockEntity.tickCount++;
             // ContainerData 的窗口同步值按 short 编码。
@@ -160,9 +164,11 @@ public class FermenterBlockEntity extends BaseMachineBlockEntity {
             output = recipe.assemble(this, this.level.registryAccess());
         }
         List<ItemStack> craftRemaining = new ArrayList<>();
+        boolean hasInput = false;
         for (int slot : INPUT_SLOTS) {
             ItemStack input = this.getItem(slot);
             if (input.isEmpty()) continue;
+            hasInput = true;
             if (slot == CONTAINER && (recipe == null || !recipe.hasContainer())) continue;
             ItemStack remaining = MachineUtil.getCraftRemaining(input, this.outputMultiple);
             if (PleroCottageCompat.isDamageableMaterial(input)) {
@@ -183,7 +189,9 @@ public class FermenterBlockEntity extends BaseMachineBlockEntity {
                 craftRemaining.add(remaining);
             }
         }
-        if (this.recipeLightState != this.getLightState() || recipe == null) {
+        if (!hasInput) {
+            this.setItem(OUTPUT, ItemStack.EMPTY);
+        } else if (this.recipeLightState != this.getLightState() || recipe == null) {
             int count = 1;
             int minutes = (recipe == null ? this.maxCookingTime : recipe.maxCookingTime) / 60;
             if (minutes >= 40) {
@@ -339,6 +347,30 @@ public class FermenterBlockEntity extends BaseMachineBlockEntity {
     @Override
     public NonNullList<ItemStack> getItems() {
         return this.items;
+    }
+
+    @Override
+    protected boolean canAutomationInsert(int slot, ItemStack stack) {
+        if (this.isRunning) {
+            return false;
+        }
+        if (slot == CATALYSTS_TOP || slot == CATALYSTS_BOTTOM) {
+            return PleroCottageCompat.isCatalysts(stack);
+        }
+        if (slot == CONTAINER) {
+            return accepts(SlotInputLimitManager.FERMENTER_INPUT_LIMIT, stack);
+        }
+        return slot >= TOP_LEFT && slot <= BOTTOM_RIGHT;
+    }
+
+    @Override
+    protected int automationSlotLimit(int slot) {
+        return slot >= TOP_LEFT && slot <= BOTTOM_RIGHT ? 4 : super.automationSlotLimit(slot);
+    }
+
+    @Override
+    protected boolean isOutputSlot(int slot) {
+        return slot == OUTPUT;
     }
 
     @Override

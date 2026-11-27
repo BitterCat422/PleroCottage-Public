@@ -163,7 +163,11 @@ public class DoubleCropBlock extends DoublePlantBlock implements BonemealableBlo
             Block.popResource(level, upperPos, new ItemStack(settings.harvest().get(), count));
 
             level.setBlock(lowerPos, lowerState.setValue(AGE, getHarvestAge()), 2);
-            level.setBlock(upperPos, level.getBlockState(upperPos).setValue(AGE, getHarvestAge()), 3);
+            // 上半截可能已经被打掉，对空气设属性会抛异常
+            BlockState upperState = level.getBlockState(upperPos);
+            if (upperState.is(this)) {
+                level.setBlock(upperPos, upperState.setValue(AGE, getHarvestAge()), 3);
+            }
             level.playSound(null, pos, SoundEvents.SWEET_BERRY_BUSH_PICK_BERRIES, SoundSource.BLOCKS, 1.0F, 1.0F);
         }
         return InteractionResult.sidedSuccess(level.isClientSide);

@@ -1,5 +1,7 @@
 package net.bittercat.plerocottage.machine.blocks;
 
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
@@ -32,6 +34,15 @@ public class CuttingBoardBlock extends BaseMachineBlock {
     @Override
     public BlockEntity newBlockEntity(BlockPos pPos, BlockState pState) {
         return new CuttingBoardBlockEntity(pPos, pState);
+    }
+
+    @Override
+    public BlockState updateShape(BlockState pState, Direction pDirection, BlockState pNeighborState,
+                                  LevelAccessor pLevel, BlockPos pPos, BlockPos pNeighborPos) {
+        if (pDirection == Direction.DOWN && !pState.canSurvive(pLevel, pPos)) {
+            return Blocks.AIR.defaultBlockState();
+        }
+        return super.updateShape(pState, pDirection, pNeighborState, pLevel, pPos, pNeighborPos);
     }
 
     @Override

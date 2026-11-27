@@ -1,20 +1,20 @@
 {
   "values": [
     "plerocottage:wild_peanut",
-    "plerocottage:coffea_arabica",
-    "plerocottage:jasmine",
     "plerocottage:winter_rose",
     "plerocottage:licorice",
     "plerocottage:blue_tulip",
     "plerocottage:radde",
     "plerocottage:orange_blossom",
     "plerocottage:saffron",
-    "plerocottage:camelia",
+    "plerocottage:semper_augustus",
     "plerocottage:lavender",
     "plerocottage:rose",
     "plerocottage:sakura",
-    "plerocottage:semper_augustus",
     "plerocottage:galanthus_nivalis",
-    "plerocottage:hyacinth"
+    "plerocottage:hyacinth",
+    "plerocottage:camellia",
+    "plerocottage:coffea_arabica",
+    "plerocottage:jasmine"
   ]
 }

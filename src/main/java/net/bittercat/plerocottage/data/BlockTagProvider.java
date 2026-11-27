@@ -77,7 +77,10 @@ public final class BlockTagProvider extends BlockTagsProvider {
         tag(BlockTags.MINEABLE_WITH_PICKAXE).add(
             OreBlockContent.DEBRISHROOM.get(), OreBlockContent.PEARL_ROCK_ORE.get(),
             OreBlockContent.DEEPSLATE_PEARL_ROCK_ORE.get(), OreBlockContent.SUSPICIOUS_ORE.get(),
-            OreBlockContent.DEEPSLATE_SUSPICIOUS_ORE.get());
+            OreBlockContent.DEEPSLATE_SUSPICIOUS_ORE.get(),
+            OreBlockContent.PEARL_ROCK_BLOCK.get(), OreBlockContent.GARNET_BLOCK.get(),
+            OreBlockContent.TOPAZ_BLOCK.get(), OreBlockContent.PINK_CRYSTAL_BLOCK.get(),
+            OreBlockContent.BRILLIANT_DIAMOND_BLOCK.get());
         marbleTags();
         tag(BlockTags.MINEABLE_WITH_PICKAXE).add(PlateContent.PLATE.get());
         tag(BlockTags.MINEABLE_WITH_PICKAXE).add(Coconuts.CUP_BLOCK.get());

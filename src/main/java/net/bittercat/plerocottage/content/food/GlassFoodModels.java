@@ -32,7 +32,7 @@ public final class GlassFoodModels {
         Map.entry("glass_of_brandy", "goblet_5x5_3"),
         Map.entry("glass_of_white_wine", "goblet_5x6_2"),
         Map.entry("grapefruit_juice", "goblet_5x8_3"),
-        Map.entry("yeung_zhi_gum_lo", "goblet_5x8_3"),
+        Map.entry("yeung_ji_gam_lo", "goblet_5x8_3"),
         Map.entry("clover_club", "goblet_6x3_3"),
         Map.entry("daiquiri", "goblet_6x3_3"),
         Map.entry("risalamande", "goblet_6x4_3"),

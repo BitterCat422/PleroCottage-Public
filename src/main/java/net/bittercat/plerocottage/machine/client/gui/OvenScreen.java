@@ -92,7 +92,7 @@ public class OvenScreen extends BaseMachineScreen<OvenMenu> implements RecipeUpd
                     RenderSystem.enableBlend();
                     graphics.blit(texture, x, y, u, v, width, height, textureWidth, textureHeight);
                     if (this.isHovered()) {
-                        graphics.setColor(255, 255, 255, 0.225F);
+                        graphics.setColor(1.0F, 1.0F, 1.0F, 0.225F);
                         graphics.blit(texture, x, y, u, v, width, height, textureWidth, textureHeight);
                         graphics.setColor(1, 1, 1, 1);
                     }

@@ -27,6 +27,9 @@ public class TruffleDigGoal extends Goal {
     private int digTimer;
     private int searchCooldown;
 
+    private static final int MAX_APPROACH_TICKS = 200;
+    private int approachTicks;
+
     public TruffleDigGoal(Pig pig) {
         this.pig = pig;
         setFlags(EnumSet.of(Goal.Flag.MOVE, Goal.Flag.LOOK));
@@ -57,6 +60,7 @@ public class TruffleDigGoal extends Goal {
     @Override
     public void start() {
         digTimer = 0;
+        approachTicks = 0;
         moveToTarget();
     }
 
@@ -70,6 +74,12 @@ public class TruffleDigGoal extends Goal {
         double dz = pig.getZ() - (target.getZ() + 0.5D);
         if (dx * dx + dz * dz > REACH_DISTANCE_SQ) {
             digTimer = 0;
+            // 走不到的松露（隔着围栏等）不能一直占着移动，过一阵放弃并晚些再找
+            if (++approachTicks > MAX_APPROACH_TICKS) {
+                target = null;
+                searchCooldown = 400;
+                return;
+            }
             if (pig.getNavigation().isDone()) {
                 moveToTarget();
             }

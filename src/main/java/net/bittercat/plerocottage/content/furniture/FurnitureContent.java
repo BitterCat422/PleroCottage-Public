@@ -51,7 +51,12 @@ public final class FurnitureContent {
     }
 
     private static SoundType soundType(String name) {
-        return "cherries_tree".equals(name) ? SoundType.CHERRY_WOOD : SoundType.WOOD;
+        return switch (name) {
+            case "cherry", "cherries_tree" -> SoundType.CHERRY_WOOD;
+            case "bamboo", "banana_tree" -> SoundType.BAMBOO_WOOD;
+            case "crimson", "warped" -> SoundType.NETHER_WOOD;
+            default -> SoundType.WOOD;
+        };
     }
 
     public static List<FurnitureSet> all() {

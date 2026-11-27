@@ -86,12 +86,12 @@ public class StockPotMenu extends RecipeBookMenu<RecipeWrapper> {
             public boolean mayPlace(ItemStack pStack) {
                 return super.mayPlace(pStack)
                         && SlotInputLimitManager.stockPotInputLimit().stream().anyMatch(ingredient -> ingredient.test(pStack))
-                        && getCookingTime() == 0;
+                        && isIdle();
             }
 
             @Override
             public boolean mayPickup(Player pPlayer) {
-                return super.mayPickup(pPlayer) && getCookingTime() == 0;
+                return super.mayPickup(pPlayer) && isIdle();
             }
 
             @Override
@@ -101,7 +101,7 @@ public class StockPotMenu extends RecipeBookMenu<RecipeWrapper> {
 
             @Override
             public boolean isActive() {
-                return super.isActive() && getCookingTime() == 0;
+                return super.isActive() && isIdle();
             }
         });
         this.addSlot(new Slot(this.blockEntity, RESULT, 80, 45) {
@@ -134,12 +134,12 @@ public class StockPotMenu extends RecipeBookMenu<RecipeWrapper> {
         this.addSlot(new Slot(this.blockEntity, slotIndex, x, y) {
             @Override
             public boolean mayPlace(ItemStack pStack) {
-                return super.mayPlace(pStack) && getCookingTime() == 0;
+                return super.mayPlace(pStack) && isIdle();
             }
 
             @Override
             public boolean mayPickup(Player pPlayer) {
-                return super.mayPickup(pPlayer) && getCookingTime() == 0;
+                return super.mayPickup(pPlayer) && isIdle();
             }
 
             @Override
@@ -149,7 +149,7 @@ public class StockPotMenu extends RecipeBookMenu<RecipeWrapper> {
 
             @Override
             public boolean isActive() {
-                return super.isActive() && getCookingTime() == 0;
+                return super.isActive() && isIdle();
             }
         });
     }
@@ -185,7 +185,7 @@ public class StockPotMenu extends RecipeBookMenu<RecipeWrapper> {
         Recipe<?> placementRecipe;
         if (pRecipe instanceof StockPotRecipe) {
             placementRecipe = pRecipe;
-        } else if (pRecipe instanceof CookingPotRecipe cookingRecipe) {
+        } else if (FarmersDelightCompat.isLoad() && pRecipe instanceof CookingPotRecipe cookingRecipe) {
             if (!FarmersDelightCompat.canCookingPotCompat()) {
                 return;
             }
@@ -201,7 +201,7 @@ public class StockPotMenu extends RecipeBookMenu<RecipeWrapper> {
         if (recipe instanceof StockPotRecipe stockPotRecipe) {
             return stockPotRecipe.matches(this.blockEntity, this.blockEntity.getLevel());
         }
-        if (recipe instanceof CookingPotRecipe cookingPotRecipe) {
+        if (FarmersDelightCompat.isLoad() && recipe instanceof CookingPotRecipe cookingPotRecipe) {
             return FarmersDelightCompat.canCookingPotCompat()
                     && CookingPotRecipeCompat.toStockPotRecipe(cookingPotRecipe)
                     .matches(this.blockEntity, this.blockEntity.getLevel());
@@ -276,5 +276,10 @@ public class StockPotMenu extends RecipeBookMenu<RecipeWrapper> {
     @Override
     public boolean stillValid(Player pPlayer) {
         return this.blockEntity.stillValid(pPlayer);
+    }
+
+    /** 启动的那一刻进度还是 0，所以要连同运行标记一起判断。 */
+    private boolean isIdle() {
+        return !this.blockEntity.isRunning && this.getCookingTime() == 0;
     }
 }

@@ -35,7 +35,7 @@ public final class PottedPlantContent {
         register("potted_banana_flower", "potted_banana_flower", "banana_tree_flower");
         register("potted_banana_frond_sapling", "potted_banana_frond_sapling", "banana_frond_sapling");
         register("potted_blue_tulip", "blue_tulip", "blue_tulip");
-        register("potted_camelia", "camelia", "camelia");
+        register("potted_camellia", "camellia", "camellia");
         register("potted_cashew_tree_sapling", "cashew_sapling", "cashew_tree_sapling",
             item("cashew"), item("cashew"));
         register("potted_cherries_seed", "cherries_tree_sapling", "cherries_seeds");

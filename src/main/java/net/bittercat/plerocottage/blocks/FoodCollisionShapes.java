@@ -25,10 +25,17 @@ public final class FoodCollisionShapes {
         return SHAPES.getOrDefault(blockName, Shapes.block());
     }
 
+    // 形状查询每刻、每帧都会发生，旋转后的形状算一次就够
+    private static final Map<String, VoxelShape> ROTATED = new java.util.concurrent.ConcurrentHashMap<>();
+
     public static VoxelShape get(String blockName, Direction facing) {
         if (facing == Direction.NORTH || !BOXES.containsKey(blockName)) {
             return get(blockName);
         }
+        return ROTATED.computeIfAbsent(blockName + "|" + facing.getName(), key -> rotated(blockName, facing));
+    }
+
+    private static VoxelShape rotated(String blockName, Direction facing) {
         VoxelShape shape = Shapes.empty();
         for (double[] box : BOXES.get(blockName)) {
             double minX = box[0], minZ = box[2], maxX = box[3], maxZ = box[5];

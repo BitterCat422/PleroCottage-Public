@@ -1,0 +1,33 @@
+{
+  "type": "plerocottage:saucepan_and_whisk",
+  "heatState": "need",
+  "mainInput": [
+    {
+      "item": "plerocottage:cooked_cashew"
+    },
+    {
+      "item": "plerocottage:cooked_cashew"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "plerocottage:rosa_water"
+    },
+    {
+      "item": "plerocottage:saffron"
+    }
+  ],
+  "secondaryInput": [
+    {
+      "item": "minecraft:iron_nugget"
+    }
+  ],
+  "output": {
+    "count": 1,
+    "item": "plerocottage:kaju_katli"
+  }
+}

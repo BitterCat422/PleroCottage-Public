@@ -46,7 +46,7 @@ public class StockPotRecipeBookComponent extends VerticalFilterRecipeBookCompone
         StockPotRecipe stockPotRecipe;
         if (recipe instanceof StockPotRecipe nativeRecipe) {
             stockPotRecipe = nativeRecipe;
-        } else if (recipe instanceof CookingPotRecipe cookingRecipe) {
+        } else if (FarmersDelightCompat.isLoad() && recipe instanceof CookingPotRecipe cookingRecipe) {
             if (!FarmersDelightCompat.canCookingPotCompat()) {
                 return;
             }

@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/cup_of_umeshu",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/cup_of_umeshu",
+    "1": "plerocottage:block/cup_of_umeshu",
+    "2": "plerocottage:block/cup_of_umeshu",
+    "3": "plerocottage:block/cup_of_umeshu",
+    "4": "plerocottage:block/cup_of_umeshu",
+    "5": "plerocottage:block/cup_of_umeshu",
+    "particle": "plerocottage:block/cup_of_umeshu"
+  }
+}

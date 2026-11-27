@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.content.fluids;
 
+import net.minecraft.world.level.material.PushReaction;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
@@ -58,7 +59,7 @@ public final class FluidContent {
         BLOCKS.put(name, BlockRegistry.register(name, () -> new LiquidBlock(
             () -> source(name).get(),
             BlockBehaviour.Properties.of().mapColor(MapColor.COLOR_LIGHT_BLUE).replaceable().noCollission()
-                .strength(100.0F).noLootTable())));
+                .strength(100.0F).pushReaction(PushReaction.DESTROY).noLootTable().liquid())));
     }
 
     private static void registerBucket(String name) {

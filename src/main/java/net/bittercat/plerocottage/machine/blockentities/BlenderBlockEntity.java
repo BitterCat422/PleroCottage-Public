@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.machine.blockentities;
 
+import net.bittercat.plerocottage.machine.compat.plerocottage.SlotInputLimitManager;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.NonNullList;
 import net.minecraft.nbt.CompoundTag;
@@ -114,7 +115,10 @@ public class BlenderBlockEntity extends BaseMachineBlockEntity implements GeoBlo
     }
 
     public static void serverTick(Level pLevel, BlockPos pPos, BlockState pState, BlenderBlockEntity pBlockEntity) {
-        pBlockEntity.recheckOpen();
+        // 和原版箱子一样每 5 刻核对一次打开界面的玩家，不必每刻都查周围的实体
+        if (pBlockEntity.getLevel().getGameTime() % 5 == 0) {
+            pBlockEntity.recheckOpen();
+        }
         if (pBlockEntity.isRunning) {
             pBlockEntity.cookingTime++;
             if (pBlockEntity.cookingTime >= pBlockEntity.maxCookingTime) {
@@ -148,6 +152,7 @@ public class BlenderBlockEntity extends BaseMachineBlockEntity implements GeoBlo
             for (int slot : INPUT_SLOTS) {
                 ItemStack input = this.getItem(slot);
                 if (input.isEmpty()) continue;
+                if (slot == CONTAINER && !blenderRecipe.hasContainer()) continue;
                 ItemStack remaining = MachineUtil.getCraftRemaining(input, this.outputMultiple);
                 if (PleroCottageCompat.isDamageableMaterial(input)) {
                     PleroCottageCompat.damageItem(this.outputMultiple, input, this.level);
@@ -155,7 +160,7 @@ public class BlenderBlockEntity extends BaseMachineBlockEntity implements GeoBlo
                         remaining = ItemStack.EMPTY;
                     }
                 } else {
-                    if (slot == CONTAINER && blenderRecipe.hasContainer()) {
+                    if (slot == CONTAINER) {
                         input.shrink(output.getCount());
                     } else {
                         input.shrink(this.outputMultiple);
@@ -255,6 +260,27 @@ public class BlenderBlockEntity extends BaseMachineBlockEntity implements GeoBlo
     @Override
     public NonNullList<ItemStack> getItems() {
         return this.items;
+    }
+
+    @Override
+    protected boolean canAutomationInsert(int slot, ItemStack stack) {
+        if (this.isRunning) {
+            return false;
+        }
+        if (slot == CONTAINER) {
+            return accepts(SlotInputLimitManager.BLENDER_INPUT_LIMIT, stack);
+        }
+        return slot >= MAIN_TOP_LEFT && slot <= SECONDARY_BOTTOM_RIGHT;
+    }
+
+    @Override
+    protected int automationSlotLimit(int slot) {
+        return slot <= SECONDARY_BOTTOM_RIGHT ? 8 : super.automationSlotLimit(slot);
+    }
+
+    @Override
+    protected boolean isOutputSlot(int slot) {
+        return slot == MAIN_OUTPUT || slot == SECONDARY_OUTPUT;
     }
 
     @Override

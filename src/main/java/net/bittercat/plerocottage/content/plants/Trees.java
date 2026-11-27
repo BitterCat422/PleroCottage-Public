@@ -71,7 +71,7 @@ public final class Trees {
     public static final RegistryObject<Item> GREEN_APPLE_SLICE = food("green_apple_slice");
 
     private static final RegistryObject<Item> APRICOT = food("apricots");
-    private static final RegistryObject<Item> UME = food("umes");
+    private static final RegistryObject<Item> UME = food("ume");
     private static final RegistryObject<Item> AVOCADO = ingredient("avocado");
     private static final RegistryObject<Item> AVOCADO_SLICE = food("avocado_slice");
     private static final RegistryObject<Item> CHERRIES = food("cherries");
@@ -430,8 +430,11 @@ public final class Trees {
                                   String saplingTexture, String saplingItemTexture) {
         RegistryObject<SaplingBlock> sapling = BlockRegistry.register(saplingName,
             () -> new SaplingBlock(new ModTreeGrower(WorldGenRegistry.treeKey(name)), saplingProperties()));
+        // 种子形态的物品用自己的名字（"苹果种子"），种下去的方块叫"苹果树苗"，Jade 等显示方块名时才统一
+        boolean seedItem = saplingItemName.endsWith("_seed") || saplingItemName.endsWith("_seeds");
         RegistryObject<Item> saplingItem = ItemRegistry.register(saplingItemName,
-            () -> new BlockItem(sapling.get(), new Item.Properties()));
+            () -> seedItem ? new ItemNameBlockItem(sapling.get(), new Item.Properties())
+                : new BlockItem(sapling.get(), new Item.Properties()));
         if (!saplingItemName.equals(saplingName)) {
             
             PlantCatalog.markFlatIcon(saplingItem);

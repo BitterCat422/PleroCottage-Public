@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.events;
 
+import net.minecraft.tags.DamageTypeTags;
 import net.bittercat.plerocottage.config.Config;
 import net.bittercat.plerocottage.content.effects.MobEffectContent;
 import net.bittercat.plerocottage.content.audio.SoundContent;
@@ -64,7 +65,8 @@ public final class MobEffectEvents {
 
         if (target.hasEffect(MobEffectContent.ROSA_HEDGE.get())) {
             int amplifier = target.getEffect(MobEffectContent.ROSA_HEDGE.get()).getAmplifier();
-            if (event.getAmount() <= 2.0F + 0.25F * (amplifier + 1)) {
+            if (event.getAmount() <= 2.0F + 0.25F * (amplifier + 1)
+                && !event.getSource().is(DamageTypeTags.BYPASSES_INVULNERABILITY)) {
                 event.setCanceled(true);
             }
         }
@@ -96,7 +98,7 @@ public final class MobEffectEvents {
         return source.getDirectEntity() == player
             && player.fallDistance > 0 && !player.onGround() && !player.isInWater()
             && !player.hasEffect(MobEffects.BLINDNESS) && !player.isPassenger() && !player.isSprinting()
-            && player.getAttackStrengthScale(0.5F) >= 0.9F;
+            && AttackCharge.of(player) >= 0.9F;
     }
 
     private static void applyTemporaryArmorBreak(LivingEntity target) {
@@ -151,7 +153,7 @@ public final class MobEffectEvents {
             || target.getPersistentData().getBoolean(TRANSMUTATION_REENTRY_TAG)
             || !(attacker instanceof Player player) || event.getSource().getDirectEntity() != attacker
             || player.getPersistentData().getBoolean("PleroCottageHappySweep")
-            || player.getAttackStrengthScale(0.5F) < 0.9F
+            || AttackCharge.of(player) < 0.9F
             || !attacker.hasEffect(MobEffectContent.TRANSMUTATION_ELIXIR.get())) {
             return;
         }
@@ -233,7 +235,7 @@ public final class MobEffectEvents {
         if (attacker instanceof Player livingAttacker && damageSource.getDirectEntity() == livingAttacker
             && !livingAttacker.getPersistentData().getBoolean("PleroCottageHappySweep")
             && livingAttacker.hasEffect(MobEffectContent.MOMENTARY_METEOR.get())
-            && livingAttacker.getAttackStrengthScale(0.5F) >= 0.9F) {
+            && AttackCharge.of(livingAttacker) >= 0.9F) {
             int amplifier = livingAttacker.getEffect(MobEffectContent.MOMENTARY_METEOR.get()).getAmplifier();
             event.setAmount(event.getAmount() * (5.0F + 0.15F * (amplifier + 1)));
             livingAttacker.getPersistentData().putString(
@@ -272,7 +274,7 @@ public final class MobEffectEvents {
         }
 
         if (target.hasEffect(MobEffectContent.HACKED_THORNS.get()) && attacker instanceof LivingEntity
-            && damageSource.getDirectEntity() == attacker) {
+            && damageSource.getDirectEntity() == attacker && !damageSource.is(DamageTypes.THORNS)) {
             int amplifier = target.getEffect(MobEffectContent.HACKED_THORNS.get()).getAmplifier();
             Vec3 direction = attacker.position().subtract(target.position()).normalize()
                 .scale(0.35 * (amplifier + 1));
@@ -330,7 +332,7 @@ public final class MobEffectEvents {
             && event.getSource().getDirectEntity() == player
             && player.fallDistance > 0 && !player.onGround() && !player.isInWater()
             && !player.hasEffect(MobEffects.BLINDNESS) && !player.isPassenger() && !player.isSprinting()
-            && player.getAttackStrengthScale(0.5F) >= 0.9F;
+            && AttackCharge.of(player) >= 0.9F;
     }
 
     private static void applyHappyAuraSweep(Player player, LivingEntity target, float damage) {
@@ -422,11 +424,11 @@ public final class MobEffectEvents {
     @SubscribeEvent
     public static void onExperienceDrop(LivingExperienceDropEvent event) {
         Player player = event.getAttackingPlayer();
-        if (player == null || !player.hasEffect(MobEffectContent.RUTIN_LEMONENE.get())
+        if (player == null || !player.hasEffect(MobEffectContent.RUTIN_LIMONENE.get())
             || !(event.getEntity().level() instanceof ServerLevel level)) {
             return;
         }
-        int amplifier = player.getEffect(MobEffectContent.RUTIN_LEMONENE.get()).getAmplifier();
+        int amplifier = player.getEffect(MobEffectContent.RUTIN_LIMONENE.get()).getAmplifier();
         int extraExperience = (int) Math.floor(event.getDroppedExperience()
             * (0.8 + 0.05 * (amplifier + 1)));
         if (extraExperience > 0) {
@@ -461,7 +463,7 @@ public final class MobEffectEvents {
 
     private static boolean isFruitEffect(MobEffectInstance instance) {
         return instance.getEffect() == MobEffectContent.ROSA_HEDGE.get()
-            || instance.getEffect() == MobEffectContent.RUTIN_LEMONENE.get()
+            || instance.getEffect() == MobEffectContent.RUTIN_LIMONENE.get()
             || instance.getEffect() == MobEffectContent.BURSTING_BERRY.get()
             || instance.getEffect() == MobEffectContent.CHERRY_BLOSSOMS_WEEPING.get()
             || instance.getEffect() == MobEffectContent.MOMENTARY_METEOR.get()
@@ -514,11 +516,14 @@ public final class MobEffectEvents {
             if (instance.getEffect() == MobEffectContent.MENTHOL_AWAKENING.get()) {
                 entity.getPersistentData().putBoolean(MENTHOL_AWAKENING_REENTRY_TAG, true);
                 try {
-                    for (MobEffectInstance activeEffect : entity.getActiveEffects().stream().toList()) {
-                        if (activeEffect.getEffect() != MobEffectContent.MENTHOL_AWAKENING.get()
-                            && activeEffect.getEffect().getCategory() == net.minecraft.world.effect.MobEffectCategory.BENEFICIAL
-                            && isMentholAffectedEffect(activeEffect.getEffect())) {
-                            upgradeBeneficialEffect(entity, activeEffect);
+                    // 只在首次获得时升级：效果还在时续上不再加级，结束时只会降一级
+                    if (event.getOldEffectInstance() == null) {
+                        for (MobEffectInstance activeEffect : entity.getActiveEffects().stream().toList()) {
+                            if (activeEffect.getEffect() != MobEffectContent.MENTHOL_AWAKENING.get()
+                                && activeEffect.getEffect().getCategory() == net.minecraft.world.effect.MobEffectCategory.BENEFICIAL
+                                && isMentholAffectedEffect(activeEffect.getEffect())) {
+                                upgradeBeneficialEffect(entity, activeEffect);
+                            }
                         }
                     }
                 } finally {
@@ -599,7 +604,14 @@ public final class MobEffectEvents {
         if (data.getBoolean(MENTHOL_AWAKENING_ACTIVE_LAST_TICK_TAG) && !active) {
             data.putBoolean(MENTHOL_AWAKENING_PENDING_DOWNGRADE_TAG, true);
         }
-        data.putBoolean(MENTHOL_AWAKENING_ACTIVE_LAST_TICK_TAG, active);
+        // 每个生物每刻都会走到这里，只在状态变化时才写数据
+        if (data.getBoolean(MENTHOL_AWAKENING_ACTIVE_LAST_TICK_TAG) != active) {
+            if (active) {
+                data.putBoolean(MENTHOL_AWAKENING_ACTIVE_LAST_TICK_TAG, true);
+            } else {
+                data.remove(MENTHOL_AWAKENING_ACTIVE_LAST_TICK_TAG);
+            }
+        }
         if (data.getBoolean(MENTHOL_AWAKENING_PENDING_DOWNGRADE_TAG)) {
             data.remove(MENTHOL_AWAKENING_PENDING_DOWNGRADE_TAG);
             if (!entity.hasEffect(MobEffectContent.MENTHOL_AWAKENING.get())) {

@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.machine.blockentities;
 
+import net.bittercat.plerocottage.machine.compat.plerocottage.SlotInputLimitManager;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.NonNullList;
 import net.minecraft.nbt.CompoundTag;
@@ -16,7 +17,6 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.wrapper.InvWrapper;
 import net.bittercat.plerocottage.machine.blocks.OvenBlock;
-import net.bittercat.plerocottage.machine.blocks.TeapotBlock;
 import net.bittercat.plerocottage.machine.compat.plerocottage.PleroCottageCompat;
 import net.bittercat.plerocottage.machine.compat.plerocottage.SmokingRecipeManager;
 import net.bittercat.plerocottage.machine.menus.OvenMenu;
@@ -114,7 +114,8 @@ public class OvenBlockEntity extends BaseMachineBlockEntity {
 
     public static void clientTick(Level pLevel, BlockPos pPos, BlockState pState, OvenBlockEntity pBlockEntity) {
         if (pBlockEntity.isRunning) {
-            if (!pBlockEntity.isPlaySound) {
+            if (!pBlockEntity.isPlaySound
+                    || (pBlockEntity.getLevel().getGameTime() % 20 == 0 && !SoundUtil.isLoopActive(pBlockEntity))) {
                 pBlockEntity.isPlaySound = true;
                 SoundUtil.playOvenSoundInstance(pBlockEntity);
             }
@@ -122,7 +123,10 @@ public class OvenBlockEntity extends BaseMachineBlockEntity {
     }
 
     public static void serverTick(Level pLevel, BlockPos pPos, BlockState pState, OvenBlockEntity pBlockEntity) {
-        pBlockEntity.recheckOpen();
+        // 和原版箱子一样每 5 刻核对一次打开界面的玩家，不必每刻都查周围的实体
+        if (pBlockEntity.getLevel().getGameTime() % 5 == 0) {
+            pBlockEntity.recheckOpen();
+        }
         if (pBlockEntity.isRunning) {
             pBlockEntity.cookingTime++;
             if (pBlockEntity.cookingTime >= pBlockEntity.maxCookingTime.cookingTime) {
@@ -167,10 +171,15 @@ public class OvenBlockEntity extends BaseMachineBlockEntity {
         } else {
             output = this.getFailItemStack();
             int multiple = Math.min(this.getMaxStackSize(), output.getMaxStackSize());
+            boolean hasInput = false;
             for (int slot : INPUT_SLOTS) {
                 ItemStack input = this.getItem(slot);
                 if (input.isEmpty()) continue;
+                hasInput = true;
                 multiple = Math.min(multiple, input.getCount());
+            }
+            if (!hasInput) {
+                multiple = 0;
             }
             output.setCount(multiple);
             this.outputMultiple = multiple;
@@ -284,7 +293,7 @@ public class OvenBlockEntity extends BaseMachineBlockEntity {
     }
 
     public void setOpen(boolean open) {
-        this.level.setBlockAndUpdate(this.getBlockPos(), this.getBlockState().setValue(TeapotBlock.OPEN, !this.isRunning && open));
+        this.level.setBlockAndUpdate(this.getBlockPos(), this.getBlockState().setValue(OvenBlock.OPEN, !this.isRunning && open));
     }
 
     @Override
@@ -312,6 +321,27 @@ public class OvenBlockEntity extends BaseMachineBlockEntity {
     @Override
     public NonNullList<ItemStack> getItems() {
         return this.items;
+    }
+
+    @Override
+    protected boolean canAutomationInsert(int slot, ItemStack stack) {
+        if (this.isRunning) {
+            return false;
+        }
+        if (slot == CONTAINER) {
+            return accepts(SlotInputLimitManager.OVEN_CONTAINER_LIMIT, stack);
+        }
+        return slot >= TOP_LEFT && slot <= BOTTOM_FAR_RIGHT && accepts(SlotInputLimitManager.OVEN_INPUT_LIMIT, stack);
+    }
+
+    @Override
+    protected int automationSlotLimit(int slot) {
+        return slot == OUTPUT ? super.automationSlotLimit(slot) : 8;
+    }
+
+    @Override
+    protected boolean isOutputSlot(int slot) {
+        return slot == OUTPUT;
     }
 
     @Override

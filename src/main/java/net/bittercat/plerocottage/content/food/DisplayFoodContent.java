@@ -95,7 +95,7 @@ public final class DisplayFoodContent {
         register("grape_juice", "grape_juice", true, true, true, false);
         register("mediterranean_sundae", "mediterranean_sundae", true, true, true, false);
         register("grapefruit_juice", "grapefruit_juice", true, true, true, false);
-        register("yeung_zhi_gum_lo", "yeung_zhi_gum_lo", true, true, true, false);
+        register("yeung_ji_gam_lo", "yeung_ji_gam_lo", true, true, true, false);
         register("citrus_bavarois", "citrus_bavarois", true, true, true, true);
         register("plum_juice", "plum_juice", true, true, true, false);
         register("ota_ika", "ota_ika", false, false, false, true);
@@ -129,10 +129,10 @@ public final class DisplayFoodContent {
         register("glass_of_champagne", "glass_of_champagne", true, true, true, false);
         register("glass_of_gin", "glass_of_gin", true, true, true, false);
         register("glass_of_rum", "glass_of_rum", true, true, true, false);
-        register("glass_of_umeshu", "glass_of_umeshu", true, true, true, false);
+        register("cup_of_umeshu", "cup_of_umeshu", true, true, true, false);
         register("glass_of_beer", "glass_of_beer", true, true, true, false);
         register("glass_of_absinthe", "glass_of_absinthe", true, true, true, false);
-        register("glass_of_sake", "glass_of_sake", true, true, true, false);
+        register("cup_of_sake", "cup_of_sake", true, true, true, false);
         register("glass_of_brandy", "glass_of_brandy", true, true, true, false);
         register("glass_of_whiskey", "glass_of_whiskey", true, true, true, false);
         register("ochazuke", "ochazuke", false, false, false, true, ItemModelType.GECKO_BOWL);
@@ -305,7 +305,7 @@ public final class DisplayFoodContent {
         "bulletproof_coffee", "cafe_au_lait", "kombucha", "fruit_flavored_kombucha",
         "floral_kombucha", "espresso_con_panna", "mocha_coffee", "matcha", "suutei_tsai",
         "caramel_macchiato", "egg_coffee", "eggnog", "cappuccino", "einspanner",
-        "glass_of_sake", "glass_of_umeshu", "flat_white", "affogato", "earl_grey_tea", "jasmine_tea", "chamomile_tea", "mint_tea",
+        "cup_of_sake", "cup_of_umeshu", "flat_white", "affogato", "earl_grey_tea", "jasmine_tea", "chamomile_tea", "mint_tea",
         "gooseberry_fool",
         "russian_tea", "saffron_tea", "bandung", "pumpkin_spice_latte", "hakuto_tea",
         "red_velvet_hot_cocoa", "matcha_latte");

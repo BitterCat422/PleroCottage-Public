@@ -1,0 +1,13 @@
+{
+  "parent": "plerocottage:custom/cup_of_sake",
+  "render_type": "minecraft:cutout_mipped",
+  "textures": {
+    "0": "plerocottage:block/cup_of_sake",
+    "1": "plerocottage:block/cup_of_sake",
+    "2": "plerocottage:block/cup_of_sake",
+    "3": "plerocottage:block/cup_of_sake",
+    "4": "plerocottage:block/cup_of_sake",
+    "5": "plerocottage:block/cup_of_sake",
+    "particle": "plerocottage:block/cup_of_sake"
+  }
+}

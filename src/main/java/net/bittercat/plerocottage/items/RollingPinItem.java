@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.items;
 
+import net.bittercat.plerocottage.events.AttackCharge;
 import java.util.List;
 
 import net.bittercat.plerocottage.content.effects.MobEffectContent;
@@ -52,7 +53,7 @@ public final class RollingPinItem extends TieredToolItem {
     public boolean hurtEnemy(ItemStack stack, LivingEntity target, LivingEntity attacker) {
         boolean result = super.hurtEnemy(stack, target, attacker);
         if (result && !attacker.level().isClientSide() && attacker instanceof Player player
-            && player.getAttackStrengthScale(0.5F) > 0.9F) {
+            && AttackCharge.of(player) > 0.9F) {
             MobEffectInstance current = target.getEffect(MobEffectContent.FLATTEN.get());
             int amplifier = current == null ? 0 : current.getAmplifier();
             MobEffectInstance flatten = new MobEffectInstance(MobEffectContent.FLATTEN.get(), 100, amplifier);

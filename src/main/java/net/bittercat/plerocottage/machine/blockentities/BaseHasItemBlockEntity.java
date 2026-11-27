@@ -1,5 +1,7 @@
 package net.bittercat.plerocottage.machine.blockentities;
 
+import net.minecraft.world.item.crafting.Ingredient;
+import java.util.List;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
@@ -19,6 +21,7 @@ import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.items.IItemHandler;
+import net.minecraftforge.items.wrapper.InvWrapper;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -43,7 +46,37 @@ public abstract class BaseHasItemBlockEntity extends BlockEntity implements Cont
     }
 
     public void loadAndRevive() {
-        this.itemHandler = LazyOptional.of(this::getItemHandler);
+        this.itemHandler = LazyOptional.of(() -> new InvWrapper(this) {
+            // 漏斗和管道只能取走成品：原料、容器等槽位被抽走会让进行中的配方按失败结算
+            @Override
+            public @NotNull ItemStack extractItem(int slot, int amount, boolean simulate) {
+                return isOutputSlot(slot) ? super.extractItem(slot, amount, simulate) : ItemStack.EMPTY;
+            }
+
+            @Override
+            public int getSlotLimit(int slot) {
+                return automationSlotLimit(slot);
+            }
+        });
+    }
+
+    /** 自动化能否把物品放进这个槽位，规则要和界面里手动放入的一致。默认不能。 */
+    protected boolean canAutomationInsert(int slot, ItemStack stack) {
+        return false;
+    }
+
+    /** 这个槽位在界面里的堆叠上限，漏斗放入时同样遵守。 */
+    protected int automationSlotLimit(int slot) {
+        return this.getMaxStackSize();
+    }
+
+    protected static boolean accepts(List<Ingredient> limit, ItemStack stack) {
+        return limit.stream().anyMatch(ingredient -> ingredient.test(stack));
+    }
+
+    /** 自动化可以取出物品的槽位，默认没有。 */
+    protected boolean isOutputSlot(int slot) {
+        return false;
     }
 
     @Override
@@ -91,7 +124,7 @@ public abstract class BaseHasItemBlockEntity extends BlockEntity implements Cont
 
     @Override
     public boolean canPlaceItem(int pIndex, ItemStack pStack) {
-        return false;
+        return this.canAutomationInsert(pIndex, pStack);
     }
 
     @Override

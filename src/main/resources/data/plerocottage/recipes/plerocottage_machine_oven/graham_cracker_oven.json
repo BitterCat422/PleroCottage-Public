@@ -1,0 +1,23 @@
+{
+  "type": "plerocottage:oven",
+  "cookingTime": 300,
+  "input": [
+    {
+      "tag": "forge:dough/wheat"
+    },
+    {
+      "item": "plerocottage:flour"
+    },
+    {
+      "item": "plerocottage:butter"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "output": {
+    "count": 2,
+    "item": "plerocottage:graham_cracker"
+  },
+  "temperature": 150
+}

@@ -536,7 +536,9 @@ public final class ContentBlockStateProvider extends BlockStateProvider {
             .texture("side", modLoc("block/dragon_fruit_cactus_side"))
             .texture("top", modLoc("block/dragon_fruit_cactus_top"))
             .texture("bottom", modLoc("block/dragon_fruit_cactus_bottom"))
-            .texture("particle", modLoc("block/dragon_fruit_cactus_side"));
+            .texture("particle", modLoc("block/dragon_fruit_cactus_side"))
+            // 贴图四周是透明的，和原版仙人掌一样需要镂空渲染，否则透明处显示成黑色
+            .renderType("cutout_mipped");
         getVariantBuilder(DragonFruits.CACTUS.get()).forAllStates(state -> ConfiguredModel.builder()
             .modelFile(cactus).build());
 
@@ -579,12 +581,10 @@ public final class ContentBlockStateProvider extends BlockStateProvider {
             modLoc("block/muskmelon_top"), side, side, side, side).texture("particle", side));
         ModelFile[] stemStages = new ModelFile[8];
         for (int age = 0; age < stemStages.length; age++) {
-            int textureStage = age < 2 ? age : switch (age) {
-                case 2 -> 3;
-                case 3, 4 -> 4;
-                default -> 5;
-            };
-            String modelName = "muskmelon_stem" + (age < 2 ? "" : "_state_blockstate_" + (textureStage - 1));
+            // 八个生长阶段共用五张贴图（没有 muskmelon_crop_2），外观在第 2、3、5、7 阶段变化
+            int look = age < 2 ? 0 : age < 3 ? 1 : age < 5 ? 2 : age < 7 ? 3 : 4;
+            int textureStage = look < 2 ? look : look + 1;
+            String modelName = "muskmelon_stem" + (look == 0 ? "" : "_state_blockstate_" + (look - 1));
             stemStages[age] = models().cross(modelName, modLoc("block/muskmelon_crop_" + textureStage))
                 .renderType("cutout_mipped");
         }

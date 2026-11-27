@@ -12,23 +12,28 @@ import net.minecraftforge.fml.util.thread.SidedThreadGroups;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 
+/**
+ * 单人游戏里服务端线程和客户端线程都会重建这些表，另一条线程可能正在遍历，
+ * 所以用写时复制的列表，遍历到的始终是一份完整的快照。
+ */
 public class SlotInputLimitManager {
-    public static final List<Fluid> ICE_CREAM_MACHINE_FLUID_LIMIT = new ArrayList<>();
-    public static final List<Ingredient> ICE_CREAM_MACHINE_INPUT_LIMIT = new ArrayList<>();
-    public static final List<Ingredient> FRYER_INPUT_LIMIT = new ArrayList<>();
-    public static final List<Ingredient> OVEN_INPUT_LIMIT = new ArrayList<>();
-    public static final List<Ingredient> OVEN_CONTAINER_LIMIT = new ArrayList<>();
-    public static final List<Ingredient> TEAPOT_CUP_LIMIT = new ArrayList<>();
-    public static final List<Ingredient> TEAPOT_DRINK_LIMIT = new ArrayList<>();
-    public static final List<Ingredient> TEAPOT_MATERIAL_LIMIT = new ArrayList<>();
-    public static final List<Ingredient> FERMENTER_INPUT_LIMIT = new ArrayList<>();
-    public static final List<Ingredient> BLENDER_INPUT_LIMIT = new ArrayList<>();
-    private static final List<Ingredient> SERVER_CUTTING_BOARD_TOOL_LIMIT = new ArrayList<>();
-    private static final List<Ingredient> CLIENT_CUTTING_BOARD_TOOL_LIMIT = new ArrayList<>();
-    private static final List<Ingredient> SERVER_STOCK_POT_INPUT_LIMIT = new ArrayList<>();
-    private static final List<Ingredient> CLIENT_STOCK_POT_INPUT_LIMIT = new ArrayList<>();
-    public static final List<Ingredient> SAUCEPAN_AND_WHISK_INPUT_LIMIT = new ArrayList<>();
+    public static final List<Fluid> ICE_CREAM_MACHINE_FLUID_LIMIT = new CopyOnWriteArrayList<>();
+    public static final List<Ingredient> ICE_CREAM_MACHINE_INPUT_LIMIT = new CopyOnWriteArrayList<>();
+    public static final List<Ingredient> FRYER_INPUT_LIMIT = new CopyOnWriteArrayList<>();
+    public static final List<Ingredient> OVEN_INPUT_LIMIT = new CopyOnWriteArrayList<>();
+    public static final List<Ingredient> OVEN_CONTAINER_LIMIT = new CopyOnWriteArrayList<>();
+    public static final List<Ingredient> TEAPOT_CUP_LIMIT = new CopyOnWriteArrayList<>();
+    public static final List<Ingredient> TEAPOT_DRINK_LIMIT = new CopyOnWriteArrayList<>();
+    public static final List<Ingredient> TEAPOT_MATERIAL_LIMIT = new CopyOnWriteArrayList<>();
+    public static final List<Ingredient> FERMENTER_INPUT_LIMIT = new CopyOnWriteArrayList<>();
+    public static final List<Ingredient> BLENDER_INPUT_LIMIT = new CopyOnWriteArrayList<>();
+    private static final List<Ingredient> SERVER_CUTTING_BOARD_TOOL_LIMIT = new CopyOnWriteArrayList<>();
+    private static final List<Ingredient> CLIENT_CUTTING_BOARD_TOOL_LIMIT = new CopyOnWriteArrayList<>();
+    private static final List<Ingredient> SERVER_STOCK_POT_INPUT_LIMIT = new CopyOnWriteArrayList<>();
+    private static final List<Ingredient> CLIENT_STOCK_POT_INPUT_LIMIT = new CopyOnWriteArrayList<>();
+    public static final List<Ingredient> SAUCEPAN_AND_WHISK_INPUT_LIMIT = new CopyOnWriteArrayList<>();
 
     public static List<Ingredient> cuttingBoardToolLimit() {
         return Thread.currentThread().getThreadGroup() == SidedThreadGroups.SERVER

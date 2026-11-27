@@ -1,5 +1,7 @@
 package net.bittercat.plerocottage.machine.client.events;
 
+import net.minecraft.client.RecipeBookCategories;
+import net.bittercat.plerocottage.init.RecipeRegistry;
 import net.minecraft.client.gui.screens.MenuScreens;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.packs.PackType;
@@ -50,6 +52,13 @@ public class ClientEventHandler {
         TeapotRecipeBookCategories.register(event);
         FermenterRecipeBookCategories.register(event);
         IceCreamMachineRecipeBookCategories.register(event);
+        // 这三种配方没有配方书界面：明确归到 UNKNOWN，否则每次同步配方时每条都会打一行警告
+        event.registerRecipeCategoryFinder(RecipeRegistry.CUTTING_BOARD_SINGLE_RECIPE_TYPE.get(),
+            recipe -> RecipeBookCategories.UNKNOWN);
+        event.registerRecipeCategoryFinder(RecipeRegistry.CUTTING_BOARD_MULTIPLE_RECIPE_TYPE.get(),
+            recipe -> RecipeBookCategories.UNKNOWN);
+        event.registerRecipeCategoryFinder(RecipeRegistry.SHAKER_RECIPE_TYPE.get(),
+            recipe -> RecipeBookCategories.UNKNOWN);
     }
 
     public static void handlerFMLClientSetupEvent(FMLClientSetupEvent event) {

@@ -69,7 +69,7 @@ public class CooktopBlock extends BaseEntityBlock {
     public InteractionResult use(BlockState pState, Level pLevel, BlockPos pPos, Player pPlayer, InteractionHand pHand, BlockHitResult pHit) {
         super.use(pState, pLevel, pPos, pPlayer, pHand, pHit);
         boolean running = pState.getValue(RUNNING);
-        pLevel.setBlock(pPos, pState.setValue(RUNNING, !running), 1);
+        pLevel.setBlock(pPos, pState.setValue(RUNNING, !running), 3);
         if (running) {
             pLevel.playSound(pPlayer, pPos, SoundEvents.FIRE_EXTINGUISH, SoundSource.BLOCKS, 0.5F, 2.6F + (pLevel.random.nextFloat() - pLevel.random.nextFloat()) * 0.8F);
         } else {

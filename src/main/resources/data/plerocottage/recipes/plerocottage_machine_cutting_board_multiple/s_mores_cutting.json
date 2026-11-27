@@ -2,7 +2,7 @@
   "type": "plerocottage:cutting_board_multiple",
   "input": [
     {
-      "item": "plerocottage:graham_cacker"
+      "item": "plerocottage:graham_cracker"
     },
     {
       "item": "plerocottage:campfire_marshmallow"
@@ -11,7 +11,7 @@
       "item": "plerocottage:chocolate"
     },
     {
-      "item": "plerocottage:graham_cacker"
+      "item": "plerocottage:graham_cracker"
     }
   ],
   "isShaped": true,

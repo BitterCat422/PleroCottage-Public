@@ -1,0 +1,30 @@
+{
+  "base": {
+    "parent": "plerocottage:custom/yeung_ji_gam_lo_item_3d"
+  },
+  "gui_light": "front",
+  "loader": "forge:separate_transforms",
+  "perspectives": {
+    "fixed": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/yeung_ji_gam_lo"
+      }
+    },
+    "ground": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/yeung_ji_gam_lo"
+      }
+    },
+    "gui": {
+      "parent": "minecraft:item/generated",
+      "textures": {
+        "layer0": "plerocottage:item/yeung_ji_gam_lo"
+      }
+    }
+  },
+  "textures": {
+    "particle": "plerocottage:item/yeung_ji_gam_lo"
+  }
+}

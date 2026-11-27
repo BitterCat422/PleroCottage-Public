@@ -21,11 +21,11 @@ import net.minecraftforge.registries.RegistryObject;
 public final class AdvancementEvents {
     private static final ResourceLocation LYCOPERSICON =
         new ResourceLocation("plerocottage", "lycopersicon");
-    private static final ResourceLocation A_INSANE_COCKTAIL =
-        new ResourceLocation("plerocottage", "a_insane_cocktail");
+    private static final ResourceLocation AN_INSANE_COCKTAIL =
+        new ResourceLocation("plerocottage", "an_insane_cocktail");
     private static final List<RegistryObject<MobEffect>> REQUIRED_FRUIT_EFFECTS = List.of(
         MobEffectContent.ROSA_HEDGE,
-        MobEffectContent.RUTIN_LEMONENE,
+        MobEffectContent.RUTIN_LIMONENE,
         MobEffectContent.BURSTING_BERRY,
         MobEffectContent.CHERRY_BLOSSOMS_WEEPING,
         MobEffectContent.MOMENTARY_METEOR,
@@ -72,7 +72,7 @@ public final class AdvancementEvents {
             .map(RegistryObject::get)
             .allMatch(player::hasEffect);
         if (hasAllEffects) {
-            award(player, A_INSANE_COCKTAIL);
+            award(player, AN_INSANE_COCKTAIL);
         }
     }
 

@@ -1,8 +1,5 @@
 {
   "values": [
-    "plerocottage:yellow_wallpaper_block",
-    "plerocottage:lime_wallpaper_block",
-    "plerocottage:pink_wallpaper_block",
     "plerocottage:green_wallpaper_block",
     "plerocottage:light_gray_wallpaper_block",
     "plerocottage:light_blue_wallpaper_block",
@@ -19,6 +16,9 @@
     "plerocottage:snow_wallpaper_block",
     "plerocottage:gray_wallpaper_block",
     "plerocottage:black_wallpaper_block",
-    "plerocottage:wallpaper_block"
+    "plerocottage:wallpaper_block",
+    "plerocottage:yellow_wallpaper_block",
+    "plerocottage:lime_wallpaper_block",
+    "plerocottage:pink_wallpaper_block"
   ]
 }

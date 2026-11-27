@@ -11,7 +11,8 @@ import org.spongepowered.asm.mixin.injection.Redirect;
 
 @Mixin(Player.class)
 public abstract class PlayerAttackMixin {
-    @Redirect(method = "attack", at = @At(value = "INVOKE",
+    // require = 0：别的模组也重定向了同一处调用时，这里放弃注入而不是让游戏启动崩溃
+    @Redirect(require = 0, method = "attack", at = @At(value = "INVOKE",
         target = "Lnet/minecraft/world/entity/Entity;hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z"))
     private boolean pleroCottage$restoreUtensilFood(Entity target, DamageSource source, float damage) {
         Player player = (Player) (Object) this;

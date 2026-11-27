@@ -112,6 +112,12 @@ public final class PoultryEntity extends Animal implements GeoEntity {
     }
 
     @Override
+    public boolean canMate(Animal other) {
+        // 鸭和火鸡是同一个实体类，原版只比较类，不加这一条它们能互相繁殖
+        return super.canMate(other) && other.getType() == this.getType();
+    }
+
+    @Override
     public AgeableMob getBreedOffspring(ServerLevel level, AgeableMob partner) {
         PoultryEntity child = switch (species) {
             case "mallard_duck" -> EntityContent.MALLARD_DUCK.get().create(level);

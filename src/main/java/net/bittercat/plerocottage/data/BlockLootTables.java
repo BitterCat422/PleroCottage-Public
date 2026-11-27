@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.data;
 
+import net.bittercat.plerocottage.blocks.VineStakeBlock;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -18,6 +19,7 @@ import net.bittercat.plerocottage.blocks.ElderberryLeavesBlock;
 import net.bittercat.plerocottage.blocks.FruitLeavesBlock;
 import net.bittercat.plerocottage.blocks.HangingFruitBlock;
 import net.bittercat.plerocottage.blocks.HangingFruitLeavesBlock;
+import net.bittercat.plerocottage.blocks.LavenderBlock;
 import net.bittercat.plerocottage.blocks.PortionFoodBlock;
 import net.bittercat.plerocottage.blocks.YoungCoconutsBlock;
 import net.bittercat.plerocottage.blocks.VineCropBlock;
@@ -34,6 +36,7 @@ import net.bittercat.plerocottage.content.food.FoodBlockContent;
 import net.bittercat.plerocottage.content.food.StackableFoodContent;
 import net.bittercat.plerocottage.content.food.FoodContent;
 import net.bittercat.plerocottage.content.furniture.FurnitureContent;
+import net.bittercat.plerocottage.content.items.OrdinaryItemContent;
 import net.bittercat.plerocottage.content.food.PlateContent;
 import net.bittercat.plerocottage.content.entities.PoultryContent;
 import net.bittercat.plerocottage.content.wood.WoodSetContent;
@@ -76,6 +79,7 @@ import net.minecraft.world.level.block.state.properties.BedPart;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.storage.loot.IntRange;
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.storage.loot.LootPool;
 import net.minecraft.world.level.storage.loot.LootTable;
@@ -83,6 +87,7 @@ import net.minecraft.world.level.storage.loot.entries.AlternativesEntry;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
+import net.minecraft.world.level.storage.loot.functions.LimitCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
 import net.minecraft.world.level.storage.loot.predicates.BonusLevelTableCondition;
 import net.minecraft.world.level.storage.loot.predicates.ExplosionCondition;
@@ -116,7 +121,7 @@ public final class BlockLootTables extends BlockLootSubProvider {
         for (String color : ColoredDecorationContent.COLORS) {
             Block bed = ColoredDecorationContent.bed(color).get();
             add(bed, createSinglePropConditionTable(bed, BedBlock.PART, BedPart.HEAD));
-            dropSelf(ColoredDecorationContent.candle(color).get());
+            add(ColoredDecorationContent.candle(color).get(), this::createCandleDrops);
             add(ColoredDecorationContent.candleCake(color).get(),
                 createCandleCakeDrops(ColoredDecorationContent.candle(color).get()));
             add(ColoredDecorationContent.shulkerBox(color).get(), createShulkerBoxDrop(
@@ -140,6 +145,13 @@ public final class BlockLootTables extends BlockLootSubProvider {
         dropSelf(CoreContent.HAY_NEST.get());
         dropSelf(CoreContent.EGG_INCUBATOR.get());
         add(PoultryContent.EGG_DISPLAY_BLOCK.get(), noDrop());
+        dropSelf(OreBlockContent.DEBRISHROOM.get());
+        add(OreBlockContent.PEARL_ROCK_ORE.get(), pearlRockOreDrops(OreBlockContent.PEARL_ROCK_ORE.get()));
+        add(OreBlockContent.DEEPSLATE_PEARL_ROCK_ORE.get(),
+            pearlRockOreDrops(OreBlockContent.DEEPSLATE_PEARL_ROCK_ORE.get()));
+        add(OreBlockContent.SUSPICIOUS_ORE.get(), suspiciousOreDrops(OreBlockContent.SUSPICIOUS_ORE.get()));
+        add(OreBlockContent.DEEPSLATE_SUSPICIOUS_ORE.get(),
+            suspiciousOreDrops(OreBlockContent.DEEPSLATE_SUSPICIOUS_ORE.get()));
         dropSelf(OreBlockContent.PEARL_ROCK_BLOCK.get());
         dropSelf(OreBlockContent.GARNET_BLOCK.get());
         dropSelf(OreBlockContent.TOPAZ_BLOCK.get());
@@ -175,10 +187,12 @@ public final class BlockLootTables extends BlockLootSubProvider {
         for (FoodBlockContent.FoodBlock food : FoodBlockContent.entries()) {
             Block block = food.block().get();
             if (food.name().equals("truffle_pie") || food.name().equals("cherries_pie")) {
-                add(block, pieSliceSilkTouchDrops(food.name()));
+                add(block, pieSliceDrops(food.name()));
             } else if (block instanceof CheeseWheelBlock) {
                 Item wedge = FoodContent.item(food.name().replace("_wheel", "_wedge")).get();
                 add(block, cheeseWheelDrops(block, wedge));
+            } else if (block instanceof PortionFoodBlock portion) {
+                add(block, portionFoodDrops(block, portion.portionItem()));
             } else {
                 dropSelf(block);
             }
@@ -251,7 +265,7 @@ public final class BlockLootTables extends BlockLootSubProvider {
             add(crop.block().get(), doubleCropDrops(crop));
         }
         add(Corns.CORN_CROP_BLOCK.get(), cornDrops());
-        dropSelf(Melons.HAMIMELON.get());
+        add(Melons.HAMIMELON.get(), hamimelonDrops());
         add(Melons.HAMIMELON_STEM.get(),
             createStemDrops(Melons.HAMIMELON_STEM.get(), Melons.HAMIMELON_SEED.get()));
         add(Melons.HAMIMELON_ATTACHED_STEM.get(),
@@ -260,7 +274,7 @@ public final class BlockLootTables extends BlockLootSubProvider {
             add(vine.cropBlock().get(), vineCropDrops(vine));
             add(vine.wild().block().get(), wildVineDrops(vine));
         }
-        dropSelf(Vines.VINE_STAKE.get());
+        add(Vines.VINE_STAKE.get(), vineStakeDrops(Vines.VINE_STAKE.get()));
         dropSelf(Vines.VINE_ARBOR.get());
 
         dropSelf(Crops.PINEAPPLE_FRUIT.get());
@@ -273,6 +287,14 @@ public final class BlockLootTables extends BlockLootSubProvider {
                 for (int amount = PinkPetalsBlock.MIN_FLOWERS; amount <= PinkPetalsBlock.MAX_FLOWERS; amount++) {
                     item.apply(SetItemCountFunction.setCount(ConstantValue.exactly(amount))
                         .when(ageIs(block, PinkPetalsBlock.AMOUNT, amount)));
+                }
+                add(block, LootTable.lootTable().withPool(LootPool.lootPool()
+                    .add(applyExplosionDecay(block, item))));
+            } else if (block instanceof LavenderBlock) {
+                var item = LootItem.lootTableItem(block);
+                for (int stage = 1; stage <= 2; stage++) {
+                    item.apply(SetItemCountFunction.setCount(ConstantValue.exactly(stage + 1))
+                        .when(ageIs(block, LavenderBlock.STAGE, stage)));
                 }
                 add(block, LootTable.lootTable().withPool(LootPool.lootPool()
                     .add(applyExplosionDecay(block, item))));
@@ -308,6 +330,44 @@ public final class BlockLootTables extends BlockLootSubProvider {
             .withPool(LootPool.lootPool().add(LootItem.lootTableItem(Corns.CORN.get()))
                 .apply(SetItemCountFunction.setCount(ConstantValue.exactly(2)))
                 .when(age1To2));
+    }
+
+    private LootTable.Builder pearlRockOreDrops(Block ore) {
+        return createSilkTouchDispatchTable(ore, applyExplosionDecay(ore,
+            LootItem.lootTableItem(OrdinaryItemContent.PEARL_ROCK.get())
+                .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F)))));
+    }
+
+    /** 精准采集掉落矿石本身，否则按权重抽取两次宝石，每次受时运加成。 */
+    private LootTable.Builder suspiciousOreDrops(Block ore) {
+        LootPool.Builder gems = LootPool.lootPool().setRolls(ConstantValue.exactly(2.0F)).when(HAS_NO_SILK_TOUCH)
+            .add(gemEntry(ore, OrdinaryItemContent.GARNET.get(), 6))
+            .add(gemEntry(ore, OrdinaryItemContent.TOPAZ.get(), 15))
+            .add(gemEntry(ore, Items.EMERALD, 10))
+            .add(gemEntry(ore, Items.DIAMOND, 15))
+            .add(gemEntry(ore, Items.LAPIS_LAZULI, 20))
+            .add(gemEntry(ore, Items.AMETHYST_SHARD, 30))
+            .add(gemEntry(ore, OrdinaryItemContent.PINK_CRYSTAL.get(), 3))
+            .add(gemEntry(ore, OrdinaryItemContent.BRILLIANT_DIAMOND.get(), 1));
+        return LootTable.lootTable()
+            .withPool(LootPool.lootPool().setRolls(ConstantValue.exactly(1.0F))
+                .add(LootItem.lootTableItem(ore).when(HAS_SILK_TOUCH)))
+            .withPool(gems);
+    }
+
+    private LootPoolEntryContainer.Builder<?> gemEntry(Block ore, Item gem, int weight) {
+        return applyExplosionDecay(ore, LootItem.lootTableItem(gem).setWeight(weight)
+            .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE)));
+    }
+
+    /** 写法同原版西瓜：精准采集掉落整瓜，否则掉落瓜片，受时运加成且不超过 9 片。 */
+    private LootTable.Builder hamimelonDrops() {
+        Block melon = Melons.HAMIMELON.get();
+        return createSilkTouchDispatchTable(melon, applyExplosionDecay(melon,
+            LootItem.lootTableItem(Melons.HAMIMELON_SLICE.get())
+                .apply(SetItemCountFunction.setCount(UniformGenerator.between(3.0F, 7.0F)))
+                .apply(ApplyBonusCount.addUniformBonusCount(Enchantments.BLOCK_FORTUNE))
+                .apply(LimitCount.limitCount(IntRange.upperBound(9)))));
     }
 
     private LootTable.Builder attachedStemDrops(Item seed) {
@@ -644,11 +704,38 @@ public final class BlockLootTables extends BlockLootSubProvider {
         return table;
     }
 
-    private LootTable.Builder pieSliceSilkTouchDrops(String pieName) {
+    /** 未切过时掉落整块，切过后只掉落剩余的份数，否则切完再破坏能拿回整块。 */
+    private LootTable.Builder portionFoodDrops(Block block, Item portion) {
+        LootTable.Builder table = LootTable.lootTable().withPool(LootPool.lootPool()
+            .add(LootItem.lootTableItem(block).when(ageIs(block, PortionFoodBlock.BITES, 0)))
+            .when(ExplosionCondition.survivesExplosion()));
+        for (int bites = 1; bites < 4; bites++) {
+            table.withPool(LootPool.lootPool()
+                .add(LootItem.lootTableItem(portion)
+                    .apply(SetItemCountFunction.setCount(ConstantValue.exactly(4 - bites)))
+                    .when(ageIs(block, PortionFoodBlock.BITES, bites))));
+        }
+        return table;
+    }
+
+    /** 派由四个方块组成，每个方块就是一份切片，被破坏时掉落这一份。 */
+    private LootTable.Builder pieSliceDrops(String pieName) {
         return LootTable.lootTable()
             .withPool(LootPool.lootPool()
-                .add(LootItem.lootTableItem(FoodContent.item(pieName + "_slice").get())
-                    .when(silkTouch())));
+                .add(LootItem.lootTableItem(FoodContent.item(pieName + "_slice").get()))
+                .when(ExplosionCondition.survivesExplosion()));
+    }
+
+    /** 藤架连同种在上面的藤种一起返还。藤蔓爬上去的那几节 height 大于 0，不重复给种子。 */
+    private LootTable.Builder vineStakeDrops(Block stake) {
+        LootTable.Builder table = createSingleItemTable(stake);
+        for (Vines.Entry vine : Vines.entries()) {
+            table.withPool(LootPool.lootPool()
+                .add(LootItem.lootTableItem(vine.seed().get()))
+                .when(stageIs(stake, VineStakeBlock.SPECIES, vine.species()))
+                .when(ageIs(stake, VineStakeBlock.HEIGHT, 0)));
+        }
+        return table;
     }
 
     private LootTable.Builder stackableFoodDrops(StackableFoodContent.Entry food) {
@@ -693,11 +780,6 @@ public final class BlockLootTables extends BlockLootSubProvider {
     @Override
     protected Iterable<Block> getKnownBlocks() {
         return BlockRegistry.BLOCKS.getEntries().stream()
-            .filter(entry -> !entry.getId().getPath().equals("debrishroom")
-                && !entry.getId().getPath().equals("pearl_rock_ore")
-                && !entry.getId().getPath().equals("deepslate_pearl_rock_ore")
-                && !entry.getId().getPath().equals("suspicious_ore")
-                && !entry.getId().getPath().equals("deepslate_suspicious_ore"))
             .map(RegistryObject::get).toList();
     }
 }

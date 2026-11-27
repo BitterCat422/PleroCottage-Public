@@ -50,7 +50,7 @@ public final class ModelProvider extends ItemModelProvider {
         Map.entry("enchanted_golden_apple_slice", "golden_apple_slice"),
         Map.entry("mugwort", "mugwort"),
         Map.entry("fried_tempura", "fried_tenpura"),
-        Map.entry("graham_cacker", "graham_cracker"),
+        Map.entry("graham_cracker", "graham_cracker"),
         Map.entry("caramel_chocolate_cake", "caramel_chocolate_cake"),
         Map.entry("chorus_flower_jelly_cake", "chorus_flower_jelly_cake"),
         Map.entry("chamomile_tea", "chamomile_tea"),

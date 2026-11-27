@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.machine.blockentities;
 
+import net.bittercat.plerocottage.machine.compat.plerocottage.SlotInputLimitManager;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.core.NonNullList;
@@ -83,7 +84,8 @@ public class FryerBlockEntity extends BaseMachineBlockEntity {
             return 1;
         }
     };
-    public LazyOptional<IFluidHandler> fluidHandler = LazyOptional.empty();
+    // 由父类构造器调用的 loadAndRevive() 赋值，这里再写初始值会把它覆盖掉
+    public LazyOptional<IFluidHandler> fluidHandler;
     public boolean isPlaySound = false;
 
     public FryerBlockEntity(BlockPos pPos, BlockState pBlockState) {
@@ -104,7 +106,8 @@ public class FryerBlockEntity extends BaseMachineBlockEntity {
             pBlockEntity.addOilSplashParticle(pLevel, pPos);
             pBlockEntity.addOilSplashParticle(pLevel, pPos);
             pBlockEntity.addOilSplashParticle(pLevel, pPos);
-            if (!pBlockEntity.isPlaySound) {
+            if (!pBlockEntity.isPlaySound
+                    || (pBlockEntity.getLevel().getGameTime() % 20 == 0 && !SoundUtil.isLoopActive(pBlockEntity))) {
                 pBlockEntity.isPlaySound = true;
                 SoundUtil.playFryerSoundInstance(pBlockEntity);
             }
@@ -277,6 +280,17 @@ public class FryerBlockEntity extends BaseMachineBlockEntity {
     @Override
     public NonNullList<ItemStack> getItems() {
         return this.items;
+    }
+
+    @Override
+    protected boolean canAutomationInsert(int slot, ItemStack stack) {
+        return !this.isRunning && slot >= TOP_LEFT && slot <= BOTTOM_RIGHT
+            && accepts(SlotInputLimitManager.FRYER_INPUT_LIMIT, stack);
+    }
+
+    @Override
+    protected int automationSlotLimit(int slot) {
+        return slot == FLUID_TANK_SLOT ? super.automationSlotLimit(slot) : 4;
     }
 
     @Override

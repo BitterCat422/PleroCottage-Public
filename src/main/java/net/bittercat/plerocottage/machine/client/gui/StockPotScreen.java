@@ -145,7 +145,7 @@ public class StockPotScreen extends BaseMachineScreen<StockPotMenu> implements R
                             RenderSystem.enableBlend();
                             pGuiGraphics.blit(pTexture, pX, pY, pUOffset, pVOffset, pWidth, pHeight, pTextureWidth, pTextureHeight);
                             if (this.isHovered()) {
-                                pGuiGraphics.setColor(255, 255, 255, 0.225F);
+                                pGuiGraphics.setColor(1.0F, 1.0F, 1.0F, 0.225F);
                                 pGuiGraphics.blit(pTexture, pX, pY, pUOffset, pVOffset, pWidth, pHeight, pTextureWidth, pTextureHeight);
                                 pGuiGraphics.setColor(1, 1, 1, 1);
                             }
@@ -189,7 +189,7 @@ public class StockPotScreen extends BaseMachineScreen<StockPotMenu> implements R
                             RenderSystem.enableBlend();
                             pGuiGraphics.blit(pTexture, pX, pY, pUOffset, pVOffset, pWidth, pHeight, pTextureWidth, pTextureHeight);
                             if (this.isHovered()) {
-                                pGuiGraphics.setColor(255, 255, 255, 0.225F);
+                                pGuiGraphics.setColor(1.0F, 1.0F, 1.0F, 0.225F);
                                 pGuiGraphics.blit(pTexture, pX, pY, pUOffset, pVOffset, pWidth, pHeight, pTextureWidth, pTextureHeight);
                                 pGuiGraphics.setColor(1, 1, 1, 1);
                             }

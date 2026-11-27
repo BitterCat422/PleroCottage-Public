@@ -71,12 +71,12 @@ public class FermenterMenu extends RecipeBookMenu<FermenterBlockEntity> {
             this.addSlot(new Slot(this.blockEntity, slot[0], slot[1], slot[2]) {
                 @Override
                 public boolean mayPlace(ItemStack pStack) {
-                    return super.mayPlace(pStack) && getCookingTime() == 0;
+                    return super.mayPlace(pStack) && isIdle();
                 }
 
                 @Override
                 public boolean mayPickup(Player pPlayer) {
-                    return super.mayPickup(pPlayer) && getCookingTime() == 0;
+                    return super.mayPickup(pPlayer) && isIdle();
                 }
 
                 @Override
@@ -90,12 +90,12 @@ public class FermenterMenu extends RecipeBookMenu<FermenterBlockEntity> {
             public boolean mayPlace(ItemStack pStack) {
                 return super.mayPlace(pStack)
                         && SlotInputLimitManager.FERMENTER_INPUT_LIMIT.stream().anyMatch(ingredient -> ingredient.test(pStack))
-                        && getCookingTime() == 0;
+                        && isIdle();
             }
 
             @Override
             public boolean mayPickup(Player pPlayer) {
-                return super.mayPickup(pPlayer) && getCookingTime() == 0;
+                return super.mayPickup(pPlayer) && isIdle();
             }
         });
         this.addSlot(new Slot(this.blockEntity, OUTPUT, 57, 63) {
@@ -106,7 +106,7 @@ public class FermenterMenu extends RecipeBookMenu<FermenterBlockEntity> {
 
             @Override
             public boolean mayPickup(Player pPlayer) {
-                return super.mayPickup(pPlayer) && getCookingTime() == 0;
+                return super.mayPickup(pPlayer) && isIdle();
             }
 
             @Override
@@ -124,18 +124,18 @@ public class FermenterMenu extends RecipeBookMenu<FermenterBlockEntity> {
                 public boolean mayPlace(ItemStack pStack) {
                     return super.mayPlace(pStack)
                             && PleroCottageCompat.isCatalysts(pStack)
-                            && getCookingTime() == 0;
+                            && isIdle();
                 }
 
                 @Override
                 public boolean mayPickup(Player pPlayer) {
-                    return super.mayPickup(pPlayer) && getCookingTime() == 0;
+                    return super.mayPickup(pPlayer) && isIdle();
                 }
 
                 @Override
                 public boolean isActive() {
                     return super.isActive()
-                            && getCookingTime() == 0
+                            && isIdle()
                             && blockEntity.getItem(OUTPUT).isEmpty();
                 }
             });
@@ -175,7 +175,7 @@ public class FermenterMenu extends RecipeBookMenu<FermenterBlockEntity> {
     @Override
     public boolean recipeMatches(Recipe<? super FermenterBlockEntity> recipe) {
         return recipe instanceof BaseFermentationRecipe fermentationRecipe
-                && this.getCookingTime() == 0
+                && this.isIdle()
                 && fermentationRecipe.matches(this.blockEntity, this.blockEntity.getLevel());
     }
 
@@ -258,5 +258,10 @@ public class FermenterMenu extends RecipeBookMenu<FermenterBlockEntity> {
     @Override
     public boolean stillValid(Player player) {
         return this.blockEntity.stillValid(player);
+    }
+
+    /** 启动的那一刻进度还是 0，所以要连同运行标记一起判断。 */
+    private boolean isIdle() {
+        return !this.blockEntity.isRunning && this.getCookingTime() == 0;
     }
 }

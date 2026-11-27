@@ -20,7 +20,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 @Mixin(EnchantmentScreen.class)
 public abstract class EnchantmentScreenMixin {
 
-    @Redirect(method = "renderBg", at = @At(value = "FIELD",
+    // require = 0：别的模组也重定向了同一处调用时，这里放弃注入而不是让游戏启动崩溃
+    @Redirect(require = 0, method = "renderBg", at = @At(value = "FIELD",
         target = "Lnet/minecraft/client/player/LocalPlayer;experienceLevel:I", opcode = 180))
     private int pleroCottage$ignoreExperienceForConversion(LocalPlayer player) {
         AbstractContainerScreenAccessor screen = (AbstractContainerScreenAccessor) (Object) this;
@@ -48,7 +49,8 @@ public abstract class EnchantmentScreenMixin {
         }
     }
 
-    @Redirect(method = "render", at = @At(value = "INVOKE",
+    // require = 0：别的模组也重定向了同一处调用时，这里放弃注入而不是让游戏启动崩溃
+    @Redirect(require = 0, method = "render", at = @At(value = "INVOKE",
         target = "Lnet/minecraft/client/gui/GuiGraphics;renderComponentTooltip("
             + "Lnet/minecraft/client/gui/Font;Ljava/util/List;II)V"))
     private void pleroCottage$renderConversionTooltip(GuiGraphics graphics, Font font,

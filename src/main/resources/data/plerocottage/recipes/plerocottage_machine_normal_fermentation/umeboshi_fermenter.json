@@ -3,7 +3,7 @@
   "cookingTime": 600,
   "input": [
     {
-      "item": "plerocottage:umes"
+      "item": "plerocottage:ume"
     },
     {
       "item": "plerocottage:salt_shaker"
@@ -14,6 +14,6 @@
   ],
   "output": {
     "count": 1,
-    "item": "plerocottage:umeboshis"
+    "item": "plerocottage:umeboshi"
   }
 }

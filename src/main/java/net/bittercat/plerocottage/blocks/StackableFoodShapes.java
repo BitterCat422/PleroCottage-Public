@@ -9,7 +9,13 @@ final class StackableFoodShapes {
     private StackableFoodShapes() {
     }
 
+    private static final java.util.Map<String, VoxelShape> CACHE = new java.util.concurrent.ConcurrentHashMap<>();
+
     static VoxelShape get(String name, int state, Direction facing) {
+        return CACHE.computeIfAbsent(name + "|" + state + "|" + facing.getName(), key -> compute(name, state, facing));
+    }
+
+    private static VoxelShape compute(String name, int state, Direction facing) {
         double[][] boxes = name.equals("baguette")
             ? baguetteBoxes(state) : muffinBoxes(state);
         VoxelShape shape = Shapes.empty();

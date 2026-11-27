@@ -87,12 +87,12 @@ public class OvenMenu extends RecipeBookMenu<OvenBlockEntity> {
                 public boolean mayPlace(ItemStack pStack) {
                     return super.mayPlace(pStack)
                             && SlotInputLimitManager.OVEN_INPUT_LIMIT.stream().anyMatch(ingredient -> ingredient.test(pStack))
-                            && getCookingTime() == 0;
+                            && isIdle();
                 }
 
                 @Override
                 public boolean mayPickup(Player pPlayer) {
-                    return super.mayPickup(pPlayer) && getCookingTime() == 0;
+                    return super.mayPickup(pPlayer) && isIdle();
                 }
 
                 @Override
@@ -107,12 +107,12 @@ public class OvenMenu extends RecipeBookMenu<OvenBlockEntity> {
                 return super.mayPlace(pStack)
                         && SlotInputLimitManager.OVEN_CONTAINER_LIMIT.stream()
                         .anyMatch(ingredient -> ingredient.test(pStack))
-                        && getCookingTime() == 0;
+                        && isIdle();
             }
 
             @Override
             public boolean mayPickup(Player pPlayer) {
-                return super.mayPickup(pPlayer) && getCookingTime() == 0;
+                return super.mayPickup(pPlayer) && isIdle();
             }
 
             @Override
@@ -128,7 +128,7 @@ public class OvenMenu extends RecipeBookMenu<OvenBlockEntity> {
 
             @Override
             public boolean mayPickup(Player pPlayer) {
-                return super.mayPickup(pPlayer) && getCookingTime() == 0;
+                return super.mayPickup(pPlayer) && isIdle();
             }
 
             @Override
@@ -276,5 +276,10 @@ public class OvenMenu extends RecipeBookMenu<OvenBlockEntity> {
     public void removed(Player player) {
         super.removed(player);
         this.blockEntity.stopOpen(player);
+    }
+
+    /** 启动的那一刻进度还是 0，所以要连同运行标记一起判断。 */
+    private boolean isIdle() {
+        return !this.blockEntity.isRunning && this.getCookingTime() == 0;
     }
 }

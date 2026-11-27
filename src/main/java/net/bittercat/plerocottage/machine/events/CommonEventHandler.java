@@ -59,16 +59,45 @@ public class CommonEventHandler {
                 PleroCottageCompat.getPleroCottageResourceLocation("fryer"), BlockRegistry.FRYER.get(),
                 PleroCottageCompat.getPleroCottageResourceLocation("oven"), BlockRegistry.OVEN.get()
         );
+        Map<ResourceLocation, ResourceLocation> renamed = Map.ofEntries(
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("graham_cacker"), PleroCottageCompat.getPleroCottageResourceLocation("graham_cracker")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("camelia"), PleroCottageCompat.getPleroCottageResourceLocation("camellia")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("potted_camelia"), PleroCottageCompat.getPleroCottageResourceLocation("potted_camellia")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("buntan_ames"), PleroCottageCompat.getPleroCottageResourceLocation("bontan_ame")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("glass_of_umeshu"), PleroCottageCompat.getPleroCottageResourceLocation("cup_of_umeshu")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("glass_of_sake"), PleroCottageCompat.getPleroCottageResourceLocation("cup_of_sake")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("umes"), PleroCottageCompat.getPleroCottageResourceLocation("ume")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("umeboshis"), PleroCottageCompat.getPleroCottageResourceLocation("umeboshi")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("pedas"), PleroCottageCompat.getPleroCottageResourceLocation("peda")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("kaju_katlis"), PleroCottageCompat.getPleroCottageResourceLocation("kaju_katli")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("gulab_jamuns"), PleroCottageCompat.getPleroCottageResourceLocation("gulab_jamun")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("boloyau"), PleroCottageCompat.getPleroCottageResourceLocation("bo_lo_yau")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("yeung_zhi_gum_lo"), PleroCottageCompat.getPleroCottageResourceLocation("yeung_ji_gam_lo")),
+                Map.entry(PleroCottageCompat.getPleroCottageResourceLocation("rutin_lemonene"), PleroCottageCompat.getPleroCottageResourceLocation("rutin_limonene"))
+        );
         for (MissingMappingsEvent.Mapping<Item> mapping : event.getAllMappings(ForgeRegistries.ITEMS.getRegistryKey())) {
             ResourceLocation key = mapping.getKey();
             if (items.containsKey(key)) {
                 mapping.remap(items.get(key));
+            } else if (renamed.containsKey(key)) {
+                Item item = ForgeRegistries.ITEMS.getValue(renamed.get(key));
+                if (item != null && item != Items.AIR) {
+                    mapping.remap(item);
+                }
             }
         }
         for (MissingMappingsEvent.Mapping<Block> mapping : event.getAllMappings(ForgeRegistries.BLOCKS.getRegistryKey())) {
             ResourceLocation key = mapping.getKey();
             if (blocks.containsKey(key)) {
                 mapping.remap(blocks.get(key));
+            } else if (renamed.containsKey(key) && ForgeRegistries.BLOCKS.containsKey(renamed.get(key))) {
+                mapping.remap(ForgeRegistries.BLOCKS.getValue(renamed.get(key)));
+            }
+        }
+        for (MissingMappingsEvent.Mapping<net.minecraft.world.effect.MobEffect> mapping : event.getAllMappings(ForgeRegistries.MOB_EFFECTS.getRegistryKey())) {
+            ResourceLocation key = mapping.getKey();
+            if (renamed.containsKey(key) && ForgeRegistries.MOB_EFFECTS.containsKey(renamed.get(key))) {
+                mapping.remap(ForgeRegistries.MOB_EFFECTS.getValue(renamed.get(key)));
             }
         }
     }

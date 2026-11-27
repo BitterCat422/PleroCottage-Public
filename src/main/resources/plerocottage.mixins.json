@@ -8,10 +8,10 @@
     "NoiseBasedChunkGeneratorAccessor",
     "LivingEntityMixin",
     "PlayerAttackMixin",
-    "EnchantmentMenuMixin",
-    "AbstractContainerScreenAccessor"
+    "EnchantmentMenuMixin"
   ],
   "client": [
+    "AbstractContainerScreenAccessor",
     "LivingEntityRendererMixin",
     "EnchantmentScreenMixin"
   ],

@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "minecraft:meadow",
+  "spawners": {
+    "type": "plerocottage:turkey",
+    "weight": 24,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

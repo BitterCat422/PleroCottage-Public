@@ -43,6 +43,10 @@ public class ItemPottedBlock extends FlowerPotBlock {
 
     @SubscribeEvent
     public static void onRightClickPot(PlayerInteractEvent.RightClickBlock event) {
+        // 这个事件在旁观模式的判断之前触发
+        if (event.getEntity().isSpectator()) {
+            return;
+        }
         Level level = event.getLevel();
         BlockPos pos = event.getPos();
         if (level.getBlockState(pos).getBlock() != Blocks.FLOWER_POT) {

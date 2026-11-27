@@ -101,7 +101,7 @@ public class IceCreamMachineScreen extends BaseMachineScreen<IceCreamMachineMenu
                         } else {
                             pGuiGraphics.blit(pTexture, pX, pY, 178, 0, 30, 54, 256, 256);
                             if (this.isHovered()) {
-                                pGuiGraphics.setColor(255, 255, 255, 0.225F);
+                                pGuiGraphics.setColor(1.0F, 1.0F, 1.0F, 0.225F);
                                 pGuiGraphics.blit(pTexture, pX, pY, 178, 0, 30, 54, 256, 256);
                                 pGuiGraphics.setColor(1, 1, 1, 1);
                             }
@@ -275,16 +275,23 @@ public class IceCreamMachineScreen extends BaseMachineScreen<IceCreamMachineMenu
             output = this.blockEntity.getItem(IceCreamMachineBlockEntity.CONTAINER_SLOT);
         }
         if (output.isEmpty()) return;
-        ResourceLocation outputKey = ForgeRegistries.ITEMS.getKey(output.getItem());
-        String path = outputKey.withPrefix("textures/gui/ice_cream_machine_gui/").getPath() + ".png";
-        ResourceLocation resource1 = ResourceLocation.fromNamespaceAndPath(PleroCottageMachine.MOD_ID, path);
-        ResourceLocation resource2 = ResourceLocation.fromNamespaceAndPath(outputKey.getNamespace(), path);
-        ResourceManager resourceManager = Minecraft.getInstance().getResourceManager();
-        if (resourceManager.getResource(resource1).isPresent()) {
-            this.renderConeAndIceCream(pGuiGraphics, output, resource1);
-        } else if (resourceManager.getResource(resource2).isPresent()) {
-            this.renderConeAndIceCream(pGuiGraphics, output, resource2);
-        }
+        ItemStack shown = output;
+        // 这个方法每帧都调用，同一种物品的贴图只向资源管理器查一次
+        this.iceCreamTextures.computeIfAbsent(shown.getItem(), item -> {
+            ResourceLocation outputKey = ForgeRegistries.ITEMS.getKey(item);
+            String path = outputKey.withPrefix("textures/gui/ice_cream_machine_gui/").getPath() + ".png";
+            ResourceLocation resource1 = ResourceLocation.fromNamespaceAndPath(PleroCottageMachine.MOD_ID, path);
+            ResourceLocation resource2 = ResourceLocation.fromNamespaceAndPath(outputKey.getNamespace(), path);
+            ResourceManager resourceManager = Minecraft.getInstance().getResourceManager();
+            if (resourceManager.getResource(resource1).isPresent()) {
+                return java.util.Optional.of(resource1);
+            }
+            return resourceManager.getResource(resource2).isPresent()
+                ? java.util.Optional.of(resource2) : java.util.Optional.<ResourceLocation>empty();
+        }).ifPresent(texture -> this.renderConeAndIceCream(pGuiGraphics, shown, texture));
     }
+
+    private final java.util.Map<net.minecraft.world.item.Item, java.util.Optional<ResourceLocation>> iceCreamTextures =
+        new java.util.HashMap<>();
 
 }

@@ -342,7 +342,7 @@
     "transparencyType": "CUTOUT_MIPPED",
     "renderType": 2
   },
-  "yeung_zhi_gum_lo": {
+  "yeung_ji_gam_lo": {
     "rotationMode": 1,
     "enablePitch": false,
     "waterloggable": true,
@@ -580,7 +580,7 @@
     "transparencyType": "CUTOUT_MIPPED",
     "renderType": 2
   },
-  "glass_of_umeshu": {
+  "cup_of_umeshu": {
     "rotationMode": 1,
     "enablePitch": false,
     "waterloggable": true,
@@ -601,7 +601,7 @@
     "transparencyType": "CUTOUT_MIPPED",
     "renderType": 2
   },
-  "glass_of_sake": {
+  "cup_of_sake": {
     "rotationMode": 1,
     "enablePitch": false,
     "waterloggable": true,

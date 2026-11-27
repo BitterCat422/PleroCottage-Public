@@ -21,12 +21,17 @@ public final class ColoredShulkerBoxItemRenderer extends BlockEntityWithoutLevel
         this.dispatcher = dispatcher;
     }
 
+    // 物品形态每帧都要画，方块实体只建一次
+    private static final java.util.Map<net.minecraft.world.level.block.Block, BlockEntity> ITEM_ENTITIES =
+        new java.util.HashMap<>();
+
     @Override
     public void renderByItem(ItemStack stack, ItemDisplayContext displayContext, PoseStack poseStack,
                              MultiBufferSource buffers, int packedLight, int packedOverlay) {
         if (stack.getItem() instanceof BlockItem blockItem
             && blockItem.getBlock() instanceof ColoredShulkerBoxBlock shulker) {
-            BlockEntity blockEntity = shulker.newBlockEntity(BlockPos.ZERO, shulker.defaultBlockState());
+            BlockEntity blockEntity = ITEM_ENTITIES.computeIfAbsent(shulker,
+                block -> shulker.newBlockEntity(BlockPos.ZERO, shulker.defaultBlockState()));
             if (blockEntity != null) {
                 dispatcher.renderItem(blockEntity, poseStack, buffers, packedLight, packedOverlay);
                 return;

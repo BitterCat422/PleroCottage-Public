@@ -75,7 +75,7 @@ public abstract class BaseFermentationRecipeCategory<T extends BaseFermentationR
         }
         this.guiHelper.createDrawable(this.background, TIME_X_OFFSET + TIME_WIDTH * index, TIME_Y_OFFSET, TIME_WIDTH, TIME_HEIGHT).draw(guiGraphics, 80, 53);
         if (TIME_RECT.contains((int) mouseX, (int) mouseY)) {
-            guiGraphics.renderTooltip(Minecraft.getInstance().font, Component.literal(minutes + "minutes"), (int) mouseX, (int) mouseY);
+            guiGraphics.renderTooltip(Minecraft.getInstance().font, Component.translatable("gui.plerocottage.minutes", minutes), (int) mouseX, (int) mouseY);
         }
     }
 }

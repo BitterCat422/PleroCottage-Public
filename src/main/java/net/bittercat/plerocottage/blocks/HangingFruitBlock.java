@@ -6,6 +6,7 @@ import net.minecraft.util.StringRepresentable;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.item.FallingBlockEntity;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.LevelReader;
@@ -94,6 +95,14 @@ public class HangingFruitBlock extends FallingBlock implements BonemealableBlock
     public boolean isHanging(BlockGetter level, BlockPos pos) {
         return level.getBlockState(pos.above()).getBlock() instanceof HangingFruitLeavesBlock leaves
             && leaves.hangingSettings().fruitBlock().get() == this;
+    }
+
+    @Override
+    public void onBrokenAfterFall(Level level, BlockPos pos, FallingBlockEntity entity) {
+        // 没有物品形态的果实落在不完整方块上时，原版什么都掉不出来，这里按战利品表掉落
+        if (asItem() == Items.AIR) {
+            Block.dropResources(entity.getBlockState(), level, pos);
+        }
     }
 
     @Override

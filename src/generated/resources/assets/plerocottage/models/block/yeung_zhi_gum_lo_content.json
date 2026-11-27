@@ -1,8 +1,0 @@
-{
-  "parent": "plerocottage:custom/yeung_zhi_gum_lo_content",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "0": "plerocottage:block/yeung_zhi_gum_lo",
-    "particle": "plerocottage:block/yeung_zhi_gum_lo"
-  }
-}

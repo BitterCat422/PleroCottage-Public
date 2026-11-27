@@ -1,5 +1,6 @@
 package net.bittercat.plerocottage.items;
 
+import net.bittercat.plerocottage.events.AttackCharge;
 import java.util.List;
 
 import net.minecraft.core.particles.ParticleTypes;
@@ -70,7 +71,7 @@ public class TieredToolItem extends SwordItem {
                     target.getBoundingBox().inflate(range / 2.0),
                     entity -> entity != player && entity != target && entity.isAlive()
                         && (!(entity instanceof TamableAnimal animal) || !animal.isTame()))) {
-                float cooldown = player.getAttackStrengthScale(0.0F);
+                float cooldown = AttackCharge.of(player);
                 entity.hurt(player.damageSources().playerAttack(player),
                     (float) (player.getAttributeValue(
                         net.minecraft.world.entity.ai.attributes.Attributes.ATTACK_DAMAGE)
